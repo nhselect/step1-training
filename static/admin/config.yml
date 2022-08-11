@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+
+local_backend: true
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: 'links'
+    label: 'Links'
+    folder: 'content/links'
+    format: 'frontmatter'
+    create: true
+    slug: '{{name}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'URL', name: 'url', widget: 'string' }
