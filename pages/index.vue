@@ -34,14 +34,12 @@
 <script>
 import LtlcHeader from '~/components/LtlcHeader.vue'
 import LtlcFooter from '~/components/LtlcFooter.vue'
-import ActionLink from '../components/ActionLink.vue'
 import ElectCard from '../components/ElectCard.vue'
 
 export default {
   components: {
     LtlcHeader,
     LtlcFooter,
-    ActionLink,
     ElectCard
   },
   head: {
