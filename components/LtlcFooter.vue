@@ -33,7 +33,4 @@ export default {}
 <style lang="scss">
 @import 'node_modules/nhsuk-frontend/packages/components/footer/footer';
 
-.nhsuk-footer {
-  border-top-color: $cieh-blue;
-}
 </style>

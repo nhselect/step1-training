@@ -24,6 +24,10 @@ export default {
     script: [
       {
         src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
+      },
+      {
+        type: 'text/javascript',
+        innerHTML: "document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');"
       }
     ],
   },

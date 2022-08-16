@@ -1222,9 +1222,9 @@
     std-env "^2.3.0"
     ufo "^0.7.4"
 
-"@nuxt/content@^1.14.0":
+"@nuxt/content@^1":
   version "1.15.1"
-  resolved "https://registry.npmjs.org/@nuxt/content/-/content-1.15.1.tgz"
+  resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-1.15.1.tgz#bd2c7ff9e9523b6a6a3f4edaec78495acc72a41e"
   integrity sha512-nCTKwNcs59KgwwGQkSW8Z/otoiYX+OKDBjdOLn7tty3WdEfPQYcEkTX6WKP5IVYI976FihZExppRiezkm2N0mQ==
   dependencies:
     "@lokidb/full-text-search" "^2.1.0"
@@ -7444,6 +7444,11 @@ neo-async@^2.5.0, neo-async@^2.6.1, neo-async@^2.6.2:
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
+nhsuk-frontend-vue@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/nhsuk-frontend-vue/-/nhsuk-frontend-vue-5.1.1.tgz#5f83245ab5b86b5ef7a395921c82aee9016437fe"
+  integrity sha512-DeaihE1XfcZ66vKGzHQelHA1RXVZJoHkhIADxwQhHNoAubA4qSG9xhSilbXZxcge9z7E5u36DEuaqUC+5BTVJQ==
+
 nhsuk-frontend@^5.2.1:
   version "5.2.1"
   resolved "https://registry.npmjs.org/nhsuk-frontend/-/nhsuk-frontend-5.2.1.tgz"
@@ -8948,9 +8953,14 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-"prettier@^1.18.2 || ^2.0.0", prettier@^2.2.1:
+"prettier@^1.18.2 || ^2.0.0":
   version "2.7.1"
   resolved "https://registry.npmjs.org/prettier/-/prettier-2.7.1.tgz"
+  integrity sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==
+
+prettier@^2.7.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.7.1.tgz#e235806850d057f97bb08368a4f7d899f7760c64"
   integrity sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==
 
 pretty-bytes@^5.6.0:

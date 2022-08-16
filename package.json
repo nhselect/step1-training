@@ -25,11 +25,13 @@
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
     "@fortawesome/pro-solid-svg-icons": "^6.1.2",
     "@fortawesome/vue-fontawesome": "^2.0.8",
-    "@nuxt/content": "^1.14.0",
+    "@nuxt/content": "^1",
     "core-js": "^3.9.1",
     "nhsuk-frontend": "^5.2.1",
+    "nhsuk-frontend-vue": "^5.1.1",
     "nuxt": "^2.15.3",
     "nuxt-property-decorator": "^2.9.1",
+    "prettier": "^2.7.1",
     "vue-class-component": "^7.2.6"
   },
   "devDependencies": {
@@ -48,7 +50,6 @@
     "husky": "^4.3.8",
     "lint-staged": "^10.5.4",
     "node-sass": "^6.0.1",
-    "prettier": "^2.2.1",
     "sass": "^1.43.4",
     "sass-loader": "10.1.1",
     "stylelint": "^13.12.0",

@@ -8,12 +8,15 @@
   </div>
 </template>
 
-<script lang="ts">
-import { Vue, Component, Prop } from 'nuxt-property-decorator'
-
-@Component
-export default class BackLink extends Vue {
-  @Prop({ required:false, default: '/' }) readonly back_url!: string
+<script>
+export default {
+  props: {
+    back_url: {
+      type: String,
+      required: false,
+      default: '#'
+    },
+  },
 }
 </script>
 
