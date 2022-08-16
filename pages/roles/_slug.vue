@@ -97,6 +97,7 @@ export default {
 @import 'node_modules/nhsuk-frontend/packages/components/card/card';
 @import 'node_modules/nhsuk-frontend/packages/components/tag/tag';
 @import 'node_modules/nhsuk-frontend/packages/components/contents-list/contents-list';
+@import 'node_modules/nhsuk-frontend/packages/components/action-link/action-link';
 
 .step1-item {
   > summary {
