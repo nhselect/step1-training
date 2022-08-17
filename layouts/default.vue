@@ -27,8 +27,9 @@ export default {
       },
       {
         type: 'text/javascript',
-        innerHTML: "document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');"
-      }
+        innerHTML:
+          "document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');",
+      },
     ],
   },
 }

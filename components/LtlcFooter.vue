@@ -5,7 +5,10 @@
         <h2 class="nhsuk-u-visually-hidden">Support links</h2>
         <ul class="nhsuk-footer__list">
           <li class="nhsuk-footer__list-item">
-            <a class="nhsuk-footer__list-item-link" href="https://thelearningcollaborative.co.uk/accessibility/">
+            <a
+              class="nhsuk-footer__list-item-link"
+              href="https://thelearningcollaborative.co.uk/accessibility/"
+            >
               Accessibility statement
             </a>
           </li>
@@ -18,9 +21,7 @@
             </a>
           </li>
         </ul>
-        <p class="nhsuk-footer__copyright">
-          &copy; TBC
-        </p>
+        <p class="nhsuk-footer__copyright">&copy; TBC</p>
       </div>
     </div>
   </footer>
@@ -32,5 +33,4 @@ export default {}
 
 <style lang="scss">
 @import 'node_modules/nhsuk-frontend/packages/components/footer/footer';
-
 </style>
