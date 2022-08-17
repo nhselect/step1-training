@@ -1,8 +1,8 @@
 <template>
   <div class="nhsuk-grid-row">
     <div class="nhsuk-grid-column-one-third step1-items__contents-list">
-      <nav class="nhsuk-contents-list" role="navigation" aria-label="Pages in this guide">
-        <h2 class="nhsuk-u-visually-hidden">Content</h2>
+      <nav class="nhsuk-contents-list" role="navigation" aria-label="Training items in this package">
+        <h2 class="nhsuk-heading-m">Content:</h2>
         <ol class="nhsuk-contents-list__list">
           <li 
             v-for="item in items"
@@ -25,7 +25,7 @@
       </h1>
       <nuxt-content :document="page" />
       <hr />
-      <p>Please work through each of the resources below.</p>
+      <p><strong>Please work through each of the resources below.</strong></p>
 
       <ul class="nhsuk-list">
         <li
@@ -43,26 +43,24 @@
                 </p>
               <nuxt-content :document="item" />
               <div class="nhsuk-action-link">
-                <a class="nhsuk-action-link__link" :href="item.link">
+                <a class="nhsuk-action-link__link" :href="item.link" target="_blank">
                   <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" width="36" height="36">
                     <path d="M0 0h24v24H0z" fill="none"></path>
                     <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
                   </svg>
-                  <span class="nhsuk-action-link__text">View resource</span>
+                  <span class="nhsuk-action-link__text">{{ item.action ? item.action : "View resource" }}</span>
                 </a>
               </div>
             </div>
           </div>
         </li>
       </ul>
-      <DeclarationLink />
+      <DeclarationLink :items="checkItems" />
     </div>
   </div>
 </template>
 
 <script>
-import { update } from 'immutable';
-
 export default {
   async asyncData({ $content, params, error }) {
     const slug = params.slug || "index";
@@ -83,11 +81,16 @@ export default {
 
     items = items.map((i) => {
       let updatedFormatted = new Date(i.updated).toLocaleDateString('en-GB')
+
+      // TO DO: check if updated date is < 2 weeks and if so need to highlight as newly updated
+      
       return { ...i, updatedFormatted }
     })
 
+    let checkItems = items.filter((i) => !i.optional).map((i) => i.title )
+
     return {
-      page, items
+      page, items, checkItems
     };
   }
 };

@@ -1,5 +1,5 @@
 ---
-title: User guide for educators
+title: User guide for educator / managers
 roles:
   - educator
 link: #

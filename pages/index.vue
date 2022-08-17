@@ -12,10 +12,11 @@
       </p>
       <h2>What you need to do</h2>
       <ul>
-        <li>Begin by selecting your role from the options below</li>
-        <li>Work through the content and tasks presented</li>
-        <li>Once you have completed all the materials, complete the self declaration and feedback form</li>
-        <li>Upon submission of the self declaration, you will receive an email containing the link to register on the platform</li>
+        <li>Begin by selecting the platform role you will be performing from the options below. If you do not know, contact whoever provided you with the link to the training packages</li>
+        <li>Work through the materials and tasks presented - this should take 1 to 2 hours in total (you don't need to do this in one session)</li>
+        <li>You can revisit these materials at any point to refresh your knowledge</li>
+        <li>Once you have read through all the materials, complete the self declaration and feedback form</li>
+        <li>Upon submission of the self declaration, you will receive an email with a completion certificate attached</li>
       </ul>
       <h2>What's your role?</h2>
     </div>
