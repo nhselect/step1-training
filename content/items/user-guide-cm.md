@@ -2,9 +2,9 @@
 title: User guide for clinical centre managers
 roles:
   - centremanager
-link: #
+link: https://nhselect.sharepoint.com/:b:/s/LearningandEducationNetworks/DSP/ETbdFtLzERNDu8qRN3rRHkcBLivV_w-lvgJj0Wn23xNRXw
 updated: 2022-08-16
-order: 1
+order: 2
 ---
 This user guide document for clinical centre managers provides instruction on how to carry out the following tasks:
 

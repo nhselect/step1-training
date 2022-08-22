@@ -24,7 +24,7 @@ export default {
     backUrl: {
       type: String,
       required: false,
-      default: '#',
+      default: '/',
     },
   },
 }

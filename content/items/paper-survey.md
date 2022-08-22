@@ -1,5 +1,5 @@
 ---
-title: Survey - Experience with paper-based Step 1 competencies
+title: Survey - Usability of the existing paper-based version of the Step 1 proficiencies
 roles:
   - administrator
   - learner
@@ -7,7 +7,7 @@ roles:
   - centremanager
   - assessor
   - implementationlead
-link: https://forms.office.com/Pages/ResponsePage.aspx?id=-79gf9LZcUSKsPyF5z_3qWrr7hJ6td1DsRX0S5ZELqFUMDlLVjg3MDVSNlZHQktWRkZUWkZZRlBURyQlQCN0PWcu
+link: https://forms.office.com/Pages/ResponsePage.aspx?id=-79gf9LZcUSKsPyF5z_3qWrr7hJ6td1DsRX0S5ZELqFUM09KOUJJQVJNMTdHT0RFUVJQMVRDWTMzNCQlQCN0PWcu
 updated: 2022-08-16
 order: 0
 action: Complete the survey

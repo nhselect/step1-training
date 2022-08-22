@@ -21,6 +21,7 @@
       </nav>
     </div>
     <div class="nhsuk-grid-column-two-thirds">
+      <BackLink />
       <h1>
         <span class="nhsuk-caption-xl"> Training package for </span>
         {{ page.title }}s
@@ -45,12 +46,22 @@
                 {{ item.title }}
               </h2>
               <p
-                class="step1-updated nhsuk-tag nhsuk-tag--grey nhsuk-u-font-size-14"
+                v-if="item.updated"
+                class="step1-updated nhsuk-tag nhsuk-tag--green nhsuk-u-font-size-14"
               >
                 Updated <strong>{{ item.updatedFormatted }}</strong>
               </p>
+              <p
+                v-else
+                class="step1-updated nhsuk-tag nhsuk-tag--grey nhsuk-u-font-size-14"
+              >
+                Under development
+              </p>
               <nuxt-content :document="item" />
-              <div class="nhsuk-action-link">
+              <div
+                v-if="item.link"
+                class="nhsuk-action-link"
+                >
                 <a
                   class="nhsuk-action-link__link"
                   :href="item.link"
@@ -78,7 +89,7 @@
           </div>
         </li>
       </ul>
-      <DeclarationLink :items="checkItems" />
+      <DeclarationLink v-if="slug !== 'implementationlead'" :items="checkItems" />
     </div>
   </div>
 </template>
@@ -104,8 +115,10 @@ export default {
       })
 
     items = items.map((i) => {
-      const updatedFormatted = new Date(i.updated).toLocaleDateString('en-GB')
-
+      let updatedFormatted = ''
+      if (i.updated) {
+        updatedFormatted = new Date(i.updated).toLocaleDateString('en-GB')
+      }
       // TO DO: check if updated date is < 2 weeks and if so need to highlight as newly updated
 
       return { ...i, updatedFormatted }
@@ -114,6 +127,7 @@ export default {
     const checkItems = items.filter((i) => !i.optional).map((i) => i.title)
 
     return {
+      slug,
       page,
       items,
       checkItems,

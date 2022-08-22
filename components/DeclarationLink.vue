@@ -60,13 +60,13 @@
         Once this has been submitted you'll receive an email with a link to the
         platform, and final steps on signing up.
       </p>
-      <button
+      <a
         class="nhsuk-button"
         href="https://forms.office.com/Pages/ResponsePage.aspx?id=-79gf9LZcUSKsPyF5z_3qWrr7hJ6td1DsRX0S5ZELqFURFNXSUNKTlpVOUlYVzRMSjk2NzE0Rkk4RCQlQCN0PWcu"
         target="_blank"
       >
         Complete your self-declaration
-      </button>
+      </a>
     </div>
   </div>
 </template>

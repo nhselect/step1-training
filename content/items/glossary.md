@@ -9,6 +9,6 @@ roles:
   - implementationlead
 link: /glossary
 updated: 2022-08-16
-order: 8
+order: 10
 ---
 This document provides descriptions of key terminology used throughout the Training package materials and DLS platform.​

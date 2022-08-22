@@ -1,12 +1,12 @@
 <template>
   <div>
     <h1>
-      Digitised Step 1 proficiencies
+      Digitised Step 1 proficiencies pilot
       <span class="nhsuk-caption-xl"> Training packages </span>
     </h1>
     <div class="nhsuk-u-reading-width">
       <p class="nhsuk-body-l">
-        Welcome to the training packages for the Step 1 proficiency pilot.
+        Welcome to the training packages for the Step 1 proficiencies pilot.
       </p>
       <h2>What you need to do</h2>
       <ul>
