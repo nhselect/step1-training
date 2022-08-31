@@ -7,14 +7,35 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: 'links'
-    label: 'Links'
-    folder: 'content/links'
-    format: 'frontmatter'
-    create: true
-    slug: '{{name}}'
-    editor:
-      preview: false
+  - name: "roles"
+    label: "Roles"
+    folder: "roles"
+    create: false
     fields:
-      - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'URL', name: 'url', widget: 'string' }
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Order", name: "order", widget: "number"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "items"
+    label: "Resource Items"
+    folder: "items"
+      - {label: "Title", name: "title", widget: "string"}
+      - {
+          label: "Roles",
+          name: "roles",
+          widget: "relation",
+          collection: "roles",
+          search_fields: ["name"],
+          display_fields: ["{{title}}"],
+          value_field: "{{slug}}"
+        }
+      - {label: "Link", name: "link", widget: "string"}
+      - {label: "Updated", name: "updated", widget: "date"}
+      - {label: "Order", name: "order", widget: "number"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "glossary"
+    label: "Glossary of Terms"
+    folder: "glossary"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}

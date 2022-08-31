@@ -89,7 +89,7 @@
           </div>
         </li>
       </ul>
-      <DeclarationLink v-if="slug !== 'implementationlead'" :items="checkItems" />
+      <DeclarationLink :items="checkItems" />
     </div>
   </div>
 </template>
@@ -117,7 +117,8 @@ export default {
     items = items.map((i) => {
       let updatedFormatted = ''
       if (i.updated) {
-        updatedFormatted = new Date(i.updated).toLocaleDateString('en-GB')
+        let updatedDate = new Date(i.updated)
+        updatedFormatted = updatedDate.toLocaleDateString('en-GB')
       }
       // TO DO: check if updated date is < 2 weeks and if so need to highlight as newly updated
 
