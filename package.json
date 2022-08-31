@@ -21,10 +21,6 @@
     }
   },
   "dependencies": {
-    "@fortawesome/fontawesome-pro": "^6.1.2",
-    "@fortawesome/fontawesome-svg-core": "^6.1.2",
-    "@fortawesome/pro-solid-svg-icons": "^6.1.2",
-    "@fortawesome/vue-fontawesome": "^2.0.8",
     "@nuxt/content": "^1",
     "core-js": "^3.9.1",
     "nhsuk-frontend": "^5.2.1",
