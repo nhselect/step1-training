@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  branch: main
 
 local_backend: true
 
@@ -15,6 +16,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "order", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "items"
     label: "Resource Items"
     folder: "items"
@@ -26,12 +28,13 @@ collections:
           collection: "roles",
           search_fields: ["name"],
           display_fields: ["{{title}}"],
-          value_field: "{{slug}}"
+          value_field: "{{slug}}",
         }
       - {label: "Link", name: "link", widget: "string"}
       - {label: "Updated", name: "updated", widget: "date"}
       - {label: "Order", name: "order", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "glossary"
     label: "Glossary of Terms"
     folder: "glossary"
