@@ -20,6 +20,7 @@ collections:
   - name: "items"
     label: "Resource Items"
     folder: "items"
+    fields:
       - {label: "Title", name: "title", widget: "string"}
       - {
           label: "Roles",
