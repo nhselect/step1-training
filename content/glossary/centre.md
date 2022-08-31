@@ -1,4 +1,5 @@
 ---
 title: Centre
+slug: centre
 ---
-A default term for anyone on the initial setup stages of the platform. Once platform roles have been established learners only remain a delegate.
+What a Trust (or occasionally hospital/organisation) is called in the platform. When a staff member registers for a profile they will select their Trust/organisation and be assigned to that Centre in the platform.
