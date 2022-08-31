@@ -1,5 +1,6 @@
 ---
 title: User guide for clinical centre managers
+slug: user-guide-cm
 roles:
   - centremanager
 link: https://nhselect.sharepoint.com/:b:/s/LearningandEducationNetworks/DSP/ETbdFtLzERNDu8qRN3rRHkcBLivV_w-lvgJj0Wn23xNRXw

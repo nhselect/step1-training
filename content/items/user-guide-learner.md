@@ -1,5 +1,6 @@
 ---
 title: User guide for learners
+slug: user-guide-learner
 roles:
   - learner
 link: https://nhselect.sharepoint.com/:b:/s/LearningandEducationNetworks/DSP/EXKeEwyWiJlAjcc9T-M3LrUBKo6PGqdt1RBGAQuby6af2g

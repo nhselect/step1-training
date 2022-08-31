@@ -1,5 +1,6 @@
 ---
 title: Learner
+slug: learner
 order: 5
 ---
 As a Learner on the platform, you will be able to self-assess achievement of Step 1 proficiencies on your record, and request confirmation of this achievement from your Assessor or Educator/Manager.

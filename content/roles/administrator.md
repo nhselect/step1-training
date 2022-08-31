@@ -1,5 +1,6 @@
 ---
 title: Administrator
+slug: administrator
 order: 3
 ---
 As an Administrator on the platform, you will be responsible for registering new delegates, approving self-declarations, and managing delegate profiles. You will also be able to manage your centre details.

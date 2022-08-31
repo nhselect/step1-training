@@ -1,5 +1,6 @@
 ---
 title: Platform roles and responsibilities overview
+slug: platform-roles
 roles:
   - administrator
   - learner

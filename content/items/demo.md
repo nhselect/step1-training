@@ -1,5 +1,6 @@
 ---
 title: Demo of digitised Step 1 proficiencies
+slug: demo
 roles:
   - administrator
   - learner

@@ -1,5 +1,6 @@
 ---
 title: Setup and Utilisation process maps
+slug: process-maps
 roles:
   - administrator
   - learner

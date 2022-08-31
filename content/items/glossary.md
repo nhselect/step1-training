@@ -1,5 +1,6 @@
 ---
 title: Glossary of terms
+slug: glossary
 roles:
   - administrator
   - learner

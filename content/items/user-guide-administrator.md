@@ -1,5 +1,6 @@
 ---
 title: User guide for administrators
+slug: user-guide-administrator
 roles:
   - administrator
 link: https://nhselect.sharepoint.com/:b:/s/LearningandEducationNetworks/DSP/Efs_x-uyAERNjVd92bACG7QBGizHPE_IwmXBKb-nsT6_dg

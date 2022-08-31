@@ -1,5 +1,6 @@
 ---
 title: Introductory presentation of digitising Step 1 proficiencies
+slug: presentation
 roles:
   - administrator
   - learner

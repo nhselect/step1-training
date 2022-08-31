@@ -1,5 +1,6 @@
 ---
 title: User guide for assessors
+slug: user-guide-assessor
 roles:
   - assessor
 link: https://nhselect.sharepoint.com/:b:/s/LearningandEducationNetworks/DSP/EUigJWyp_hZNg2gVsRmAT_QB0v9YEK388eRM6aO9dnYQ1g

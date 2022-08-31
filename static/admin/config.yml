@@ -4,32 +4,38 @@ backend:
 
 local_backend: true
 
+publish_mode: editorial_workflow
+
 media_folder: static/img
 public_folder: /img
 
 collections:
   - name: "roles"
     label: "Roles"
-    folder: "roles"
+    folder: "content/roles"
     create: false
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Order", name: "order", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "items"
     label: "Resource Items"
-    folder: "items"
+    folder: "content/items"
+    create: false
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
       - {
           label: "Roles",
           name: "roles",
           widget: "relation",
           collection: "roles",
+          multiple: true,
           search_fields: ["name"],
           display_fields: ["{{title}}"],
-          value_field: "{{slug}}",
+          value_field: "{{fields.slug}}",
         }
       - {label: "Link", name: "link", widget: "string"}
       - {label: "Updated", name: "updated", widget: "date"}
@@ -38,8 +44,9 @@ collections:
 
   - name: "glossary"
     label: "Glossary of Terms"
-    folder: "glossary"
+    folder: "content/glossary"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}

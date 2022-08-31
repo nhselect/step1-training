@@ -1,5 +1,6 @@
 ---
 title: How To Video
+slug: user-guide-video
 roles:
   - administrator
   - learner
