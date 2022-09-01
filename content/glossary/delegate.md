@@ -1,4 +1,5 @@
 ---
 title: Delegate
+slug: delegate
 ---
-A default term for anyone on the initial setup stages of the platform. Once platform roles have been established learners only remain a delegate.
+A term for anyone that has been registered for a profile on the DLS platform.
