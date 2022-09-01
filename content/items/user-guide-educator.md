@@ -4,7 +4,7 @@ slug: user-guide-educator
 roles:
   - educator
 link: https://nhselect.sharepoint.com/:b:/s/LearningandEducationNetworks/DSP/ET7CIZa1P9hDjYWp0dc2iawBAyyjGrFcVLWbgPpXR7CT_w
-updated: 2022-08-16
+updated: 2022-09-01
 order: 2
 ---
 This user guide document for educator / managers provides instruction on how to carry out the following tasks:

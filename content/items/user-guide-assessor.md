@@ -4,7 +4,7 @@ slug: user-guide-assessor
 roles:
   - assessor
 link: https://nhselect.sharepoint.com/:b:/s/LearningandEducationNetworks/DSP/EUigJWyp_hZNg2gVsRmAT_QB0v9YEK388eRM6aO9dnYQ1g
-updated: 2022-08-16
+updated: 2022-09-01
 order: 2
 ---
 This user guide document for assessors provides instruction on how to carry out the following tasks:

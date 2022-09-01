@@ -4,7 +4,7 @@ slug: user-guide-learner
 roles:
   - learner
 link: https://nhselect.sharepoint.com/:b:/s/LearningandEducationNetworks/DSP/EXKeEwyWiJlAjcc9T-M3LrUBKo6PGqdt1RBGAQuby6af2g
-updated: 2022-08-16
+updated: 2022-09-01
 order: 2
 ---
 This user guide document for educator / managers provides instruction on how to carry out the following tasks:

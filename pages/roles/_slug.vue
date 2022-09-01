@@ -24,7 +24,7 @@
       <BackLink />
       <h1>
         <span class="nhsuk-caption-xl"> Training package for </span>
-        {{ page.title }}s
+        {{ page.title }}
       </h1>
       <nuxt-content :document="page" />
       <hr />
@@ -98,7 +98,7 @@
 export default {
   async asyncData({ $content, params, error }) {
     const slug = params.slug || 'index'
-    const page = await $content('roles/' + slug)
+    const page = await $content('roles/'+slug)
       .fetch()
       .catch((err) => {
         error({ statusCode: 404, message: 'Page not found' })

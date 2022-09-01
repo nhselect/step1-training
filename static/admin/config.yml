@@ -13,17 +13,24 @@ collections:
   - name: "roles"
     label: "Roles"
     folder: "content/roles"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    description: "Definitions and introductory text for each role. The introduction text will appear at the top of the list of training resources for that role"
     create: false
+    delete: false
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "URL Name", name: "slug", widget: "string", hint: "The name to be used in the web link for this role"}
       - {label: "Order", name: "order", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "items"
     label: "Resource Items"
     folder: "content/items"
+    format: "frontmatter"
+    slug: "{{slug}}"
     create: false
+    sortable_fields: ['title', 'order', 'commit_date']
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Slug", name: "slug", widget: "string"}
@@ -45,8 +52,9 @@ collections:
   - name: "glossary"
     label: "Glossary of Terms"
     folder: "content/glossary"
+    format: "frontmatter"
+    slug: "{{slug}}"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
