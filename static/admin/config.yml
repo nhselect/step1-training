@@ -97,7 +97,8 @@ collections:
     folder: "content/user-guide-stages"
     format: "frontmatter"
     create: true
+    slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Order", name: "order", widget: "number"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
