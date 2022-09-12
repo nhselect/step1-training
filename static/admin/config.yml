@@ -89,6 +89,7 @@ collections:
           display_fields: ["{{title}}"],
           value_field: "{{fields.slug}}",
         }
+      - {label: "Order", name: "order", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "user-guide-stages"
@@ -99,3 +100,4 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Order", name: "order", widget: "number"}
