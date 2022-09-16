@@ -17,11 +17,11 @@
               >
                 {{ page.title }}
               </span>
-              <a
+              <NuxtLink
                 v-else
-                class="nhsuk-contents-list__link" :href="page.slug">
+                class="nhsuk-contents-list__link" :to="page.slug">
                 {{ page.title }}
-              </a>
+              </NuxtLink>
             </li>
           </ol>
         </li>
