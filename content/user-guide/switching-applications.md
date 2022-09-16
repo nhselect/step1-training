@@ -12,11 +12,11 @@ order: 4
 
 1. Select **Switch application** on the home screen (displayed immediately after logging in) or on the navigation menu
 
-    ![Screenshot of the DLS home page with the Switch Application button highlighted](/img/switch-1.png)
+      ![Screenshot of the DLS home page with the Switch Application button highlighted](/img/switch-1.png)
 
 3. The Switch Applications page will give you three options
 
-    ![Screenshot of the Switch Applications page](/img/switch-2.png)
+      ![Screenshot of the Switch Applications page](/img/switch-2.png)
 
     - **Learning Portal:** If you are enrolled as a Learner on a course (i.e. another list of proficiencies), you can access them here
 
