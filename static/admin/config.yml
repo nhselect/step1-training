@@ -87,7 +87,7 @@ collections:
           multiple: true,
           search_fields: ["name"],
           display_fields: ["{{title}}"],
-          value_field: "{{fields.slug}}",
+          value_field: "{{title}}",
         }
       - {label: "Order", name: "order", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
