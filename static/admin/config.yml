@@ -76,7 +76,7 @@ collections:
           multiple: false,
           search_fields: ["title"],
           display_fields: ["{{title}}"],
-          value_field: "{{slug}}",
+          value_field: "{{title}}",
         }
       - {
           label: "Roles",
@@ -85,9 +85,9 @@ collections:
           hint: "Which roles should get this guide?",
           collection: "roles", 
           multiple: true,
-          search_fields: ["name"],
+          search_fields: ["title"],
           display_fields: ["{{title}}"],
-          value_field: "{{title}}",
+          value_field: "{{fields.slug}}",
         }
       - {label: "Order", name: "order", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
