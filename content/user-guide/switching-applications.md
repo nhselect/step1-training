@@ -8,6 +8,8 @@ roles:
   - educator
   - learner
 order: 4
+date_published: 2022-09-26T14:51:13.871Z
+date_modified: 2022-09-26T14:51:14.373Z
 ---
 
 1. Select **Switch application** on the home screen (displayed immediately after logging in) or on the navigation menu
