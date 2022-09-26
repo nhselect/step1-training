@@ -6,6 +6,9 @@ local_backend: true
 
 publish_mode: editorial_workflow
 
+site_url: https://nhs-step1-training.netlify.app
+display_url: https://nhs-step1-training.netlify.app
+
 media_folder: static/img
 public_folder: /img
 
@@ -90,6 +93,8 @@ collections:
           value_field: "{{fields.slug}}",
         }
       - {label: "Order", name: "order", widget: "number"}
+      - {label: "Publish Date", name: "date", widget: "datetime", time_format: false}
+      - {label: "Modified Date", name: "date", widget: "datetime", time_format: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "user-guide-stages"
