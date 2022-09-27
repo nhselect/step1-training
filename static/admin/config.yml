@@ -62,11 +62,12 @@ collections:
 
   - name: "user-guide-stages"
     label: "User Guide - Stages"
-    folder: "content/user-guide-stages/user-guide-stages.yaml"
+    folder: "content/lists/user-guide-stages.yaml"
     fields:
       - label: "Stages"
         name: "stages"
         widget: "list"
+        allow_add: true
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {

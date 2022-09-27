@@ -1,0 +1,7 @@
+stages:
+  -
+    title: "Registering an account"
+    roles: ["assessor","learner"]
+  - 
+    title: "Another thing"
+    roles: ["assessor"]
