@@ -60,66 +60,19 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "user-guide-stages"
-    label: "User Guide - Stages"
-    folder: "content/lists/user-guide-stages.yaml"
-    fields:
-      - label: "Stages"
-        name: "stages"
-        widget: "list"
-        allow_add: true
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {
-              label: "Roles",
-              name: "roles",
-              widget: "relation",
-              hint: "Which roles should see this stage?",
-              collection: "roles", 
-              multiple: true,
-              search_fields: ["title"],
-              display_fields: ["{{title}}"],
-              value_field: "{{fields.slug}}"
-            }
-
   - name: "user-guide"
     label: "User Guides"
     label_singular: "User Guide Page"
     folder: "content/user-guide"
-    format: "frontmatter"
     slug: "{{slug}}"
     create: true
     filter: {field: "roles", value: "administrator"}
     nested:
-      depth: 4
-      summary: '{{title}}'
+      depth: 100
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {
-          label: "Stage",
-          name: "stage",
-          widget: "relation",
-          hint: "Which stage does this article belong to?",
-          collection: "user-guide-stages", 
-          file: "user-guide-stages",
-          multiple: false,
-          search_fields: ["stages.*.title"],
-          display_fields: ["stages.*.title"],
-          value_field: "stages.*.title",
-        }
-      - {
-          label: "Roles",
-          name: "roles",
-          widget: "relation",
-          hint: "Which roles should get this guide?",
-          collection: "roles", 
-          multiple: true,
-          search_fields: ["title"],
-          display_fields: ["{{title}}"],
-          value_field: "{{fields.slug}}",
-        }
-      - {label: "Order", name: "order", widget: "number"}
+      - {label: "Order", name: "order", widget: "number", required: false}
       - {label: "Publish Date", name: "date_published", widget: "datetime", time_format: false}
       - {label: "Modified Date", name: "date_modified", widget: "datetime", time_format: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+      - {label: "Body", name: "body", widget: "markdown", default: ""}
+    meta: { path: { label: Parent, widget: parent, index_file: 'index' } }
