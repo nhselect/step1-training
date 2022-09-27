@@ -3,7 +3,6 @@ title: Switching applications
 stage: Registering and managing your profile
 roles:
   - centremanager
-  - administrator
   - assessor
   - educator
   - learner
