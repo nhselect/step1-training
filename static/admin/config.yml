@@ -4,8 +4,6 @@ backend:
 
 local_backend: true
 
-publish_mode: editorial_workflow
-
 site_url: https://nhs-step1-training.netlify.app
 display_url: https://nhs-step1-training.netlify.app
 
@@ -62,15 +60,25 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "user-guide"
-    label: "User Guides"
+  - name: "user-guide-stages"
+    label: "User Guide - Stages"
+    folder: "content/user-guide-stages"
+    format: "frontmatter"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Order", name: "order", widget: "number"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+
+  - name: "user-guide-administrator"
+    label: "User Guide - Administrator"
+    label_singular: "article"
     folder: "content/user-guide"
     format: "frontmatter"
-    slug: "{{slug}}"
+    slug: "ad__{{slug}}"
     create: true
-    nested:
-      depth: 3
-      summary: '{{title}}'
+    filter: {field: "roles", value: "administrator"}
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {
@@ -99,15 +107,151 @@ collections:
       - {label: "Publish Date", name: "date_published", widget: "datetime", time_format: false}
       - {label: "Modified Date", name: "date_modified", widget: "datetime", time_format: false}
       - {label: "Body", name: "body", widget: "markdown"}
-    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
 
-  - name: "user-guide-stages"
-    label: "User Guide - Stages"
-    folder: "content/user-guide-stages"
+  - name: "user-guide-assessor"
+    label: "User Guide - Assessor"
+    label_singular: "article"
+    folder: "content/user-guide"
     format: "frontmatter"
+    slug: "as__{{slug}}"
     create: true
-    slug: "{{slug}}"
+    filter: {field: "roles", value: "assessor"}
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {
+          label: "Stage",
+          name: "stage",
+          widget: "relation",
+          hint: "Which stage does this article belong to?",
+          collection: "user-guide-stages", 
+          multiple: false,
+          search_fields: ["title"],
+          display_fields: ["{{title}}"],
+          value_field: "{{title}}",
+        }
+      - {
+          label: "Roles",
+          name: "roles",
+          widget: "relation",
+          hint: "Which roles should get this guide?",
+          collection: "roles", 
+          multiple: true,
+          search_fields: ["title"],
+          display_fields: ["{{title}}"],
+          value_field: "{{fields.slug}}",
+        }
       - {label: "Order", name: "order", widget: "number"}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Publish Date", name: "date_published", widget: "datetime", time_format: false}
+      - {label: "Modified Date", name: "date_modified", widget: "datetime", time_format: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "user-guide-centremanager"
+    label: "User Guide - Centre Manager"
+    label_singular: "article"
+    folder: "content/user-guide"
+    format: "frontmatter"
+    slug: "cm__{{slug}}"
+    create: true
+    filter: {field: "roles", value: "centremanager"}
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {
+          label: "Stage",
+          name: "stage",
+          widget: "relation",
+          hint: "Which stage does this article belong to?",
+          collection: "user-guide-stages", 
+          multiple: false,
+          search_fields: ["title"],
+          display_fields: ["{{title}}"],
+          value_field: "{{title}}",
+        }
+      - {
+          label: "Roles",
+          name: "roles",
+          widget: "relation",
+          hint: "Which roles should get this guide?",
+          collection: "roles", 
+          multiple: true,
+          search_fields: ["title"],
+          display_fields: ["{{title}}"],
+          value_field: "{{fields.slug}}",
+        }
+      - {label: "Order", name: "order", widget: "number"}
+      - {label: "Publish Date", name: "date_published", widget: "datetime", time_format: false}
+      - {label: "Modified Date", name: "date_modified", widget: "datetime", time_format: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "user-guide-educator"
+    label: "User Guide - Educator"
+    label_singular: "article"
+    folder: "content/user-guide"
+    format: "frontmatter"
+    slug: "ed__{{slug}}"
+    create: true
+    filter: {field: "roles", value: "educator"}
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {
+          label: "Stage",
+          name: "stage",
+          widget: "relation",
+          hint: "Which stage does this article belong to?",
+          collection: "user-guide-stages", 
+          multiple: false,
+          search_fields: ["title"],
+          display_fields: ["{{title}}"],
+          value_field: "{{title}}",
+        }
+      - {
+          label: "Roles",
+          name: "roles",
+          widget: "relation",
+          hint: "Which roles should get this guide?",
+          collection: "roles", 
+          multiple: true,
+          search_fields: ["title"],
+          display_fields: ["{{title}}"],
+          value_field: "{{fields.slug}}",
+        }
+      - {label: "Order", name: "order", widget: "number"}
+      - {label: "Publish Date", name: "date_published", widget: "datetime", time_format: false}
+      - {label: "Modified Date", name: "date_modified", widget: "datetime", time_format: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "user-guide-learner"
+    label: "User Guide - Learner"
+    label_singular: "article"
+    folder: "content/user-guide"
+    format: "frontmatter"
+    slug: "le__{{slug}}"
+    create: true
+    filter: {field: "roles", value: "learner"}
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {
+          label: "Stage",
+          name: "stage",
+          widget: "relation",
+          hint: "Which stage does this article belong to?",
+          collection: "user-guide-stages", 
+          multiple: false,
+          search_fields: ["title"],
+          display_fields: ["{{title}}"],
+          value_field: "{{title}}",
+        }
+      - {
+          label: "Roles",
+          name: "roles",
+          widget: "relation",
+          hint: "Which roles should get this guide?",
+          collection: "roles", 
+          multiple: true,
+          search_fields: ["title"],
+          display_fields: ["{{title}}"],
+          value_field: "{{fields.slug}}",
+        }
+      - {label: "Order", name: "order", widget: "number"}
+      - {label: "Publish Date", name: "date_published", widget: "datetime", time_format: false}
+      - {label: "Modified Date", name: "date_modified", widget: "datetime", time_format: false}
+      - {label: "Body", name: "body", widget: "markdown"}
