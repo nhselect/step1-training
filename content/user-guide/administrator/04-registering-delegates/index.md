@@ -1,8 +1,8 @@
 ---
 title: Registering delegates on the platform
 order: 4
-createdAt: 2022-09-27T14:41:30.359Z
-updatedAt: 2022-09-27T14:41:30.362Z
+createdAt: 2022-09-01T14:41:30.359Z
+updatedAt: 2022-09-01T14:41:30.362Z
 ---
 There are 4 ways that delegates can be registered on the platform, and your Trust will need to decide which to use:​
 

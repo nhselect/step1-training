@@ -1,8 +1,8 @@
 ---
 title: Individual registration
 order: 2
-date_published: 2022-09-28T07:17:46.844Z
-date_modified: 2022-09-28T07:17:46.848Z
+date_published: 2022-09-01T07:17:46.844Z
+date_modified: 2022-09-01T07:17:46.848Z
 ---
 1. Go to Centre dashboard (in ‘Tracking System’ app) 
 

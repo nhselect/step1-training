@@ -1,8 +1,8 @@
 ---
 title: Getting promoted to an Assessor role within the platform
 order: 3
-createdAt: 2022-09-28T07:10:41.352Z
-updatedAt: 2022-09-28T07:10:41.355Z
+createdAt: 2022-09-01T07:10:41.352Z
+updatedAt: 2022-09-01T07:10:41.355Z
 ---
 Once your delegate profile has been registered, your Centre Manager will need to promote you to the Assessor role (also called 'Nominated Supervisor’) within the platform.​
 

@@ -1,8 +1,8 @@
 ---
 title: Self-registering for your profile
 order: 1
-createdAt: 2022-09-28T06:48:31.397Z
-updatedAt: 2022-09-28T06:48:31.401Z
+createdAt: 2022-09-01T06:48:31.397Z
+updatedAt: 2022-09-01T06:48:31.401Z
 ---
 1. Access the [DLS landing page (https://www.dls.nhs.uk/v2/Home/Welcome​)](https://www.dls.nhs.uk/v2/Home/Welcome​)
 
@@ -34,7 +34,7 @@ updatedAt: 2022-09-28T06:48:31.401Z
 
 12. Make a note of your **delegate number​**
 
-13. Your registration will require approval from your **Clinical Centre Manager or Administrator** before you can log in​
+13. Your registration will require approval from **HEE TEL** before you can log in​ (they will do this within 2 working days, Monday to Friday)
 
 14. View and make a note of your local **centre contact** information, this is who you will contact should you need support (this should be your Trust-wide non-clinical DLS centre manager)
 

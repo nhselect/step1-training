@@ -1,8 +1,8 @@
 ---
 title: Updating notification preferences
 order: 3
-createdAt: 2022-09-28T07:12:11.069Z
-updatedAt: 2022-09-28T07:12:11.072Z
+createdAt: 2022-09-01T07:12:11.069Z
+updatedAt: 2022-09-01T07:12:11.072Z
 ---
 1. Select **My account** in the top blue ribbon​
 
@@ -12,6 +12,8 @@ updatedAt: 2022-09-28T07:12:11.072Z
 
 - **Admin** – relates to activity of other delegates in your centre​
 - **Delegate** – relates to your own activity as a Learner (if you were enrolled on a course)​
+
+> A list of the Notification preferences you are Subscribed and Unsubscribed to is displayed. Subscribed notifications will be visible through the platform. ​
 
 #### To make changes​
 

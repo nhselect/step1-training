@@ -1,8 +1,8 @@
 ---
 title: Changing your password
 order: 2
-createdAt: 2022-09-28T07:12:02.431Z
-updatedAt: 2022-09-28T07:12:02.434Z
+createdAt: 2022-09-01T07:12:02.431Z
+updatedAt: 2022-09-01T07:12:02.434Z
 ---
 1. Select **My account** in the top blue ribbon (if not already in it)​
 ​
