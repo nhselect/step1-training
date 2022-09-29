@@ -64,15 +64,16 @@ collections:
     label: "User Guides"
     label_singular: "User Guide Page"
     folder: "content/user-guide"
-    slug: "{{slug}}"
     create: true
-    filter: {field: "roles", value: "administrator"}
+    sortable_fields: ["slug","title","order","date_modified"]
+    summary: "{{order}} {{title}}"
     nested:
       depth: 100
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "order", widget: "number", required: false}
-      - {label: "Publish Date", name: "date_published", widget: "datetime", time_format: false}
-      - {label: "Modified Date", name: "date_modified", widget: "datetime", time_format: false}
-      - {label: "Body", name: "body", widget: "markdown", default: ""}
-    meta: { path: { label: Parent, widget: parent, index_file: 'index' } }
+      - {label: "Publish Date", name: "createdAt", widget: "datetime", time_format: false, date_format: "DD/MM/YYYY"}
+      - {label: "Modified Date", name: "updatedAt", widget: "datetime", time_format: false, date_format: "DD/MM/YYYY"}
+      - {label: "Video", name: "video", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+    meta: { path: { label: "Parent", widget: "parent", index_file: "index" } }
