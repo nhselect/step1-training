@@ -1,0 +1,17 @@
+---
+title: Filtering proficiencies by completion status or type​
+order: 2
+date_published: 2022-09-28T07:27:47.763Z
+date_modified: 2022-09-28T07:27:47.765Z
+---
+1. Select the filter that you would like to add from the dropdown list ​
+
+2. Select Add filter​
+
+> You can filter by proficiency progress status (e.g. ‘Requires self assessment’ or for proficiencies that need to be completed within your supernumerary period (‘Purple: Supernumerary’) ​
+
+You can see filters have been applied and the number of matching proficiencies​
+
+To remove the applied filters:​
+
+3. Select: Clear filter ​
