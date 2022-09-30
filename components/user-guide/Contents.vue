@@ -30,51 +30,11 @@
       role: {
         type: String,
         required: true,
+      },
+      contents: {
+        type: Array,
+        required: true
       }
-    },
-    data: () => ({
-      contents: []
-    }),
-    async fetch() {
-      let pages = await this.$content('user-guide/'+this.role,{deep:true})
-        .without(['body'])
-        .sortBy('order')
-        .fetch()
-        .catch((err) => {
-          error({ statusCode: 404, message: 'No items retrieved' })
-        })
-
-      pages = pages.map((p) => {
-        const folders = p.dir.replace('/user-guide/'+this.role,'').split('/').filter(i => i != '')
-        const pid = folders[folders.length-2]
-        const id = folders[folders.length-1]
-        return {...p,folders,pid,id}
-      }).filter(i => i.folders.length > 0)
-
-      let arrMap = new Map(pages.map(item => [item.id, item]));
-      let tree = [];
-
-      for (let i = 0; i < pages.length; i++) {
-        let item = pages[i];
-
-        if (item.pid) {
-          let parentItem = arrMap.get(item.pid);
-
-          if (parentItem) {
-            let { children } = parentItem;
-
-            if (children) {
-              parentItem.children.push(item);
-            } else {
-              parentItem.children = [item];
-            }
-          }
-        } else {
-          tree.push(item);
-        }
-      }
-
-      this.contents = tree
     },
     fetchKey() { return this.role },
   }

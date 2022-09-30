@@ -5,7 +5,7 @@
       {{ node.title }}
     </a>
     <ol class="nhsuk-contents-list__list" v-if="node.children && node.children.length">
-      <node v-for="child in node.children" :node="child" :key="child.dir">
+      <node v-for="child in node.children" :node="child" :key="child.dir" :active="active">
       </node>
     </ol>
   </li>

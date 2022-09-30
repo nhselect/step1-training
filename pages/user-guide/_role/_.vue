@@ -1,13 +1,35 @@
 <template>
   <div>
+    <UserGuideBreadcrumbs :breadcrumbs="breadcrumbs" />
     <h1>User guide for {{role.title}}s</h1>
     <div class="nhsuk-grid-row">
       <div class="nhsuk-grid-column-one-third user-guide__contents">
-        <UserGuideContents :role="role.slug" :active="contentPath" />
+        <UserGuideContents :contents="contents" :role="role.slug" :active="contentPath" />
       </div>
       <div class="nhsuk-grid-column-two-thirds">
         <h2>{{page.title}}</h2>
         <nuxt-content :document="page" />
+        <div v-if="page.folders.length > 2 && children && children.length > 0">
+          <h3>In this section:</h3>
+          <div>
+            <nav
+              class="nhsuk-contents-list"
+              role="navigation"
+              aria-label="Pages in this section"
+            >
+              <ol class="nhsuk-contents-list__list">
+                <UserGuideContentTree
+                  v-for="page in children"
+                  :key="page.dir"
+                  :node="page"
+                  :active="contentPath"
+                >
+                </UserGuideContentTree>
+              </ol>
+            </nav>
+          </div>
+        </div>
+        <UserGuidePagination :prev="prev" :next="next" />
       </div>
     </div>
   </div>
@@ -18,24 +40,90 @@
     async asyncData({ $content, params, error }) {
       const path = params.pathMatch || ''
       const slug = params.pathMatch.split('/').pop()
-      const contentPath = '/user-guide/'+params.role+'/'+params.pathMatch
+      const roleParam = params.role || params.pathMatch
+      const contentPath = params.role ? '/user-guide/'+params.role+'/'+params.pathMatch : '/user-guide/'+params.pathMatch
 
-      const role = await $content('roles/'+params.role)
+      // fetch role info content
+      const role = await $content('roles/'+roleParam)
         .fetch()
         .catch((err) => {
           error({ statusCode: 404, message: 'Role not recognised' })
         })
 
+      // fetch current page content
       const page = await $content(contentPath+'/index')
         .fetch()
         .catch((err) => {
           error({ statusCode: 404, message: 'No guides retrieved' })
         })
 
+      // fetch full directory list without body
+      let pages = await $content('user-guide/'+roleParam,{deep:true})
+        .without(['body'])
+        // .where({ id: { $ne: params.role }})
+        .sortBy('order')
+        .fetch()
+        .catch((err) => {
+          error({ statusCode: 404, message: 'No items retrieved' })
+        })
+
+      let arrMap = new Map(pages.map(item => [item.id, item]));
+
+      const ordering = pages.sort((a,b) => {
+        const maxDepth = Math.max(a.folders.length,b.folders.length)
+
+        for (let i=0;i<maxDepth;i++) {
+          const aObj = arrMap.get(a.folders[i])
+          const bObj = arrMap.get(b.folders[i])
+          const aObjOrder = aObj ? aObj.order : 0
+          const bObjOrder = bObj ? bObj.order : 0
+
+          if (aObjOrder < bObjOrder) return -1
+          else if (aObjOrder > bObjOrder) return 1
+        }
+        return 0
+      })
+
+      const breadcrumbs = page.folders.map((f) => {
+        return arrMap.get(f) || null
+      }).filter(f=>f !== null)
+
+      const prev = ordering[ordering.findIndex(e=>e.dir===contentPath)-1]
+      const next = ordering[ordering.findIndex(e=>e.dir===contentPath)+1]
+
+      const children = ordering.filter(e=>e.pid===page.id)
+      
+      let contents = [];
+      
+      for (let i = 0; i < pages.length; i++) {
+        let item = pages[i];
+
+        if (item.pid && item.pid !== roleParam) {
+          let parentItem = arrMap.get(item.pid);
+
+          if (parentItem) {
+            let { children } = parentItem;
+
+            if (children) {
+              parentItem.children.push(item);
+            } else {
+              parentItem.children = [item];
+            }
+          }
+        } else {
+          contents.push(item);
+        }
+      }
+
       return {
         contentPath,
         role,
         page,
+        contents,
+        children,
+        prev,
+        next,
+        breadcrumbs,
       }
     },
   }
@@ -56,6 +144,7 @@
 
   blockquote {
     border: 4px solid $color_nhsuk-pink;
+    @include nhsuk-responsive-margin(4, "bottom");
     @include nhsuk-responsive-padding(4);
 
     *:last-child {

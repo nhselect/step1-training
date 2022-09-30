@@ -57,6 +57,17 @@ export default {
     liveEdit: false,
   },
 
+  hooks: {
+    'content:file:beforeInsert': (document) => {
+      if (document.extension === '.md') {
+        const folders = document.dir.split('/').filter(i => i != '')
+        document['folders'] = folders
+        document['pid'] = folders[folders.length-2]
+        document['id'] = folders[folders.length-1]
+      }
+    }
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     extend(config, ctx) {
