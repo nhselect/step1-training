@@ -37,6 +37,7 @@
 
 <script>
   export default {
+    scrollToTop: true,
     async asyncData({ $content, params, error }) {
       const path = params.pathMatch || ''
       const slug = params.pathMatch.split('/').pop()
