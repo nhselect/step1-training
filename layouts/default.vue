@@ -28,7 +28,7 @@ export default {
       {
         src: "https://cdn.counter.dev/script.js",
         "data-id": "4207b5f4-18b4-4844-9000-51dbeb9fe9c9",
-        "data-utcoffset": "1"
+        "data-utcoffset": "0"
       },
       {
         type: 'text/javascript',
