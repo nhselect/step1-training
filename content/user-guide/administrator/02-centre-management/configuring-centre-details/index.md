@@ -4,7 +4,7 @@ order: 2
 date_published: 2022-09-01T07:16:39.723Z
 date_modified: 2022-09-01T07:16:39.728Z
 ---
-1. Select: Configuration (in your Centre Dashboard)​
+1. Select **Configuration** (in your Centre Dashboard)​
 
 > The information listed in your centre configuration will be visible to all delegates in your centre, not just those involved with the Step 1 proficiencies. This should be completed at initial set up and updated periodically as appropriate to make sure it is accurate.​
 >

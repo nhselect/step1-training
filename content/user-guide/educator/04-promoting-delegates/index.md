@@ -10,7 +10,7 @@ updatedAt: 2022-09-01T14:41:30.362Z
 
 3. Expand (+) the delegate that you would like to promote​
 
-> If you cannot see the delegate listed in your My Staff list you have not added them, see p.19–20 for how to do this.​
+> If you cannot see the delegate listed in your My Staff list [you will need to add them](/user-guide/educator/03-staff-list/adding-delegates-to-your-staff-list).​
 
 4. Select: Promote to Nominated supervisor​
 

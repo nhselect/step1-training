@@ -20,7 +20,7 @@ date_modified: 2022-09-01T07:17:46.848Z
 
 > If your centre has set up additional registration question prompts they will appear here ​
 >
-> See p.22–24 for prompts we asked you to set up​
+> See [Managing registration prompts](/user-guide/administrator/02-centre-management/configuring-centre-details/managing-registration-prompts) for the prompts we asked you to set up​
 >
 > If you do not complete this information in the excel, delegates can also complete it later once registered in their ‘My account’ tab​
 

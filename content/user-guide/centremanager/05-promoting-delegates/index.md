@@ -21,7 +21,3 @@ Delegates should generally only have 1 role in the platform (and if they are a L
 - Educator / Manager + Administrator (if your Trust doesn’t have administrators in your unit)
 
 > Everyone registers to the system as a delegate. The delegate must be approved, have a valid email address and password registered on the system before they can be promoted to an admin role ​
-
-To promote a delegate who does not have an existing admin role, see p.40 - 42​
-
-To update a delegate's admin role (e.g. promoting to additional roles or de-promoting), see p. 43 - 44

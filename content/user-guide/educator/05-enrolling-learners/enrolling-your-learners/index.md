@@ -10,7 +10,7 @@ date_modified: 2022-09-01T07:25:34.874Z
 
 3. For each Learner, select: View self assessments  ​
 
-> If you cannot see the Learner listed in your My Staff list you have not added them, see p.19–20 for how to do this.​
+> If you cannot see the Learner listed in your My Staff list [you will need to add them](/user-guide/educator/03-staff-list/adding-delegates-to-your-staff-list).​
 
 4. Select: Enrol on new assessment​
 

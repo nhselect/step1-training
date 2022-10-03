@@ -42,4 +42,12 @@
 
 <style lang="scss">
 @import "node_modules/nhsuk-frontend/packages/components/contents-list/contents-list";
+
+.nhsuk-contents-list__item {
+  font-size: 0.8em;
+}
+
+li>ol {
+  margin: 0;
+}
 </style>

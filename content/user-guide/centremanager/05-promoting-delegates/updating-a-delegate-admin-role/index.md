@@ -16,7 +16,7 @@ For example, promoting to additional roles or de-promoting.
 >
 > You can search by delegate ​Name, Email address or delegate ID​
 >
-> If you have set up additional question prompts (see p.21–23) you can also search for delegates within these, using the ‘Filter by’ drop-down.​
+> If you have [set up additional question prompts](/user-guide/centremanager/02-centre-management/configuring-centre-details/managing-registration-prompts) you can also search for delegates within these, using the ‘Filter by’ drop-down.​
 
 4. Select: Expand to view the delegate registration card​
 

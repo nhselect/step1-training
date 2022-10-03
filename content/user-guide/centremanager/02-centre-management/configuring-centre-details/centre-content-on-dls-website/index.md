@@ -8,7 +8,7 @@ The information completed here is published on the DLS website so that your lear
 
 1. Expand: Centre content on DLS website​
 
-> If there are already details, you do not need to edit, but may want to add similar information in the ‘Other information’ section as you did in the Centre Support details (see p.18):​
+> If there are already details, you do not need to edit, but may want to add similar information in the ‘Other information’ section as you did in the [Centre Support details](/user-guide/centremanager/02-centre-management/configuring-centre-details/edit-centre-details):​
 >
 > - Need support for Step 1 proficiencies? Contact [add email address], [add telephone contact number], [add opening hours])​
 

@@ -4,7 +4,7 @@ order: 2
 date_published: 2022-09-01T07:27:25.699Z
 date_modified: 2022-09-01T07:27:25.703Z
 ---
-Once you have agreed to the three learning contract proficiencies by self assessing, you will need to send then to your Assessor, Educator / Manager and/or Clinical Centre Manager for confirmation (see p. 21 to know who can confirm each proficiency). ​
+Once you have agreed to the three learning contract proficiencies by self assessing, you will need to send then to your Assessor, Educator/Manager and/or Clinical Centre Manager for confirmation ([who can confirm each proficiency](/user-guide/learner/04-learning-contract)). ​
 
 1. Select: Proficiencies confirmation​
 

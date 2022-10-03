@@ -14,7 +14,7 @@ There are 4 things you can edit under **Centre details**:​
 
 #### Notify email​
 - This email address will be notified if delegates from your centre require approval for their profile registration (i.e. if they have self-registered) 
-- You can only add one email address, so we suggest it is a shared mailbox (if you would also like to individually receive them, you can set it on your notification preferences, see p.12–13)​
+- You can only add one email address, so we suggest it is a shared mailbox (if you would also like to individually receive them, you can [set it on your notification preferences](/user-guide/centremanager/01-registration/managing-your-account/updating-notification-preferences))​
 
 #### Centre support details​
 - The centre support details will be displayed to Learners on their Learning Portal (image to the right) so they know who to contact for local support. ​

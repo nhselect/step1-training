@@ -18,7 +18,7 @@ You can see all your supervisors (Educator / Managers or Assessors) if you Selec
 
 When you first start the Step 1 proficiencies only the Educator / Manager who enrolled you will be listed here.​
 
-You can Add / Remove Supervisors from this list (see p.40–41 for when you should do this and how to do it)​
+You can [Add / Remove Supervisors from this list](/user-guide/learner/06-confirmation/managing-your-supervisors)
 
 Once you are ready to launch self-assessment of Step 1 proficiencies:​
 
