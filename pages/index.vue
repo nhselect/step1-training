@@ -69,11 +69,6 @@ export default {
     script: [
       {
         src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
-      },
-      {
-        src: "https://cdn.counter.dev/script.js",
-        "data-id": "4207b5f4-18b4-4844-9000-51dbeb9fe9c9",
-        "data-utcoffset": "1"
       }
     ],
   },
