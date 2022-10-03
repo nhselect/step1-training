@@ -30,10 +30,19 @@ updatedAt: 2022-09-01T06:48:31.401Z
 > Your password should have a minimum of 8 characters with at least 1 letter, 1 number and 1 symbol​​​
 
 8. Select **Next​**
-9. Review your answers and **Change** if you need to​
-10. Read and **Agree** to the Terms and Conditions​
-11. Select **Submit​**
-12. Make a note of your **delegate number​**
-13. Your registration will require **approval from your Clinical Centre Manager or Administrator** before you can log in​
-14. View and make a note of your local **centre contact** information, this is who you will contact should you need support
-15. You will receive a confirmation email at the email address you registered with once your registration has been approved
+
+![](/img/ad-1-04-self-registering-4.jpg)
+
+8. Review your answers and **Change** if you need to​
+9. Read and **Agree** to the Terms and Conditions​
+10. Select **Submit​**
+
+![](/img/ad-1-05-self-registering-5.jpg)
+
+8. Make a note of your **delegate number​**
+9. Your registration will require **approval from your Clinical Centre Manager or Administrator** before you can log in​
+10. View and make a note of your local **centre contact** information, this is who you will contact should you need support
+
+![](/img/ad-1-06-self-registering-6.jpg)
+
+8. You will receive a confirmation email at the email address you registered with once your registration has been approved
