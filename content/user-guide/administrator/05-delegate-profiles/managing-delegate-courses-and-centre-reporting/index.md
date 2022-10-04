@@ -3,6 +3,8 @@ title: Managing delegate courses and Centre reporting
 order: 5
 date_published: 2022-09-01T07:18:55.663Z
 date_modified: 2022-09-01T07:18:55.666Z
+createdAt: 2022-10-04T13:19:18.841Z
+updatedAt: 2022-10-04T13:19:18.865Z
 ---
 #### Managing delegate courses​
 
@@ -15,11 +17,12 @@ This functionality is currently in development, so under ‘Centre reports’ on
 However, you can export a list of delegate registrations for the Step 1 proficiencies:​
 
 1. Go to Centre dashboard (in ‘Tracking System’ app) ​
-
 2. Select: Delegates​
 
-3. Filter by Programme of Study / Course and select Critical Care Step 1 proficiencies ​
+![](/img/ad-5-16-centre-reporting.jpg)
 
-4. Select: Add filter​
+1. Filter by Programme of Study / Course and select Critical Care Step 1 proficiencies ​
+2. Select: Add filter​
+3. Select: Export​
 
-5. Select: Export​
+![](/img/ad-5-17-centre-reporting.jpg)
