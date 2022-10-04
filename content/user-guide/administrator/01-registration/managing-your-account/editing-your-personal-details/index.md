@@ -10,14 +10,19 @@ updatedAt: 2022-09-01T07:11:51.152Z
 
 2. Select **Edit details​**
 
-3. Make your changes
+![](/img/ad-1-13-Managing.jpg)
+
+2. Make your changes
 
 > If you were registered by your Trust, you may need to answer the following questions on your profile:​
 >
-> - Programme study / course​
-> - Organisation / Company​
-> - Department / Team​
+> * Programme study / course​
+> * Organisation / Company​
+> * Department / Team​
+
+
 
 4. Enter your **current password**
-
 5. Select **Save​**
+
+![](/img/ad-1-14-Managing.jpg)
