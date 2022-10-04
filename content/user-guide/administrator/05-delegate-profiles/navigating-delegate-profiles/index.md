@@ -30,3 +30,5 @@ updatedAt: 2022-10-04T10:30:16.250Z
 4. Select: Manage delegate​
 
 ![](/img/cm-5-04-Promoting.jpg)
+
+![](/img/ad-4-24-bulk-reg.jpg)
