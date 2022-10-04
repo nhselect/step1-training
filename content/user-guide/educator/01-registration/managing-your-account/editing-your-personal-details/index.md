@@ -3,6 +3,8 @@ title: Editing your personal details
 order: 1
 date_published: 2022-09-01T07:11:51.149Z
 date_modified: 2022-09-01T07:11:51.152Z
+createdAt: 2022-10-04T13:23:43.100Z
+updatedAt: 2022-10-04T13:23:43.109Z
 ---
 1. Select **My account** in the top blue ribbon
 
@@ -10,14 +12,17 @@ date_modified: 2022-09-01T07:11:51.152Z
 
 2. Select **Edit details​**
 
+![](/img/em-1-13-Managing.jpg)
+
 3. Make your changes
 
 > If you were registered by your Trust, you may need to answer the following questions on your profile:​
 >
-> - Programme study / course​
-> - Organisation / Company​
-> - Department / Team​
+> * Programme study / course​
+> * Organisation / Company​
+> * Department / Team​
 
 4. Enter your **current password**
-
 5. Select **Save​**
+
+![](/img/em-1-14-Managing.jpg)

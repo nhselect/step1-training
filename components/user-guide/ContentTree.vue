@@ -1,11 +1,11 @@
 <template>
-  <li class="nhsuk-contents-list__item">
+  <li :class="[layer > 0 ? 'nhsuk-contents-list__item' : '', 'nav-layer-'+layer.toString()]">
     <span v-if="active === node.dir" class="nhsuk-contents-list__current">{{ node.title }}</span>
-    <a v-else class="nhsuk-contents-list__link" :href="node.dir">
+    <NuxtLink v-else class="nhsuk-contents-list__link" :to="node.dir">
       {{ node.title }}
-    </a>
+    </NuxtLink>
     <ol class="nhsuk-contents-list__list" v-if="node.children && node.children.length">
-      <node v-for="child in node.children" :node="child" :key="child.dir" :active="active">
+      <node v-for="child in node.children" :node="child" :key="child.dir" :active="active" :layer="layer+1">
       </node>
     </ol>
   </li>
@@ -16,7 +16,8 @@ export default {
   name: "node",
   props: {
     node: Object,
-    active: String
+    active: String,
+    layer: Number
   }
 };
 </script>

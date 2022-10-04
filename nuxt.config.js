@@ -24,6 +24,10 @@ export default {
     { src: '~/node_modules/nhsuk-frontend/dist/nhsuk.min.js', mode: 'client' },
   ],
 
+  router: {
+    prefetchLinks: false
+  },
+
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
@@ -55,6 +59,7 @@ export default {
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
     liveEdit: false,
+    fullTextSearchFields: ['title']
   },
 
   hooks: {
@@ -65,7 +70,7 @@ export default {
         document['pid'] = folders[folders.length-2]
         document['id'] = folders[folders.length-1]
       }
-    }
+    },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

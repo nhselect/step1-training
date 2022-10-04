@@ -2,16 +2,17 @@
   <div>
     <h3>Contents</h3>
     <nav
-      class="nhsuk-contents-list"
+      class="step1-user-guide-nav"
       role="navigation"
       aria-label="Pages in this user guide"
     >
-      <ol class="nhsuk-contents-list__list">
+      <ol>
         <UserGuideContentTree
           v-for="page in contents"
           :key="page.dir"
           :node="page"
           :active="active"
+          :layer=0
         >
         </UserGuideContentTree>
       </ol>
@@ -45,6 +46,11 @@
 
 .nhsuk-contents-list__item {
   font-size: 0.8em;
+}
+
+.step1-user-guide-nav > ol > li > a {
+  display: inline;
+  font-weight: 600;
 }
 
 li>ol {

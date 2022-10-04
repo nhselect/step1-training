@@ -28,12 +28,34 @@
           >Step 1 Proficiencies - Training Materials</a
         >
       </div>
+      <div class="nhsuk-header__content" id="content-header">
+      </div>
     </div>
   </header>
 </template>
 
 <script>
-export default {}
+import { PassThrough } from 'stream'
+
+export default {
+  computed: {
+    isUserGuide() {
+      const path = this.$router.currentRoute.path
+      return path.indexOf('user-guide/') > 0
+    },
+    role() {
+      const path = this.$router.currentRoute.path
+      if (path.indexOf('user-guide/')) {
+        const role = path.split('/')[2]
+        if (role) {
+          return role
+        } else {
+          return ''
+        }
+      }
+    }
+  }
+}
 </script>
 
 <style lang="scss">

@@ -23,6 +23,7 @@
                   :key="page.dir"
                   :node="page"
                   :active="contentPath"
+                  :layer=1
                 >
                 </UserGuideContentTree>
               </ol>

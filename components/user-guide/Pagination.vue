@@ -41,7 +41,6 @@
         required: false
       },
     },
-    fetchKey() { return this.role },
   }
 </script>
 
