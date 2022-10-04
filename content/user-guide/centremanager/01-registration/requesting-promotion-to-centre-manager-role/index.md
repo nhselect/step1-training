@@ -10,7 +10,7 @@ date_modified: 2022-09-01T07:19:59.828Z
 >
 > https://www.dls.nhs.uk/v2/FindYourCentre​
 
-2. ​Once you have been promoted to Administrator, your Non-clinical DLS Centre Manager (or existing Clinical Centre Manager) needs to [raise a ticket with HEE TEL](/user-guide/centremanager/06-support/technical-queries) and submit a request for your profile to be promoted to a Centre Manager ​
+2. ​Once you have been promoted to Administrator, your Non-clinical DLS Centre Manager (or existing Clinical Centre Manager) needs to [raise a ticket with HEE TEL](/user-guide/centremanager/07-support/technical-queries) and submit a request for your profile to be promoted to a Centre Manager ​
 
 > HEE TEL should promote you within 2 working days.​
 >
