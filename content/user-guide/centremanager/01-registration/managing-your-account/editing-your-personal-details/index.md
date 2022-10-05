@@ -3,6 +3,8 @@ title: Editing your personal details
 order: 1
 date_published: 2022-09-01T07:11:51.149Z
 date_modified: 2022-09-01T07:11:51.152Z
+createdAt: 2022-10-05T08:12:55.792Z
+updatedAt: 2022-10-05T08:12:55.796Z
 ---
 1. Select **My account** in the top blue ribbon
 
@@ -10,8 +12,11 @@ date_modified: 2022-09-01T07:11:51.152Z
 
 2. Select **Edit details​**
 
-3. Make your changes
+![](/img/ad-1-13-Managing.jpg)
 
+3. Make your changes
 4. Enter your **current password**
+
+![](/img/ad-1-14-Managing.jpg)
 
 5. Select **Save​**
