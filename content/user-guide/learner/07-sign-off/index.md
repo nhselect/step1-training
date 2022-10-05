@@ -8,16 +8,26 @@ Once you have self-assessed and received confirmation of your achievement of all
 
 1. Select: Request Educator/Manager sign-off​
 
+![](/img/le-7-1.jpg)
+
 2. Select the Educator/Manager that you wish to request sign-off from​
 
 3. Confirm that you have read the sign-off declaration​
 
 4. Select: Submit Request​
 
+![](/img/le-7-2.jpg)
+
 This will update your sign-off status to Requested at the bottom of the proficiencies page​
+
+![](/img/le-7-3.jpg)
 
 > If you need to prompt Educator / Manager to sign off, select: Resend and an email reminder will be sent to your Educator / Manger requesting sign-off​
 
 Once your Educator / Manager has conducted final sign-off, you will receive a confirmation email from noreply@dls.nhs.uk​
 
+![](/img/le-7-4.jpg)
+
 The sign-off status will also be updated, at the bottom of your proficiencies summary page​
+
+![](/img/le-7-5.jpg)
