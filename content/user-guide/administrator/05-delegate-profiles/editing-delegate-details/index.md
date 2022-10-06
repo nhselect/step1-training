@@ -1,10 +1,10 @@
 ---
 title: Editing delegate details
 order: 2
-date_published: 2022-09-01T07:18:22.324Z
-date_modified: 2022-09-01T07:18:22.327Z
-createdAt: 2022-10-04T13:11:29.199Z
-updatedAt: 2022-10-04T13:11:29.209Z
+
+
+createdAt: 2022-09-01T13:11:29.199Z
+updatedAt: 2022-09-01T13:11:29.209Z
 ---
 1. Go to Centre dashboard (in ‘Tracking System’ app) ​
 2. Select: Delegates​

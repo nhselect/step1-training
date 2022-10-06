@@ -1,10 +1,10 @@
 ---
 title: Individual registration
 order: 2
-date_published: 2022-09-01T07:17:46.844Z
-date_modified: 2022-09-01T07:17:46.848Z
-createdAt: 2022-10-04T10:19:06.178Z
-updatedAt: 2022-10-04T10:19:06.186Z
+
+
+createdAt: 2022-09-01T10:19:06.178Z
+updatedAt: 2022-09-01T10:19:06.186Z
 ---
 1. Go to Centre dashboard (in ‘Tracking System’ app) 
 2. Select: Delegates​

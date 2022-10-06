@@ -1,10 +1,10 @@
 ---
 title: Requesting proficiency confirmation​
 order: 1
-date_published: 2022-09-01T07:28:30.262Z
-date_modified: 2022-09-01T07:28:30.265Z
-createdAt: 2022-10-05T11:11:27.341Z
-updatedAt: 2022-10-05T11:11:27.346Z
+
+
+createdAt: 2022-09-01T11:11:27.341Z
+updatedAt: 2022-09-01T11:11:27.346Z
 ---
 Once you have self-assessed as ‘Achieved’ on some proficiencies, you can send them to your Supervisor (Educator / Manager or Assessor) for confirmation​
 

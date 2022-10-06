@@ -1,10 +1,10 @@
 ---
 title: Updating notification preferences
 order: 3
-date_published: 2022-09-01T07:12:11.069Z
-date_modified: 2022-09-01T07:12:11.072Z
-createdAt: 2022-10-05T09:21:10.974Z
-updatedAt: 2022-10-05T09:21:10.978Z
+
+
+createdAt: 2022-09-01T09:21:10.974Z
+updatedAt: 2022-09-01T09:21:10.978Z
 ---
 1. Select **My account** in the top blue ribbon​
 2. Select **View notification preferences​**

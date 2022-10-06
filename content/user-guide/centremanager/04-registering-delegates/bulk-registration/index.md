@@ -1,10 +1,10 @@
 ---
 title: Bulk registration
 order: 3
-date_published: 2022-09-01T07:17:53.217Z
-date_modified: 2022-09-01T07:17:53.220Z
-createdAt: 2022-10-05T08:36:22.726Z
-updatedAt: 2022-10-05T08:36:22.732Z
+
+
+createdAt: 2022-09-01T08:36:22.726Z
+updatedAt: 2022-09-01T08:36:22.732Z
 ---
 1. Go to Centre dashboard (in ‘Tracking System’ app) ​
 2. Select: Delegates​

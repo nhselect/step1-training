@@ -1,10 +1,10 @@
 ---
 title: Updating notification preferences
 order: 3
-date_published: 2022-09-01T07:12:11.069Z
-date_modified: 2022-09-01T07:12:11.072Z
-createdAt: 2022-10-05T08:14:54.460Z
-updatedAt: 2022-10-05T08:14:54.464Z
+
+
+createdAt: 2022-09-01T08:14:54.460Z
+updatedAt: 2022-09-01T08:14:54.464Z
 ---
 You can update your notification preferences for you as a:​
 

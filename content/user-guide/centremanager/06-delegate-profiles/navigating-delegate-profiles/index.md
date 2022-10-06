@@ -1,10 +1,10 @@
 ---
 title: Navigating delegate profiles
 order: 1
-date_published: 2022-09-01T07:18:10.753Z
-date_modified: 2022-09-01T07:18:10.757Z
-createdAt: 2022-10-05T08:42:37.276Z
-updatedAt: 2022-10-05T08:42:37.281Z
+
+
+createdAt: 2022-09-01T08:42:37.276Z
+updatedAt: 2022-09-01T08:42:37.281Z
 ---
 1. Go to Centre dashboard (in ‘Tracking System’ app) 
 2. Select: Delegates​

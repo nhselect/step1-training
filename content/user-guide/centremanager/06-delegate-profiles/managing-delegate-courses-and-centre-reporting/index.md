@@ -1,10 +1,10 @@
 ---
 title: Managing delegate courses and Centre reporting
 order: 5
-date_published: 2022-09-01T07:18:55.663Z
-date_modified: 2022-09-01T07:18:55.666Z
-createdAt: 2022-10-05T08:48:17.339Z
-updatedAt: 2022-10-05T08:48:17.343Z
+
+
+createdAt: 2022-09-01T08:48:17.339Z
+updatedAt: 2022-09-01T08:48:17.343Z
 ---
 #### Managing delegate courses​
 

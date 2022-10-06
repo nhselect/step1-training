@@ -1,10 +1,10 @@
 ---
 title: Self-registration - including approving / rejecting registrations
 order: 1
-date_published: 2022-09-01T07:16:50.540Z
-date_modified: 2022-09-01T07:16:50.543Z
-createdAt: 2022-10-05T08:27:34.604Z
-updatedAt: 2022-10-05T08:27:34.610Z
+
+
+createdAt: 2022-09-01T08:27:34.604Z
+updatedAt: 2022-09-01T08:27:34.610Z
 ---
 1. Share: Link with delegate to register (https://www.dls.nhs.uk/v2/Login) ​
 2. Once they have registered you will need to ‘Approve’ ​

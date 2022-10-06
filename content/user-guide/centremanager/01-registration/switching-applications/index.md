@@ -1,10 +1,10 @@
 ---
 title: Switching applications
 order: 5
-date_published: 2022-09-01T07:11:03.769Z
-date_modified: 2022-09-01T07:11:03.775Z
-createdAt: 2022-10-05T08:09:57.469Z
-updatedAt: 2022-10-05T08:09:57.473Z
+
+
+createdAt: 2022-09-01T08:09:57.469Z
+updatedAt: 2022-09-01T08:09:57.473Z
 ---
 1. Select **Switch application** (this window should automatically appear when you log in)​
 

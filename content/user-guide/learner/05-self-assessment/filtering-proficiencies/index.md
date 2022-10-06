@@ -1,10 +1,10 @@
 ---
 title: Filtering proficiencies by completion status or type​
 order: 2
-date_published: 2022-09-28T07:27:47.763Z
-date_modified: 2022-09-28T07:27:47.765Z
-createdAt: 2022-10-05T10:15:48.634Z
-updatedAt: 2022-10-05T10:15:48.639Z
+
+
+createdAt: 2022-09-01T10:15:48.634Z
+updatedAt: 2022-09-01T10:15:48.639Z
 ---
 1. Select the filter that you would like to add from the dropdown list ​
 2. Select Add filter​

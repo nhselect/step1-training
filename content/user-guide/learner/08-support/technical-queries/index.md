@@ -1,10 +1,10 @@
 ---
 title: Technical queries
 order: 1
-date_published: 2022-09-01T07:13:59.939Z
-date_modified: 2022-09-01T07:13:59.943Z
-createdAt: 2022-10-05T11:16:41.891Z
-updatedAt: 2022-10-05T11:16:41.900Z
+
+
+createdAt: 2022-09-01T11:16:41.891Z
+updatedAt: 2022-09-01T11:16:41.900Z
 ---
 If you require technical support, we recommend:​
 

@@ -1,10 +1,10 @@
 ---
 title: Updating a delegate admin role
 order: 2
-date_published: 2022-09-01T07:21:58.279Z
-date_modified: 2022-09-01T07:21:58.282Z
-createdAt: 2022-10-05T08:41:21.207Z
-updatedAt: 2022-10-05T08:41:21.211Z
+
+
+createdAt: 2022-09-01T08:41:21.207Z
+updatedAt: 2022-09-01T08:41:21.211Z
 ---
 For example, promoting to additional roles or de-promoting.
 

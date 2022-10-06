@@ -1,10 +1,10 @@
 ---
 title: Managing your supervisors​
 order: 3
-date_published: 2022-09-01T07:28:52.731Z
-date_modified: 2022-09-01T07:28:52.733Z
-createdAt: 2022-10-05T11:14:15.994Z
-updatedAt: 2022-10-05T11:14:15.998Z
+
+
+createdAt: 2022-09-01T11:14:15.994Z
+updatedAt: 2022-09-01T11:14:15.998Z
 ---
 Make sure you are on your Step 1 proficiencies Introduction page (Click on the correct breadcrumb at the top)​
 

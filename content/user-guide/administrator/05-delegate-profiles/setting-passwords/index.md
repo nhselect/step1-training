@@ -1,10 +1,10 @@
 ---
 title: Setting passwords
 order: 3
-date_published: 2022-09-01T07:18:30.435Z
-date_modified: 2022-09-01T07:18:30.438Z
-createdAt: 2022-10-04T13:13:49.362Z
-updatedAt: 2022-10-04T13:13:49.373Z
+
+
+createdAt: 2022-09-01T13:13:49.362Z
+updatedAt: 2022-09-01T13:13:49.373Z
 ---
 From time to time you may need to set a delegates password, should they, for example, forget their password​
 

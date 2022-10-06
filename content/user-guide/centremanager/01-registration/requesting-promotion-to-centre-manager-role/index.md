@@ -1,10 +1,10 @@
 ---
 title: Requesting promotion to Centre Manager role
 order: 2
-date_published: 2022-09-01T07:19:59.825Z
-date_modified: 2022-09-01T07:19:59.828Z
-createdAt: 2022-10-05T08:07:40.956Z
-updatedAt: 2022-10-05T08:07:40.962Z
+
+
+createdAt: 2022-09-01T08:07:40.956Z
+updatedAt: 2022-09-01T08:07:40.962Z
 ---
 1. Contact your Trust-wide Non-clinical DLS Centre Manager (or Clinical Centre Manager if one already exists) and ask them to [promote you to an ‘Administrator’ role within the platform](/user-guide/centremanager/05-promoting-delegates/promoting-a-delegate-who-does-not-have-an-existing-admin-role)
 

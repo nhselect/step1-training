@@ -1,10 +1,10 @@
 ---
 title: Promoting a delegate who does not have an existing admin role
 order: 1
-date_published: 2022-09-01T07:21:46.572Z
-date_modified: 2022-09-01T07:21:46.577Z
-createdAt: 2022-10-05T08:39:31.989Z
-updatedAt: 2022-10-05T08:39:31.993Z
+
+
+createdAt: 2022-09-01T08:39:31.989Z
+updatedAt: 2022-09-01T08:39:31.993Z
 ---
 1. Go to Centre dashboard (in ‘Tracking System’ app) 
 2. Select: Delegates​

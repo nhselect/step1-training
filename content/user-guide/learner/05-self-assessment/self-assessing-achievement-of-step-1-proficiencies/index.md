@@ -1,10 +1,10 @@
 ---
 title: Self-assessing achievement of Step 1 proficiencies​
 order: 4
-date_published: 2022-09-01T07:28:02.069Z
-date_modified: 2022-09-01T07:28:02.073Z
-createdAt: 2022-10-05T10:17:24.685Z
-updatedAt: 2022-10-05T10:17:24.695Z
+
+
+createdAt: 2022-09-01T10:17:24.685Z
+updatedAt: 2022-09-01T10:17:24.695Z
 ---
 You can expand (+) and collapse (-) each section to see more or less ​
 

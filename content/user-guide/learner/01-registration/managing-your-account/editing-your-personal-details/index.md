@@ -1,10 +1,10 @@
 ---
 title: Editing your personal details
 order: 1
-date_published: 2022-09-01T07:11:51.149Z
-date_modified: 2022-09-01T07:11:51.152Z
-createdAt: 2022-10-05T09:19:49.792Z
-updatedAt: 2022-10-05T09:19:49.803Z
+
+
+createdAt: 2022-09-01T09:19:49.792Z
+updatedAt: 2022-09-01T09:19:49.803Z
 ---
 1. Select **My account** in the top blue ribbon
 

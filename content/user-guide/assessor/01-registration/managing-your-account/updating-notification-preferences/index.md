@@ -1,8 +1,8 @@
 ---
 title: Updating notification preferences
 order: 3
-date_published: 2022-09-01T07:12:11.069Z
-date_modified: 2022-09-01T07:12:11.072Z
+
+
 ---
 1. Select **My account** in the top blue ribbon​
 

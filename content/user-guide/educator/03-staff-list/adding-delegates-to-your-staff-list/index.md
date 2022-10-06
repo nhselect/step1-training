@@ -1,10 +1,10 @@
 ---
 title: Adding delegates to your staff list
 order: 1
-date_published: 2022-09-01T07:24:41.252Z
-date_modified: 2022-09-01T07:24:41.255Z
-createdAt: 2022-10-04T13:28:31.759Z
-updatedAt: 2022-10-04T13:28:31.763Z
+
+
+createdAt: 2022-09-01T13:28:31.759Z
+updatedAt: 2022-09-01T13:28:31.763Z
 ---
 > Before you can perform either of the below, you must add a delegate to your ‘My staff list’:​
 >

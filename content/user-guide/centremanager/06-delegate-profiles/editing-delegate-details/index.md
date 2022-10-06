@@ -1,10 +1,10 @@
 ---
 title: Editing delegate details
 order: 2
-date_published: 2022-09-01T07:18:22.324Z
-date_modified: 2022-09-01T07:18:22.327Z
-createdAt: 2022-10-05T08:44:44.663Z
-updatedAt: 2022-10-05T08:44:44.667Z
+
+
+createdAt: 2022-09-01T08:44:44.663Z
+updatedAt: 2022-09-01T08:44:44.667Z
 ---
 1. Go to Centre dashboard (in ‘Tracking System’ app) ​
 

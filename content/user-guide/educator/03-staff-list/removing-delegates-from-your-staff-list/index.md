@@ -1,10 +1,10 @@
 ---
 title: Removing delegates from your staff list
 order: 3
-date_published: 2022-09-01T07:25:08.814Z
-date_modified: 2022-09-01T07:25:08.817Z
-createdAt: 2022-10-04T13:32:15.402Z
-updatedAt: 2022-10-04T13:32:15.407Z
+
+
+createdAt: 2022-09-01T13:32:15.402Z
+updatedAt: 2022-09-01T13:32:15.407Z
 ---
 1. Go to Supervisor dashboard (in ‘Supervise’ app) ​
 

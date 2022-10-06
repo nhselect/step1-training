@@ -1,10 +1,10 @@
 ---
 title: Resending and withdrawing confirmation requests​
 order: 2
-date_published: 2022-09-01T07:28:47.304Z
-date_modified: 2022-09-01T07:28:47.307Z
-createdAt: 2022-10-05T11:13:32.514Z
-updatedAt: 2022-10-05T11:13:32.518Z
+
+
+createdAt: 2022-09-01T11:13:32.514Z
+updatedAt: 2022-09-01T11:13:32.518Z
 ---
 1. ​Select: Request proficiencies confirmation​
 

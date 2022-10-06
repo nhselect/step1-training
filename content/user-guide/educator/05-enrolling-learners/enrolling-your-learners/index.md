@@ -1,10 +1,10 @@
 ---
 title: Enrolling your Learners​
 order: 1
-date_published: 2022-09-01T07:25:34.871Z
-date_modified: 2022-09-01T07:25:34.874Z
-createdAt: 2022-10-04T13:42:57.073Z
-updatedAt: 2022-10-04T13:42:57.078Z
+
+
+createdAt: 2022-09-01T13:42:57.073Z
+updatedAt: 2022-09-01T13:42:57.078Z
 ---
 1. Go to Supervisor dashboard (in ‘Supervise’ app) ​
 
