@@ -3,8 +3,8 @@ title: Un-enrolling Learners from the Step 1 proficiencies​
 order: 2
 
 
-createdAt: 2022-09-01T13:44:51.418Z
-updatedAt: 2022-09-01T13:44:51.422Z
+createdAt: 2022-09-08T13:44:51.418Z
+updatedAt: 2022-09-08T13:44:51.422Z
 ---
 > You will not be able to unenroll a leaner who has already started the Step 1 proficiencies. Ask your Centre Manager or Administrator to raise a support ticket.​
 

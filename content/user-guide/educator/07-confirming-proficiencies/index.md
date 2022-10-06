@@ -1,8 +1,8 @@
 ---
 title: Confirming Learners’ self-assessed achieved proficiencies
 order: 7
-createdAt: 2022-09-01T14:41:30.359Z
-updatedAt: 2022-09-01T14:41:30.362Z
+createdAt: 2022-09-08T14:41:30.359Z
+updatedAt: 2022-09-08T14:41:30.362Z
 ---
 1. You will receive an email from noreply@dls.nhs.uk requesting you confirm the Learners self-assessment results​​
 2. Select the Click here hyperlink​

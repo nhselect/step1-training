@@ -1,8 +1,8 @@
 ---
 title: Sharing and monitoring completion of delegate training packages
 order: 2
-createdAt: 2022-09-01T14:39:34.314Z
-updatedAt: 2022-09-01T14:39:34.317Z
+createdAt: 2022-09-08T14:39:34.314Z
+updatedAt: 2022-09-08T14:39:34.317Z
 ---
 [Access the training packages](https://nhs-step1-training.netlify.app/) that have been designed to prepare and support participants through the digitised Step 1 proficiencies pilot.​
 

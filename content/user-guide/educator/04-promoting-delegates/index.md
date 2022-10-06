@@ -1,8 +1,8 @@
 ---
 title: Promoting delegates to the Assessor role
 order: 4
-createdAt: 2022-09-01T14:41:30.359Z
-updatedAt: 2022-09-01T14:41:30.362Z
+createdAt: 2022-09-08T14:41:30.359Z
+updatedAt: 2022-09-08T14:41:30.362Z
 ---
 1. Go to Supervisor dashboard (in ‘Supervise’ app) ​
 

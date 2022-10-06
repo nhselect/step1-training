@@ -1,8 +1,8 @@
 ---
 title: Registering and managing your profile
 order: 1
-createdAt: 2022-09-01T14:38:58.236Z
-updatedAt: 2022-09-01T14:38:58.243Z
+createdAt: 2022-09-08T14:38:58.236Z
+updatedAt: 2022-09-08T14:38:58.243Z
 ---
 There are 2 ways that you may be asked to register on the platform, check with your Clinical Centre Manager / Implementation Lead which process to follow:​
 

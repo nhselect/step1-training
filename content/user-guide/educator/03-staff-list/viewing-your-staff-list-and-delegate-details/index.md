@@ -3,8 +3,8 @@ title: Viewing your staff list and delegate details
 order: 2
 
 
-createdAt: 2022-09-01T13:31:04.927Z
-updatedAt: 2022-09-01T13:31:04.932Z
+createdAt: 2022-09-08T13:31:04.927Z
+updatedAt: 2022-09-08T13:31:04.932Z
 ---
 1. Go to Supervisor dashboard (in ‘Supervise’ app) ​
 

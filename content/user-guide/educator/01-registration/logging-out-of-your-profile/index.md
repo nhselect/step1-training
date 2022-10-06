@@ -3,8 +3,8 @@ title: Logging out of your profile
 order: 7
 
 
-createdAt: 2022-09-01T13:26:57.123Z
-updatedAt: 2022-09-01T13:26:57.127Z
+createdAt: 2022-09-08T13:26:57.123Z
+updatedAt: 2022-09-08T13:26:57.127Z
 ---
 1. When you’ve finished select **My account​**
 

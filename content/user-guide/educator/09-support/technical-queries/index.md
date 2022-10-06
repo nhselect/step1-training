@@ -3,8 +3,8 @@ title: Technical queries
 order: 1
 
 
-createdAt: 2022-09-01T13:56:15.184Z
-updatedAt: 2022-09-01T13:56:15.196Z
+createdAt: 2022-09-08T13:56:15.184Z
+updatedAt: 2022-09-08T13:56:15.196Z
 ---
 If you require technical support, we recommend:​
 

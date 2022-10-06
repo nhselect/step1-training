@@ -1,8 +1,8 @@
 ---
 title: Completing the Learning Contract
 order: 6
-createdAt: 2022-09-01T14:41:30.359Z
-updatedAt: 2022-09-01T14:41:30.362Z
+createdAt: 2022-09-08T14:41:30.359Z
+updatedAt: 2022-09-08T14:41:30.362Z
 ---
 Similar to the paper version, Learners are expected to first complete their Learning Contract before starting self-assessment of the Step 1 proficiencies. This should happen via a discussion with the three stakeholders mentioned:​
 

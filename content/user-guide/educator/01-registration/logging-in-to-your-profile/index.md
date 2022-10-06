@@ -3,8 +3,8 @@ title: Logging in to your profile
 order: 4
 
 
-createdAt: 2022-09-01T13:21:59.357Z
-updatedAt: 2022-09-01T13:21:59.368Z
+createdAt: 2022-09-08T13:21:59.357Z
+updatedAt: 2022-09-08T13:21:59.368Z
 ---
 1. Access the [DLS landing page (https://www.dls.nhs.uk/v2/Home/Welcome​)](https://www.dls.nhs.uk/v2/Home/Welcome​)
 2. Select **Log in​**
