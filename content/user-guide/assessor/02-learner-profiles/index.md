@@ -8,10 +8,18 @@ Before a Learner can ask you to confirm any of their proficiencies, they need to
 
 1. Go to Supervisor dashboard (in ‘Supervise’ app) ​
 
-2. Select: View My Staff List​
+![](/img/as-2-01-Viewing.jpg)
 
-3. Expand (+) the Learner that you would like to see the details of​
+1. Select: View My Staff List​
 
-4. You view see the Learner’s details​
+![](/img/as-2-02-Viewing.jpg)
+
+1. Expand (+) the Learner that you would like to see the details of​
+
+![](/img/as-2-03-Viewing.jpg)
+
+1. You view see the Learner’s details​
 
 > For Learner's PRN and registration status contact your Clinical Centre Manager​
+
+![](/img/as-2-04-Viewing.jpg)
