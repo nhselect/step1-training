@@ -1,8 +1,8 @@
 ---
 title: Getting promoted to an Educator/Manager role within the platform
 order: 3
-
-
+createdAt: 2022-09-01T13:23:43.100Z
+updatedAt: 2022-09-01T13:23:43.109Z
 ---
 Once your delegate profile has been registered, your Centre Manager will need to promote you to the Educator/Manager role (also called 'Supervisor’) within the platform.​
 
