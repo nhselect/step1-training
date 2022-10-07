@@ -12,8 +12,6 @@ Similar to the paper version, Learners are expected to first complete their Lear
 
 ​The Learner will need to select ‘Agree’ on behalf of all three stakeholders in their Learning portal (by selecting Review) following their conversation.​
 
-
-
 ![](/img/as-3-01-Completing.jpg)
 
 Confirmation is then required from either the Assessor, Educator / Manager or Clinical Centre Manager.​
@@ -34,9 +32,13 @@ Note: *The Clinical Centre Manager will need a dual-role in the platform (as als
 
 Select the Click here hyperlink​
 
+![](/img/as-3-02-Confirming.jpg)
+
 **OR**
 
 2. Navigate to the Supervisor Dashboard via the Supervise app in the platform and select the Learner’s request in Your to do list
+
+![](/img/as-3-03-Confirming.jpg)
 
 You will automatically be taken to the Learner’s profile (in the Supervise view)​
 
@@ -45,9 +47,22 @@ You will automatically be taken to the Learner’s profile (in the Supervise vie
 For proficiencies with ‘Confirmation requested’ status: ​
 
 1. Select: Confirm ​
-2. Select: Confirm self-assessment response​
-3. Select: Submit​
+
+![](/img/as-3-04-confirming.jpg)
+
+1. Select: Confirm self-assessment response​
+2. Select: Submit​
+
+![](/img/as-3-05-confirming.jpg)
 
 ​Once you have confirmed your agreement to the Learning contract proficiency, the Learner will receive a confirmation email from noreply@dls.nhs.uk​​
 
+![](/img/as-3-06-Confirming.jpg)
+
+
+
 The Confirmation status column will also update to Confirmed​
+
+
+
+![](/img/as-3-07-Confirming.jpg)
