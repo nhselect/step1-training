@@ -8,6 +8,9 @@
       </div>
       <div class="nhsuk-grid-column-two-thirds">
         <h2>{{page.title}}</h2>
+        <p class="nhsuk-body-s nhsuk-u-secondary-text-color">
+          Last changed: {{ page.updatedAt | formatDate }}
+        </p>
         <nuxt-content :document="page" />
         <div v-if="page.folders.length > 2 && children && children.length > 0">
           <h3>In this section:</h3>
@@ -39,6 +42,14 @@
 <script>
   export default {
     scrollToTop: true,
+    filters: {
+      formatDate: (dateStr) =>
+        Intl.DateTimeFormat('en-GB', {
+          day: 'numeric',
+          month: 'long',
+          year: 'numeric'
+        }).format(new Date(dateStr)),
+    },
     async asyncData({ $content, params, error }) {
       const path = params.pathMatch || ''
       const slug = params.pathMatch.split('/').pop()
