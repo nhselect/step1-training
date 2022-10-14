@@ -1,8 +1,6 @@
 ---
 title: Being registered by Clinical Centre Managers or Administrators​
 order: 2
-
-
 createdAt: 2022-09-08T13:21:38.133Z
 updatedAt: 2022-09-08T13:21:38.139Z
 ---
@@ -14,4 +12,4 @@ If your profile has been registered by your Clinical Centre Manager or Administr
 
 **or**
 
-* Your Clinical Centre Manager will set up and share your password with you
+* Your Clinical Centre Manager or Administrator will set up and share your password with your
