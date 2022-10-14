@@ -40,7 +40,7 @@ updatedAt: 2022-09-08T06:48:31.401Z
 ![](/img/em-1-05-Self-register.jpg)
 
 12. Make a note of your **delegate number​**
-13. Your registration will require approval from your **Clinical Centre Manager or Administrator** before you can log in​
+13. Your registration will require approval from your **Clinical Centre Manager or Administrator** before you can log in,​ unless you have registered on a Trust computer
 
 ![](/img/em-1-06-Self-register.jpg)
 
