@@ -1,5 +1,5 @@
 ---
-title: Agreeing to the Learning contract​
+title: Agreeing to the Learning Contract​
 order: 1
 createdAt: 2022-09-01T09:40:30.602Z
 updatedAt: 2022-09-01T09:40:30.607Z
