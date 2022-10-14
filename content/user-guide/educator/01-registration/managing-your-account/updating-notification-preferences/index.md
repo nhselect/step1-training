@@ -1,8 +1,6 @@
 ---
 title: Updating notification preferences
 order: 3
-
-
 createdAt: 2022-09-08T13:25:20.519Z
 updatedAt: 2022-09-08T13:25:20.523Z
 ---
@@ -13,7 +11,7 @@ updatedAt: 2022-09-08T13:25:20.523Z
 
 3. Select which account you would like to update notification preferences for:​
 
-* **Admin** – relates to activity of other delegates in your centre​
+* **Admin** – relates to activity associated with your Educator / Manager role
 * **Delegate** – relates to your own activity as a Learner (if you were enrolled on a course)​
 
 ![](/img/em-1-20-Managing.jpg)
