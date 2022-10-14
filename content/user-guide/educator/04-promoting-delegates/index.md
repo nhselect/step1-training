@@ -4,7 +4,7 @@ order: 4
 createdAt: 2022-09-08T14:41:30.359Z
 updatedAt: 2022-09-08T14:41:30.362Z
 ---
-1. Go to Supervisor dashboard (in ‘Supervise’ app) ​
+1. Go to **Supervisor Dashboard** (in ‘**Supervise**’ app) ​
 
 ![](/img/em-4-01-Promoting.jpg)
 
@@ -25,7 +25,6 @@ updatedAt: 2022-09-08T14:41:30.362Z
 > If you do not see this button this suggests they have already been promoted and their ‘DLS Role’ will say either Supervisor (i.e. Educator/Manager) or Nominated supervisor (i.e. Assessor)​
 
 5. Click: Tick to confirm you are sure​
-
 6. Select: Confirm​
 
 ![](/img/em-4-05-Promoting.jpg)
@@ -39,6 +38,5 @@ updatedAt: 2022-09-08T14:41:30.362Z
 8. To stop your My Staff List getting long, once promoted you may want to remove the Assessor from your list (you can re-add them again at any point)​
 
 ![](/img/em-4-07-Promoting.jpg)
-
 
 ​
