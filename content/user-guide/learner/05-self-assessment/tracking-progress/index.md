@@ -1,16 +1,17 @@
 ---
 title: Tracking progress​
-order: 3
-
-
+order: 4
 createdAt: 2022-09-01T10:16:38.669Z
 updatedAt: 2022-09-01T10:16:38.674Z
 ---
-1. Select Export to Excel for a downloadable summary of your proficiencies at any point​
-2. Each section shows the number of self-assessed and confirmed proficiencies as a fraction of the total number of proficiencies within the section ​
+The **Proficiencies home** page will show you your progress for self assessment and confirmation of proficiencies:
+
+* Overall (at top of page)
+* By section 
+* By individual proficiency
+
+
+
+Select **Export to Excel** for a downloadable summary of your proficiencies at any point​
 
 ![](/img/le-5-assessing-3.jpg)
-
-3. Your Overall Progress summary can be found at the top and the bottom of the proficiencies page (scroll down past all the blue sections)​
-
-![](/img/le-5-assessing-4.jpg)
