@@ -8,24 +8,24 @@ updatedAt: 2022-09-08T14:41:30.362Z
 
 ![](/img/em-4-01-Promoting.jpg)
 
-2. Select: View My Staff List​
+2. Select: **View My Staff List​**
 
 ![](/img/em-4-02-Promoting.jpg)
 
 3. Expand (+) the delegate that you would like to promote​
 
-> If you cannot see the delegate listed in your My Staff list [you will need to add them](/user-guide/educator/03-staff-list/adding-delegates-to-your-staff-list).​
+> If you cannot see the delegate listed in your My Staff List [you will need to add them](/user-guide/educator/03-staff-list/adding-delegates-to-your-staff-list).​
 
 ![](/img/em-4-03-Promoting.jpg)
 
-4. Select: Promote to Nominated supervisor​
+4. Select: **Promote to Nominated supervisor**​
 
 ![](/img/em-4-04-Promoting.jpg)
 
 > If you do not see this button this suggests they have already been promoted and their ‘DLS Role’ will say either Supervisor (i.e. Educator/Manager) or Nominated supervisor (i.e. Assessor)​
 
-5. Click: Tick to confirm you are sure​
-6. Select: Confirm​
+5. Click: **Tick to confirm** you are sure​
+6. Select: **Confirm​**
 
 ![](/img/em-4-05-Promoting.jpg)
 
