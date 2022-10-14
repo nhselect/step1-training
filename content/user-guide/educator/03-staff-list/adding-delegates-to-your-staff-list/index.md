@@ -11,7 +11,7 @@ updatedAt: 2022-09-08T13:28:31.763Z
 
 #### To add a delegate to your My Staff List​
 
-1. Go to **Supervisor dashboard** (in ‘**Supervise**’ app) 
+1. Go to **Supervisor Dashboard** (in ‘**Supervise**’ app) 
 
 ![](/img/em-3-01-Adding-delegates.jpg)
 
