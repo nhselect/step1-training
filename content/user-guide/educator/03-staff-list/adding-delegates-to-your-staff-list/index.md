@@ -1,5 +1,5 @@
 ---
-title: Adding delegates to your My Staff list
+title: Adding delegates to your staff list
 order: 1
 createdAt: 2022-09-08T13:28:31.759Z
 updatedAt: 2022-09-08T13:28:31.763Z
@@ -9,7 +9,7 @@ updatedAt: 2022-09-08T13:28:31.763Z
 > * Promotion of delegate to an Assessor​
 > * Enrolment of Learner onto the Step 1 proficiencies​
 
-#### To add a delegate to your My Staff list​
+#### To add a delegate to your My Staff List​
 
 1. Go to **Supervisor dashboard** (in ‘**Supervise**’ app) 
 
@@ -27,7 +27,7 @@ updatedAt: 2022-09-08T13:28:31.763Z
 >
 > If you do not have this functionality, this means you have been promoted to an Assessor rather than an Educator / Manager. Contact your Clinical Centre Manager to update your role.​
 
-4. In your My Staff list the status next to your Learner’s details should now say Confirmed​ 
+4. In your My Staff List the status next to your Learner’s details should now say Confirmed​ 
 
 ![](/img/em-3-04-Adding-delegates.jpg)
 
@@ -36,4 +36,4 @@ updatedAt: 2022-09-08T13:28:31.763Z
 > ﻿ ![](/img/em-3-05-Adding-delegates.jpg)
 > ﻿ ![](/img/em-3-06-Adding-delegates.jpg)
 >
-> If you would like to become an Educator / Manager for a Learner who already has an Educator / Manager, the Learner can add you (they can find out how in their User guide) and they will then automatically appear in your My Staff list
+> If you would like to become an Educator / Manager for a Learner who already has an Educator / Manager, the Learner can add you (they can find out how in their User guide) and they will then automatically appear in your My Staff List
