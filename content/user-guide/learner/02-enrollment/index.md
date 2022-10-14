@@ -10,6 +10,4 @@ Once you have been enrolled on the Step 1 proficiencies, **you will receive an e
 
 ![](/img/le-01-enrolling2.png)
 
-
-
-Select: the **Click here** link in it to go to
+Select: the **Click here** link in it to go to it
