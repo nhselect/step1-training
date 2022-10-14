@@ -6,10 +6,6 @@ updatedAt: 2022-09-01T10:08:40.010Z
 ---
 **​Type a keyword into the Search bar​** to find proficiencies that include that word
 
-
-
 > The search function can only find one keyword at a time and cannot search phrases​
 
 ![](/img/le-5-assessing-0.jpg)
-
->
