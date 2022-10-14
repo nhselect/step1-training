@@ -23,8 +23,6 @@ These proficiencies are to be achieved in centres that deliver RRT. **You should
 
 ![](/img/le-5-rrt-3.jpg)
 
->
-
 5. ​To remove these optional proficiencies, select: **Manage optional proficiencies​**
 
 ![](/img/le-5-rrt-1.jpg)
