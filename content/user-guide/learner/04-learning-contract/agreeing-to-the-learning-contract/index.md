@@ -1,12 +1,10 @@
 ---
 title: Agreeing to the Learning contract​
 order: 1
-
-
 createdAt: 2022-09-01T09:40:30.602Z
 updatedAt: 2022-09-01T09:40:30.607Z
 ---
-1. Expand Learning contract ​
+1. Expand **Learning contract ​**
 
 ![](/img/le-01-contract-1.png)
 
