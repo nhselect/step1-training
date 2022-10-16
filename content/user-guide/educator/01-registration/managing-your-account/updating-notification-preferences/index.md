@@ -18,18 +18,10 @@ updatedAt: 2022-09-08T13:25:20.523Z
 
 > A list of the Notification preferences you are Subscribed and Unsubscribed to is displayed. Subscribed notifications will be visible through the platform. ​
 
-#### To make changes​
+4. ​If you would like to make changes, Select **Update preferences​** 
 
 ![](/img/em-1-21-Managing.jpg)
 
-4. ​Select **Update preferences​**
-5. Select **Subscribe** or **Unsubscribe** as appropriate​
-6. Select **Save** to submit your changes​
+5. Select **Subscribe** or **Unsubscribe** as appropriate​, and select **Save**
 
 ![](/img/em-1-22-Managing.jpg)
-
-> A summary of your notification preferences appears on screen​
-
-7. Select **Go back** to return to **My account**
-
-![](/img/em-1-23-Managing.png)
