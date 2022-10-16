@@ -5,7 +5,7 @@ createdAt: 2022-09-01T07:10:51.981Z
 updatedAt: 2022-09-01T07:10:51.988Z
 ---
 1. Access the [DLS landing page (https://www.dls.nhs.uk/v2/Home/Welcome​)](https://www.dls.nhs.uk/v2/Home/Welcome​)
-2. Select **Log in​n**
+2. Select **Log in​**
 
 ![](/img/ad-1-08-Logging-in.jpg)
 
