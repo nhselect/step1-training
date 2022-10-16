@@ -1,8 +1,6 @@
 ---
 title: Logging out of your profile
 order: 7
-
-
 createdAt: 2022-09-08T13:26:57.123Z
 updatedAt: 2022-09-08T13:26:57.127Z
 ---
@@ -14,6 +12,4 @@ updatedAt: 2022-09-08T13:26:57.127Z
 
 ![](/img/em-1-25-Logging-out.jpg)
 
-3. Close your web browser when you are ready​
-
-![](/img/em-1-26-Logging-out.jpg)
+3. **Close your web browser** when you are ready​
