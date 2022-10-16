@@ -6,7 +6,7 @@ updatedAt: 2022-09-08T13:21:38.139Z
 ---
 If your profile has been registered by your Clinical Centre Manager or Administrator, you will either:​
 
-* Receive an email from **noreply@dls.nhs.uk** prompting you to set up a password
+* Receive an email from **noreply@dls.nhs.uk** prompting you to set up a password (Subject: Welcome to Digital Learning Solutions - Verify your Registration)
 
 ![](/img/em-1-07-Being-registered.jpg)
 
