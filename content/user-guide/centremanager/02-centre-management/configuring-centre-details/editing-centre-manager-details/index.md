@@ -6,7 +6,7 @@ updatedAt: 2022-09-01T15:20:52.870Z
 ---
 This is who Health Education England's Technology Enhanced Learning (TEL) Team’s contact is in your centre, if they need to get in touch​
 
-1. Expand: Centre manager details​
+1. Expand: **Centre manager details​**
 
 ![](/img/ad-2-06-Edit.jpg)
 
@@ -14,10 +14,10 @@ This is who Health Education England's Technology Enhanced Learning (TEL) Team�
 
 If there are no details:​
 
-2. Select: Edit ​
+2. Select: **Edit** ​
 
 ![](/img/ad-2-07-Edit.jpg)
 
-3. Edit your Centre manager details and select Save​
+3. **Edit** your Centre manager details and select **Save**​
 
 ![](/img/ad-2-08-Edit.jpg)
