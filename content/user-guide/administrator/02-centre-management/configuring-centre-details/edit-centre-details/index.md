@@ -4,7 +4,7 @@ order: 1
 createdAt: 2022-09-01T15:20:34.451Z
 updatedAt: 2022-09-01T15:20:34.455Z
 ---
-1. Expand: Centre details​
+1. Expand: **Centre details​**
 
 ![](/img/ad-2-03-Edit.jpg)
 
