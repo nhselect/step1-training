@@ -1,6 +1,6 @@
 ---
 title: Getting promoted to an Administrator role within the platform
-order: 3
+order: 1
 createdAt: 2022-09-01T07:15:55.024Z
 updatedAt: 2022-09-01T07:15:55.028Z
 ---
