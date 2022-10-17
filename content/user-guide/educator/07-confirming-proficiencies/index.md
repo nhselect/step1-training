@@ -8,7 +8,7 @@ updatedAt: 2022-09-08T14:41:30.362Z
 
    Select the **Click here** hyperlink​ in email
 
-![](/img/learning-contract_2.png)
+![](/img/confirming-proficiencies_1_o.png)
 
 **OR**
 
@@ -20,7 +20,7 @@ updatedAt: 2022-09-08T14:41:30.362Z
 
 * Those with the status Pending confirmation have been sent to another Educator/Manager or Assessor and you can't confirm these
 
-![](/img/confirming-proficiencies_1.png)
+![](/img/confirming-proficiencies_1_n.png)
 
 3. You can either: 
 
@@ -29,18 +29,28 @@ updatedAt: 2022-09-08T14:41:30.362Z
 
 #### C﻿onfirm proficiences individually
 
-* Select **Review**  next to the proficiency 
+* Select **Review** next to the proficiency 
 
 ![](/img/confirming-proficiencies_3.png)
 
-> * **Sfirming proficiencies individually gives you the additional ability to:​**
->
-> **Confirming proficiencies individually gives you the additional ability** to:
+* S﻿elect **Accept** or **Reject,** write an **Action plan** (if needed, especially if you selected Reject)and select **Submit**
+
+![](/img/confirming-proficiencies_4_n.png)
+
+#### C﻿onfirm multiple proficiencies at the same time
+
+* Select **Confirm multiple results** at the top of the page
+
+![](/img/confirming-proficiencies_6.png)
+
+* **T﻿ick the proficiencies to confirm** (or select **Select all proficiencies**) and select **Submit**
+
+![](/img/confirming-proficiencies_7_n.png)
 
 4﻿. Once confirmed, the confirmation status will update to **Confirmed** (on your and the Learner's Proficiencies home page) 
 
-The **Learner will also receive a confirmation email** from noreply@dls.nhs.uk​​ (Subject: XXX)
+The **Learner will also receive a confirmation email** from noreply@dls.nhs.uk​​ 
 
-![](/img/learning-contract_6.png)
+![](/img/confirming-proficiencies_8.png)
 
-\[ADD OUTSTANDING EMAIL IMAGE]
+![](/img/confirming-proficiencies_9.png)
