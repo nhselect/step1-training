@@ -4,7 +4,9 @@ order: 8
 createdAt: 2022-09-08T14:41:30.359Z
 updatedAt: 2022-09-08T14:41:30.362Z
 ---
-1. You will receive an **email from noreply@dls.nhs.uk** to review and sign-off the self-assessment. Click the “**Click here**” link​
+1. Once the Learner has sent the Sign-off request to you (they can only do this once all proficiencies have been self-assessed and confirmed), **you will receive an email from noreply@dls.nhs.uk** 
+
+   Select the **Click here** hyperlink​ in email
 
 ![](/img/em-8-01-Sign-0ff.jpg)
 
