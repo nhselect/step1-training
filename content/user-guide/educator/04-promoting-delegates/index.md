@@ -37,6 +37,4 @@ updatedAt: 2022-09-08T14:41:30.362Z
 
 8. To stop your My Staff List getting long, once promoted you may want to remove the Assessor from your list (you can re-add them again at any point)​
 
-![](/img/em-4-07-Promoting.jpg)
-
 ​
