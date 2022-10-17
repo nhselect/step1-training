@@ -22,8 +22,7 @@ updatedAt: 2022-09-08T13:42:57.078Z
 
 ![](/img/em-5-04-Enrolling.jpg)
 
-5. Select: **Step 1 proficiencies – National proficiencies Framework for Registered Nurses in Adult Critical care​**
-6. Select: **Next​**
+5. Select **Step 1 proficiencies – National proficiencies Framework for Registered Nurses in Adult Critical care​** and select **Next**
 
 ![](/img/em-5-05-Enrolling.jpg)
 
@@ -33,20 +32,16 @@ updatedAt: 2022-09-08T13:42:57.078Z
 
 ![](/img/em-5-06-Enrolling.jpg)
 
-8. Check the details are correct and select: **Confirm​**
+8﻿. Select **Educator / Manager** as your Supervisor role
+
+[﻿ADD IMAGE[
+
+9. Check the details are correct and select **Confirm​**
 
 ![](/img/em-5-07-Enrolling.jpg)
 
-9. The status will update to **Not started​**
+10. The status will update to **Not started​** and the **Learner will receive a notification email** from noreply@dls.nhs.uk (Subject: You have been enrolled on the profile assessment...**)** 
 
 ![](/img/em-5-08-Enrolling.jpg)
-
-> Once the learner starts their self-assessment, the status will change to Ongoing and once completed will change to Signed off ​
-
-10. Select **My Staff** in the blue ribbon or My Staff in the top breadcrumbs to return to your Staff list​
-
-![](/img/em-5-09-Enrolling.jpg)
-
-11. The **Learner will receive an email from noreply@dls.nhs.uk** stating that they have been enrolled on the ‘Step 1 proficiencies’ profile assessment. ​
 
 ![](/img/em-5-10-Enrolling.jpg)
