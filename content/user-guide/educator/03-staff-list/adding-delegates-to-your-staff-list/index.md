@@ -25,7 +25,7 @@ updatedAt: 2022-09-08T13:28:31.763Z
 >
 > If you do not have this functionality, this means you have been promoted to an Assessor rather than an Educator / Manager. Contact your Clinical Centre Manager to update your role.​
 
-4. In your My Staff List the status next to your Learner’s details should now say **Confirmed​** 
+4. The delegate should not appear in your My Staff List
 
 ![](/img/em-3-04-Adding-delegates.jpg)
 
