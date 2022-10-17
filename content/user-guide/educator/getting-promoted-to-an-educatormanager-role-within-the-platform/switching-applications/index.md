@@ -1,8 +1,6 @@
 ---
 title: Switching applications
-order: 5
-
-
+order: 2
 createdAt: 2022-09-08T13:22:50.137Z
 updatedAt: 2022-09-08T13:22:50.142Z
 ---
