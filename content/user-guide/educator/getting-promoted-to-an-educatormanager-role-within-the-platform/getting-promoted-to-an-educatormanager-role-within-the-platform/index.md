@@ -1,6 +1,6 @@
 ---
 title: Getting promoted to an Educator/Manager role within the platform
-order: 3
+order: 1
 createdAt: 2022-09-08T13:23:43.100Z
 updatedAt: 2022-09-08T13:23:43.109Z
 ---
