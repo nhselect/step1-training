@@ -20,4 +20,10 @@ updatedAt: 2022-09-08T13:32:15.407Z
 
 ![](/img/em-3-14-Removing.jpg)
 
-> The Learner will be removed from your Staff list. You and the Learner **will not** receive an email confirming the removal.​
+5﻿. **Tick to confirm you** would like to remove
+
+\[﻿ADD IMAGE]
+
+
+
+> The Learner will be removed from your Staff list. You and the Learner **will not** receive an email confirming the removal.​ You can re-add them at any point.
