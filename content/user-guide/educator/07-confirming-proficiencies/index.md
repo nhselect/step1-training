@@ -22,28 +22,20 @@ updatedAt: 2022-09-08T14:41:30.362Z
 
 ![](/img/confirming-proficiencies_1.png)
 
-You ​ can either:
+3. You can either: 
 
-* Confirm proficiencies individually or confirm multiple at the same time 
+* **Confirm proficiencies individually**  - this way gives you the additional ability to Reject and add an Action plan (not just Confirm)
+* **Confirm multiple proficiencies at the same time** - this is faster if you have a lot to confirm (but you can't Reject or add an Action plan)
 
+#### C﻿onfirm proficiences individually
 
+* Select **Review**  next to the proficiency 
 
+![](/img/confirming-proficiencies_3.png)
 
-
-* (select: **Confirm** next to each proficiency), 
-* (select: **Confirm multiple results**) for those that have a ‘Confirmation requested’ status
-
-![](/img/le-7-03-Confirming-proficiencies.jpg)
-
-> **Confirming multiple proficiencies is faster** if you are doing lots.
+> * **Sfirming proficiencies individually gives you the additional ability to:​**
 >
-> **Confirming proficiencies individually gives you the additional ability** to:​
->
-> * View guidance notes​
-> * **Reject** the self assessment (if you do not think the Learner has achieved that proficiency)
-> * Record an **action plan ​**
->
->  
+> **Confirming proficiencies individually gives you the additional ability** to:
 
 4﻿. Once confirmed, the confirmation status will update to **Confirmed** (on your and the Learner's Proficiencies home page) 
 
