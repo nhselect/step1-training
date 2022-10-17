@@ -12,17 +12,15 @@ Once you have been promoted to a Centre Manager, you will see the **Switch app
 
 ![](/img/ad-1-11-Switching.jpg)
 
-As a Clinical Centre Manager, you will need to use the **Tracking System** application to register, promote and manage delegates within your centre. 
+As a Clinical Centre Manager, you will need to use the **Tracking System** application to access the Centre Dashboard to register, promote and manage delegates within your centre. 
 
 2. Select **Tracking System** application.
 
-Y﻿ou will then be taken to the **Centre Dashboard**
+
 
 > O﻿ther applications:
 >
 > * **Learning Portal**: this is where Learners can access any clinical proficiency frameworks that they are enrolled on. If you are not a Learner, you will not see any clinical proficiency frameworks in the Learning Portal application. If you would like to see what the Digitised Step 1 proficiencies framework looks like, you can access [this demo](https://nhs-step1-proficiencies-demo.netlify.app/), which can also be found in your training package.
 > * **Legacy Tracking System**: Ignore this, you don’t need to access it. It will only be available for the pilot​
-
-
 
 ![](/img/cm-01-switching.png)
