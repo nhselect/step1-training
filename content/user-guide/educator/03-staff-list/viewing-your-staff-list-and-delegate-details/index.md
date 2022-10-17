@@ -18,6 +18,4 @@ updatedAt: 2022-09-08T13:31:04.932Z
 
 4. You view see the delegate's details, including their PRN (if the delegate provided it) and User ID
 
-![](/img/em-3-10-Viewing.jpg)
-
 > You will not be able to see Registration status (but your Clinical Centre Managers and Administrators will be able to) ​
