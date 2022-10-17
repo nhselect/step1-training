@@ -35,10 +35,16 @@ Y﻿ou may also be asked for:
 
 6. Review the Summary of your answers, tick **Agree** to the Terms and Conditions and select **Submit** 
 
+
+
 ![](/img/em-1-05-Self-register.jpg)
 
+7﻿. You will see that your delegate registration is complete. And a **confirmation email** at the email address you registered with once your registration has been approved
+
+>
+>
 > A yellow box will appear if your registration requires approval from your Clinical Centre Manager or Administrator before you can log in. If it does not appear you can log in straight away.
 >
-> 8. You will receive a **confirmation email** at the email address you registered with once your registration has been approved
+>
 
 ![](/img/em-1-06-Self-register.jpg)
