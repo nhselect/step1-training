@@ -11,13 +11,11 @@ updatedAt: 2022-09-08T14:41:30.362Z
 ![](/img/em-8-01-Sign-0ff.jpg)
 
 2. **​OR** Navigate to the **Supervisor Dashboard** (via the 'Supervise' app) in the platform and select the Learner’s request in Your to do list
-3. Review and select: **Sign-off self assessment**​
+3. Review and select **Sign-off self assessment**​
 
 ![](/img/em-8-02-Sign-0ff.jpg)
 
-4. Add any comments​
-5. Select: **Sign-off ​profile self-assessment​**
-6. Select: **Submit​**
+4. Add any comments​, select **Sign-off ​profile self-assessment​** and select **Submit​**
 
 ![](/img/em-8-03-Sign-0ff.jpg)
 
