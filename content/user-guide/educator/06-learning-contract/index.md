@@ -4,17 +4,17 @@ order: 6
 createdAt: 2022-09-08T14:41:30.359Z
 updatedAt: 2022-09-08T14:41:30.362Z
 ---
-Similar to the paper version, Learners are expected to first complete their Learning Contract before starting self-assessment of the Step 1 proficiencies. This should happen via a discussion with the three stakeholders mentioned:​
+Similar to the paper version, **Learners are expected to first complete their Learning Contract before starting self-assessment of the Step 1 proficiencies**. This should happen via a discussion with the three stakeholders mentioned:​
 
 * Learner​
 * Lead assessor​
 * Critical care lead nurse/manager ​
 
-​The Learner will need to select ‘Agree’ on behalf of all three stakeholders in their Learning portal (by selecting Review) following their conversation.​
+​The **Learner will need to select ‘Agree’ on behalf of all three stakeholders in their Learning portal** (by selecting Review) following their conversation.​
 
-Confirmation is then required from either the Assessor, Educator / Manager or Clinical Centre Manager.​
+**Confirmation is then required** from either the Assessor, Educator / Manager or Clinical Centre Manager.​
 
-![](/img/em-6-01-Learning-contract.jpg)
+![](/img/learning-contract_1.png)
 
 The individual who provides confirmation in the platform depends on the proficiency and the Trust:​
 
@@ -28,36 +28,36 @@ Note: *The Clinical Centre Manager will need a dual-role in the platform (as als
 
 #### Confirming agreement to Learning contract
 
-1. Once the Learner has selected ‘Agree’ in their Learning portal and sent to you for confirmation, you will receive an email from noreply@dls.nhs.uk requesting you agree to the Learner contract​
+1. Once the Learner has selected ‘Agree’ in their Learning portal and sent to you for confirmation, **you will receive an email from noreply@dls.nhs.uk** (Subject: Self Assessment results review request...) requesting you agree to the Learner contract​ 
 
-Select the Click here hyperlink​
+   Select the **Click here** hyperlink​ in email
 
-![](/img/em-6-02-Confirming.jpg)
+![](/img/learning-contract_2.png)
 
 **OR**
 
-2. Navigate to the Supervisor Dashboard via the Supervise app in the platform and select the Learner’s request in Your to do list
+1. Go to the **Supervisor Dashboard** (via the **Supervise** application) in the platform and select the Learner’s request in **Your to do list** 
 
-![](/img/em-6-03-Confirming.jpg)
+![](/img/learning-contract_3.png)
 
-You will automatically be taken to the Learner’s profile (in the Supervise view)​
 
-> If the confirmation status says ‘Confirmation requested’ this means the proficiency has been sent to you for confirmation. If the status says ‘Pending confirmation’, it has been sent to another supervisor (and you will not be able to confirm that proficiency).​
 
-![](/img/em-6-04-Confirming.jpg)
 
-For proficiencies with ‘Confirmation requested’ status: ​
 
-1. Select: Confirm ​
-2. Select: Confirm self-assessment response​
-3. Select: Submit​
+2. Select **Review** for the proficiency with the **Confirmation requested** status:​
 
-![](/img/em-6-05-Confirming.jpg)
+![](/img/learning-contract_4.png)
 
-​Once you have confirmed your agreement to the Learning contract proficiency, the Learner will receive a confirmation email from noreply@dls.nhs.uk​​
+> If the confirmation status is **Pending confirmation**, this means it has been sent to another Educator/Manager or Assessor for confirmation, and you will be unable to confirm it.
 
-![](/img/em-6-06-Confirming.jpg)
+3﻿. Select **Agree**, type the **First name and Last name** of who you are confirming it for (yourself or whoever is performing that Lead Assessor role) and select **Save and continue**
 
-The Confirmation status column will also update to Confirmed​
+![](/img/learning-contract_5.png)
 
-![](/img/em-6-07-Confirming.jpg)
+4﻿. Once confirmed, the confirmation status will update to **Confirmed** (on your and the Learner's Proficiencies home page) 
+
+The **Learner will also receive a confirmation email** from noreply@dls.nhs.uk​​ (Subject: XXX)
+
+![](/img/learning-contract_6.png)
+
+\[ADD OUTSTANDING EMAIL IMAGE]
