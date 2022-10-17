@@ -10,20 +10,24 @@ updatedAt: 2022-09-08T14:41:30.362Z
 
 ![](/img/em-8-01-Sign-0ff.jpg)
 
-2. **​OR** Navigate to the **Supervisor Dashboard** (via the 'Supervise' app) in the platform and select the Learner’s request in Your to do list
-3. Review and select **Sign-off self assessment**​
+
+
+**OR**
+
+1. Go to the **Supervisor Dashboard** (via the **Supervise** application) in the platform and select the Learner’s request in **Your to do list** 
+2. Review and select **Sign-off self assessment**​
 
 ![](/img/em-8-02-Sign-0ff.jpg)
 
-4. Add any comments​, select **Sign-off ​profile self-assessment​** and select **Submit​**
+3. Add any comments​, select **Sign-off ​profile self-assessment​** and select **Submit​**
 
 ![](/img/em-8-03-Sign-0ff.jpg)
 
-7. The **Learner will receive an email from noreply@dls.nhs.uk** to confirm sign-off​
+4. The **Learner will receive an email from noreply@dls.nhs.uk** to confirm sign-off​
 
 ![](/img/em-8-04-Sign-0ff.jpg)
 
-8. ​The **sign-off status will also be updated**, at the bottom of their proficiencies summary page​
+5. The **Sign-off Status will update**, at the bottom of their proficiencies summary page​
 
 ![](/img/em-8-05-Sign-0ff.jpg)
 
