@@ -40,11 +40,7 @@ Note: *The Clinical Centre Manager will need a dual-role in the platform (as als
 
 ![](/img/learning-contract_3.png)
 
-
-
-
-
-2. Select **Review** for the proficiency with the **Confirmation requested** status:​
+2. Select **Review** for the proficiency with the **Confirmation requested** status
 
 ![](/img/learning-contract_4.png)
 
