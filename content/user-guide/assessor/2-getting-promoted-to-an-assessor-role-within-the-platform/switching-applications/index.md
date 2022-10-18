@@ -11,7 +11,7 @@ updatedAt: 2022-09-01T13:23:43.109Z
 This will take you to the Switch application tab in the blue ribbon, where there are two applications (apps) you can choose from.​
 
 * **Learning Portal**: If you are enrolled as a Learner on a course (i.e. another list of proficiencies), you will see this and can access them here​
-* **Supervise**: If you are an Educator / Manager or Assessor for any Learners, access to view their progress here​
+* **Supervise**: If you are an Educator/Manager or Assessor for any Learners, access to view their progress here​
 
 ![](/img/promotion-to-em_2_n.png)
 

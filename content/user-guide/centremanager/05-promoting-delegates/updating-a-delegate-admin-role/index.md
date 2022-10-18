@@ -29,7 +29,7 @@ For example, promoting to additional roles or de-promoting.
 
 ![](/img/cm-5-11-Updating.jpg)
 
-6. Select or deselect: **Centre administrator**, **Supervisor (Educator / Manager)** and/or **Nominated Supervisor (Assessor)**
+6. Select or deselect: **Centre administrator**, **Supervisor (Educator/Manager)** and/or **Nominated Supervisor (Assessor)**
 
 Make sure **No CMS permissions** are selected, and you do not need to add a Learning Category (this is a functionality being added for future)​
 

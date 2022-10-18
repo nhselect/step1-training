@@ -23,7 +23,7 @@ updatedAt: 2022-09-08T13:28:31.763Z
 
 > The email address of the delegate must match the address they registered with.​
 >
-> If you do not have this functionality, this means you have been promoted to an Assessor rather than an Educator / Manager. Contact your Clinical Centre Manager to update your role.​
+> If you do not have this functionality, this means you have been promoted to an Assessor rather than an Educator/Manager. Contact your Clinical Centre Manager to update your role.​
 
 4. The delegate should not appear in your My Staff List
 
@@ -34,4 +34,4 @@ updatedAt: 2022-09-08T13:28:31.763Z
 > ﻿ ![](/img/em-3-05-Adding-delegates.jpg)
 > ﻿ ![](/img/em-3-06-Adding-delegates.jpg)
 >
-> If you would like to become an Educator / Manager for a Learner who already has an Educator / Manager, the Learner can add you (they can find out how in their User guide) and they will then automatically appear in your My Staff List
+> If you would like to become an Educator/Manager for a Learner who already has an Educator/Manager, the Learner can add you (they can find out how in their User guide) and they will then automatically appear in your My Staff List

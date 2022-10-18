@@ -12,6 +12,6 @@ There are 4 ways that delegates can be registered on the platform, and your Trus
 
 **Bulk registration** – Clinical Centre Manager or Administrator can register multiple delegates in the platform using an excel upload (no confirmation is then required)​
 
-**"Add a member of staff" (For Learners only)** – Educator / Managers can trigger an email invite  to Learners in the platform to self-register (via “Add a member of staff” action) when they go to enroll them on the Step 1 proficiencies (no confirmation is then required) – Not recommended​
+**"Add a member of staff" (For Learners only)** – Educator/Managers can trigger an email invite  to Learners in the platform to self-register (via “Add a member of staff” action) when they go to enroll them on the Step 1 proficiencies (no confirmation is then required) – Not recommended​
 
 In this section, we will show you how to perform the first 3 options. ​

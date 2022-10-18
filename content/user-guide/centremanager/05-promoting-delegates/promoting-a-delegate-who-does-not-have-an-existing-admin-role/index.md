@@ -32,11 +32,11 @@ updatedAt: 2022-09-01T08:39:31.993Z
 
 ![](/img/cm-5-05-Promoting.jpg)
 
-> Clinical Centre Manager, Educator / Manager, Administrators and Assessors are all ‘admin’ roles in the platform, not just Administrators​
+> Clinical Centre Manager, Educator/Manager, Administrators and Assessors are all ‘admin’ roles in the platform, not just Administrators​
 
 To promote to an admin role​
 
-1. Select: **Centre administrator**, **Supervisor (Educator / Manager)** and/or **Nominated Supervisor** **(Assessor)​**
+1. Select: **Centre administrator**, **Supervisor (Educator/Manager)** and/or **Nominated Supervisor** **(Assessor)​**
 
 ![](/img/cm-5-06-Promoting.jpg)
 

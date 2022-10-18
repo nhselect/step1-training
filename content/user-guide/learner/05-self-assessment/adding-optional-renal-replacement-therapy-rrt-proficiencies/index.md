@@ -6,7 +6,7 @@ updatedAt: 2022-09-01T10:20:14.881Z
 ---
 There are **Optional proficiencies** in '1.4.3 Renal Replacement - Renal Replacement Therapy (RRT)' you can add. ​
 
-These proficiencies are to be achieved in centres that deliver RRT. **You should discuss with your Educator / Manager whether you need to add these.​**
+These proficiencies are to be achieved in centres that deliver RRT. **You should discuss with your Educator/Manager whether you need to add these.​**
 
 1. Select **Manage optional proficiencies​**
 

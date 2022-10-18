@@ -18,18 +18,18 @@ Make sure you are on your Step 1 proficiencies **Introduction page** (Select the
 
 2. **Select the supervisor** that you would like to add from the list provided​ and select **Next**
 
-> If you cannot find your Educator / Manager or Assessor in the list, they will need to be given supervisor access by your Clinical Centre Manager.​
+> If you cannot find your Educator/Manager or Assessor in the list, they will need to be given supervisor access by your Clinical Centre Manager.​
 
 3. Select whether the person will act as an **Educator/Manager** or **Assessor** for your Step 1 proficiencies​ (read the descriptions provided on the platform page to decide which to select) and select **Next**
 
-> If the selected person has been promoted to the Assessor role only, do not select Educator / Manager​
+> If the selected person has been promoted to the Assessor role only, do not select Educator/Manager​
 
 ![](/img/l_self-assess-proficiencies_manage-supervisors_3.png)
 
 6. Review and select **Submit​**
 7. Your Supervisor will be added to your **Supervisor list​**
 
-* **Your Supervisor will receive an email notifying them** that you have added them as an Educator / Manager or Assessor​
+* **Your Supervisor will receive an email notifying them** that you have added them as an Educator/Manager or Assessor​
 
 ![](/img/l_self-assess-proficiencies_manage-supervisors_5.png)
 

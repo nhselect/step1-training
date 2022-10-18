@@ -20,9 +20,9 @@ This will update your sign-off status to **Requested** at the bottom of the prof
 
 ![](/img/le-7-3.jpg)
 
-> If you need to prompt Educator / Manager to sign off, select: **Resend** and an email reminder will be sent to your Educator / Manger requesting sign-off​
+> If you need to prompt Educator/Manager to sign off, select: **Resend** and an email reminder will be sent to your Educator / Manger requesting sign-off​
 
-5. Once your Educator / Manager has conducted final sign-off, **you will receive a confirmation email from noreply@dls.nhs.uk​**
+5. Once your Educator/Manager has conducted final sign-off, **you will receive a confirmation email from noreply@dls.nhs.uk​**
 
 ![](/img/le-7-4.jpg)
 
