@@ -1,8 +1,6 @@
 ---
 title: Updating notification preferences
 order: 3
-
-
 createdAt: 2022-09-01T08:14:54.460Z
 updatedAt: 2022-09-01T08:14:54.464Z
 ---
@@ -16,7 +14,7 @@ You can update your notification preferences for you as a:​
 
 ![](/img/ad-1-19-Managing.jpg)
 
-> A list of the Notification preferences you are Subscribed and Unsubscribed to is displayed. Subscribed notifications will be visible through the platform. ​
+> A list of the Notification preferences you are **Subscribed** and **Unsubscribed** to is displayed. Subscribed notifications will be visible through the platform. ​
 
 #### To make changes​
 
