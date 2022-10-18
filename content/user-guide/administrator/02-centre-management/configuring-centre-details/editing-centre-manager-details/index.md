@@ -8,7 +8,7 @@ This is who Health Education England's Technology Enhanced Learning (TEL) Team�
 
 1. Expand **Centre manager details​**
 
-> If there are already details, do not edit​​
+> If there are already details, **do not edit​​**
 
 ![](/img/ad-2-06-Edit.jpg)
 
@@ -18,6 +18,6 @@ If there are no details:​
 
 ![](/img/ad-2-07-Edit.jpg)
 
-2. Edit your Centre manager details and select **Save​**
+2. **Edit** your Centre manager details and select **Save​**
 
 ![](/img/ad-2-08-Edit.jpg)
