@@ -4,15 +4,15 @@ order: 1
 createdAt: 2022-09-01T15:20:34.451Z
 updatedAt: 2022-09-01T15:20:34.455Z
 ---
-1. Expand: **Centre details​**
+1. Expand **Centre details​**
 
-![](/img/ad-2-03-Edit.jpg)
+![](/img/ccm-ca_centre-configuration_centre-details.png)
 
 ### To set up for the first time or edit your Centre details
 
-2. Select: **Edit** ​
+2. Select **Edit** ​
 
-![](/img/ad-2-04-Edit.jpg)
+![](/img/ccm-ca_centre-configuration_centre-details_edit.png)
 
 There are 4 things you can edit under **Centre details**:​
 
@@ -33,3 +33,5 @@ There are 4 things you can edit under **Centre details**:​
 #### Centre signature and Centre logo​
 
 * You do not need to add / edit these for now​
+
+![](/img/ccm-ca_centre-configuration_centre-details_edit-centre-details.png)
