@@ -16,9 +16,9 @@ As a Clinical Centre Manager, you will need to use the **Tracking System** appli
 
 2. Select **Tracking System** application.
 
+![](/img/cm-01-switching.png)
+
 > O﻿ther applications:
 >
 > * **Learning Portal**: this is where Learners can access any clinical proficiency frameworks that they are enrolled on. If you are not a Learner, you will not see any clinical proficiency frameworks in the Learning Portal application. If you would like to see what the Digitised Step 1 proficiencies framework looks like, you can access [this demo](https://nhs-step1-proficiencies-demo.netlify.app/), which can also be found in your training package.
 > * **Legacy Tracking System**: Ignore this, you don’t need to access it. It will only be available for the pilot​
-
-![](/img/cm-01-switching.png)
