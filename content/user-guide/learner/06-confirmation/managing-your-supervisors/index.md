@@ -4,50 +4,43 @@ order: 3
 createdAt: 2022-09-01T11:14:15.994Z
 updatedAt: 2022-09-01T11:14:15.998Z
 ---
-
-
-ake sure you are on your Step 1 proficiencies Introduction page (Click on the correct breadcrumb at the top)​
+Make sure you are on your Step 1 proficiencies **Introduction page** (Select the correct breadcrumb at the top)​
 
 1. Select **Manage supervisors​**
 
-![](/img/le-5-confirm-12.jpg)
+![](/img/l_self-assess-proficiencies_manage-supervisors_1.png)
 
 #### Adding a supervisor​
 
-1. Select: **Add new supervisor​**
+1. Select **Add new supervisor​**
 
-![](/img/le-5-confirm-13.jpg)
+![](/img/l_self-assess-proficiencies_manage-supervisors_2.png)
 
-2. **Select the supervisor** that you would like to add from the list provided​
+2. **Select the supervisor** that you would like to add from the list provided​ and select **Next**
 
 > If you cannot find your Educator / Manager or Assessor in the list, they will need to be given supervisor access by your Clinical Centre Manager.​
 
-3. Select: **Next​**
-
-![](/img/le-5-confirm-14.jpg)
-
-4. Select whether the person will act as an **Educator / Manager** or **Assessor** for your Step 1 proficiencies​ (read the descriptions provided on the platform page to decide which to select)
+3. Select whether the person will act as an **Educator/Manager** or **Assessor** for your Step 1 proficiencies​ (read the descriptions provided on the platform page to decide which to select) and select **Next**
 
 > If the selected person has been promoted to the Assessor role only, do not select Educator / Manager​
 
-5. Select: **Next​**
-
-![](/img/le-5-confirm-15.jpg)
+![](/img/l_self-assess-proficiencies_manage-supervisors_3.png)
 
 6. Review and select **Submit​**
+7. Your Supervisor will be added to your **Supervisor list​**
 
-![](/img/le-5-confirm-16.jpg)
+* **Your Supervisor will receive an email notifying them** that you have added them as an Educator / Manager or Assessor​
 
-7. **Your Supervisor will receive an email notifying them** that you have added them as an Educator / Manager or Assessor​
+![](/img/l_self-assess-proficiencies_manage-supervisors_5.png)
 
-![](/img/le-5-confirm-17.jpg)
-
-8. Your Supervisor will be added to your **Supervisor list​**
+![](/img/l_self-assess-proficiencies_manage-supervisors_4.png)
 
 #### Removing a supervisor
 
-1. ​Select: **remove​**
+1. ​Select **remove​**
 
 > Your supervisor will not receive a notification informing them of this change​
+>
+> Y﻿ou will not be able to remove the Supervisor that originally enrolled you on the Step 1 proficiencies (they will need to do this).
 
-![](/img/le-5-confirm-18.jpg)
+![](/img/l_self-assess-proficiencies_manage-supervisors_6.png)
