@@ -1,8 +1,6 @@
 ---
 title: Bulk registration
 order: 3
-
-
 createdAt: 2022-09-01T10:23:23.209Z
 updatedAt: 2022-09-01T10:23:23.215Z
 ---
@@ -19,11 +17,9 @@ updatedAt: 2022-09-01T10:23:23.215Z
 
 > You should always download a new excel (via ‘Download delegates’) to update and re-upload, versus using an offline copy you have saved previously​
 
-
-
 ![](/img/ad-4-16-Bulk-reg.jpg)
 
-5. Select the Excel download to open the spreadsheet ​
+5. Select the Excel download to **open the spreadsheet ​**
 6. Select **Enable Editing​**
 
 ![](/img/ad-4-17-Bulk-reg.jpg)
@@ -46,7 +42,7 @@ Within the spreadsheet you can:​
 
 ![](/img/ad-4-19-Bulk-reg.jpg)
 
-8. The following fields are mandatory and must be completed:​
+8. The following fields are **mandatory** and must be completed:​
 
    * **LastName​**
    * **FirstName​**
@@ -57,7 +53,7 @@ Within the spreadsheet you can:​
    * **E-mail address** - ensure that a unique work e-mail address is provided for each delegate (e.g. @nhs.net or nhs.uk)​
    * **Has PRN (professional registration number)** - must contain either TRUE or FALSE. If set to TRUE a PRN will be required in the next field​
    * **PRN** - add a PRN if previous prompt is set to TRUE, can be left blank if previous field set to FALSE​
-9. Optional fields:​
+9. **Optional** fields:​
 
    * **AliasID** – Leave blank – this is no longer an active field.​
    * **Answer 1-6** – if your centre has set up additional registration question prompts the answers can be recorded here​
@@ -67,11 +63,11 @@ Within the spreadsheet you can:​
 
 > ​Do not edit the title of the columns or add / remove existing rows in the spreadsheet.
 
-10. Add all the new delegates then Save (locally) and close the spreadsheet​
+10. Add all the new delegates then **Save (locally)** and close the spreadsheet​
 
 > Do not edit the name of the spreadsheet when you save it​
 
-11. Return to your browser (the ‘Bulk upload/update delegates screen)​
+11. **Return to your browser** (the ‘Bulk upload/update delegates screen)​
 12. Select **Start upload​**
 
 ![](/img/ad-4-20-Bulk-reg.jpg)
@@ -100,7 +96,7 @@ A summary of results is displayed on screen once the bulk upload is complete ​
 
 ![](/img/ad-4-20-Bulk-reg.jpg)
 
-16. You will be returned to Delegates where you can view the new delegate registrations  ​
+16. You will be returned to **Delegates** where you can view the new delegate registrations  ​
 
 ![](/img/ad-4-23-Bulk-reg.jpg)
 
