@@ -14,16 +14,24 @@ We are in the process of developing the functionality to move a delegate’s org
 ![](/img/registering-delegates-1.png)
 
 3. Search **For the delegate​**
+
+   ![](/img/cm-ca_delegate-filters.png)
 4. Select **Expand** to view the delegate registration card
+
+   ![](/img/cm-ca_expand-delegate-registration-card.png)
+
+
 5. Select **Manage delegate**
+
+   ![](/img/cm-ca_delegate-registration-card_without-admin-permissions_manage-delegate-button.png)
 
 Select **Deactivate account​**
 
-![](/img/cm-6-14-Deactivating.jpg)
+![](/img/cm-ca_deactivate-button.png)
 
 7. The delegate card is now tagged as **Inactive**​
 
-![](/img/cm-6-15-Deactivating.jpg)
+![](/img/cm-ca_reactivate-account.png)
 
 To reactivate the account:​
 
