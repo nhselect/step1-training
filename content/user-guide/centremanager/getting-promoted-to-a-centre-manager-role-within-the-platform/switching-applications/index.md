@@ -1,5 +1,5 @@
 ---
-title: Switching to the Tracking System application
+title: Switching to the **Tracking System** application
 order: 2
 createdAt: 2022-09-01T08:09:57.469Z
 updatedAt: 2022-09-01T08:09:57.473Z
@@ -10,13 +10,13 @@ Once you have been promoted to a Centre Manager, you will see the **Switch app
 
 1. Select **Switch application** 
 
-![](/img/ad-1-11-Switching.jpg)
+![](/img/promotion-to-em_1_n.png)
 
 As a Clinical Centre Manager, you will need to use the **Tracking System** application to access the **Centre Dashboard** where you can register, promote and manage delegates within your centre. 
 
 2. Select **Tracking System** application.
 
-![](/img/cm-01-switching.png)
+![](/img/cm_app_1.png)
 
 > O﻿ther applications:
 >
