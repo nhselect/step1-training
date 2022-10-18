@@ -3,6 +3,7 @@ title: Viewing Learner profiles
 order: 2
 createdAt: 2022-09-01T14:39:34.314Z
 updatedAt: 2022-09-01T14:39:34.317Z
+tags: f
 ---
 **Before a Learner can ask you to confirm any of their proficiencies, they need to add you as a Supervisor (for both Educator / Managers or Assessors)**. Once they add you, the Learner will appear in your My Staff List:​
 
