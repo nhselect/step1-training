@@ -10,8 +10,6 @@ The **Proficiencies home** page will show you your progress for self assessment 
 * By section 
 * By individual proficiency
 
-
-
 Select **Export to Excel** for a downloadable summary of your proficiencies at any point​
 
-![](/img/le-5-assessing-3.jpg)
+![](/img/l_self-assess-proficiencies_0_2.png)
