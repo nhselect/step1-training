@@ -46,11 +46,11 @@ Note: *The Clinical Centre Manager will need a dual-role in the platform (as als
 
 > If the confirmation status is **Pending confirmation**, this means it has been sent to another Educator/Manager or Assessor for confirmation, and you will be unable to confirm it.
 
-3﻿. Select **Agree**, type the **First name and Last name** of who you are confirming it for (yourself or whoever is performing that Lead Assessor role) and select **Save and continue**
+3. Select **Agree**, type the **First name and Last name** of who you are confirming it for (yourself or whoever is performing that Lead Assessor role) and select **Save and continue**
 
 ![](/img/learning-contract_5.png)
 
-4﻿. Once confirmed, the confirmation status will update to **Confirmed** (on your and the Learner's Proficiencies home page) 
+4. Once confirmed, the confirmation status will update to **Confirmed** (on your and the Learner's Proficiencies home page) 
 
 The **Learner will also receive a confirmation email** from noreply@dls.nhs.uk
 

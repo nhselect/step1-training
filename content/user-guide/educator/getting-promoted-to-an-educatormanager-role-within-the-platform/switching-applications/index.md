@@ -10,7 +10,7 @@ updatedAt: 2022-09-08T13:22:50.142Z
 
 As an Educator/Manager you will need to use the **Supervise** application where you can enroll and manage Learners on the Step 1 proficiencies, and promote delegates to Assessor
 
-2﻿. Select **Supervise** application
+2. Select **Supervise** application
 
 * **Learning Portal**: this is where Learners can access any clinical proficiency frameworks that they are enrolled on. If you are not a Learner, you will not see any clinical proficiency frameworks in the Learning Portal application. If you would like to see what the Digitised Step 1 proficiencies framework looks like, you can access [this demo](https://nhs-step1-proficiencies-demo.netlify.app/), which can also be found in your training package.
 

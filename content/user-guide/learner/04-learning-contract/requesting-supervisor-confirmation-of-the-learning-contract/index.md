@@ -17,7 +17,7 @@ Once you have agreed to the three learning contract proficiencies by self assess
 
 3. **Select which Supervisor** (from your Manage supervisor list) you would like to confirm the proficiency and select **Next​** 
 
-   * I﻿f you cannot see the Supervisor you want, you can add them here (ADD LINK)
+   * If you cannot see the Supervisor you want, you can add them here (ADD LINK)
 
 ![](/img/l_learning-contract_7_n.png)
 
@@ -33,7 +33,7 @@ Once you have agreed to the three learning contract proficiencies by self assess
 
 ![](/img/l_learning-contract_10.png)
 
-7﻿.  If you want to check the details of your confirmation request, you can go back into **Proficiencies confirmation** (at top of page), where you can see:
+7.  If you want to check the details of your confirmation request, you can go back into **Proficiencies confirmation** (at top of page), where you can see:
 
 * **Educator/Manager or Assessor** sent to
 * **Date** you sent it

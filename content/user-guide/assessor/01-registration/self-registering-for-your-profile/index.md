@@ -19,7 +19,7 @@ updatedAt: 2022-09-01T06:48:31.401Z
 
 > For Step 1, Job Group will likely be **Nursing / Midwifery**
 
-Y﻿ou may also be asked for:
+You may also be asked for:
 
 * Programme of study / course
 * Department / team
@@ -35,7 +35,7 @@ Y﻿ou may also be asked for:
 
 6. Review the Summary of your answers, tick **Agree** to the Terms and Conditions and select **Submit** 
 
-7﻿. You will see that your delegate registration is complete. And a **confirmation email** at the email address you registered with once your registration has been approved
+7. You will see that your delegate registration is complete. And a **confirmation email** at the email address you registered with once your registration has been approved
 
 > A yellow box will appear if your registration requires approval from your Clinical Centre Manager or Administrator before you can log in. If it does not appear you can log in straight away.
 

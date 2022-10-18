@@ -41,6 +41,6 @@ Make sure you are on your Step 1 proficiencies **Introduction page** (Select the
 
 > Your supervisor will not receive a notification informing them of this change​
 >
-> Y﻿ou will not be able to remove the Supervisor that originally enrolled you on the Step 1 proficiencies (they will need to do this).
+> You will not be able to remove the Supervisor that originally enrolled you on the Step 1 proficiencies (they will need to do this).
 
 ![](/img/l_self-assess-proficiencies_manage-supervisors_6.png)

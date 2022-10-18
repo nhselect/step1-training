@@ -8,7 +8,7 @@ updatedAt: 2022-09-08T14:41:30.362Z
 
    Select the **Click here** hyperlink​ in email
 
-\[﻿ADD IMAGE OF EMAIL]
+\[ADD IMAGE OF EMAIL]
 
 **OR**
 
@@ -26,7 +26,7 @@ updatedAt: 2022-09-08T14:41:30.362Z
 
 4. The **Learner will receive an email from noreply@dls.nhs.uk** to confirm sign-off​
 
-A﻿DD IMAGE
+ADD IMAGE
 
 5. The **Sign-off Status will update**, at the bottom of their proficiencies summary page​
 

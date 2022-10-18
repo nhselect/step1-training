@@ -11,7 +11,7 @@ updatedAt: 2022-09-01T07:12:11.072Z
 
 ![](/img/notifications_1.png)
 
-3. I﻿f you have already been promoted into an admin role in the platform, you will be asked to select which account notifications you would like to update: 
+3. If you have already been promoted into an admin role in the platform, you will be asked to select which account notifications you would like to update: 
 
 * **Admin** – relates to activity associated with your Educator/Manager role
 * **Delegate** – relates to your own activity as a Learner (if you were enrolled on a course)​

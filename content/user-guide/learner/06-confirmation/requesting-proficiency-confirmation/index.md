@@ -26,7 +26,7 @@ updatedAt: 2022-09-01T11:11:27.346Z
 
 4. ​**Select the proficiencies** you would like to send to that Supervisor and select **Next**  
 
-* Y﻿ou can send multiple proficiencies at once to the same Supervisor
+* You can send multiple proficiencies at once to the same Supervisor
 
 ![](/img/l_self-assess-proficiencies_6.png)
 

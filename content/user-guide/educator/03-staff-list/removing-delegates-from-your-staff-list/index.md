@@ -20,9 +20,9 @@ updatedAt: 2022-09-08T13:32:15.407Z
 
 ![](/img/em-3-14-Removing.jpg)
 
-5﻿. **Tick to confirm you** would like to remove
+5. **Tick to confirm you** would like to remove
 
-\[﻿ADD IMAGE]
+\[ADD IMAGE]
 
 
 

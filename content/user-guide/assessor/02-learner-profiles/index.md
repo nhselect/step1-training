@@ -19,7 +19,7 @@ tags: ""
 ![](/img/a_viewing-staff_1.png)
 
 4. Select **View self assessment** if you would like to see the Learner's Step 1 proficiencies home page, which shows progress
-5. S﻿elect **View**
+5. Select **View**
 
 ![](/img/a_viewing-staff_3.png)
 

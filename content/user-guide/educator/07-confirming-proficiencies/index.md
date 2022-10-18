@@ -27,27 +27,27 @@ updatedAt: 2022-09-08T14:41:30.362Z
 * **Confirm proficiencies individually**  - this way gives you the additional ability to Reject and add an Action plan (not just Confirm)
 * **Confirm multiple proficiencies at the same time** - this is faster if you have a lot to confirm (but you can't Reject or add an Action plan)
 
-#### C﻿onfirm proficiences individually
+#### Confirm proficiences individually
 
 * Select **Review** next to the proficiency 
 
 ![](/img/confirming-proficiencies_3.png)
 
-* S﻿elect **Accept** or **Reject,** write an **Action plan** (if needed, especially if you selected Reject)and select **Submit**
+* Select **Accept** or **Reject,** write an **Action plan** (if needed, especially if you selected Reject)and select **Submit**
 
 ![](/img/confirming-proficiencies_4_n.png)
 
-#### C﻿onfirm multiple proficiencies at the same time
+#### Confirm multiple proficiencies at the same time
 
 * Select **Confirm multiple results** at the top of the page
 
 ![](/img/confirming-proficiencies_6.png)
 
-* **T﻿ick the proficiencies to confirm** (or select **Select all proficiencies**) and select **Submit**
+* **Tick the proficiencies to confirm** (or select **Select all proficiencies**) and select **Submit**
 
 ![](/img/confirming-proficiencies_7_n.png)
 
-4﻿. Once confirmed, the confirmation status will update to **Confirmed** (on your and the Learner's Proficiencies home page) 
+4. Once confirmed, the confirmation status will update to **Confirmed** (on your and the Learner's Proficiencies home page) 
 
 The **Learner will also receive a confirmation email** from noreply@dls.nhs.uk​​ 
 
