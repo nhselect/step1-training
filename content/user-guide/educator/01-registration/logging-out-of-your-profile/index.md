@@ -1,6 +1,6 @@
 ---
 title: Logging out of your profile
-order: 7
+order: 5
 createdAt: 2022-09-08T13:26:57.123Z
 updatedAt: 2022-09-08T13:26:57.127Z
 ---
