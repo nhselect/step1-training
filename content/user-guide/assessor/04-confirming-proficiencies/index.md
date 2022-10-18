@@ -4,35 +4,53 @@ order: 4
 createdAt: 2022-09-01T14:41:30.359Z
 updatedAt: 2022-09-01T14:41:30.362Z
 ---
-1. You will r**eceive an email from noreply@dls.nhs.uk** requesting you confirm the Learners self-assessment results​​
-2. Select the **Click here** hyperlink​
+1. Once the Learner self-assessed a proficiency as 'Achieved' in their Learning portal and sent to you for confirmation, **you will receive an email from noreply@dls.nhs.uk** (Subject: Self Assessment results review request...) requesting you to confirm
 
-![](/img/as-4-01-Confirming-proficiencies.jpg)
+   Select the **Click here** hyperlink​ in email
 
-**​OR** ​
+![](/img/confirming-proficiencies_1_o.png)
 
-3. Navigate to the **Supervisor Dashboard** (via the '**Supervise**' app) in the platform and select the Learner’s request in Your to do list​
+**OR**
 
-![](/img/as-4-02-Confirming-proficiencies.jpg)
+1. Go to the **Supervisor Dashboard** (via the **Supervise** application) in the platform and select the Learner’s request in **Your to do list** 
 
-> If the confirmation status says ‘**Confirmation requested**’ this means the proficiency has been sent to you for confirmation. If the status says ‘**Pending confirmation**’, it has been sent to another supervisor (and you will not be able to confirm that proficiency).​
+![](/img/learning-contract_3.png)
 
-4. You either have the option to confirm proficiencies individually (select: **Confirm** next to each proficiency), or confirm multiple at the same time (select: **Confirm multiple results**) for those that have a ‘Confirmation requested’ status​
+2. Find the proficiencies with the Confirmation status **Confirmation requested**, as these are the ones that have been sent to you
 
-![](/img/as-4-03-Confirming-proficiencies.jpg)
+* Those with the status Pending confirmation have been sent to another Educator/Manager or Assessor and you can't confirm these
 
-> Confirming proficiencies individually gives you the additional ability to:​
->
-> * View guidance notes​
-> * Select Not achieved​
-> * Record an action plan ​
+![](/img/confirming-proficiencies_1_n.png)
 
-#### C﻿onfirm multiple proficiencies
+3. You can either: 
 
-![](/img/as-4-04-Confirming-proficiencies.jpg)
+* **Confirm proficiencies individually**  - this way gives you the additional ability to Reject and add an Action plan (not just Confirm)
+* **Confirm multiple proficiencies at the same time** - this is faster if you have a lot to confirm (but you can't Reject or add an Action plan)
 
-### Confirm individual proficiencies
+#### C﻿onfirm proficiences individually
 
-![](/img/as-4-05-Confirming-proficiencies.jpg)
+* Select **Review** next to the proficiency 
 
-Once you have verified proficiencies, the **Learner will automatically receive an email from Noreply@dls.nhs.uk** updating them on this​
+![](/img/confirming-proficiencies_3.png)
+
+* S﻿elect **Accept** or **Reject,** write an **Action plan** (if needed, especially if you selected Reject)and select **Submit**
+
+![](/img/confirming-proficiencies_4_n.png)
+
+#### C﻿onfirm multiple proficiencies at the same time
+
+* Select **Confirm multiple results** at the top of the page
+
+![](/img/confirming-proficiencies_6.png)
+
+* **T﻿ick the proficiencies to confirm** (or select **Select all proficiencies**) and select **Submit**
+
+![](/img/confirming-proficiencies_7_n.png)
+
+4﻿. Once confirmed, the confirmation status will update to **Confirmed** (on your and the Learner's Proficiencies home page) 
+
+The **Learner will also receive a confirmation email** from noreply@dls.nhs.uk​​ 
+
+![](/img/confirming-proficiencies_8.png)
+
+![](/img/confirming-proficiencies_9.png)

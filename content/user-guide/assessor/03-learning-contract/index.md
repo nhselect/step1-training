@@ -4,65 +4,56 @@ order: 3
 createdAt: 2022-09-01T14:40:21.985Z
 updatedAt: 2022-09-01T14:40:21.989Z
 ---
-Similar to the paper version, Learners are expected to first complete their Learning Contract before starting self-assessment of the Step 1 proficiencies. This should happen via a discussion with the three stakeholders mentioned:​
+Similar to the paper version, **Learners are expected to first complete their Learning Contract before starting self-assessment of the Step 1 proficiencies**. This should happen via a discussion with the three stakeholders mentioned:​
 
 * Learner​
 * Lead assessor​
 * Critical care lead nurse/manager ​
 
-​The Learner will need to select ‘Agree’ on behalf of all three stakeholders in their Learning portal (by selecting Review) following their conversation.​
+​The **Learner will need to select ‘Agree’ on behalf of all three stakeholders in their Learning portal** (by selecting Review) following their conversation.​
 
-![](/img/as-3-01-Completing.jpg)
+**Confirmation is then required** from either the Assessor, Educator/Manager or Clinical Centre Manager.​
 
-Confirmation is then required from either the Assessor, Educator / Manager or Clinical Centre Manager.​
+![](/img/learning-contract_1.png)
 
 The individual who provides confirmation in the platform depends on the proficiency and the Trust:​
 
-| ​Learning contract proficiency​     | Confirmation required​                                                                    |
-| ----------------------------------- | ----------------------------------------------------------------------------------------- |
-| ​Learner responsibilities​          | Assessor. In some Trusts, this may be your Educator / Manager or Clinical Centre Manager​ |
-| Lead assessor responsibilities​     | Educator / Manager. In some Trusts, this may be your Assessor.​                           |
-| Critical care lead nurse / manager​ | Clinical Centre Manager*. In some Trusts, this may be your Educator / Manager.​           |
+| ​Learning contract proficiency​     | Confirmation required​                                                                  |
+| ----------------------------------- | --------------------------------------------------------------------------------------- |
+| ​Learner responsibilities​          | Assessor. In some Trusts, this may be your Educator/Manager or Clinical Centre Manager​ |
+| Lead assessor responsibilities​     | Educator/Manager. In some Trusts, this may be your Assessor.​                           |
+| Critical care lead nurse / manager​ | Clinical Centre Manager*. In some Trusts, this may be your Educator/Manager.​           |
 
-Note: *The Clinical Centre Manager will need a dual-role in the platform (as also an Educator / Manager or Assessor) in order to be able to confirm in the platform. Otherwise someone else with either of these roles could confirm on their behalf.​
+Note: *The Clinical Centre Manager will need a dual-role in the platform (as also an Educator/Manager or Assessor) in order to be able to confirm in the platform. Otherwise someone else with either of these roles could confirm on their behalf.​
 
 #### Confirming agreement to Learning contract
 
-1. Once the Learner has selected ‘Agree’ in their Learning portal and sent to you for confirmation, you will receive an email from noreply@dls.nhs.uk requesting you agree to the Learner contract​
+1. Once the Learner has selected ‘Agree’ in their Learning portal and sent to you for confirmation, **you will receive an email from noreply@dls.nhs.uk** (Subject: Self Assessment results review request...) requesting you agree to the Learner contract​ 
 
-Select the Click here hyperlink​
+   Select the **Click here** hyperlink​ in email
 
-![](/img/as-3-02-Confirming.jpg)
+![](/img/learning-contract_2.png)
 
 **OR**
 
-2. Navigate to the Supervisor Dashboard via the Supervise app in the platform and select the Learner’s request in Your to do list
+1. Go to the **Supervisor Dashboard** (via the **Supervise** application) in the platform and select the Learner’s request in **Your to do list** 
 
-![](/img/as-3-03-Confirming.jpg)
+![](/img/learning-contract_3.png)
 
-You will automatically be taken to the Learner’s profile (in the Supervise view)​
+2. Select **Review** for the proficiency with the **Confirmation requested** status
 
-> If the confirmation status says ‘Confirmation requested’ this means the proficiency has been sent to you for confirmation. If the status says ‘Pending confirmation’, it has been sent to another supervisor (and you will not be able to confirm that proficiency).​
+![](/img/learning-contract_4.png)
 
-For proficiencies with ‘Confirmation requested’ status: ​
+> If the confirmation status is **Pending confirmation**, this means it has been sent to another Educator/Manager or Assessor for confirmation, and you will be unable to confirm it.
 
-1. Select: Confirm ​
+3﻿. Select **Agree**, type the **First name and Last name** of who you are confirming it for (yourself or whoever is performing that Lead Assessor role) and select **Save and continue**
 
-![](/img/as-3-04-confirming.jpg)
+![](/img/learning-contract_5.png)
 
-1. Select: Confirm self-assessment response​
-2. Select: Submit​
+4﻿. Once confirmed, the confirmation status will update to **Confirmed** (on your and the Learner's Proficiencies home page) 
 
-![](/img/as-3-05-confirming.jpg)
+The **Learner will also receive a confirmation email** from noreply@dls.nhs.uk​​ (Subject: XXX)
 
-​Once you have confirmed your agreement to the Learning contract proficiency, the Learner will receive a confirmation email from noreply@dls.nhs.uk​​
+![](/img/learning-contract_6.png)
 
-![](/img/as-3-06-Confirming.jpg)
-
-
-
-The Confirmation status column will also update to Confirmed​
-
-
-
-![](/img/as-3-07-Confirming.jpg)
+\[ADD OUTSTANDING EMAIL IMAGE]
