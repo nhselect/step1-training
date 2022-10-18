@@ -13,22 +13,22 @@ If you require technical support, we recommend:​
 
 > Only Clinical Centre Managers and Administrators have this functionality in the platform. These roles will need to raise tickets on b​ehalf of their delegates.
 
-1. Go to **Tracking System** app​lication (in **Switch application**)
-
+1. Go to **Centre Dashboard** (in **Tracking System** application)
 2. Select **Support tickets​**  
 
+   ![](/img/cm-ca_centre-dashboard_support-tickets.png)
 3. Select **New Support Request​**
 
-![](/img/cm-7-04-Technical.jpg)
+![](/img/ccm-ca_new-support-request.png)
 
 4. Complete the subject field to let HEE TEL know what your issue or enquiry is about​
 5. Select **Request type** from the dropdown ​
 
-![](/img/cm-7-05-Technical.jpg)
+![](/img/ccm-ca_support-ticket-request.png)
 
 6. Select **Yes**, if prompted, for information about device and browser, if this will help HEE TEL with their investigation
 
-![](/img/cm-7-06-Technical.jpg)
+![](/img/ccm-ca_support-ticket-request_pop-up.png)
 
 7. Complete **Course field** (write ‘Step 1 proficiencies’) ​
 8. Complete **Test delegate ID**  ***(optional)*** if this is appropriate for the support team to investigate your query​
@@ -38,6 +38,6 @@ If you require technical support, we recommend:​
 
 10. Select **Submit** ​
 
-![](/img/cm-7-07-Technical.jpg)
+![](/img/ccm-ca_support-ticket-request_submit.png)
 
 > ​HEE TEL will respond to your query within 2 working days​
