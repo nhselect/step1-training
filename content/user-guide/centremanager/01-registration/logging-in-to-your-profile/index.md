@@ -1,8 +1,6 @@
 ---
 title: Logging in to your profile
-order: 4
-
-
+order: 2
 createdAt: 2022-09-01T08:09:21.328Z
 updatedAt: 2022-09-01T08:09:21.338Z
 ---
