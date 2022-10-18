@@ -8,7 +8,7 @@ updatedAt: 2022-09-01T08:39:31.993Z
 1. Go to **Centre dashboard** (in **Tracking System** application) 
 2. Select **Delegates**​
 
-![](/img/cm-5-01-Promoting.jpg)
+![](/img/registering-delegates-1.png)
 
 3. Search **For the delegate record** that you want to promote
 
