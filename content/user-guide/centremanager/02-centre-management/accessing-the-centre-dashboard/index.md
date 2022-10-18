@@ -23,7 +23,8 @@ There are 4 things you should access:
 * **Support tickets** - raising a support ticket with HEE TEL for technical queries
 
 > Ignore:
->* **Courses** - This functionality is not relevant for the Step 1 proficiencies. Do not worry that Step 1 is not listed 
->* **Reports** - this functionality is still in development
+>
+> * **Courses** - This functionality is not relevant for the Step 1 proficiencies. Do not worry that Step 1 is not listed 
+> * **Reports** - this functionality is still in development
 
-![](/img/ad-2-01-Dashboard.jpg)
+![](/img/ccm-ca_centredashboard.png)
