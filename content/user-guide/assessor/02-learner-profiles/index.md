@@ -14,10 +14,13 @@ tags: ""
 
 3. Expand (+) the Learner that you would like to see the details of​ 
 
+   > For Learner's PRN contact your Clinical Centre Manager​, Administrator or an Educator/Manager. For Learner's registration status contact your Clinical Centre Manager​ or Administrator
+
 ![](/img/a_viewing-staff_1.png)
 
-4. You view see the Learner’s details​
+4. Select **View self assessment** if you would like to see the Learner's Step 1 proficiencies home page, which shows progress
+5. S﻿elect **View**
 
-> For Learner's PRN contact your Clinical Centre Manager​, Administrator or an Educator/Manager. For Learner's registration status contact your Clinical Centre Manager​ or Administrator
+   ![](/img/a_viewing-staff_3.png)
 
-![](/img/a_viewing-staff_2.png)
+>
