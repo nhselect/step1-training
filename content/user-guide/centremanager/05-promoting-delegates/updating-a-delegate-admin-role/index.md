@@ -9,7 +9,7 @@ For example, promoting to additional admin roles or de-promoting.
 1. Go to **Centre dashboard** (in **Tracking System** application) 
 2. Select: **Administrators** or **Admins**​
 
-![](/img/cm-5-08-Updating.jpg)
+![](/img/ccm-ca_centre-dashboard_admins.png)
 
 3. Search **For the delegate** that you want to promote​
 
