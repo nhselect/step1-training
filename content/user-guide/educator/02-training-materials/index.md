@@ -13,7 +13,6 @@ There is a bespoke training package for each role (all accessible via the same l
 | Implementation toolkit (PDF)​                                       | ✔​  | ​    | ​      | ​    | ​   | ​   |
 | Digitised Step 1 proficiencies content (Excel)​                     | ✔​  | ​    | ​      | ​    | ​   | ​   |
 | User guide (Webpage)​                                               | ​   | ✔*​  | ✔*​    | ✔*​  | ✔*​ | ✔*​ |
-| ‘How to’ user video (Video)​                                        |     | ✔*​  | ✔*​    | ✔*​  | ✔*​ | ✔*​ |
 | Platform roles & responsibilities overview (PDF)​                   | ✔​  | ✔​   | ✔​     | ✔​   | ✔​  | ✔​  |
 | Setup & Utilisation process maps (PDF)​                             | ✔​  | ✔​   | ✔​     | ✔​   | ✔​  | ✔​  |
 | Feedback required for measurement (PDF)​                            | ✔​  | ✔​   | ✔​     | ✔​   | ✔​  | ✔​  |
