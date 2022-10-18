@@ -7,29 +7,27 @@ updatedAt: 2022-09-01T08:36:22.732Z
 1. Go to **Centre dashboard** (in **Tracking System** application) ​
 2. Select: **Delegates**​
 
-![](/img/cm-4-14-Bulk.jpg)
+![](/img/registering-delegates-1.png)
 
 3. Select: **Upload**​
 
-![](/img/cm-4-15-Bulk.jpg)
+![](/img/registering-delegates-12.png)
 
 4. Select: **Download delegates​**
 
-![](/img/cm-4-16-Bulk.jpg)
+![](/img/registering-delegates-13.png)
 
 > You should always download a new excel (via ‘Download delegates’) to update and re-upload, versus using an offline copy you have saved previously​
 
 5. Select: the **Excel download** to **open the spreadsheet ​**
 
-![](/img/cm-4-17-Bulk.jpg)
-
 6. Select: **Enable Editing​**
 
-![](/img/cm-4-18-Bulk.jpg)
+![](/img/registering-delegates-14.png)
 
 7. Select: **Delegates Bulk Upload** **tab**​
 
-![](/img/cm-4-19-Bulk.jpg)
+![](/img/registering-delegates-15.png)
 
 Within the spreadsheet you can:​
 
@@ -71,7 +69,7 @@ Within the spreadsheet you can:​
 11. **Return to your browser** (the ‘Bulk upload/update delegates screen’)​
 12. Select: **Start upload ​**
 
-![](/img/cm-4-20-Bulk.jpg)
+![](/img/registering-delegates-16.png)
 
 > A summary of new and updated delegate records will be provided. If there are any duplicates (i.e. same delegate on two rows) or errors in the excel this will be flagged. If this happens, re-download the excel again and fix.​
 
@@ -79,7 +77,7 @@ The email will include a link inviting your delegates to set a password for thei
 
 13. Select: **Send welcome email to registered delegates** (optional)​
 
-![](/img/cm-4-21-Bulk.jpg)
+![](/img/registering-delegates-17.png)
 
 > The welcome email includes a link for the delegate to set up a password.​
 >
@@ -95,10 +93,8 @@ A summary of results is displayed on screen once the bulk upload is complete ​
 
 16. Select: **Manage all delegates​**
 
-![](/img/cm-4-22-Bulk.jpg)
+![](/img/registering-delegates-18.png)
 
 17. You will be returned to **Delegates** where you can view the new delegate registrations  ​
-
-![](/img/cm-4-23-Bulk.jpg)
 
 > You will not have to ‘approve’ new delegates registered via bulk upload​

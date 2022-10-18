@@ -9,11 +9,11 @@ updatedAt: 2022-09-01T08:29:13.981Z
 1. Go to **Centre dashboard** (in **Tracking System** application) 
 2. Select **Delegates​**
 
-![](/img/cm-4-01-Self-reg.jpg)
+![](/img/registering-delegates-1.png)
 
 3. Select **Register**​
 
-![](/img/cm-4-08-Individual.jpg)
+![](/img/registering-delegates-6.png)
 
 4. Complete the fields with the new delegates details​
 
@@ -21,7 +21,7 @@ updatedAt: 2022-09-01T08:29:13.981Z
 
 5. Select **Next**​
 
-![](/img/cm-4-09-Individual.jpg)
+![](/img/registering-delegates-7.png)
 
 6. Select a **Job group** for the new delegate from the drop-down list (for Step 1, this will be **Nursing / Midwifery**)​
 
@@ -33,7 +33,7 @@ updatedAt: 2022-09-01T08:29:13.981Z
 
 7. Select **Next**​
 
-![](/img/cm-4-10-Individual.jpg)
+![](/img/registering-delegates-8.png)
 
 #### Sending a welcome email
 
@@ -47,15 +47,15 @@ Or
 
 9. Do not select send welcome email to registered delegate & select **Next**
 
-![](/img/cm-4-11-Individual.jpg)
+![](/img/registering-delegates-9.png)
 
 10. Set a password on behalf of the delegate
 11. **Summary** of the registered delegate details will display on screen​
 12. Select **Change** if you need to edit any of the summary details ​
 13. Select **Save** ​
 
-![](/img/cm-4-12-Individual.jpg)
+![](/img/registering-delegates-10.png)
 
-14. Select **Manage all delegates** to return to **Delegates** ​
+14. Select **Manage all delegates** to return to **Delegates** 
 
-![](/img/cm-4-13-Individual.jpg)
+![](/img/registering-delegates-11.png)
