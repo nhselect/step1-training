@@ -8,8 +8,8 @@ If your profile has been registered by your Clinical Centre Manager or Administr
 
 * Receive an email from **noreply@dls.nhs.uk** prompting you to set up a password
 
-![](/img/le-1-07-Being-registered.jpg)
+![](/img/all_being-registered.png)
 
 **or**
 
-* Your Clinical Centre Manager will set up and share your password with you
+* Your Clinical Centre Manager or Administrator will set up and share your password with you
