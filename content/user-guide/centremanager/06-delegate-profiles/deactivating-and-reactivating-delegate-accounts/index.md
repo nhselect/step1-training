@@ -28,4 +28,4 @@ To reactivate the account:​
 
 8. Select **Reactivate account​**
 
-> If you can find your inactive delegate when searching, make sure you’re not filtering for ‘**Active**’ delegates only (Click red ‘**Clear filters**’ button)  ​
+> If you can't find your inactive delegate when searching, make sure you’re not filtering for **Active** delegates only (Click red **Clear filters** button)  ​
