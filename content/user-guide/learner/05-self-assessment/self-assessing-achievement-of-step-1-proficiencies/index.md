@@ -20,7 +20,7 @@ You can expand (+) and collapse (-) each section to see more or less
 
 4. Select **Achieved** or **Ongoing assessment**, and **select Save and continue**​
 
-   * You can add notes to the **Action Plan** box for any proficiencies (especially if you have selected ‘Ongoing assessment)​
+   * You can add notes to the **Action Plan** box for any proficiencies (especially if you have selected ‘Ongoing assessment’)​
 
 ![](/img/l_self-assess-proficiencies_2.png)
 

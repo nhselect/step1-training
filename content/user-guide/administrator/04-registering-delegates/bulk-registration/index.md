@@ -67,7 +67,7 @@ Within the spreadsheet you can:​
 
 > Do not edit the name of the spreadsheet when you save it​
 
-11. **Return to your browser** (the ‘Bulk upload/update delegates screen)​
+11. **Return to your browser** (the ‘Bulk upload/update delegates screen’)​
 12. Select **Start upload​**
 
 ![](/img/ad-4-20-Bulk-reg.jpg)
