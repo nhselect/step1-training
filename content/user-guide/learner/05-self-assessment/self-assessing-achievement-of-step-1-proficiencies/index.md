@@ -4,40 +4,42 @@ order: 4
 createdAt: 2022-09-01T10:17:24.685Z
 updatedAt: 2022-09-01T10:17:24.695Z
 ---
-You can expand (+) and collapse (-) each section to see more or less ​
-
-![](/img/le-5-assessing-5.jpg)
+You can expand (+) and collapse (-) each section to see more or less
 
 1. **Expand the section** you would like to start self-assessing​ proficiencies in
 
-![](/img/le-5-assessing-6.jpg)
+![](/img/l_self-assess-proficiencies_0_3.png)
 
-2. Select ▶︎ next to each proficiency to read its full description​
-3. Select: **Review** to start your self-assessment​
+2. Select ▶︎ next to each proficiency to read its full description​ (and select again to close)
 
-![](/img/le-5-assessing-7.jpg)
+![](/img/l_self-assess-proficiencies_0_4.png)
 
-4. Select: **Achieved** or **Ongoing assessment**​
+3. Select **Review** to start your self-assessment​
+
+![](/img/l_self-assess-proficiencies_1.png)
+
+4. Select **Achieved** or **Ongoing assessment**, and **select Save and continue**​
 
    * You can add notes to the **Action Plan** box for any proficiencies (especially if you have selected ‘Ongoing assessment)​
-5. Select: **Save and continue**
 
-![](/img/le-5-assessing-8.jpg)
+![](/img/l_self-assess-proficiencies_2.png)
 
 This will take you to the next proficiency to self-assess​
 
-6. You can navigate through the proficiency self-assessment by selecting **Previous proficiency** or **Skip** at the bottom of the page​
+5. At the bottom of each page you can navigate through the proficiencies using **Previous proficiency** or **Skip question** 
 
-![](/img/le-5-assessing-9.jpg)
+![](/img/l_self-assess-proficiencies_11.png)
 
-7. To end your self-assessment:​
+6. To end your self-assessment:​
 
-* Select: **Return to Proficiencies home** at the bottom of the page ​
+* Select **Return to Proficiencies home** at the bottom of the page
 
 Or ​
 
-* Select: **Proficiencies home** in the top breadcrumbs​
+* Select **Proficiencies home** in the breadcrumbs​ at the top of the page
 
-8. ​The self-assessment status will update to **Achieved** or **Ongoing assessment**​
+![](/img/l_self-assess-proficiencies_12.png)
 
-![](/img/le-5-assessing-10.jpg)
+7. ​The self-assessment status will update to **Achieved** or **Ongoing assessment**​
+
+![](/img/l_self-assess-proficiencies_3.png)
