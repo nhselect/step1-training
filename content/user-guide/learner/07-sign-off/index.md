@@ -20,7 +20,7 @@ This will update your sign-off status to **Requested** at the bottom of the prof
 
 > If you need to prompt Educator/Manager to sign off, select **Resend** and an email reminder will be sent to your Educator / Manger requesting sign-off​
 
-5. Once your Educator / Manager has conducted final sign-off:
+5. Once your Educator/Manager has conducted final sign-off:
 
 * The **sign-off status will be updated**, at the bottom of your Proficiencies home page
 * You will receive a **confirmation email from noreply@dls.nhs.uk​**
