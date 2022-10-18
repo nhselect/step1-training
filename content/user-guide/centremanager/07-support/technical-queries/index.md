@@ -9,11 +9,9 @@ If you require technical support, we recommend:​
 * 1st - Checking this user guide and other materials in your [training package](https://nhs-step1-training.netlify.app/)
 * 2nd - Raising a **Support Ticket** with the HEE TEL team within the platform
 
-
-
 #### Raising a **Support Ticket**
 
-> Only Clinical Centre Managers and Administrators have this functionality in the platform ​
+> Only Clinical Centre Managers and Administrators have this functionality in the platform. These roles will need to raise tickets on b​ehalf of their delegates.
 
 1. Go to **Tracking System** app​lication (in **Switch application**)
 
