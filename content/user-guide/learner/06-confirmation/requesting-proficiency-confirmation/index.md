@@ -18,27 +18,31 @@ updatedAt: 2022-09-01T11:11:27.346Z
 
 3. **Select which Supervisor** you would like to confirm your proficiencies and select **Next​**
 
-![](/img/le-5-confirm-3.jpg)
+![](/img/l_learning-contract_7_n.png)
 
-> If the Supervisor you want is not in the list, follow the **Click here to manage supervisors** button​
+> If the Supervisor you want is not in the list, select **Click here to manage supervisors**
 
-Once you have self-assessed as ‘Achieved’ on some proficiencies, you can send them to your Supervisor (Educator / Manager or Assessor) for confirmation​
+Once you have self-assessed as ‘Achieved’ on some proficiencies, you can send them to your Supervisor (Educator/Manager or Assessor) for confirmation​
 
 4. ​**Select the proficiencies** you would like to send to that Supervisor and select **Next**  
 
 * Y﻿ou can send multiple proficiencies at once to the same Supervisor
 
-![](/img/le-5-confirm-4.jpg)
+![](/img/l_self-assess-proficiencies_6.png)
 
-5. Review and select: **Submit​**
+5. Review and select **Submit​**
 
-![](/img/le-5-confirm-5.jpg)
+![](/img/l_self-assess-proficiencies_7.png)
 
-6. **An automatic email will be sent to your Supervisor** to notify them​
+6. The **Confirmation status** will update to **Awaiting confirmation ​on your** Proficiencies home page
+
+   * **An automatic email will also be sent to your Supervisor** to notify them​
+7.
+8.
 
 ![](/img/le-5-confirm-6.jpg)
 
-7. The **Confirmation status** will update to **Awaiting confirmation ​on your** Proficiencies home page
+7.
 
 ![](/img/le-5-confirm-7.jpg)
 
