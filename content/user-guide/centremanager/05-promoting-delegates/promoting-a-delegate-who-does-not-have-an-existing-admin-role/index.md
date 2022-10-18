@@ -12,7 +12,9 @@ updatedAt: 2022-09-01T08:39:31.993Z
 
 3. Search **For the delegate record** that you want to promote
 
-![](/img/cm-5-02-Promoting.jpg)​
+![](/img/cm-ca_delegate-filters.png)
+
+​
 
 > The **All delegates** list is filtered by default to show only active delegates.  ​
 >
@@ -22,15 +24,15 @@ updatedAt: 2022-09-01T08:39:31.993Z
 
 4. Select **Expand** to view the delegate registration card
 
-![](/img/cm-5-03-Promoting.jpg)
+![](/img/cm-ca_expand-delegate-registration-card.png)
 
 5. ​Select **Manage** **delegate**​
 
-![]()
+![](/img/cm-ca_delegate-registration-card_without-admin-permissions_manage-delegate-button.png)
 
 6. Select **Promote to admin​**
 
-![](/img/cm-5-05-Promoting.jpg)
+![](/img/cm-ca_delegate-registration-card_manage_promote-to-admin.png)
 
 > Clinical Centre Manager, Educator/Manager, Administrators and Assessors are all ‘admin’ roles in the platform, not just Administrators​
 
@@ -38,7 +40,7 @@ To promote to an admin role​
 
 1. Select **Centre administrator**, **Supervisor (Educator/Manager)** and/or **Nominated Supervisor** **(Assessor)​**
 
-![](/img/cm-5-06-Promoting.jpg)
+![](/img/cm-ca_selecting-admin-roles-within-platform.png)
 
 ​Make sure **No CMS permissions** is selected, and you do not need to add a Learning Category (this is a functionality being added for future)​
 
@@ -46,7 +48,7 @@ To promote to an admin role​
 
 The delegate's registration card is now tagged with **Admin** permissions ​
 
-![](/img/cm-5-07-Promoting.jpg)
+![](/img/cm-ca_delegate-registration-card_with-admin-permissions_tag.png)
 
 > ​Your delegate will not receive an automatic email notification informing them of the promotion so you may wish to inform them of this. ​
 >
