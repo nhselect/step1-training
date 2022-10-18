@@ -5,11 +5,11 @@ createdAt: 2022-09-01T08:29:13.976Z
 updatedAt: 2022-09-01T08:29:13.981Z
 ---
 1. Go to **Centre dashboard** (in **Tracking System** app) 
-2. Select: **Delegates​**
+2. Select **Delegates​**
 
 ![](/img/cm-4-01-Self-reg.jpg)
 
-3. Select: **Register**​
+3. Select **Register**​
 
 ![](/img/cm-4-08-Individual.jpg)
 
@@ -17,7 +17,7 @@ updatedAt: 2022-09-01T08:29:13.981Z
 
 > The Alias field can either be left blank or contain a unique value (it can be used in place of the Delegate ID to login to the system so must be unique to the delegate)​
 
-5. Select: **Next**​
+5. Select **Next**​
 
 ![](/img/cm-4-09-Individual.jpg)
 
