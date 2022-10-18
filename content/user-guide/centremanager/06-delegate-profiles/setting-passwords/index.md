@@ -13,6 +13,8 @@ From time to time you may need to set a delegate's password, should they, for ex
 
 3. Search **For the delegate​**
 4. Select **Expand** to view the delegate registration card
+
+
 5. Select **Set password ​**
 
 ![](/img/cm-6-10-Passwords.jpg)
