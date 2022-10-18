@@ -8,7 +8,7 @@ updatedAt: 2022-09-08T14:41:30.362Z
 
    Select the **Click here** hyperlink​ in email
 
-\[ADD IMAGE OF EMAIL]
+![](/img/sign-off_1.png)
 
 **OR**
 
@@ -24,11 +24,9 @@ updatedAt: 2022-09-08T14:41:30.362Z
 
 ![](/img/sign-off_4_n.png)
 
-4. The **Learner will receive an email from noreply@dls.nhs.uk** to confirm sign-off​
+4. The **Sign-off Status will update**, at the bottom of their proficiencies summary page​
 
-ADD IMAGE
-
-5. The **Sign-off Status will update**, at the bottom of their proficiencies summary page​
+* The **Learner will receive an email from noreply@dls.nhs.uk** to confirm sign-off​
 
 ![](/img/sign-off_6.png)
 
