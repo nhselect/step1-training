@@ -10,11 +10,6 @@
   export default {
     async asyncData({ $content, params, error }) {
       const roles = await $content('roles')
-        .where({
-          slug: {
-            $ne: 'implementationlead'
-          }
-        })
         .fetch()
         .catch((err) => {
           error({ statusCode: 404, message: 'Roles not recognised' })
