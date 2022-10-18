@@ -6,9 +6,7 @@ updatedAt: 2022-09-01T15:21:22.137Z
 ---
 When a Learner registers or is registered by the centre for a profile, the system prompts for some basic information: **first name, last name, email address** and **job group**. ​
 
-We recommend centres also add the following additional mandatory question prompts/answers, as you will be able to filter delegates by these (to make it easier to navigate) and once reporting is developed, filter your reporting.
-
-We recommend adding the below **3 pre-existing prompts** in the platform, with the below answer options:​
+To make it easier to filter through the Trust's delegate list and, in future, reporting data, we recommend centres add the following **3 mandatory pre-existing prompts /answers** to the registration process:
 
 #### Prompt 1: Programme of study / course ​
 
@@ -17,7 +15,7 @@ We recommend adding the below **3 pre-existing prompts** in the platform, with t
 * IV passport ​
 * Other
 
-> If delegates might be enrolled on more than one programme / course, add this as an additional option answer (e.g. Critical care Step 1 proficiencies & IV passport)
+> If it is possible that delegates may be enrolled on more than one digital proficiency framework, add the combination as an additional option answer (e.g. Critical care Step 1 proficiencies & IV passport)
 
 #### Prompt 2: Organisation / company​
 
@@ -28,7 +26,7 @@ We recommend adding the below **3 pre-existing prompts** in the platform, with t
 * *Include all the CC units participating in pilot in your centre/Trust as options*
 * Other
 
-> Given these prompts will appear when any delegate registers for your centre (i.e. potentially not only staff using the Step 1 proficiencies), you need to make sure there is an answer that makes sense for staff both completing and not completing the Step 1 proficiencies to select (hence the inclusion of ‘Other’ as an answer option for Prompts 1 and 3.​
+
 
 1. Select: **Manage registration prompts​**
 
