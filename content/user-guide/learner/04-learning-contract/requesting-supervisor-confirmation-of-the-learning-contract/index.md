@@ -6,7 +6,7 @@ updatedAt: 2022-09-01T09:59:33.687Z
 ---
 Once you have agreed to the three learning contract proficiencies by self assessing, you will need to send then to your Assessor, Educator/Manager and/or Clinical Centre Manager for confirmation ([who can confirm each proficiency](/user-guide/learner/04-learning-contract)). ​
 
-1. Select: **Proficiencies confirmation​**
+1. Select **Proficiencies confirmation​**
 
 ![](/img/le-01-request-1.jpg)
 
@@ -33,8 +33,6 @@ Once you have agreed to the three learning contract proficiencies by self assess
    * Y﻿ou will **recieve a confirmation email** from noreply@dls.nhs.uk
 
 ![](/img/le-01-contract-5.jpg)
-
-
 
 * The Confirmation status next to each Learning contract proficiency will be updated to **Confirmed** ​on the Proficiencies home page
 
