@@ -4,15 +4,15 @@ order: 1
 createdAt: 2022-09-01T08:07:40.956Z
 updatedAt: 2022-09-01T08:07:40.962Z
 ---
-1. Contact your Trust-wide Non-clinical DLS Centre Manager (or Clinical Centre Manager if one already exists) and ask them to [promote you to an ‘Administrator’ role within the platform](/user-guide/centremanager/05-promoting-delegates/promoting-a-delegate-who-does-not-have-an-existing-admin-role)
+Depending on how far along your Trust is in the implementation phase, your existing Centre Manager will either be a Non-clinical Centre Manager (likely within your IT team) or a Clinical Centre Manager who has already been promoted within the platform.
 
-> Search for your Centre and Non-clinical DLS Centre Manager details here:​
->
-> https://www.dls.nhs.uk/v2/FindYourCentre​
+1. Email your Non-clinical Centre Manager (or Clinical Centre Manager if one already exists) and ask them to [promote you to an ‘Administrator’ role within the platform](/user-guide/centremanager/05-promoting-delegates/promoting-a-delegate-who-does-not-have-an-existing-admin-role)
+
+> Search for your Centre and Non-clinical Centre Manager details here: <https://www.dls.nhs.uk/v2/FindYourCentre​>
 
 ![](/img/as-5-04-Technical.jpg)
 
-2. ​Once you have been promoted to Administrator, your Non-clinical DLS Centre Manager (or existing Clinical Centre Manager) needs to [raise a ticket with HEE TEL](/user-guide/centremanager/07-support/technical-queries) and submit a request for your profile to be promoted to a Centre Manager ​
+2. ​Once your Non-clinical Centre Manager (or existing Clinical Centre Manager) has promoted you to Administrator, they will need to [raise a ticket with HEE TEL](/user-guide/centremanager/07-support/technical-queries) ,requesting for your profile to be further promoted to a Centre Manager within the platform 
 
 > HEE TEL should promote you within 2 working days.​
 >
