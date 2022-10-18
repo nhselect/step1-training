@@ -12,4 +12,4 @@ If your profile has been registered by your Clinical Centre Manager or Administr
 
 **or**
 
-* Your Clinical Centre Manager will set up and share your password with you
+* Your Clinical Centre Manager or Administrator will set up and share your password with you
