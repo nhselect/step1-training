@@ -24,7 +24,9 @@ There are 4 things you can edit under **Centre details**:​
 #### Centre support details​
 
 * The centre support details will be displayed to Learners and Supervisors (Educator/Manager and Assessor) in their applications so they know who to contact for local Step 1 support 
-  ![](/img/ad-2-05-Edit.jpg)
+
+![](/img/ccm-ca_centre-configuration_centre-support-details.png)
+
 * If you are an existing DLS centre, Learners completing other proficiency frameworks on the platform will also see these details, so it is important you are specific about Step 1​
 * We suggest you add something like:​ 
 
