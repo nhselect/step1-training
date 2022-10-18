@@ -1,5 +1,6 @@
 ---
-title: Promoting a delegate who does not have an existing admin role
+title: Promoting a delegate who does not have an existing admin role within the
+  platform
 order: 1
 createdAt: 2022-09-01T08:39:31.989Z
 updatedAt: 2022-09-01T08:39:31.993Z
