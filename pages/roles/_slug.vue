@@ -57,6 +57,9 @@
               >
                 Under development
               </p>
+              <p v-if="item.duplicateNotice" class="nhsuk-tag nhsuk-tag--blue nhsuk-u-font-size-14">
+                {{ item.duplicateNotice }}
+              </p>
               <nuxt-content :document="item" />
               <div
                 v-if="item.link"
@@ -104,6 +107,8 @@ export default {
         error({ statusCode: 404, message: 'Page not found' })
       })
 
+    const roles = await $content('roles').only(['title','slug']).fetch()
+
     let items = await $content('items')
       .where({
         roles: { $contains: slug },
@@ -116,13 +121,26 @@ export default {
 
     items = items.map((i) => {
       let updatedFormatted = ''
+      let duplicateNotice = ''
       if (i.updated) {
         let updatedDate = new Date(i.updated)
         updatedFormatted = updatedDate.toLocaleDateString('en-GB')
       }
+
+      if (i.roles.length > 1) {
+        let alsoRoles = roles.filter((r) => i.roles.includes(r.slug)).map((r) => r.title)
+
+        if (alsoRoles.length === i.roles.length) {
+          duplicateNotice = 'This material has the same content across all the role training packages'
+        }
+        else {
+          duplicateNotice = 'This material has the same content across the training packages for the roles: ' + alsoRoles.join(', ')
+        }
+      }
+
       // TO DO: check if updated date is < 2 weeks and if so need to highlight as newly updated
 
-      return { ...i, updatedFormatted }
+      return { ...i, updatedFormatted, duplicateNotice }
     })
 
     const checkItems = items.filter((i) => !i.optional).map((i) => i.title)
@@ -153,6 +171,12 @@ export default {
       font-weight: normal;
     }
   }
+
+  .step1-also-roles {
+      margin-right: 2px;
+      margin-bottom: 2px;
+      padding: 2px 4px;
+    }
 
   .step1-item__index {
     color: $color_nhsuk-blue;

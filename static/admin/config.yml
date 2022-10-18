@@ -4,8 +4,6 @@ backend:
 
 local_backend: true
 
-publish_mode: editorial_workflow
-
 site_url: https://nhs-step1-training.netlify.app
 display_url: https://nhs-step1-training.netlify.app
 
