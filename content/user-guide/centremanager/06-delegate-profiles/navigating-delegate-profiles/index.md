@@ -9,7 +9,14 @@ updatedAt: 2022-09-01T08:42:37.281Z
 
 ![](/img/cm-6-01-Navigating.jpg)
 
-3. Search **For the delegate​**
+#### To export a list of delegate registrations for the Step 1 proficiencies:
+
+3. Filter by **Programme of Study / Course** and select **Critical Care Step 1 proficiencies**
+4. Select  **Export**
+
+#### To search for a specific delegate:
+
+5. Search **For the delegate​**
 
 ![](/img/cm-6-02-Navigating.jpg)
 
