@@ -5,7 +5,7 @@ createdAt: 2022-09-08T13:42:57.073Z
 updatedAt: 2022-09-08T13:42:57.078Z
 ---
 1. Go to **Supervisor Dashboard** (in **Supervise** application)
-2. Select: **View My Staff List​**
+2. Select **View My Staff List​**
 
 ![](/img/enrolling_1.png)
 
@@ -29,7 +29,7 @@ updatedAt: 2022-09-08T13:42:57.078Z
 
 ![](/img/enrolling_5.png)
 
-7. Select **Educator / Manager** as your Supervisor role
+7. Select **Educator/Manager** as your Supervisor role
 
 ![](/img/enrolling_6.png)
 
