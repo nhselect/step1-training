@@ -6,14 +6,14 @@ updatedAt: 2022-09-08T13:22:50.142Z
 ---
 1. Select **Switch application** (this window should automatically appear when you log in)​
 
-![](/img/em-1-11-Logging-in.jpg)
+![](/img/promotion-to-em_1_n.png)
 
 This will take you to the Switch application tab in the blue ribbon, where there are two applications (apps) you can choose from.​
 
 * **Learning Portal**: If you are enrolled as a Learner on a course (i.e. another list of proficiencies), you will see this and can access them here​
 * **Supervise**: If you are an Educator / Manager or Assessor for any Learners, access to view their progress here​
 
-![](/img/em-1-12-Logging-in.jpg)
+![](/img/promotion-to-em_2_n.png)
 
 > If you don't see the **Supervise** application, contact your Clinical Centre Manager to request promotion to an Educator/Manager role within the platform (LINK)
 >
