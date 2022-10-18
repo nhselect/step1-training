@@ -23,7 +23,7 @@ There are 4 things you can edit under **Centre details**:​
 
 #### Centre support details​
 
-* The centre support details will be displayed to Learners on their Learning Portal (image to the right) so they know who to contact for local support. ​
+* The centre support details will be displayed to Learners on their Learning Portal (see image below) so they know who to contact for local support. ​
 * If you are an existing DLS centre, Learners completing other proficiency frameworks on the platform will also see these details, so it is important you are specific about Step 1​
 
 ![](/img/ad-2-05-Edit.jpg)
