@@ -8,26 +8,18 @@ There are **Optional proficiencies** in '1.4.3 Renal Replacement - Renal Replace
 
 These proficiencies are to be achieved in centres that deliver RRT. **You should discuss with your Educator / Manager whether you need to add these.​**
 
-1. Select: **Manage optional proficiencies​**
+1. Select **Manage optional proficiencies​**
 
-![](/img/le-5-rrt-1.jpg)
+![](/img/l_self-assess-proficiencies_manage-optional_1.png)
 
-2. Select: **Select all proficiencies​**
-3. Select: **Submit​**
+2. Select **Select all proficiencies​** and select **Submit**
 
-![](/img/le-5-rrt-2.jpg)
+![](/img/l_self-assess-proficiencies_manage-optional_2.png)
 
-4. These optional proficiencies **will then be added within the 1.4.3 Renal Replacement - Renal Replacement Therapy (RRT) section**, and can be self-assessed in the same way as the other proficiencies ​
+3. These optional proficiencies **will then be added within the 1.4.3 Renal Replacement - Renal Replacement Therapy (RRT) section**, and can be self-assessed in the same way as the other proficiencies ​
 
-   * You can identify them by the NB. in their description
+* You can identify them by the NB. in their description
 
-![](/img/le-5-rrt-3.jpg)
+![](/img/l_self-assess-proficiencies_manage-optional_3.png)
 
-5. ​To remove these optional proficiencies, select: **Manage optional proficiencies​**
-
-![](/img/le-5-rrt-1.jpg)
-
-6. Select: **Deselect all proficiencies**​
-7. Select: **Submit**​
-
-![](/img/le-5-rrt-4.jpg)
+ If you need to remove these optional proficiencies, select **Manage optional proficiencies​, Deselect all proficiencies** and **Submit**​
