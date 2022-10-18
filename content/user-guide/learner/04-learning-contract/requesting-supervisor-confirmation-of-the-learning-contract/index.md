@@ -40,15 +40,13 @@ Once you have agreed to the three learning contract proficiencies by self assess
 * Option to **Resend** (send an email reminder) or **Withdraw** (if you want to send it to a different Educator/Manager or Assessor)
 
 > You will not see the option to Resend for one hour after you have sent
->
-> A﻿DD IMAGE
->
-> 8. Once your Educator/Manager or Assessor has confirmed your Learning contract proficiency: .
+
+8. Once your Educator/Manager or Assessor has confirmed your Learning contract proficiency: .
 
 * The Confirmation status next to these proficiencies will update to **Confirmed**
 * You willreceive a **confirmation email from noreply@dls.nhs.uk**
 
-![]()
+![](/img/learning-contract_6.png)
 
 ![](/img/l_learning-contract_12.png)
 
