@@ -1,5 +1,5 @@
 ---
-title: Promoting delegates to platform roles
+title: Promoting delegates to admin roles within the platform
 order: 6
 createdAt: 2022-09-01T14:41:30.359Z
 updatedAt: 2022-09-01T14:41:30.362Z
