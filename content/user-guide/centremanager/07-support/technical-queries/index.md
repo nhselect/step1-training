@@ -12,7 +12,7 @@ If you require technical support, we recommend:​
 
 #### Platform’s Help documentation, FAQs and Resources
 
-1. Go to **Tracking System app​**
+1. Go to **Tracking System** application
 
 ![](/img/cm-7-01-Technical.jpg)
 
@@ -22,7 +22,7 @@ If you require technical support, we recommend:​
 
 #### Raising support tickets
 
-1. Go to **Tracking System** app​
+1. Go to **Tracking System** application​
 2. Select: **Support** tab from the blue ribbon ​
 3. Select: **Support tickets​**
 
@@ -59,7 +59,7 @@ If you require technical support, we recommend:​
 
 Here you can see a list of changes to the platform planned, in progress or completed.​
 
-1. Go to **Tracking System** app​
+1. Go to **Tracking System** application​
 2. Select: **Support** tab from the blue ribbon ​
 3. Select: **Change requests​**
 

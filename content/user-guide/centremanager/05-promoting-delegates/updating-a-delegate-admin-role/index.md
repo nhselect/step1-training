@@ -6,7 +6,7 @@ updatedAt: 2022-09-01T08:41:21.211Z
 ---
 For example, promoting to additional roles or de-promoting.
 
-1. Go to **Centre dashboard** (in **Tracking System** app) 
+1. Go to **Centre dashboard** (in **Tracking System** application) 
 2. Select: **Administrators** or **Admins**​
 
 ![](/img/cm-5-08-Updating.jpg)

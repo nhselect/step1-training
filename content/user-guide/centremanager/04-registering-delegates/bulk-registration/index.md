@@ -4,7 +4,7 @@ order: 3
 createdAt: 2022-09-01T08:36:22.726Z
 updatedAt: 2022-09-01T08:36:22.732Z
 ---
-1. Go to **Centre dashboard** (in **Tracking System** app) ​
+1. Go to **Centre dashboard** (in **Tracking System** application) ​
 2. Select: **Delegates**​
 
 ![](/img/cm-4-14-Bulk.jpg)

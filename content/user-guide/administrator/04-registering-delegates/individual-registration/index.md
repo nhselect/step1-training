@@ -4,7 +4,7 @@ order: 2
 createdAt: 2022-09-01T10:19:06.178Z
 updatedAt: 2022-09-01T10:19:06.186Z
 ---
-1. Go to **Centre dashboard** (in **Tracking System** app) 
+1. Go to **Centre dashboard** (in **Tracking System** application) 
 2. Select: **Delegates**​
 
 ![](/img/ad-4-07-Ind-reg.jpg)

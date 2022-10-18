@@ -4,7 +4,7 @@ order: 3
 createdAt: 2022-09-08T13:32:15.402Z
 updatedAt: 2022-09-08T13:32:15.407Z
 ---
-1. Go to **Supervisor dashboard** (in ‘**Supervise**’ app) ​
+1. Go to **Supervisor dashboard** (in ‘**Supervise**’ application) ​
 
 ![](/img/em-3-11-Removing.jpg)
 

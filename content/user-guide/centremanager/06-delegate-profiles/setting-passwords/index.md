@@ -6,7 +6,7 @@ updatedAt: 2022-09-01T08:45:29.238Z
 ---
 From time to time you may need to set a delegate's password, should they, for example, forget their password​
 
-1. Go to **Centre dashboard** (in **Tracking System** app) ​
+1. Go to **Centre dashboard** (in **Tracking System** application) ​
 2. Select: **Delegates**​
 
 ![](/img/cm-6-09-Passwords.jpg)

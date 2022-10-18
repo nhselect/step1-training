@@ -9,7 +9,7 @@ updatedAt: 2022-09-01T10:14:09.526Z
 
 > Approval is not required if they have self-registered using a Trust computer, and the Trust’s IP address was linked during its setup as a DLS centre.​
 
-3. Go to **Centre dashboard** (in **Tracking System** app)
+3. Go to **Centre dashboard** (in **Tracking System** application)
 4. Select: **Delegates**​
 
 ![](/img/ad-4-01-Self-reg.jpg)

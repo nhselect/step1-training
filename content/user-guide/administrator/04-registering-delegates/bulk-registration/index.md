@@ -4,7 +4,7 @@ order: 3
 createdAt: 2022-09-01T10:23:23.209Z
 updatedAt: 2022-09-01T10:23:23.215Z
 ---
-1. Go to Centre dashboard (in ‘Tracking System’ app) ​
+1. Go to Centre dashboard (in **Tracking System** application) ​
 2. Select **Delegates​**
 
 ![](/img/ad-4-14-Bulk-reg.jpg)

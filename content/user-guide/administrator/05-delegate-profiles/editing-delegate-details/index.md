@@ -4,7 +4,7 @@ order: 2
 createdAt: 2022-09-01T13:11:29.199Z
 updatedAt: 2022-09-01T13:11:29.209Z
 ---
-1. Go to **Centre dashboard** (in **Tracking System** app) ​
+1. Go to **Centre dashboard** (in **Tracking System** application) ​
 2. Select: **Delegates**​
 3. Search: **For the delegate​**
 

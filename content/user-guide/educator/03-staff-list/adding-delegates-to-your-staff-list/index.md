@@ -9,7 +9,7 @@ updatedAt: 2022-09-08T13:28:31.763Z
 > * Promotion of delegate to an Assessor​
 > * Enrolment of Learner onto the Step 1 proficiencies​
 
-1. Go to **Supervisor Dashboard** (in ‘**Supervise**’ app) 
+1. Go to **Supervisor Dashboard** (in ‘**Supervise**’ application) 
 
 ![](/img/em-3-01-Adding-delegates.jpg)
 

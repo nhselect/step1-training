@@ -4,7 +4,7 @@ order: 1
 createdAt: 2022-09-01T08:42:37.276Z
 updatedAt: 2022-09-01T08:42:37.281Z
 ---
-1. Go to **Centre dashboard** (in **Tracking System** app) 
+1. Go to **Centre dashboard** (in **Tracking System** application) 
 2. Select: **Delegates**​
 
 ![](/img/cm-6-01-Navigating.jpg)

@@ -6,7 +6,7 @@ updatedAt: 2022-09-01T08:29:13.981Z
 ---
 > You will not have to ‘approve’ new delegates registered via individual registration​
 
-1. Go to **Centre dashboard** (in **Tracking System** app) 
+1. Go to **Centre dashboard** (in **Tracking System** application) 
 2. Select **Delegates​**
 
 ![](/img/cm-4-01-Self-reg.jpg)
