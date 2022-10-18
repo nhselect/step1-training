@@ -12,13 +12,12 @@ We are in the process of developing the functionality to move a delegate’s org
 2. Select **Delegates**
 
 ![](/img/registering-delegates-1.png)
+
 3. Search **For the delegate​**
 4. Select **Expand** to view the delegate registration card
 5. Select **Manage delegate**
 
-![](/img/cm-6-13-Deactivating.jpg)
-
-6. Select **Deactivate account​**
+Select **Deactivate account​**
 
 ![](/img/cm-6-14-Deactivating.jpg)
 
