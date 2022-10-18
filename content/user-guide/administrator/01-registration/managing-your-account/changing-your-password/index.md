@@ -21,8 +21,6 @@ updatedAt: 2022-09-01T07:12:02.434Z
 
 ![](/img/ad-1-17-Managing.jpg)
 
-> You will see a message saying ‘Your password was successfully changed’​
-
-
+> You will see a message saying ‘**Your password was successfully changed**’​
 
 ![](/img/ad-1-18-Managing.jpg)

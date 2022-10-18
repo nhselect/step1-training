@@ -1,6 +1,6 @@
 ---
 title: Managing your account
-order: 6
+order: 4
 createdAt: 2022-09-08T13:23:43.100Z
 updatedAt: 2022-09-08T13:23:43.109Z
 ---

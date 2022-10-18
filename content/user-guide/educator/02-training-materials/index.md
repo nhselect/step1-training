@@ -4,22 +4,22 @@ order: 2
 createdAt: 2022-09-08T14:39:34.314Z
 updatedAt: 2022-09-08T14:39:34.317Z
 ---
-[Access the training packages](https://nhs-step1-training.netlify.app/) that have been designed to prepare and support participants through the digitised Step 1 proficiencies pilot.​
+[Access the training packages](https://nhs-step1-training.netlify.app/) that have been designed to prepare and support staff through the digitised Step 1 proficiencies pilot.​ 
 
 There is a bespoke training package for each role (all accessible via the same link above), with materials tailored to their role requirements:
 
-| ​                                                                   | IL​ | CCM​ | Admin​ | E/M​ | A​   | L​   |
-| ------------------------------------------------------------------- | --- | ---- | ------ | ---- | ---- | ---- |
-| Implementation toolkit (PDF)​                                       | ✔​  | ​    | ​      | ​    | ​    | ​    |
-| Digitised Step 1 proficiencies content (Excel)​                     | ✔​  | ​    | ​      | ​    | ​    | ​    |
-| ‘How to’ user guide (PDF)​                                          | ​   | ✔\*​ | ✔\*​   | ✔\*​ | ✔\*​ | ✔\*​ |
-| ‘How to’ user video (Video)​                                        |    | ✔\*​ | ✔\*​   | ✔\*​ | ✔\*​ | ✔\*​ |
-| Platform roles & responsibilities overview (PDF)​                   | ✔​  | ✔​   | ✔​     | ✔​   | ✔​   | ✔​   |
-| Setup & Utilisation process maps (PDF)​                             | ✔​  | ✔​   | ✔​     | ✔​   | ✔​   | ✔​   |
-| Feedback required for measurement (PDF)​                            | ✔​  | ✔​   | ✔​     | ✔​   | ✔​   | ✔​   |
-| Introductory presentation of digitising Step 1 proficiencies (PPT)​ | ✔​  | ✔​   | ✔​     | ✔​   | ✔​   | ✔​   |
-| Demo of digitised Step 1 proficiencies (Webpage)​                   | ✔​  | ✔​   | ✔​     | ✔​   | ✔​   | ✔​   |
-| Glossary of terms (Webpage)​                                        | ✔​  | ✔​   | ✔​     | ✔​   | ✔​   | ✔​   |
+| ​                                                                   | IL​ | CCM​ | Admin​ | E/M​ | A​  | L​  |
+| ------------------------------------------------------------------- | --- | ---- | ------ | ---- | --- | --- |
+| Implementation toolkit (PDF)​                                       | ✔​  | ​    | ​      | ​    | ​   | ​   |
+| Digitised Step 1 proficiencies content (Excel)​                     | ✔​  | ​    | ​      | ​    | ​   | ​   |
+| User guide (Webpage)​                                               | ​   | ✔*​  | ✔*​    | ✔*​  | ✔*​ | ✔*​ |
+| ‘How to’ user video (Video)​                                        |     | ✔*​  | ✔*​    | ✔*​  | ✔*​ | ✔*​ |
+| Platform roles & responsibilities overview (PDF)​                   | ✔​  | ✔​   | ✔​     | ✔​   | ✔​  | ✔​  |
+| Setup & Utilisation process maps (PDF)​                             | ✔​  | ✔​   | ✔​     | ✔​   | ✔​  | ✔​  |
+| Feedback required for measurement (PDF)​                            | ✔​  | ✔​   | ✔​     | ✔​   | ✔​  | ✔​  |
+| Introductory presentation of digitising Step 1 proficiencies (PPT)​ | ✔​  | ✔​   | ✔​     | ✔​   | ✔​  | ✔​  |
+| Demo of digitised Step 1 proficiencies (Webpage)​                   | ✔​  | ✔​   | ✔​     | ✔​   | ✔​  | ✔​  |
+| Glossary of terms (Webpage)​                                        | ✔​  | ✔​   | ✔​     | ✔​   | ✔​  | ✔​  |
 
 **KEY:**
 ✔ Material provided in training package, * Material’s contents are tailored to role​
