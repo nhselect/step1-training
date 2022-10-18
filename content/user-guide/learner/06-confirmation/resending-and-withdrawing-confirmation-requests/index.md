@@ -4,7 +4,7 @@ order: 2
 createdAt: 2022-09-01T11:13:32.514Z
 updatedAt: 2022-09-01T11:13:32.518Z
 ---
-1. ​Select: **Proficiencies confirmation**
+1. ​Select **Proficiencies confirmation**
 
 ![](/img/le-5-confirm-9.jpg)
 
