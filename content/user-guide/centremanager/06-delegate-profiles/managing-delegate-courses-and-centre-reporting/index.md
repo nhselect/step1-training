@@ -10,7 +10,7 @@ This functionality is not relevant for the Step 1 proficiencies, so will show as
 
 #### Centre reporting​
 
-This functionality is currently in development, so under ‘Centre reports’ on the **Tracking System** application, this will say ‘There has not yet been an activity at this centre’.​
+This functionality is currently in development, so under **Centre reports** on the **Tracking System** application, this will say 'There has not yet been an activity at this centre’​
 
 However, you can export a list of delegate registrations for the Step 1 proficiencies:​
 
