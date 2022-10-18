@@ -26,35 +26,39 @@ To make it easier to filter through the Trust's delegate list and, in future, re
 * *Include all the CC units participating in pilot in your centre/Trust as options*
 * Other
 
-1. Select: **Manage registration prompts​**
+1. Select **Manage registration prompts​**
 
 ![](/img/ccm-ca_centre-configuration_manager-registration-prompts.png)
 
-2. Select: **Add a new prompt​**
+2. Select **Add a new prompt​**
 
-![](/img/cm-2-12-Config.jpg)
+![](/img/ccm-ca_centre-configuration_manager-registration-prompts_button.png)
 
-3. Select: **Prompt name**s from the dropdown list (you will need to do the three prompts listed on the previous page one-by-one)​
-4. Select: **This** **prompt is mandatory** and **Next​**
+3. Select **Prompt name**s from the dropdown list (you will need to do the three prompts listed on the previous page one-by-one)​
+4. Select **This** **prompt is mandatory** and **Next​**
 
-![](/img/cm-2-13-Config.jpg)
+![](/img/ccm-ca_centre-configuration_manager-registration-prompts_q1.png)
 
-5. **Type each potential answer** and select: **Add**​
+5. **Type each potential answer,** select **Add**​
+6. Select **Next** once you have added each potential answer individually
 
-![](/img/cm-2-14-Config.jpg)
+![](/img/ccm-ca_centre-configuration_manager-registration-prompts_a1.png)
 
-6. Alternatively, select: **Bulk edit** to add all your answers in one go​
+6. Alternatively, select **Bulk edit** to add all your answers in one go​
 
-   * Add each answer on a new line (i.e. per keyboard ‘enter’ between answers)​
+![](/img/ccm-ca_centre-configuration_manager-registration-prompts_bulk.png)
 
-      ![](/img/cm-2-15-Config.jpg)
-7. A summary of your new registration prompt is on screen and you can select change to make any amendments​
-8. Select: **Save** when finished​
+> Add each answer on a new line (i.e. per keyboard ‘enter’ between answers)​ and select **Next**
 
-![](/img/cm-2-16-Config.jpg)
+![](/img/ccm-ca_centre-configuration_manager-registration-prompts_bulk-answers.png)
+
+7. A summary of your new registration prompt provided, and you can select **Change** to make any amendments​
+8. Select **Save** when finished​
+
+![](/img/ccm-ca_centre-configuration_manager-registration-prompts_summary.png)
 
 Your new question prompt will be visible on the **Manage delegate registration prompts** page​
 
-Select the **expand button** to edit and update the question prompt
+Select **Expand** to **Edit** or **Remove** the question prompt / answers
 
-![](/img/cm-2-17-Config.jpg)
+![](/img/ccm-ca_centre-configuration_manager-registration-prompts_edit.png)
