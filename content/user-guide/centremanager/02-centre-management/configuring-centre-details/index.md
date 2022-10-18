@@ -12,7 +12,4 @@ The details in your **Centre configuration** will be visible to all delegates in
 
 1. Select **Configuration** (in your **Centre Dashboard**)​
 
-![](/img/ad-2-02-Config.jpg)
-
-
-
+![](/img/cm-ca_centre-dashboard_configuration.png)
