@@ -4,15 +4,6 @@ order: 1
 createdAt: 2022-09-01T08:17:30.287Z
 updatedAt: 2022-09-01T08:17:30.290Z
 ---
-- - -
-
-title: Accessing the centre dashboard
-order: 1
-createdAt: 2022-09-01T08:17:30.287Z
-updatedAt: 2022-09-01T08:17:30.290Z
-
-- - -
-
 1. Go so the **Centre Dashboard** (in the **Tracking System** application)
 
 There are 4 things you should access:

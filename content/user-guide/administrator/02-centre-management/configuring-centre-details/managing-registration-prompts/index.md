@@ -4,11 +4,9 @@ order: 4
 createdAt: 2022-09-01T15:21:22.133Z
 updatedAt: 2022-09-01T15:21:22.137Z
 ---
-When a Learner registers or is registered by the centre for a profile, the system prompts for some basic information: **first name**, **last name**, **email address** and **job group**.
+When a Learner registers or is registered by the centre for a profile, the system prompts for some basic information: **first name, last name, email address** and **job group**. ​
 
-We recommend centres also add the following additional **mandatory** question prompts/answers, as you will be able to filter delegates by these (to make it easier to navigate) and once reporting is developed, filter your reporting.
-
-We recommend adding the below **3 pre-existing prompts** in the platform, with the below answer options:​
+To make it easier to filter through the Trust's delegate list and, in future, reporting data, we recommend centres add the following **3 mandatory pre-existing prompts /answers** to the registration process:
 
 #### Prompt 1: Programme of study / course ​
 
@@ -17,7 +15,7 @@ We recommend adding the below **3 pre-existing prompts** in the platform, with t
 * IV passport ​
 * Other
 
-> If delegates might be enrolled on more than one programme / course, add this as an additional option answer (e.g. Critical care Step 1 proficiencies & IV passport)
+> If it is possible that delegates may be enrolled on more than one digital proficiency framework, add the combination as an additional option answer (e.g. Critical care Step 1 proficiencies & IV passport)
 
 #### Prompt 2: Organisation / company​
 
@@ -28,37 +26,39 @@ We recommend adding the below **3 pre-existing prompts** in the platform, with t
 * *Include all the CC units participating in pilot in your centre/Trust as options*
 * Other
 
-> Given these prompts will appear when any delegate registers for your centre (i.e. potentially not only staff using the Step 1 proficiencies), you need to make sure there is an answer that makes sense for staff both completing and not completing the Step 1 proficiencies to select (hence the inclusion of ‘Other’ as an answer option for Prompts 1 and 3.​
-
 1. Select **Manage registration prompts​**
 
-![](/img/ad-2-11-Managing-reg-prompts.jpg)
+![](/img/ccm-ca_centre-configuration_manager-registration-prompts.png)
 
-1. Select **Add a new prompt**
+2. Select **Add a new prompt​**
 
-![](/img/ad-2-12-Managing-reg-prompts.jpg)
+![](/img/ccm-ca_centre-configuration_manager-registration-prompts_button.png)
 
-1. Select **Prompt names** from the dropdown list (you will need to do the three prompts listed on the previous page one-by-one)​
-2. Select **this prompt is mandatory** and **Next​**
+3. Select **Prompt name**s from the dropdown list (you will need to do the three prompts listed on the previous page one-by-one)​
+4. Select **This** **prompt is mandatory** and **Next​**
 
-![](/img/ad-2-13-Managing-reg-prompts.jpg)
+![](/img/ccm-ca_centre-configuration_manager-registration-prompts_q1.png)
 
-1. Type each potential answer and select **Add​**
-2. Alternatively, select **Bulk edit** to add all your answers in one go
+5. **Type each potential answer,** select **Add**​
+6. Select **Next** once you have added each potential answer individually
 
-![](/img/ad-2-14-Managing-reg-prompts.jpg)
+![](/img/ccm-ca_centre-configuration_manager-registration-prompts_a1.png)
 
-Add each answer on a new line (i.e. per keyboard ‘enter’ between answers)​
+6. Alternatively, select **Bulk edit** to add all your answers in one go​
 
-![](/img/ad-2-15-Managing-reg-prompts.jpg)
+![](/img/ccm-ca_centre-configuration_manager-registration-prompts_bulk.png)
 
-1. A summary of your new registration prompt is on screen and you can select change to make any amendments​
-2. Select **Save** when finished​
+> Add each answer on a new line (i.e. per keyboard ‘enter’ between answers)​ and select **Next**
 
-![](/img/ad-2-16-Managing-reg-prompts.jpg)
+![](/img/ccm-ca_centre-configuration_manager-registration-prompts_bulk-answers.png)
+
+7. A summary of your new registration prompt provided, and you can select **Change** to make any amendments​
+8. Select **Save** when finished​
+
+![](/img/ccm-ca_centre-configuration_manager-registration-prompts_summary.png)
 
 Your new question prompt will be visible on the **Manage delegate registration prompts** page​
 
-Select the **expand** button to edit and update the question prompt
+Select **Expand** to **Edit** or **Remove** the question prompt / answers
 
-![](/img/ad-2-17-Managing-reg-prompts.jpg)
+![](/img/ccm-ca_centre-configuration_manager-registration-prompts_edit.png)
