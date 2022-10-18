@@ -57,6 +57,8 @@
 </script>
 
 <style lang="scss">
+@import 'node_modules/nhsuk-frontend/packages/components/back-link/back-link';
+
 .user-guide__contents {
   border-right: 1px solid $color_nhsuk-grey-4;
 }
