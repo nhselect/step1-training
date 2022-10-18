@@ -7,7 +7,7 @@ updatedAt: 2022-09-01T08:42:37.281Z
 1. Go to **Centre dashboard** (in **Tracking System** application) 
 2. Select **Delegates**​
 
-![](/img/cm-6-01-Navigating.jpg)
+![](/img/registering-delegates-1.png)
 
 #### To export a list of delegate registrations for the Step 1 proficiencies:
 

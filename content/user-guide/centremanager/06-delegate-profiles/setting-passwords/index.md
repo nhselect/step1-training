@@ -9,7 +9,7 @@ From time to time you may need to set a delegate's password, should they, for ex
 1. Go to **Centre dashboard** (in **Tracking System** application) ​
 2. Select **Delegates**​
 
-![](/img/cm-6-09-Passwords.jpg)
+![](/img/registering-delegates-1.png)
 
 3. Search **For the delegate​**
 4. Select **Expand** to view the delegate registration card
