@@ -15,29 +15,28 @@ If you require technical support, we recommend:​
 
 1. Go to **Tracking System** app​lication (in **Switch application**)
 
-![](/img/cm-7-01-Technical.jpg)
-
 2. Select **Support tickets​**  
+
 3. Select **New Support Request​**
 
 ![](/img/cm-7-04-Technical.jpg)
 
-5. Complete the subject field to let HEE TEL know what your issue or enquiry is about​
-6. Select **Request type** from the dropdown ​
+4. Complete the subject field to let HEE TEL know what your issue or enquiry is about​
+5. Select **Request type** from the dropdown ​
 
 ![](/img/cm-7-05-Technical.jpg)
 
-7. Select **Yes**, if prompted, for information about device and browser, if this will help HEE TEL with their investigation
+6. Select **Yes**, if prompted, for information about device and browser, if this will help HEE TEL with their investigation
 
 ![](/img/cm-7-06-Technical.jpg)
 
-8. Complete **Course field** (write ‘Step 1 proficiencies’) ​
-9. Complete **Test delegate ID**  ***(optional)*** if this is appropriate for the support team to investigate your query​
-10. Complete **Details field​**
+7. Complete **Course field** (write ‘Step 1 proficiencies’) ​
+8. Complete **Test delegate ID**  ***(optional)*** if this is appropriate for the support team to investigate your query​
+9. Complete **Details field​**
 
 > Provide as as much information as you can to help us understand your query. You can add screenshots, paste them into the form using Ctrl+V​
 
-11. Select **Submit** ​
+10. Select **Submit** ​
 
 ![](/img/cm-7-07-Technical.jpg)
 
