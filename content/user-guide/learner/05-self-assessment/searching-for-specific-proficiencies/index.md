@@ -4,8 +4,8 @@ order: 1
 createdAt: 2022-09-01T10:08:40.003Z
 updatedAt: 2022-09-01T10:08:40.010Z
 ---
-**​Type a keyword into the Search bar​** to find proficiencies that include that word
+**1​. Type a keyword** into the Search bar**​** to find proficiencies that include that word and select the **Blue magnifying glass**
 
 > The search function can only find one keyword at a time and cannot search phrases​
 
-![](/img/le-5-assessing-0.jpg)
+![](/img/l_self-assess-prof_1.png)
