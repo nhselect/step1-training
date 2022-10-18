@@ -1,12 +1,10 @@
 ---
 title: Configuring centre details
 order: 2
-
-
 createdAt: 2022-09-01T09:10:15.301Z
 updatedAt: 2022-09-01T09:10:15.313Z
 ---
-1. Select **Configuration** (in your Centre Dashboard)​
+1. Select **Configuration** (in your **Centre Dashboard**)​
 
 ![](/img/ad-2-02-Config.jpg)
 
