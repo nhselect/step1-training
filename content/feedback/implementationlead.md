@@ -10,9 +10,9 @@ On the next page are the types of feedback we will be collecting for each role (
 
 If staff are performing multiple roles in the platform (e.g. Clinical Centre Manager and Educator/Manager), they will only need to complete each form once.
 
-| Detail                                                            | Who?            | When?                           | How?                                               |
-|----------------------------------------------------------- -------|-----------------|---------------------------------|----------------------------------------------------|
-| Usability of the paper version of the Step 1 proficiencies        | IL, CCM, E/M, A | Baseline (start)                | Link included in training package​                  |
-| Satisfaction with training package materials                      | All roles       | Baseline (start)                | Part of training package completion form​           |
-| Usability of the new digital version of the Step 1 proficiencies  | All roles       | 3 months & End of pilot (March) | We will share link, and ask IL to share with staff​ |
-| Experience of the pilot                                           | IL, CCM, E/M    | End of pilot (March)            | We will share link, and ask IL to share with staff​ |
+| Detail                                                           | Who?            | When?                           | How?                                               |
+|------------------------------------------------------------------|-----------------|---------------------------------|----------------------------------------------------|
+| Usability of the paper version of the Step 1 proficiencies       | IL, CCM, E/M, A | Baseline (start)                | Link included in training package                  |
+| Satisfaction with training package materials                     | All roles       | Baseline (start)                | Part of training package completion form           |
+| Usability of the new digital version of the Step 1 proficiencies | All roles       | 3 months & End of pilot (March) | We will share link, and ask IL to share with staff |
+| Experience of the pilot                                          | IL, CCM, E/M    | End of pilot (March)            | We will share link, and ask IL to share with staff |
