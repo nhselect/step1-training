@@ -4,3 +4,7 @@ order: 8
 createdAt: 2022-09-01T14:42:21.728Z
 updatedAt: 2022-09-01T14:42:21.731Z
 ---
+If you require technical or non-technical support, we recommend:
+
+* 1st - Checking this **user guide** and the **other materials in your training package**
+* 2nd - **Contacting your Educator/Manager**
