@@ -36,6 +36,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import "node_modules/nhsuk-frontend/packages/components/tag/tag";
+
 .elect-guide-updated {
   font-size: 0.8em;
 }
