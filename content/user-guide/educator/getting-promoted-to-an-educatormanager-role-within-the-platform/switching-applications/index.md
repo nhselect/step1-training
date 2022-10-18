@@ -4,17 +4,16 @@ order: 2
 createdAt: 2022-09-08T13:22:50.137Z
 updatedAt: 2022-09-08T13:22:50.142Z
 ---
-1. Select **Switch application** (this window should automatically appear when you log in)​
+1. Select **Switch application**
 
 ![](/img/promotion-to-em_1_n.png)
 
-This will take you to the Switch application tab in the blue ribbon, where there are two applications (apps) you can choose from.​
+As an Educator/Manager you will need to use the **Supervise** application where you can enroll and manager Learners on the Step 1 proficiencies, and promote delegates to Assessor
 
-* **Learning Portal**: If you are enrolled as a Learner on a course (i.e. another list of proficiencies), you will see this and can access them here​
-* **Supervise**: If you are an Educator/Manager or Assessor for any Learners, access to view their progress here​
+2﻿. Select **Supervise** application
+
+* **Learning Portal**: this is where Learners can access any clinical proficiency frameworks that they are enrolled on. If you are not a Learner, you will not see any clinical proficiency frameworks in the Learning Portal application. If you would like to see what the Digitised Step 1 proficiencies framework looks like, you can access [this demo](https://nhs-step1-proficiencies-demo.netlify.app/), which can also be found in your training package.
 
 ![](/img/promotion-to-em_2_n.png)
 
-> If you don't see the **Supervise** application, contact your Clinical Centre Manager to request promotion to an Educator/Manager role within the platform (LINK)
->
-> If you would like to see the appearance and content of the digitised Step 1 proficiencies, a demo can be found in your training package​
+> If you don't see the **Supervise** application, contact your Clinical Centre Manager to request promotion to an Educator/Manager role within the platform
