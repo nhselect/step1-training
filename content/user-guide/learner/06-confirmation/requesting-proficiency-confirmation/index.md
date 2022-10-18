@@ -4,17 +4,17 @@ order: 1
 createdAt: 2022-09-01T11:11:27.341Z
 updatedAt: 2022-09-01T11:11:27.346Z
 ---
-**Once you have self-assessed a proficiency as ‘Achieved’, you can send it to your Supervisor (Educator / Manager or Assessor) for confirmation​** 
+**Once you have self-assessed a proficiency as Achieved, you can send it to your Supervisor (Educator/Manager or Assessor) for confirmation​** 
 
-* You cannot send a proficiency you have self-assessed as 'Ongoing assessment'. 
+> You cannot send a proficiency you have self-assessed as Ongoing assessment
 
-1. ​Select: **Proficiencies confirmation​**
+1. ​Select **Proficiencies confirmation​**
 
-![](/img/le-5-confirm-1.jpg)
+![](/img/l_learning-contract_6_n.png)
 
 2. Select: **New confirmation request​**
 
-![](/img/le-5-confirm-2.jpg)
+![](/img/l_self-assess-proficiencies_4.png)
 
 3. **Select which Supervisor** you would like to confirm your proficiencies and select **Next​**
 
