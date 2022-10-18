@@ -24,8 +24,6 @@ updatedAt: 2022-09-01T11:11:27.346Z
 
 > If the Supervisor you want is not in the list, select **Click here to manage supervisors**
 
-Once you have self-assessed as ‘Achieved’ on some proficiencies, you can send them to your Supervisor (Educator/Manager or Assessor) for confirmation​
-
 4. ​**Select the proficiencies** you would like to send to that Supervisor and select **Next**  
 
 * Y﻿ou can send multiple proficiencies at once to the same Supervisor
