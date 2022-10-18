@@ -18,7 +18,7 @@ updatedAt: 2022-09-01T08:42:37.281Z
 
 5. Search **For the delegate​**
 
-![](/img/cm-6-02-Navigating.jpg)
+![](/img/cm-ca_delegate-filters.png)
 
 > The **All delegates** list is filtered by default to show only active delegates.  ​
 >
@@ -28,11 +28,11 @@ updatedAt: 2022-09-01T08:42:37.281Z
 
 6. Select **Expand** to view the delegate registration card​
 
-![](/img/cm-6-03-Navigating.jpg)
+![](/img/cm-ca_expand-delegate-registration-card.png)
 
 7. Select **Manage delegate​**
 
-![](/img/cm-6-04-Navigating.jpg)
+![](/img/ccm-ca_manage-delegate-registration-card.png)
 
 * The delegate card has tags to show their status, for example this delegate: is **Active**, has a **Password set** and they **Self-registered** to the system. If this delegate has been promoted to an admin role this would be indicated by a tag 
 * The delegates registration details are displayed, including PRN 
