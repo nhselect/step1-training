@@ -3,6 +3,7 @@ title: Requesting Supervisor confirmation of the Learning Contract​
 order: 2
 createdAt: 2022-09-01T09:59:33.682Z
 updatedAt: 2022-09-01T09:59:33.687Z
+video: s
 ---
 Once you have agreed to the three learning contract proficiencies by self assessing, you will need to send then to your Assessor, Educator/Manager and/or Clinical Centre Manager for confirmation ([who can confirm each proficiency](/user-guide/learner/04-learning-contract)). ​
 
