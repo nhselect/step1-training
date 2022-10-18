@@ -5,33 +5,25 @@ createdAt: 2022-09-01T13:23:43.100Z
 updatedAt: 2022-09-01T13:23:43.109Z
 ---
 1. Select **My account** in the top blue ribbon​
+
+   ![](/img/editing-profile_1.png)
 2. Select **View notification preferences​**
 
-![](/img/as-1-18-Managing.jpg)
+![](/img/notifications_1.png)
 
-1. Select which account you would like to update notification preferences for:​
+3. I﻿f you have already been promoted into an admin role in the platform, you will be asked to select which account notifications you would like to update: 
 
-* **Admin** – relates to activity of other delegates in your centre​
+* **Admin** – relates to activity associated with your Educator / Manager role
 * **Delegate** – relates to your own activity as a Learner (if you were enrolled on a course)​
 
-![](/img/as-1-19-Managing.jpg)
+![](/img/notifications_2-not-for-learner-.png)
 
 > A list of the Notification preferences you are Subscribed and Unsubscribed to is displayed. Subscribed notifications will be visible through the platform. ​
 
-#### To make changes​
+4. ​If you would like to make changes, Select **Update preferences​** 
 
-4. ​Select **Update preferences​**
+![](/img/notifications_3.png)
 
-![](/img/as-1-20-Managing.jpg)
+5. Tick to **Subscribe** or **Unsubscribe** as appropriate​, and select **Save**
 
-4. Select **Subscribe** or **Unsubscribe** as appropriate​
-
-![](/img/as-1-21-Managing.jpg)
-
-4. Select **Save** to submit your changes​
-
-> A summary of your notification preferences appears on screen​
-
-7. Select **Go back** to return to **My account**
-
-![](/img/ad-1-23-Managing.png)
+![](/img/notifications_4.png)

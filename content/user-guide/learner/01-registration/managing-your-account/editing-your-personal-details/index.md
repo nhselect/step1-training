@@ -1,28 +1,21 @@
 ---
 title: Editing your personal details
 order: 1
-
-
 createdAt: 2022-09-01T09:19:49.792Z
 updatedAt: 2022-09-01T09:19:49.803Z
 ---
-1. Select **My account** in the top blue ribbon
+1. Select **My account** page
 
-> **My account** features in the top blue ribbon across all platform applications, however, may look different from the screenshot to the right, depending on which application you are in 
+![](/img/editing-profile_1.png)
 
 2. Select **Edit details​**
 
-![](/img/le-1-13-Managing.jpg)
+![](/img/editing-profile_2.png)
 
-3. Make your changes
+3. Make your changes and select **Save**
 
 > If you were registered by your Trust, you may need to answer the following questions on your profile:​
 >
 > * Programme study / course​
 > * Organisation / Company​
 > * Department / Team​
-
-4. Enter your **current password**
-5. Select **Save​**
-
-![](/img/le-1-14-Managing.jpg)

@@ -16,8 +16,6 @@ updatedAt: 2022-09-08T13:25:20.523Z
 * **Admin** – relates to activity associated with your Educator / Manager role
 * **Delegate** – relates to your own activity as a Learner (if you were enrolled on a course)​
 
-
-
 ![](/img/notifications_2-not-for-learner-.png)
 
 > A list of the Notification preferences you are Subscribed and Unsubscribed to is displayed. Subscribed notifications will be visible through the platform. ​

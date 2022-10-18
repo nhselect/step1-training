@@ -6,12 +6,10 @@ updatedAt: 2022-09-01T07:11:35.504Z
 ---
 1. When you’ve finished select **My account​**
 
-![](/img/le-1-24-Logging-out.jpg)
+![](/img/editing-profile_1.png)
 
 2. Select **Log out​**
 
-![](/img/le-1-25-Logging-out.jpg)
+![](/img/logging-out_1_n.png)
 
-3. Close your web browser when you are ready​
-
-![](/img/le-1-26-Logging-out.jpg)
+3. **Close your web browser** when you are ready​

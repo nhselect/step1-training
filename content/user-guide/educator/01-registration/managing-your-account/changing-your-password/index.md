@@ -4,12 +4,9 @@ order: 2
 createdAt: 2022-09-08T13:24:41.422Z
 updatedAt: 2022-09-08T13:24:41.431Z
 ---
-Select **My account** page
+1. Select **My account** page
 
 ![](/img/editing-profile_1.png)
-
-
-​
 
 2. Select **Change password​**
 
