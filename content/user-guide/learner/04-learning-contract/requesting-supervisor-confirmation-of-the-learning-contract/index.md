@@ -9,34 +9,47 @@ Once you have agreed to the three learning contract proficiencies by self assess
 
 1. Select **Proficiencies confirmation​**
 
-![](/img/le-01-request-1.jpg)
+![](/img/l_learning-contract_6_n.png)
 
-2. Select: **New confirmation request​**
+2. Select **New confirmation request​**
 
-![](/img/le-01-request-2.jpg)
+![](/img/l_self-assess-proficiencies_4.png)
 
 3. **Select which Supervisor** (from your Manage supervisor list) you would like to confirm the proficiency and select **Next​** 
 
    * I﻿f you cannot see the Supervisor you want, you can add them here (ADD LINK)
 
-![](/img/le-01-request-3.jpg)
+![](/img/l_learning-contract_7_n.png)
 
 4. **Select the proficiency/proficiencies you would like to send** to your selected person and select **Next​**
 
-![](/img/le-01-request-4.jpg)
+![](/img/l_learning-contract_8_n.png)
 
 5. Review and select **Submit​**
 
-![](/img/le-01-request-5.jpg)
+![](/img/l_learning-contract_9.png)
 
-6. Once your Assessor or Educator / Manager has confirmed your Learning contract proficiency:
+6. The Confirmation status next to these proficiencies will update to **Awaiting confirmation**
 
-   * Y﻿ou will **recieve a confirmation email** from noreply@dls.nhs.uk
+![](/img/l_learning-contract_10.png)
 
-![](/img/le-01-contract-5.jpg)
+7﻿.  If you want to check the details of your confirmation request, you can go back into **Proficiencies confirmation** (at top of page), where you can see:
 
-* The Confirmation status next to each Learning contract proficiency will be updated to **Confirmed** ​on the Proficiencies home page
+* **Educator/Manager or Assessor** sent to
+* **Date** you sent it
+* Option to **Resend** (send an email reminder) or **Withdraw** (if you want to send it to a different Educator/Manager or Assessor)
 
-![](/img/le-01-contract-6.jpg)
+> You will not see the option to Resend for one hour after you have sent
+>
+> A﻿DD IMAGE
+>
+> 8. Once your Educator/Manager or Assessor has confirmed your Learning contract proficiency: .
 
-8. **Repeat steps** to get confirmation for the rest of the Learning contract proficiencies​
+* The Confirmation status next to these proficiencies will update to **Confirmed**
+* You willreceive a **confirmation email from noreply@dls.nhs.uk**
+
+![]()
+
+![](/img/l_learning-contract_12.png)
+
+**9. Repeat steps** to get confirmation for the rest of the Learning contract proficiencies​
