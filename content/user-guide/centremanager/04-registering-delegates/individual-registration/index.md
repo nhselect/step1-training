@@ -51,8 +51,8 @@ Or
 
 10. Set a password on behalf of the delegate
 11. **Summary** of the registered delegate details will display on screen​
-12. Select: **Change** if you need to edit any of the summary details ​
-13. Select: **Save** ​
+12. Select **Change** if you need to edit any of the summary details ​
+13. Select **Save** ​
 
 ![](/img/cm-4-12-Individual.jpg)
 
