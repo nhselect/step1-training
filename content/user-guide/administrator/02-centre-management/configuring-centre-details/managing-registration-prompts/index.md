@@ -4,11 +4,11 @@ order: 4
 createdAt: 2022-09-01T15:21:22.133Z
 updatedAt: 2022-09-01T15:21:22.137Z
 ---
-When a Learner registers or is registered by the centre for a profile, the system prompts for some basic information: first name, last name, email address and job group.
+When a Learner registers or is registered by the centre for a profile, the system prompts for some basic information: **first name**, **last name**, **email address** and **job group**.
 
-We recommend centres also add the following additional mandatory question prompts/answers, as you will be able to filter delegates by these (to make it easier to navigate) and once reporting is developed, filter your reporting.
+We recommend centres also add the following additional **mandatory** question prompts/answers, as you will be able to filter delegates by these (to make it easier to navigate) and once reporting is developed, filter your reporting.
 
-We recommend adding the below 3 pre-existing prompts in the platform, with the below answer options:​
+We recommend adding the below **3 pre-existing prompts** in the platform, with the below answer options:​
 
 #### Prompt 1: Programme of study / course ​
 
@@ -57,8 +57,8 @@ Add each answer on a new line (i.e. per keyboard ‘enter’ between answers)​
 
 ![](/img/ad-2-16-Managing-reg-prompts.jpg)
 
-Your new question prompt will be visible on the Manage delegate registration prompts page​
+Your new question prompt will be visible on the **Manage delegate registration prompts** page​
 
-Select the expand button to edit and update the question prompt
+Select the **expand** button to edit and update the question prompt
 
 ![](/img/ad-2-17-Managing-reg-prompts.jpg)
