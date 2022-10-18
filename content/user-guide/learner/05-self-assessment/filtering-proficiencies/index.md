@@ -21,6 +21,6 @@ You can see filters have been applied and the number of matching proficiencies�
 
 To remove the applied filters:​
 
-3. Select **Clear filter ​**
+2. Select **Clear filter ​**
 
 ![](/img/l_self-assess-proficiencies_0_1.png)
