@@ -26,11 +26,9 @@ To make it easier to filter through the Trust's delegate list and, in future, re
 * *Include all the CC units participating in pilot in your centre/Trust as options*
 * Other
 
-
-
 1. Select: **Manage registration prompts​**
 
-![](/img/cm-2-11-Config.jpg)
+![](/img/ccm-ca_centre-configuration_manager-registration-prompts.png)
 
 2. Select: **Add a new prompt​**
 
