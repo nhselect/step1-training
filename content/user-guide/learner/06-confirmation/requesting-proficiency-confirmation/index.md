@@ -4,6 +4,8 @@ order: 1
 createdAt: 2022-09-01T11:11:27.341Z
 updatedAt: 2022-09-01T11:11:27.346Z
 ---
+
+
 **Once you have self-assessed a proficiency as Achieved, you can send it to your Supervisor (Educator/Manager or Assessor) for confirmation​** 
 
 > You cannot send a proficiency you have self-assessed as Ongoing assessment
@@ -34,18 +36,17 @@ Once you have self-assessed as ‘Achieved’ on some proficiencies, you can sen
 
 ![](/img/l_self-assess-proficiencies_7.png)
 
-6. The **Confirmation status** will update to **Awaiting confirmation ​on your** Proficiencies home page
+6. The Confirmation status will update to **Awaiting confirmation ​**on your Proficiencies home page
 
    * **An automatic email will also be sent to your Supervisor** to notify them​
-7.
-8.
 
-![](/img/le-5-confirm-6.jpg)
+![](/img/l_self-assess-proficiencies_8.png)
 
-7.
+8. Once your Supervisor has reviewed and confirmed:
 
-![](/img/le-5-confirm-7.jpg)
+   * The confirmation status will change to **Confirmed** 
+   * You will receive **a notification email** from noreply@dls.nhs.uk
 
-8. The confirmation status will change to **Confirmed** once your Supervisor has reviewed and confirmed your self-assessment​ 
+![](/img/l_self-assess-proficiencies_10.png)
 
-![](/img/le-5-confirm-8.jpg)
+![](/img/l_self-assess-proficiencies_9.png)
