@@ -4,9 +4,15 @@ order: 1
 createdAt: 2022-09-01T09:40:30.602Z
 updatedAt: 2022-09-01T09:40:30.607Z
 ---
-1. G﻿o to your Step 1 **Proficiencies home** page
 
-2. Expand **Learning Contract** 
+
+
+
+
+
+6G﻿o to your Step 1 .**Proficiencies home** page
+
+1. Expand **Learning Contract** 
 
 ![](/img/l_learning-contract-1.png)
 
@@ -26,3 +32,7 @@ updatedAt: 2022-09-01T09:40:30.607Z
 5. Select **Return to Proficiencies​ home**
 
 ![](/img/l_learning-contract_4.png)
+
+6﻿. The Self-assessment statuses should have updated to **Agree**
+
+![](/img/l_learning-contract_5.png)
