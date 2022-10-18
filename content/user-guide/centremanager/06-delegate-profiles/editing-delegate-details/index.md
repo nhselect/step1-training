@@ -11,12 +11,13 @@ updatedAt: 2022-09-01T08:44:44.667Z
 
 3. Search **For the delegate​**
 4. Select **Expand** to view the delegate registration card
-5. Select **Edit details ​**
+5. Select **Manage delegate**
+6. Select **Edit details ​**
 
 ![](/img/cm-6-07-Editing.jpg)
 
-6. Update the fields as appropriate ​
-7. Select **Save**​
+7. Update the fields as appropriate ​
+8. Select **Save**​
 
 > Delegate details are updated and displayed in the registration card​
 
