@@ -41,6 +41,8 @@ Once you have agreed to the three learning contract proficiencies by self assess
 
 > You will not see the option to Resend for one hour after you have sent
 
+![](/img/l_learning-contract_11.png)
+
 8. Once your Educator/Manager or Assessor has confirmed your Learning contract proficiency:
 
 * The Confirmation status next to these proficiencies will update to **Confirmed**
