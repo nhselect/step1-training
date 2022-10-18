@@ -26,11 +26,11 @@ updatedAt: 2022-09-01T08:42:37.281Z
 >
 > If you have [set up additional question prompts](/user-guide/centremanager/02-centre-management/configuring-centre-details/managing-registration-prompts) you can also search for delegates within these, using the **Filter by** drop-down​
 
-4. Select **Expand** to view the delegate registration card​
+6. Select **Expand** to view the delegate registration card​
 
 ![](/img/cm-6-03-Navigating.jpg)
 
-5. Select **Manage delegate​**
+7. Select **Manage delegate​**
 
 ![](/img/cm-6-04-Navigating.jpg)
 
