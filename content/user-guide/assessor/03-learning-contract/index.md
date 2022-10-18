@@ -52,8 +52,6 @@ Note: *The Clinical Centre Manager will need a dual-role in the platform (as als
 
 4﻿. Once confirmed, the confirmation status will update to **Confirmed** (on your and the Learner's Proficiencies home page) 
 
-The **Learner will also receive a confirmation email** from noreply@dls.nhs.uk​​ (Subject: XXX)
+The **Learner will also receive a confirmation email** from noreply@dls.nhs.uk
 
 ![](/img/learning-contract_6.png)
-
-\[ADD OUTSTANDING EMAIL IMAGE]

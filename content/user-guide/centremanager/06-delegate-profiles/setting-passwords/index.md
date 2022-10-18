@@ -12,20 +12,21 @@ From time to time you may need to set a delegate's password, should they, for ex
 ![](/img/cm-6-09-Passwords.jpg)
 
 3. Search **For the delegate​**
-4. Select **Set password ​**
+4. Select **Expand** to view the delegate registration card
+5. Select **Set password ​**
 
 ![](/img/cm-6-10-Passwords.jpg)
 
-5. Complete the field with a password​
+6. Complete the field with a password​
 
 > The password should have a minimum of 8 characters with at least 1 letter, 1 number and 1 symbol​​
 
-6. Select **Save** ​
+7. Select **Save** ​
 
 ![](/img/cm-6-11-Passwords.jpg)
 
-7. **Delegate account password changed** confirmation  ​
-8. Select **Manage all delegates** to return to **Delegates** ​
+8. **Delegate account password changed** confirmation  ​
+9. Select **Manage all delegates** to return to **Delegates** ​
 
 ![](/img/cm-6-12-Passwords.jpg)
 
