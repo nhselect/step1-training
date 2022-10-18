@@ -4,14 +4,14 @@ order: 2
 createdAt: 2022-09-01T08:41:21.207Z
 updatedAt: 2022-09-01T08:41:21.211Z
 ---
-For example, promoting to additional roles or de-promoting.
+For example, promoting to additional admin roles or de-promoting.
 
 1. Go to **Centre dashboard** (in **Tracking System** application) 
 2. Select: **Administrators** or **Admins**​
 
 ![](/img/cm-5-08-Updating.jpg)
 
-3. Search: **For the delegate** that you want to promote​
+3. Search **For the delegate** that you want to promote​
 
 ![](/img/cm-5-09-Updating.jpg)
 
@@ -21,19 +21,19 @@ For example, promoting to additional roles or de-promoting.
 >
 > If you have [set up additional question prompts](/user-guide/centremanager/02-centre-management/configuring-centre-details/managing-registration-prompts) you can also search for delegates within these, using the **Filter by** drop-down.​
 
-4. Select: **Expand** to view the delegate registration card​
+4. Select **Expand** to view the delegate registration card​. The **admin** roles that the delegate holds within the platform are tagged at the top
 
 ![](/img/cm-5-10-Updating.jpg)
 
-5. Select: **Manage roles​**
+5. Select **Manage roles​**
 
 ![](/img/cm-5-11-Updating.jpg)
 
-6. Select or deselect: **Centre administrator**, **Supervisor (Educator/Manager)** and/or **Nominated Supervisor (Assessor)**
+6. Select or deselect **Centre administrator**, **Supervisor (Educator/Manager)** and/or **Nominated Supervisor (Assessor)**
 
 Make sure **No CMS permissions** are selected, and you do not need to add a Learning Category (this is a functionality being added for future)​
 
-7. Select: **Save**​
+7. Select **Save**​
 
 ![](/img/cm-5-12-Updating.jpg)
 

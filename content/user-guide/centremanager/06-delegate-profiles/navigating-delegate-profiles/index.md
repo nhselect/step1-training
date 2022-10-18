@@ -5,11 +5,11 @@ createdAt: 2022-09-01T08:42:37.276Z
 updatedAt: 2022-09-01T08:42:37.281Z
 ---
 1. Go to **Centre dashboard** (in **Tracking System** application) 
-2. Select: **Delegates**​
+2. Select **Delegates**​
 
 ![](/img/cm-6-01-Navigating.jpg)
 
-3. Search: **For the delegate​**
+3. Search **For the delegate​**
 
 ![](/img/cm-6-02-Navigating.jpg)
 
@@ -19,11 +19,11 @@ updatedAt: 2022-09-01T08:42:37.281Z
 >
 > If you have [set up additional question prompts](/user-guide/centremanager/02-centre-management/configuring-centre-details/managing-registration-prompts) you can also search for delegates within these, using the **Filter by** drop-down​
 
-4. Select: **Expand** to view the delegate registration card​
+4. Select **Expand** to view the delegate registration card​
 
 ![](/img/cm-6-03-Navigating.jpg)
 
-5. Select: **Manage delegate​**
+5. Select **Manage delegate​**
 
 ![](/img/cm-6-04-Navigating.jpg)
 
