@@ -26,7 +26,7 @@ updatedAt: 2022-09-01T08:39:31.993Z
 
 5. ​Select **Manage** **delegate**​
 
-![](/img/cm-5-04-Promoting.jpg)
+![]()
 
 6. Select **Promote to admin​**
 
