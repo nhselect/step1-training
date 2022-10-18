@@ -30,6 +30,5 @@ updatedAt: 2022-09-08T13:28:31.763Z
 
 ![](/img/adding-delegates_4.png)
 
-![](/img/adding-delegates_5.png)
 
 > If you would like to become an Educator/Manager for a Learner who already has an Educator/Manager, the Learner can add you (they can find out how in their User guide) and they will then automatically appear in your My Staff List
