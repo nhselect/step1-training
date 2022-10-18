@@ -27,9 +27,6 @@ You can expand (+) and collapse (-) each section to see more or less
 This will take you to the next proficiency to self-assess​
 
 5. At the bottom of each page you can navigate through the proficiencies using **Previous proficiency** or **Skip question** 
-
-![](/img/l_self-assess-proficiencies_11.png)
-
 6. To end your self-assessment:​
 
 * Select **Return to Proficiencies home** at the bottom of the page
