@@ -1,30 +1,43 @@
 ---
 title: Navigating delegate profiles
 order: 1
-createdAt: 2022-09-01T10:30:16.244Z
-updatedAt: 2022-09-01T10:30:16.250Z
+createdAt: 2022-09-01T08:42:37.276Z
+updatedAt: 2022-09-01T08:42:37.281Z
 ---
 1. Go to **Centre dashboard** (in **Tracking System** application) 
-2. Select: **Delegates**​
+2. Select **Delegates**​
 
-![](/img/ad-5-01-Navigating-profiles.jpg)
+![](/img/registering-delegates-1.png)
 
-1. Search: **For the delegate​**
+#### To export a list of delegate registrations for the Step 1 proficiencies:
 
-> The **All delegates list** is filtered by default to show only active delegates.  ​
+3. Filter by **Programme of Study / Course** and select **Critical Care Step 1 proficiencies**
+4. Select  **Export**
+
+#### To search for a specific delegate:
+
+5. Search **For the delegate​**
+
+![](/img/cm-ca_delegate-filters.png)
+
+> The **All delegates** list is filtered by default to show only active delegates.  ​
 >
 > You can search by delegate ​**Name**, **Email address** or **delegate ID​**
 >
-> If you have \[set up additional question prompts](See [Managing registration prompts](/user-guide/administrator/02-centre-management/configuring-centre-details/managing-registration-prompts)) you can also search for delegates within these, using the ‘**Filter by**’ drop-down​
+> If you have [set up additional question prompts](/user-guide/centremanager/02-centre-management/configuring-centre-details/managing-registration-prompts) you can also search for delegates within these, using the **Filter by** drop-down​
 
-![](/img/ad-5-02-Navigating-profiles.jpg)
+6. Select **Expand** to view the delegate registration card​
 
-4. Select: **Expand** to view the delegate registration card​
+![](/img/cm-ca_expand-delegate-registration-card.png)
 
-![](/img/ad-5-03Navigating-profiles.jpg)
+7. Select **Manage delegate​**
 
-4. Select: **Manage delegate​**
+![](/img/ccm-ca_manage-delegate-registration-card.png)
 
-![](/img/cm-5-04-Promoting.jpg)
+* The delegate card has tags to show their status, for example this delegate: is **Active**, has a **Password set** and they **Self-registered** to the system. If this delegate has been promoted to an admin role this would be indicated by a tag 
+* The delegates registration details are displayed, including PRN 
+* A **Send welcome email** button is available on the card
+* Centre Managers and Administrators can **Edit details** of the delegate registration, **Set password** (should a delegate forget their password) and **Deactivate account** to make a delegates account inactive
+* The **Courses** a delegate is enrolled to are listed
 
-![](/img/ad-4-24-bulk-reg.jpg)
+![](/img/cm-6-05-Navigating.jpg)
