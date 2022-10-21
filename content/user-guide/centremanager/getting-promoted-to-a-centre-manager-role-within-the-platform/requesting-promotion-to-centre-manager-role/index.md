@@ -10,6 +10,8 @@ Depending on how far along your Trust is in the implementation phase, your exis
 
    * You may wish to **copy, paste and send** the email below which provides your Non-Clinical Centre Manager some context about the pilot and a link to step-by-step guidance on what they need to do. 
 
+> **Email subject**: DLS Platform - Please help with promotion to Centre Manager 
+>
 > Dear \[insert Non-Clinical Centre Manager's name], 
 >
 > As you may be aware HEE TEL have recently started piloting two clinical nursing self assessments on the DLS platform (that historically has only hosted non-clinical IT Skills Pathway proficiencies).
