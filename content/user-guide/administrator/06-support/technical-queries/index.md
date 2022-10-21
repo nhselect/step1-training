@@ -1,68 +1,43 @@
 ---
 title: Technical queries
 order: 1
-createdAt: 2022-09-01T13:28:33.472Z
-updatedAt: 2022-09-01T13:28:33.481Z
+createdAt: 2022-09-01T08:48:57.675Z
+updatedAt: 2022-09-01T08:48:57.680Z
 ---
 If you require technical support, we recommend:​
 
-* 1st - Checking this user guide first​
-* 2nd - Looking at the Platform’s more extensive Help documentation, FAQs and Resources​
-* 3rd - Raising a ticket for support from the HEE TEL team.​
+* 1st - Checking this user guide and other materials in your [training package](https://nhs-step1-training.netlify.app/)
+* 2nd - Raising a **Support Ticket** with the HEE TEL team within the platform
 
-#### Platform’s Help documentation, FAQs and Resources
+#### Raising a **Support Ticket**
 
-1. Go to **Tracking System** application​
+> Only Clinical Centre Managers and Administrators have this functionality in the platform. These roles will need to raise tickets on b​ehalf of their delegates.
 
-![](/img/ad-6-01-Tech-queries.jpg)
+1. Go to **Centre Dashboard** (in **Tracking System** application)
+2. Select **Support tickets​**  
 
-1. Select: **Support** tab from the blue ribbon ​
+   ![](/img/cm-ca_centre-dashboard_support-tickets.png)
+3. Select **New Support Request​**
 
-![](/img/ad-6-02-Tech-queries.jpg)
+![](/img/ccm-ca_new-support-request.png)
 
-#### Raising support tickets
+4. Complete the subject field to let HEE TEL know what your issue or enquiry is about​
+5. Select **Request type** from the dropdown ​
 
-1. Go to **Tracking System** application​
-2. Select: **Support** tab from the blue ribbon ​
-3. Select: **Support tickets​**
+![](/img/ccm-ca_support-ticket-request.png)
 
-![](/img/ad-6-03-Tech-queries.jpg)
+6. Select **Yes**, if prompted, for information about device and browser, if this will help HEE TEL with their investigation
 
-1. Select: **New Support Request​**
+![](/img/ccm-ca_support-ticket-request_pop-up.png)
 
-![](/img/ad-6-04-Tech-queries.jpg)
-
-1. Complete the subject field to let HEE TEL know what your issue or enquiry is about​
-2. Select: **Request type** from the dropdown ​
-
-![](/img/ad-6-05-Tech-queries.jpg)
-
-1. Select: **Yes**, if prompted, for information about device and browser, if this will help HEE TEL with their investigation
-
-> Only Clinical Centre Managers and Administrators have this functionality in the platform ​
-
-![](/img/ad-6-06-Tech-queries.jpg)
-
-8. Complete: **Course field** (write ‘Step 1 proficiencies’) ​
-9. Complete: **Test delegate ID**  (optional) if this is appropriate for the support team to investigate your query​
-10. Complete: **Details field​**
+7. Complete **Course field** (write ‘Step 1 proficiencies’) ​
+8. Complete **Test delegate ID**  ***(optional)*** if this is appropriate for the support team to investigate your query​
+9. Complete **Details field​**
 
 > Provide as as much information as you can to help us understand your query. You can add screenshots, paste them into the form using Ctrl+V​
 
-11. Select: **Submit** ​
+10. Select **Submit** ​
 
-![](/img/ad-6-07-Tech-queries.jpg)
+![](/img/ccm-ca_support-ticket-request_submit.png)
 
 > ​HEE TEL will respond to your query within 2 working days​
-
-#### Change Requests​
-
-Here you can see a list of changes to the platform planned, in progress or completed.​
-
-1. Go to **Tracking System** application​
-2. Select: **Support** tab from the blue ribbon ​
-3. Select: **Change requests​**
-
-![](/img/ad-6-08-Tech-queries.jpg)
-
-![](/img/ad-6-12-tech.jpg)

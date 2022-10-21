@@ -1,11 +1,11 @@
 ---
-title: Promoting a delegate who does not have an existing admin role within the
-  platform
-order: 1
-createdAt: 2022-09-01T08:39:31.989Z
-updatedAt: 2022-09-01T08:39:31.993Z
+title: Non-Clinical Centre Managers
+createdAt: 2022-10-21T09:53:03.610Z
+updatedAt: 2022-10-21T09:53:03.620Z
 ---
-1. Go to **Centre dashboard** (in **Tracking System** application) 
+### Promoting a delegate to a Clinical Centre Manager role within the platform
+
+1. Go to **Centre dashboard** (in **Tracking System** application)
 2. Select **Delegates**​
 
 ![](/img/registering-delegates-1.png)
@@ -18,11 +18,11 @@ updatedAt: 2022-09-01T08:39:31.993Z
 
 > The **All delegates** list is filtered by default to show only active delegates.  ​
 >
-> You can search by delegate ​**Name**, **Email address** or **delegate ID​**
->
-> If you have [set up additional question prompts](/user-guide/centremanager/02-centre-management/configuring-centre-details/managing-registration-prompts) you can also search for delegates within these, using the **Filter by** drop-down​
+> You can search by delegate ​**Name**, **Email address** or **delegate ID**
 
-4. Select **Expand** to view the delegate registration card
+
+
+Select **Expand** to view the delegate registration card
 
 ![](/img/cm-ca_expand-delegate-registration-card.png)
 
@@ -36,9 +36,9 @@ updatedAt: 2022-09-01T08:39:31.993Z
 
 > Clinical Centre Manager, Educator/Manager, Administrators and Assessors are all ‘admin’ roles in the platform, not just Administrators​
 
-To promote to an admin role​
+To promote to a Centre Manager role​
 
-1. Select **Centre administrator**, **Supervisor (Educator/Manager)** and/or **Nominated Supervisor** **(Assessor)​**
+1. Select **Centre Manager​**
 
 ![](/img/cm-ca_selecting-admin-roles-within-platform.png)
 
@@ -50,6 +50,6 @@ The delegate's registration card is now tagged with **Admin** permissions ​
 
 ![](/img/cm-ca_delegate-registration-card_with-admin-permissions_tag.png)
 
-> ​Your delegate will not receive an automatic email notification informing them of the promotion so you may wish to inform them of this. ​
+> ​The delegate will receive an automatic email notification informing them of the promotion.
 >
-> The delegate will need to log out and log in to their account to see the updated functionalities​
+> The delegate will need to log out and log in to their account to see the updated functionalities​.
