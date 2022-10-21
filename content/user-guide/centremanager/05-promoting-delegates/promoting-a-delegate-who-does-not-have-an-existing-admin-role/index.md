@@ -36,15 +36,13 @@ updatedAt: 2022-09-01T08:39:31.993Z
 
 > Clinical Centre Manager, Educator/Manager, Administrators and Assessors are all ‘admin’ roles in the platform, not just Administrators​
 
-To promote to an admin role​
-
-1. Select **Centre administrator**, **Supervisor (Educator/Manager)** and/or **Nominated Supervisor** **(Assessor)​**
+7. Select **Centre administrator**, **Supervisor (Educator/Manager)** and/or **Nominated Supervisor** **(Assessor)​**
 
 ![](/img/cm-ca_promote-delegate_with-cm.png)
 
 ​Make sure **No CMS permissions** is selected, and you do not need to add a Learning Category (this is a functionality being added for future)​
 
-2. Select **Save**​
+8. Select **Save**​
 
 The delegate's registration card is now tagged with **Admin** permissions ​
 
