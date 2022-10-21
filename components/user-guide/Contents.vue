@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="contents.length > 0">
     <h3>Contents</h3>
     <nav
       class="step1-user-guide-nav"

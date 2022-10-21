@@ -1,6 +1,6 @@
 <template>
   <div>
-    <UserGuideBreadcrumbs :breadcrumbs="breadcrumbs" />
+    <UserGuideBreadcrumbs v-if="breadcrumbs.length > 1" :breadcrumbs="breadcrumbs" />
     <h1>User guide for {{role.title}}s</h1>
     <div class="nhsuk-grid-row">
       <div class="nhsuk-grid-column-one-third user-guide__contents">
@@ -57,11 +57,11 @@
       const contentPath = params.role ? '/user-guide/'+params.role+'/'+params.pathMatch : '/user-guide/'+params.pathMatch
 
       // fetch role info content
-      const role = await $content('roles/'+roleParam)
-        .fetch()
-        .catch((err) => {
-          error({ statusCode: 404, message: 'Role not recognised' })
-        })
+      const role = roleParam !== "non-clinical-centre-managers" ? await $content('roles/'+roleParam)
+        .fetch() : {
+          title: "Non-clinical Centre Manager",
+          slug: "non-clinical-centre-managers"
+        }
 
       // fetch current page content
       const page = await $content(contentPath+'/index')
@@ -76,9 +76,6 @@
         // .where({ id: { $ne: params.role }})
         .sortBy('order')
         .fetch()
-        .catch((err) => {
-          error({ statusCode: 404, message: 'No items retrieved' })
-        })
 
       let arrMap = new Map(pages.map(item => [item.id, item]));
 
