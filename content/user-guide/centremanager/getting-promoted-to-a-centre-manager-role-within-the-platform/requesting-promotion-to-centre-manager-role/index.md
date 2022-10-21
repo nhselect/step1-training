@@ -6,9 +6,9 @@ updatedAt: 2022-09-01T08:07:40.962Z
 ---
 Depending on how far along your Trust is in the implementation phase, your existing Centre Manager will either be a Non-clinical Centre Manager (likely within your IT team) or a Clinical Centre Manager who has already been promoted within the platform.
 
-1. Email your Non-clinical Centre Manager (or Clinical Centre Manager if one already exists) and ask them to promote you to a Centre Manager role within the platform. 
+1. **Email your Non-clinical Centre Manager** (or Clinical Centre Manager if one already exists) and ask them to promote you to a Centre Manager role within the platform. 
 
-   * You may wish to copy, paste and send the email below which provides your Non-Clinical Centre Manager some context about the pilot and a link to step-by-step guidance on what they need to do. 
+   * You may wish to **copy, paste and send** the email below which provides your Non-Clinical Centre Manager some context about the pilot and a link to step-by-step guidance on what they need to do. 
 
 > Dear \[insert Non-Clinical Centre Manager's name], 
 >
@@ -16,7 +16,7 @@ Depending on how far along your Trust is in the implementation phase, your exis
 >
 > Our Trust has chosen to be a pilot site for one of these nursing self assessments - "**Step 1 Proficiencies - National Proficiency Framework for Registered Nurses in Adult Critical Care"**
 >
-> As the Clinical Centre Manager, I will be overseeing the pilot and am contacting you to request promotion to a Centre Manager role within the platform (this will take <5 mins to action). [You can find a step-by-step guide on how to do this here. ](http://nhs-step1-training.netlify.app/user-guide/non-clinical-centre-managers)
+> As the Clinical Centre Manager, I will be overseeing the pilot and am contacting you to request promotion to a Centre Manager role within the platform (this will take <5 mins to action). You can find a step-by-step guide on how to do this here: [http://nhs-step1-training.netlify.app/user-guide/non-clinical-centre-managers ](http://nhs-step1-training.netlify.app/user-guide/non-clinical-centre-managers)
 >
 > **What will this mean for you:**
 >
