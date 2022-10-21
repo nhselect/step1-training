@@ -2,7 +2,7 @@
 title: Requesting promotion to Centre Manager role
 order: 1
 createdAt: 2022-09-01T08:07:40.956Z
-updatedAt: 2022-09-01T08:07:40.962Z
+updatedAt: 2022-10-21T16:01:04.995Z
 ---
 Depending on how far along your Trust is in the implementation phase, your existing Centre Manager will either be a Non-clinical Centre Manager (likely within your IT team) or a Clinical Centre Manager who has already been promoted within the platform.
 
