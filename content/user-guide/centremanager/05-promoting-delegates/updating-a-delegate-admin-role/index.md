@@ -35,7 +35,7 @@ Make sure **No CMS permissions** are selected, and you do not need to add a Lear
 
 7. Select **Save**​
 
-![](/img/cm-ca_selecting-admin-roles-within-platform.png)
+![](/img/cm-a_updating-delegate-admin-roles.png)
 
 The delegate's registration card is now tagged with the updated **Admin** roles ​
 
