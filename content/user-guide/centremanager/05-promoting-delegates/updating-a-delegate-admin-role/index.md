@@ -41,6 +41,6 @@ The delegate's registration card is now tagged with the updated **Admin** roles 
 
 ![](/img/cm-ca_with-additional-admin-tags.png)
 
-> Your delegate will not receive an automatic email notification informing them of the updates to their role so you may wish to inform them of this. 
+> Your delegate will receive an automatic email notification informing them of the updates to their role. 
 >
 > The delegate will need to log out and log in to their account to see the updated functionalities​​
