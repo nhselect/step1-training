@@ -39,8 +39,8 @@ Depending on how far along your Trust is in the implementation phase, your exis
 
 ![](/img/as-5-04-Technical.jpg)
 
-2. ​Once your Non-clinical Centre Manager (or existing Clinical Centre Manager) has promoted you to Centre Manager, you will receive an automatic email notification informing you of this.
+2. ​Once your Non-clinical Centre Manager (or existing Clinical Centre Manager) has promoted you to Centre Manager, you will **receive an automatic email notification** informing you of this and your Non-clinical Centre Manager will be CC'd.
 
-> Once promoted, you will need to log out and log in to your account to see the updated functionalities​.
+> Once promoted, you will need to **log out and log in** to your account to see the updated functionalities​.
 >
 > If your Non-clinical Centre Manager does not respond in 1 week, please forward on your communication to **learningnetwork@nhselect.org.uk** and the NHS Elect team can help
