@@ -12,15 +12,15 @@ Depending on how far along your Trust is in the implementation phase, your exis
 
 > Dear \[insert Non-Clinical Centre Manager's name], 
 >
-> As you may be aware HEE TEL have recently started piloting two clinical nursing self assessments on the DLS platform (that historically has only hosted non-clinical Digital Skills proficiencies).
+> As you may be aware HEE TEL have recently started piloting two clinical nursing self assessments on the DLS platform (that historically has only hosted non-clinical IT Skills Pathway proficiencies).
 >
-> Our Trust has chosen to be a pilot site for one of these nursing self assessments - **Step 1 Proficiencies - National Proficiency Framework for Registered Nurses in Adult Critical Care**
+> Our Trust has chosen to be a pilot site for one of these nursing self assessments - "**Step 1 Proficiencies - National Proficiency Framework for Registered Nurses in Adult Critical Care"**
 >
 > As the Clinical Centre Manager, I will be overseeing the pilot and am contacting you to request promotion to a Centre Manager role within the platform (this will take <5 mins to action). [You can find a step-by-step guide on how to do this here. ](http://nhs-step1-training.netlify.app/user-guide/non-clinical-centre-managers)
 >
 > **What will this mean for you:**
 >
-> * You will not need to do anything else.
+> * Other than promoting me to a Centre Manager, you will not need to do anything else
 > * You will remain the main Centre Manager and contact for the HEE DLS team
 > * There will be increase in delegate numbers in our Centre Dashboard – however, you should be able to use the filtering options to hide these from your view
 >
