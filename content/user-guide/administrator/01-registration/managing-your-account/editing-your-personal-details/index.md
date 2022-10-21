@@ -2,7 +2,7 @@
 title: Editing your personal details
 order: 1
 createdAt: 2022-09-01T07:11:51.149Z
-updatedAt: 2022-10-13T12:55:53.997Z
+updatedAt: 2022-09-13T12:55:53.997Z
 ---
 1. Select **My account** page
 

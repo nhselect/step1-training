@@ -2,7 +2,7 @@
 title: Self-registering for your profile
 order: 1
 createdAt: 2022-09-01T06:48:31.397Z
-updatedAt: 2022-10-14T09:14:26.806Z
+updatedAt: 2022-09-14T09:14:26.806Z
 ---
 1. Access the [DLS landing page (https://www.dls.nhs.uk/v2/Home/Welcome​)](https://www.dls.nhs.uk/v2/Home/Welcome​)
 2. ​Select **Register** (on the **Welcome** page)
