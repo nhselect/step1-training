@@ -40,7 +40,7 @@ To promote to an admin role​
 
 1. Select **Centre administrator**, **Supervisor (Educator/Manager)** and/or **Nominated Supervisor** **(Assessor)​**
 
-![](/img/cm-ca_selecting-admin-roles-within-platform.png)
+![](/img/cm-ca_promote-delegate_with-cm.png)
 
 ​Make sure **No CMS permissions** is selected, and you do not need to add a Learning Category (this is a functionality being added for future)​
 
