@@ -3,9 +3,12 @@ title: Non-Clinical Centre Managers
 createdAt: 2022-09-21T09:53:03.610Z
 updatedAt: 2022-09-21T09:53:03.620Z
 ---
-### Promoting a delegate to a Clinical Centre Manager role within the platform
+### Promoting a delegate to a Centre Manager role (clinical) within the platform
 
 1. Go to **Centre dashboard** (in **Tracking System** application)
+
+![](/img/cm_app_1.png)
+
 2. Select **Delegates**​
 
 ![](/img/registering-delegates-1.png)
@@ -30,24 +33,18 @@ Select **Expand** to view the delegate registration card
 
 6. Select **Promote to admin​**
 
+![](/img/cm-ca_delegate-registration-card_manage_promote-to-admin.png)
+
+7. Select **Centre Manager​,** ​make sure **No CMS permissions** is selected & select **Save**
+
+* You do not need to add a Learning Category (this is a functionality being added for future)​
+
 ![](/img/noncm_promote-delegates-to-cm-role.png)
 
-> Clinical Centre Manager, Educator/Manager, Administrators and Assessors are all ‘admin’ roles in the platform, not just Administrators​
-
-To promote to a Centre Manager role​
-
-1. Select **Centre Manager​**
-
-![](/img/cm-ca_selecting-admin-roles-within-platform.png)
-
-​Make sure **No CMS permissions** is selected, and you do not need to add a Learning Category (this is a functionality being added for future)​
-
-2. Select **Save**​
-
-The delegate's registration card is now tagged with **Admin** permissions ​
+​The delegate's registration card is now tagged with **Admin** permissions ​
 
 ![](/img/cm-ca_delegate-registration-card_with-admin-permissions_tag.png)
 
-> ​The delegate will receive an automatic email notification informing them of the promotion.
+> ​The delegate will receive an automatic email notification informing them of the promotion and you will be CC'd.
 >
 > The delegate will need to log out and log in to their account to see the updated functionalities​.
