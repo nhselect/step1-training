@@ -16,7 +16,7 @@ Depending on how far along your Trust is in the implementation phase, your exis
 >
 > Our Trust has chosen to be a pilot site for one of these nursing self assessments - **Step 1 Proficiencies - National Proficiency Framework for Registered Nurses in Adult Critical Care**
 >
-> As the Clinical Centre Manager, I will be overseeing the pilot and am contacting you to request promotion to a Centre Manager role within the platform (this will take <5 mins to action). You can find a step-by-step guide on how to do this here. 
+> As the Clinical Centre Manager, I will be overseeing the pilot and am contacting you to request promotion to a Centre Manager role within the platform (this will take <5 mins to action). [You can find a step-by-step guide on how to do this here. ](http://nhs-step1-training.netlify.app/user-guide/non-clinical-centre-managers)
 >
 > **What will this mean for you:**
 >
@@ -32,7 +32,7 @@ Depending on how far along your Trust is in the implementation phase, your exis
 > Thank you in advance for your support,
 >
 > \[insert your name]
-
+>
 > Search for your Centre and Non-clinical Centre Manager details here: <https://www.dls.nhs.uk/v2/FindYourCentre​>
 
 ![](/img/as-5-04-Technical.jpg)
