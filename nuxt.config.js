@@ -62,6 +62,10 @@ export default {
     fullTextSearchFields: ['title']
   },
 
+  generate: {
+    routes: ['user-guide/non-clinical-centre-managers']
+  },
+
   hooks: {
     'content:file:beforeInsert': (document) => {
       if (document.extension === '.md') {
