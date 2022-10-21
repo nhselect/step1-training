@@ -2,7 +2,7 @@
 title: Updating a delegate admin role
 order: 2
 createdAt: 2022-09-01T08:41:21.207Z
-updatedAt: 2022-09-01T08:41:21.211Z
+updatedAt: 2022-10-21T16:27:21.056Z
 ---
 For example, promoting to additional admin roles or de-promoting.
 
@@ -35,12 +35,12 @@ Make sure **No CMS permissions** are selected, and you do not need to add a Lear
 
 7. Select **Save**​
 
-![](/img/cm-ca_selecting-admin-roles-within-platform.png)
+![](/img/cm-a_updating-delegate-admin-roles.png)
 
 The delegate's registration card is now tagged with the updated **Admin** roles ​
 
 ![](/img/cm-ca_with-additional-admin-tags.png)
 
-> Your delegate will not receive an automatic email notification informing them of the updates to their role so you may wish to inform them of this. 
+> Your delegate will not receive an automatic email notification informing them of the updates to their role. You will need to inform them of this.
 >
 > The delegate will need to log out and log in to their account to see the updated functionalities​​
