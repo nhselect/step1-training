@@ -50,6 +50,6 @@ The delegate's registration card is now tagged with **Admin** permissions ​
 
 ![](/img/cm-ca_delegate-registration-card_with-admin-permissions_tag.png)
 
-> ​Your delegate will receive an automatic email notification informing them of the promotion. ​
+> ​Your delegate will receive an automatic email notification informing them of the promotion and you will be CC'd.​
 >
 > The delegate will need to log out and log in to their account to see the updated functionalities​
