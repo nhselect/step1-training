@@ -41,4 +41,4 @@ Depending on how far along your Trust is in the implementation phase, your exis
 
 > Once promoted, you will need to log out and log in to your account to see the updated functionalities​.
 >
-> If your Non-clinical Centre Manager is non-responsive, please forward on your communication to **learningnetwork@nhselect.org.uk** and the NHS Elect team can help escalate this
+> If your Non-clinical Centre Manager does not respond in 1 week, please forward on your communication to **learningnetwork@nhselect.org.uk** and the NHS Elect team can help
