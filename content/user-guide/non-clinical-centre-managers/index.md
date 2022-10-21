@@ -20,8 +20,6 @@ updatedAt: 2022-09-21T09:53:03.620Z
 >
 > You can search by delegate ​**Name**, **Email address** or **delegate ID**
 
-
-
 Select **Expand** to view the delegate registration card
 
 ![](/img/cm-ca_expand-delegate-registration-card.png)
@@ -32,7 +30,7 @@ Select **Expand** to view the delegate registration card
 
 6. Select **Promote to admin​**
 
-![](/img/cm-ca_delegate-registration-card_manage_promote-to-admin.png)
+![](/img/noncm_promote-delegates-to-cm-role.png)
 
 > Clinical Centre Manager, Educator/Manager, Administrators and Assessors are all ‘admin’ roles in the platform, not just Administrators​
 
