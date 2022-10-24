@@ -18,6 +18,9 @@
 
 <script>
 export default {
+  head: {
+    title: "Digitised Step 1 user guide - Glossary of Terms"
+  },
   async asyncData({ $content, params, error }) {
     const glossary = await $content('glossary')
       .sortBy('title')

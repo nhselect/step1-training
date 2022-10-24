@@ -4,7 +4,6 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Digitised Step 1 proficiencies pilot - training packages',
     htmlAttrs: {
       lang: 'en',
     },

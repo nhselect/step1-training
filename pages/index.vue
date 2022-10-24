@@ -66,6 +66,7 @@ export default {
     }
   },
   head: {
+    title: "Digitised Step 1 user guides",
     script: [
       {
         src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',

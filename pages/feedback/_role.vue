@@ -22,6 +22,11 @@
 
 <script>
   export default {
+    head() {
+      return {
+        title: "Digitised Step 1 user guide for "+this.page.title+"s - Feedback required"
+      }
+    },
     scrollToTop: true,
     filters: {
       formatDate: (dateStr) =>

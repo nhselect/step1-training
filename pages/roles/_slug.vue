@@ -99,6 +99,11 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: "Digitised Step 1 user guide for "+this.page.title+"s"
+    }
+  },
   async asyncData({ $content, params, error }) {
     const slug = params.slug || 'index'
     const page = await $content('roles/'+slug)
