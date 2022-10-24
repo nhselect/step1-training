@@ -3,7 +3,7 @@ title: Promoting a delegate who does not have an existing admin role within the
   platform
 order: 1
 createdAt: 2022-09-01T08:39:31.989Z
-updatedAt: 2022-09-01T08:39:31.993Z
+updatedAt: 2022-10-21T16:26:40.823Z
 ---
 1. Go to **Centre dashboard** (in **Tracking System** application) 
 2. Select **Delegates**​
@@ -36,20 +36,18 @@ updatedAt: 2022-09-01T08:39:31.993Z
 
 > Clinical Centre Manager, Educator/Manager, Administrators and Assessors are all ‘admin’ roles in the platform, not just Administrators​
 
-To promote to an admin role​
+7. Select **Centre administrator**, **Supervisor (Educator/Manager)** and/or **Nominated Supervisor** **(Assessor)​**
 
-1. Select **Centre administrator**, **Supervisor (Educator/Manager)** and/or **Nominated Supervisor** **(Assessor)​**
-
-![](/img/cm-ca_selecting-admin-roles-within-platform.png)
+![](/img/cm-ca_promote-delegate_with-cm.png)
 
 ​Make sure **No CMS permissions** is selected, and you do not need to add a Learning Category (this is a functionality being added for future)​
 
-2. Select **Save**​
+8. Select **Save**​
 
 The delegate's registration card is now tagged with **Admin** permissions ​
 
 ![](/img/cm-ca_delegate-registration-card_with-admin-permissions_tag.png)
 
-> ​Your delegate will not receive an automatic email notification informing them of the promotion so you may wish to inform them of this. ​
+> ​Your delegate will receive an automatic email notification informing them of the promotion and you will be CC'd.​
 >
 > The delegate will need to log out and log in to their account to see the updated functionalities​
