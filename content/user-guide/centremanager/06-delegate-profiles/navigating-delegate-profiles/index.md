@@ -5,7 +5,7 @@ createdAt: 2022-09-01T08:42:37.276Z
 updatedAt: 2022-09-01T08:42:37.281Z
 ---
 1. Go to **Centre dashboard** (in **Tracking System** application) 
-2. Select **Delegates**​
+2. Select **Delegates**
 
 ![](/img/registering-delegates-1.png)
 
@@ -16,21 +16,21 @@ updatedAt: 2022-09-01T08:42:37.281Z
 
 #### To search for a specific delegate:
 
-5. Search **For the delegate​**
+5. Search **For the delegate**
 
 ![](/img/cm-ca_delegate-filters.png)
 
-> The **All delegates** list is filtered by default to show only active delegates.  ​
+> The **All delegates** list is filtered by default to show only active delegates.  
 >
-> You can search by delegate ​**Name**, **Email address** or **delegate ID​**
+> You can search by delegate **Name**, **Email address** or **delegate ID**
 >
-> If you have [set up additional question prompts](/user-guide/centremanager/02-centre-management/configuring-centre-details/managing-registration-prompts) you can also search for delegates within these, using the **Filter by** drop-down​
+> If you have [set up additional question prompts](/user-guide/centremanager/02-centre-management/configuring-centre-details/managing-registration-prompts) you can also search for delegates within these, using the **Filter by** drop-down
 
-6. Select **Expand** to view the delegate registration card​
+6. Select **Expand** to view the delegate registration card
 
 ![](/img/cm-ca_expand-delegate-registration-card.png)
 
-7. Select **Manage delegate​**
+7. Select **Manage delegate**
 
 ![](/img/ccm-ca_manage-delegate-registration-card.png)
 

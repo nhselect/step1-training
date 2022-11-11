@@ -4,18 +4,18 @@ order: 1
 createdAt: 2022-09-08T06:48:31.397Z
 updatedAt: 2022-09-08T06:48:31.401Z
 ---
-1. Access the [DLS landing page (https://www.dls.nhs.uk/v2/Home/Welcome​)](https://www.dls.nhs.uk/v2/Home/Welcome​)
-2. ​Select **Register** (on the **Welcome** page)
+1. Access the [DLS landing page (https://www.dls.nhs.uk/v2/Home/Welcome)](https://www.dls.nhs.uk/v2/Home/Welcome)
+2. Select **Register** (on the **Welcome** page)
 
 ![](/img/self-registering_1.png)
 
-3. ​Complete your **Centre** (i.e. Trust) and **Personal details** (First name, Last name and Email) in the fields, and select **Next**
+3. Complete your **Centre** (i.e. Trust) and **Personal details** (First name, Last name and Email) in the fields, and select **Next**
 
 > You should register with your work email (ending in **@nhs.net** or **nhs.uk**)
 
 ![](/img/self-registering_2.png)
 
-4. Complete your **Learner information** in each field (Job Group, PRN)​, and select **Next**
+4. Complete your **Learner information** in each field (Job Group, PRN), and select **Next**
 
 > For Step 1, Job Group will likely be **Nursing / Midwifery**
 
@@ -29,7 +29,7 @@ You may also be asked for:
 
 5. Create your **Password** and select **Next**
 
-> Your password should have a minimum of 8 characters with at least 1 letter, 1 number and 1 symbol​​​
+> Your password should have a minimum of 8 characters with at least 1 letter, 1 number and 1 symbol
 
 ![](/img/self-registering_4.png)
 

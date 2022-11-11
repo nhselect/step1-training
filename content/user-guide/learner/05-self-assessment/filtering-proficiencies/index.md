@@ -1,10 +1,10 @@
 ---
-title: Filtering proficiencies by completion status or type​
+title: Filtering proficiencies by completion status or type
 order: 2
 createdAt: 2022-09-01T10:15:48.634Z
 updatedAt: 2022-09-01T10:15:48.639Z
 ---
-1. Select the **filter** that you would like to add from the dropdown list, and select **Add filter​**
+1. Select the **filter** that you would like to add from the dropdown list, and select **Add filter**
 
 ![](/img/l_self-assess-proficiencies_0.png)
 
@@ -17,10 +17,10 @@ updatedAt: 2022-09-01T10:15:48.639Z
 > * **Confirmation rejected** - Proficiencies that your Educator/Manager or Assessor has rejected when you sent to them for confirmation
 > * **Purple: Supernumerary** - Proficiencies that should be completed within your supernumerary period
 
-You can see filters have been applied and the number of matching proficiencies​
+You can see filters have been applied and the number of matching proficiencies
 
-To remove the applied filters:​
+To remove the applied filters:
 
-2. Select **Clear filter ​**
+2. Select **Clear filter **
 
 ![](/img/l_self-assess-proficiencies_0_1.png)

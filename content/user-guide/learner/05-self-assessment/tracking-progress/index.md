@@ -1,5 +1,5 @@
 ---
-title: Tracking progress​
+title: Tracking progress
 order: 4
 createdAt: 2022-09-01T10:16:38.669Z
 updatedAt: 2022-09-01T10:16:38.674Z
@@ -10,6 +10,6 @@ The **Proficiencies home** page will show you your progress for self assessment 
 * By section 
 * By individual proficiency
 
-Select **Export to Excel** for a downloadable summary of your proficiencies at any point​
+Select **Export to Excel** for a downloadable summary of your proficiencies at any point
 
 ![](/img/l_self-assess-proficiencies_0_2.png)

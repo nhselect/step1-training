@@ -1,31 +1,31 @@
 ---
-title: Requesting Supervisor confirmation of the Learning Contract​
+title: Requesting Supervisor confirmation of the Learning Contract
 order: 2
 createdAt: 2022-09-01T09:59:33.682Z
 updatedAt: 2022-09-01T09:59:33.687Z
 video: ""
 ---
-Once you have agreed to the three learning contract proficiencies by self assessing, you will need to send then to your Assessor, Educator/Manager and/or Clinical Centre Manager for confirmation ([who can confirm each proficiency](/user-guide/learner/04-learning-contract)). ​
+Once you have agreed to the three learning contract proficiencies by self assessing, you will need to send then to your Assessor, Educator/Manager and/or Clinical Centre Manager for confirmation ([who can confirm each proficiency](/user-guide/learner/04-learning-contract)). 
 
-1. Select **Proficiencies confirmation​**
+1. Select **Proficiencies confirmation**
 
 ![](/img/l_learning-contract_6_n.png)
 
-2. Select **New confirmation request​**
+2. Select **New confirmation request**
 
 ![](/img/l_self-assess-proficiencies_4.png)
 
-3. **Select which Supervisor** (from your Manage supervisor list) you would like to confirm the proficiency and select **Next​** 
+3. **Select which Supervisor** (from your Manage supervisor list) you would like to confirm the proficiency and select **Next** 
 
    * If you cannot see the Supervisor you want, you can add them here (ADD LINK)
 
 ![](/img/l_learning-contract_7_n.png)
 
-4. **Select the proficiency/proficiencies you would like to send** to your selected person and select **Next​**
+4. **Select the proficiency/proficiencies you would like to send** to your selected person and select **Next**
 
 ![](/img/l_learning-contract_8_n.png)
 
-5. Review and select **Submit​**
+5. Review and select **Submit**
 
 ![](/img/l_learning-contract_9.png)
 
@@ -52,4 +52,4 @@ Once you have agreed to the three learning contract proficiencies by self assess
 
 ![](/img/l_learning-contract_12.png)
 
-**9. Repeat steps** to get confirmation for the rest of the Learning contract proficiencies​
+**9. Repeat steps** to get confirmation for the rest of the Learning contract proficiencies

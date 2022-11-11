@@ -4,33 +4,33 @@ order: 6
 createdAt: 2022-09-08T14:41:30.359Z
 updatedAt: 2022-09-08T14:41:30.362Z
 ---
-Similar to the paper version, **Learners are expected to first complete their Learning Contract before starting self-assessment of the Step 1 proficiencies**. This should happen via a discussion with the three stakeholders mentioned:​
+Similar to the paper version, **Learners are expected to first complete their Learning Contract before starting self-assessment of the Step 1 proficiencies**. This should happen via a discussion with the three stakeholders mentioned:
 
-* Learner​
-* Lead assessor​
-* Critical care lead nurse/manager ​
+* Learner
+* Lead assessor
+* Critical care lead nurse/manager 
 
-​The **Learner will need to select ‘Agree’ on behalf of all three stakeholders in their Learning portal** (by selecting Review) following their conversation.​
+The **Learner will need to select ‘Agree’ on behalf of all three stakeholders in their Learning portal** (by selecting Review) following their conversation.
 
-**Confirmation is then required** from either the Assessor, Educator/Manager or Clinical Centre Manager.​
+**Confirmation is then required** from either the Assessor, Educator/Manager or Clinical Centre Manager.
 
 ![](/img/learning-contract_1.png)
 
-The individual who provides confirmation in the platform depends on the proficiency and the Trust:​
+The individual who provides confirmation in the platform depends on the proficiency and the Trust:
 
-| ​Learning contract proficiency​     | Confirmation required​                                                                  |
+| Learning contract proficiency     | Confirmation required                                                                  |
 | ----------------------------------- | --------------------------------------------------------------------------------------- |
-| ​Learner responsibilities​          | Assessor. In some Trusts, this may be your Educator/Manager or Clinical Centre Manager​ |
-| Lead assessor responsibilities​     | Educator/Manager. In some Trusts, this may be your Assessor.​                           |
-| Critical care lead nurse / manager​ | Clinical Centre Manager*. In some Trusts, this may be your Educator/Manager.​           |
+| Learner responsibilities          | Assessor. In some Trusts, this may be your Educator/Manager or Clinical Centre Manager |
+| Lead assessor responsibilities     | Educator/Manager. In some Trusts, this may be your Assessor.                           |
+| Critical care lead nurse / manager | Clinical Centre Manager*. In some Trusts, this may be your Educator/Manager.           |
 
-Note: *The Clinical Centre Manager will need a dual-role in the platform (as also an Educator/Manager or Assessor) in order to be able to confirm in the platform. Otherwise someone else with either of these roles could confirm on their behalf.​
+Note: *The Clinical Centre Manager will need a dual-role in the platform (as also an Educator/Manager or Assessor) in order to be able to confirm in the platform. Otherwise someone else with either of these roles could confirm on their behalf.
 
 #### Confirming agreement to Learning contract
 
-1. Once the Learner has selected ‘Agree’ in their Learning portal and sent to you for confirmation, **you will receive an email from noreply@dls.nhs.uk** (Subject: Self Assessment results review request...) requesting you agree to the Learner contract​ 
+1. Once the Learner has selected ‘Agree’ in their Learning portal and sent to you for confirmation, **you will receive an email from noreply@dls.nhs.uk** (Subject: Self Assessment results review request...) requesting you agree to the Learner contract 
 
-   Select the **Click here** hyperlink​ in email
+   Select the **Click here** hyperlink in email
 
 ![](/img/learning-contract_2.png)
 

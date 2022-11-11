@@ -1,14 +1,14 @@
 ---
-title: Resending and withdrawing confirmation requests​
+title: Resending and withdrawing confirmation requests
 order: 2
 createdAt: 2022-09-01T11:13:32.514Z
 updatedAt: 2022-09-01T11:13:32.518Z
 ---
-1. ​Select **Proficiencies confirmation**
+1. Select **Proficiencies confirmation**
 
 ![](/img/l_learning-contract_6_n.png)
 
-2. Select **Resend** or **Withdraw**​
+2. Select **Resend** or **Withdraw**
 
    * Resend - sends an email reminder of the confirmation request to the Supervisor (Educator/Manager or Assessor) you originally sent it to
    * Withdraw - cancels the confirmation request sent to the original Supervisor and allows you to send again to a new Supervisor  

@@ -6,7 +6,7 @@ updatedAt: 2022-09-01T14:41:30.362Z
 ---
 1. Once the Learner self-assessed a proficiency as 'Achieved' in their Learning portal and sent to you for confirmation, **you will receive an email from noreply@dls.nhs.uk** (Subject: Self Assessment results review request...) requesting you to confirm
 
-   Select the **Click here** hyperlink​ in email
+   Select the **Click here** hyperlink in email
 
 ![](/img/confirming-proficiencies_1_o.png)
 
@@ -49,7 +49,7 @@ updatedAt: 2022-09-01T14:41:30.362Z
 
 4. Once confirmed, the confirmation status will update to **Confirmed** (on your and the Learner's Proficiencies home page) 
 
-The **Learner will also receive a confirmation email** from noreply@dls.nhs.uk​​ 
+The **Learner will also receive a confirmation email** from noreply@dls.nhs.uk 
 
 ![](/img/confirming-proficiencies_8.png)
 
