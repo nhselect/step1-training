@@ -9,29 +9,24 @@
         Welcome to the training packages for the Step 1 proficiencies pilot.
       </p>
       <h2>What you need to do</h2>
-      <ul>
+      <ol>
         <li>
-          Begin by selecting the platform role you will be performing from the
-          options below. If you do not know, contact whoever provided you with
-          the link to the training packages
+          <strong>Select the relevant training package</strong> below for the role(s) that you will be performing within the platform. If you are unsure which training package to complete, contact your Implementation Lead or Clinical Centre Manager 
         </li>
         <li>
-          Work through the materials and tasks presented - this should take 1 to
-          2 hours in total (you don't need to do this in one session)
+          <strong>Read through all the pre-read materials</strong> within your training package - this should take 1 to 2 hours in total (you don't need to do this in one session) 
         </li>
         <li>
-          You can revisit these materials at any point to refresh your knowledge
+          <strong>Complete the self-declaration and feedback form</strong> at the bottom of the training package page to confirm that you've read each of the required materials. If you are performing more than one role, you only need to complete the self-declaration and feedback form once 
         </li>
         <li>
-          Once you have read through all the materials, complete the self
-          declaration and feedback form
+          <strong>Go to the user guide (in your training package) for step-by-step guidance</strong> to start using the platform  
         </li>
-        <li>
-          Upon submission of the self declaration, you will receive an email
-          with a completion certificate attached
-        </li>
-      </ul>
-      <h2>What's your role?</h2>
+      </ol>
+      <p>
+        <strong>You can revisit the training materials</strong> at any point to refresh your knowledge 
+      </p>
+      <h2>Select your training package:</h2>
     </div>
     <ul class="nhsuk-grid-row nhsuk-card-group">
       <li

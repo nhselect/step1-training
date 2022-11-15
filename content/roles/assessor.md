@@ -3,6 +3,16 @@ title: Assessor
 slug: assessor
 order: 6
 ---
-As an Assessor, your responsibility will be to confirm your Learners' self-assessed 'achieved' Step 1 proficiencies. This responsibility is shared with your centre's Educator/Managers, who will also perform final sign off when a Learner has completed all their Step 1 proficiencies.
+The Assessor is responsible for:
 
-**For each resource pay particular attention to the sections relating directly to your role as Assessor**
+  - Confirming Learners’ self-assessed ‘achieved’ Step 1 proficiencies 
+
+Before you can perform this role in the platform, you need to:
+
+1. **Read the pre-reading materials in this training package**
+2. **Complete the self-declaration and feedback form**
+3. **Go to the user guide (in your Assessor training package)** for step-by-step guidance on how to:
+
+    - Self-register or be registered by your Clinical Centre Manager for a platform profile
+    - Request promotion to the Assessor role within the platform from your Clinical Centre Manager (if you are a Clinical Centre Manager you can promote yourself)
+    - Access the Supervise application
