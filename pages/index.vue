@@ -6,41 +6,9 @@
     </h1>
     <div class="nhsuk-u-reading-width">
       <p class="nhsuk-body-l">
-        Welcome to the training packages for the Step 1 proficiencies pilot.
+        {{ homePage.title }}
       </p>
-      <h2>What you need to do</h2>
-      <ol>
-        <li>
-          <strong>Select the relevant training package</strong> below for the
-          role(s) that you will be performing within the platform. If you are
-          unsure which training package to complete, contact your Implementation
-          Lead or Clinical Centre Manager
-        </li>
-        <li>
-          <strong>Read through all the pre-read materials</strong> within your
-          training package - this should take 1 to 2 hours in total (you don't
-          need to do this in one session)
-        </li>
-        <li>
-          <strong>Complete the self-declaration and feedback form</strong> at
-          the bottom of the training package page to confirm that you've read
-          each of the required materials. If you are performing more than one
-          role, you only need to complete the self-declaration and feedback form
-          once
-        </li>
-        <li>
-          <strong
-            >Go to the user guide (in your training package) for step-by-step
-            guidance</strong
-          >
-          to start using the platform
-        </li>
-      </ol>
-      <p>
-        <strong>You can revisit the training materials</strong> at any point to
-        refresh your knowledge
-      </p>
-      <h2>Select your training package:</h2>
+      <NuxtContent :document="homePage" />
     </div>
     <ul class="nhsuk-grid-row nhsuk-card-group">
       <li
@@ -70,8 +38,11 @@ export default {
         error({ statusCode: 404, message: err })
       })
 
+    const homePage = await $content('home').fetch()
+
     return {
       roles,
+      homePage
     }
   },
   head: {

@@ -12,12 +12,16 @@ The Centre Administrator is responsible for supporting the Clinical Centre Manag
 
 Before you can perform this role in the platform, you need to:
 
-1. **Read the [pre-reading materials](#training-prereading) in this training package**
+1. **Read the [pre-reading materials](#training-prereading)**
 2. **Complete the [self-declaration and feedback form](#training-declaration)**
-3. **Go to the [user guide](#training-userguide)** for step-by-step guidance on how to:
+3. **Go to the [User guide](#training-userguide)** to:
 
     - Self-register or be registered by your Clinical Centre Manager for a platform profile
     - Request promotion to the Centre Administrator role within the platform from your Clinical Centre Manager
     - Access the Tracking system application
 
-You may also be performing another role in the platform/pilot (e.g. Educator/Manager or Assessor). If you are, go to that role’s training package after you have read all the below materials, as you only need to complete the self-declaration and feedback form once. Some of the materials are the same across the training packages, so you don’t need to read them twice – these materials will have a blue box that say ‘This material has the same content across all the role training packages’.
+If you are performing another role in the platform/pilot (e.g. Educator / Manager or Assessor), you will also need to read the materials in that role’s training package. Some of the materials are the same across all training packages, so you don’t have to re-read these - these are marked with:
+
+<p class="nhsuk-tag nhsuk-tag--blue nhsuk-u-font-size-14">This is the same across all training packages</p>
+
+Please note, you only need to complete the self-declaration form once.

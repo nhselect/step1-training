@@ -9,7 +9,7 @@
         </h1>
         <nuxt-content :document="page" />
         <hr />
-        <div class="nhsuk-back-link" style="float:right;">
+        <div class="nhsuk-back-link" style="text-align:right;">
           <a class="nhsuk-back-link__link" href="#maincontent">
             ^ Go back to top
           </a>
@@ -34,7 +34,7 @@
           />
         </ul>
         <hr />
-        <div class="nhsuk-back-link" style="float:right;">
+        <div class="nhsuk-back-link" style="text-align:right;">
           <a class="nhsuk-back-link__link" href="#maincontent">
             ^ Go back to top
           </a>
@@ -42,7 +42,7 @@
         <DeclarationLink id="training-declaration" :items="checkItems" />
         <div v-if="userGuide">
           <hr />
-          <div class="nhsuk-back-link" style="float:right;">
+          <div class="nhsuk-back-link" style="text-align:right;">
             <a class="nhsuk-back-link__link" href="#maincontent">
               ^ Go back to top
             </a>
@@ -118,10 +118,10 @@ export default {
 
         if (alsoRoles.length === i.roles.length) {
           duplicateNotice =
-            'This material has the same content across all the role training packages'
+            'This is the same across all training packages'
         } else {
           duplicateNotice =
-            'This material has the same content across the training packages for the roles: ' +
+            'This is the same across all the following training packages: ' +
             alsoRoles.join(', ')
         }
       }
