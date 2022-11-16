@@ -4,29 +4,32 @@
       <div class="nhsuk-card__content">-->
     <details class="nhsuk-details nhsuk-expander">
       <summary class="nhsuk-details__summary">
-        <h2 class="nhsuk-details__summary-text nhsuk-card__heading nhsuk-heading-m">
+        <h3 class="nhsuk-details__summary-text nhsuk-card__heading nhsuk-heading-xs nhsuk-u-margin-bottom-3">
           {{ item.title }}
-        </h2>
-        <p
-          v-if="item.updated"
-          class="step1-updated nhsuk-tag nhsuk-tag--green nhsuk-u-font-size-14"
-        >
-          Updated <strong>{{ item.updatedFormatted }}</strong>
-        </p>
-        <p
-          v-else
-          class="step1-updated nhsuk-tag nhsuk-tag--grey nhsuk-u-font-size-14"
-        >
-          Under development
-        </p>
+        </h3>
+        <div class="step1-item--tags">
+          <span
+            v-if="item.updated"
+            class="step1-updated nhsuk-tag nhsuk-tag--green nhsuk-u-font-size-14"
+          >
+            Updated <strong>{{ item.updatedFormatted }}</strong>
+          </span>
+          <span
+            v-else
+            class="step1-updated nhsuk-tag nhsuk-tag--grey nhsuk-u-font-size-14"
+          >
+            Under development
+          </span>
+          <span
+            v-if="item.duplicateNotice"
+            class="nhsuk-tag nhsuk-tag--blue nhsuk-u-font-size-14"
+          >
+            {{ item.duplicateNotice }}
+          </span>
+        </div>
       </summary>
       <div class="nhsuk-details__text">
-        <p
-          v-if="item.duplicateNotice"
-          class="nhsuk-tag nhsuk-tag--blue nhsuk-u-font-size-14"
-        >
-          {{ item.duplicateNotice }}
-        </p>
+        
         <nuxt-content :document="item" />
         <div v-if="item.link" class="nhsuk-action-link">
           <a class="nhsuk-action-link__link" :href="item.link" target="_blank">
@@ -73,6 +76,10 @@ export default class TrainingMaterialsItem extends Vue {
 
 .step1-item {
   summary {
+    .tags {
+      display: block;
+    }
+
     .step1-updated {
       font-weight: normal;
       margin-bottom: 0;

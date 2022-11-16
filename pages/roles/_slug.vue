@@ -133,8 +133,8 @@ export default {
 
     const userGuide = items.filter((i) => i.slug.indexOf('user-guide-') === 0 ).pop()
 
-    const essentialMaterials = items.filter((i) => !i.optional)
-    const optionalMaterials = items.filter((i) => i.optional)
+    const essentialMaterials = items.filter((i) => !i.optional && i.slug.indexOf('user-guide-') < 0)
+    const optionalMaterials = items.filter((i) => i.optional && i.slug.indexOf('user-guide-') < 0)
 
     const checkItems = items.filter((i) => !i.optional).map((i) => i.title)
 
@@ -161,6 +161,12 @@ export default {
 @import 'node_modules/nhsuk-frontend/packages/components/action-link/action-link';
 @import 'node_modules/nhsuk-frontend/packages/components/back-link/back-link';
 @import 'node_modules/nhsuk-frontend/packages/components/button/button';
+
+.nuxt-content {
+  ul, ol {
+    margin-left: 20px;
+  }
+}
 
 @media (min-width: 48.0625em) {
   .step1-items__contents-list {
