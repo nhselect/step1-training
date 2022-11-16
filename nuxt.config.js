@@ -24,7 +24,7 @@ export default {
   ],
 
   router: {
-    prefetchLinks: false
+    prefetchLinks: false,
   },
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -58,20 +58,20 @@ export default {
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
     liveEdit: false,
-    fullTextSearchFields: ['title']
+    fullTextSearchFields: ['title'],
   },
 
   generate: {
-    routes: ['user-guide/non-clinical-centre-managers']
+    routes: ['user-guide/non-clinical-centre-managers'],
   },
 
   hooks: {
     'content:file:beforeInsert': (document) => {
       if (document.extension === '.md') {
-        const folders = document.dir.split('/').filter(i => i != '')
-        document['folders'] = folders
-        document['pid'] = folders[folders.length-2]
-        document['id'] = folders[folders.length-1]
+        const folders = document.dir.split('/').filter((i) => i !== '')
+        document.folders = folders
+        document.pid = folders[folders.length - 2]
+        document.id = folders[folders.length - 1]
       }
     },
   },

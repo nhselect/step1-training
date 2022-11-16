@@ -12,7 +12,7 @@ The Centre Administrator is responsible for supporting the Clinical Centre Manag
 
 Before you can perform this role in the platform, you need to:
 
-1. **Read the pre-read materials in this training package**
+1. **Read the pre-reading materials in this training package**
 2. **Complete the self-declaration and feedback form**
 3. **Go to the user guide (in your Administrator training package)** for step-by-step guidance on how to:
 

@@ -34,11 +34,7 @@
     </div>
     <p
       class="nhsuk-tag"
-      :class="
-        allItemsChecked
-          ? 'nhsuk-tag--green'
-          : 'nhsuk-tag--grey'
-      "
+      :class="allItemsChecked ? 'nhsuk-tag--green' : 'nhsuk-tag--grey'"
     >
       <strong>Completed: {{ itemsChecked.length }} / {{ items.length }}</strong>
     </p>
@@ -85,10 +81,10 @@ export default {
     }
   },
   computed: {
-    allItemsChecked: function () {
+    allItemsChecked() {
       return this.itemsChecked.length === this.items.length
     },
-  }
+  },
 }
 </script>
 

@@ -2,14 +2,28 @@
   <div>
     <h1>Glossary of terms</h1>
     <div class="nhsuk-u-reading-width">
-      <p>This document provides descriptions of key terminology used throughout the Training package materials and DLS platform.</p>
+      <p>
+        This document provides descriptions of key terminology used throughout
+        the Training package materials and DLS platform.
+      </p>
       <div class="nhsuk-form-group">
         <label class="nhsuk-label" for="example">
           What are you looking for?
         </label>
-        <input class="nhsuk-input" id="example" name="example" type="text" v-model="filterText">
-        <p class="nhsuk-u-font-weight-bold" v-if="filterText.length > 0">Searching for {{ filterText }} has found {{ glossaryFiltered.length }} terms</p>
-        <p class="nhsuk-u-font-weight-bold" v-else>There are {{ glossaryFiltered.length }} terms in this glossary</p>
+        <input
+          id="example"
+          v-model="filterText"
+          class="nhsuk-input"
+          name="example"
+          type="text"
+        />
+        <p v-if="filterText.length > 0" class="nhsuk-u-font-weight-bold">
+          Searching for {{ filterText }} has found
+          {{ glossaryFiltered.length }} terms
+        </p>
+        <p v-else class="nhsuk-u-font-weight-bold">
+          There are {{ glossaryFiltered.length }} terms in this glossary
+        </p>
       </div>
       <GlossaryList :glossary="glossaryFiltered" />
     </div>
@@ -18,9 +32,6 @@
 
 <script>
 export default {
-  head: {
-    title: "Digitised Step 1 user guide - Glossary of Terms"
-  },
   async asyncData({ $content, params, error }) {
     const glossary = await $content('glossary')
       .sortBy('title')
@@ -35,16 +46,21 @@ export default {
   },
   data() {
     return {
-      filterText: "",
+      filterText: '',
     }
   },
+  head: {
+    title: 'Digitised Step 1 user guide - Glossary of Terms',
+  },
   computed: {
-    glossaryFiltered: function () {
+    glossaryFiltered() {
       return this.glossary.filter((f) => {
-        return f.title.toLowerCase().includes(this.filterText.toLowerCase().trim())
+        return f.title
+          .toLowerCase()
+          .includes(this.filterText.toLowerCase().trim())
       })
     },
-  }
+  },
 }
 </script>
 
