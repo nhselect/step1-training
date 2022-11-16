@@ -1,6 +1,5 @@
 <template>
   <div class="nhsuk-u-reading-width">
-    <hr />
     <h2>2. Self declaration and feedback form:</h2>
      <!--
     <div v-if="itemsChecked.length < items.length" class="nhsuk-form-group">

@@ -4,10 +4,7 @@
       <div class="nhsuk-card__content">-->
     <details class="nhsuk-details nhsuk-expander">
       <summary class="nhsuk-details__summary">
-        <h2 class="nhsuk-card__heading nhsuk-heading-m">
-          <span class="step1-item__index nhsuk-u-font-size-32">{{
-            index + 1
-          }}</span>
+        <h2 class="nhsuk-details__summary-text nhsuk-card__heading nhsuk-heading-m">
           {{ item.title }}
         </h2>
         <p

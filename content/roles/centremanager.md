@@ -13,9 +13,9 @@ The Clinical Centre Manager role has ultimate responsibility, accountability and
 
 Before you can perform this role in the platform, you need to:
 
-1. **Read the pre-reading materials in this training package**
-2. **Complete the self-declaration and feedback form**
-3. **Go to the user guide (in your Clinical Centre Manager training package)** for step-by-step on guidance how to:
+1. **Read the [pre-reading materials](#training-prereading) in this training package**
+2. **Complete the [self-declaration and feedback form](#training-declaration)**
+3. **Go to the [user guide](#training-userguide)** for step-by-step guidance on how to:
 
     - Self-register for a platform profile
     - Request promotion to a Centre Manager within the platform from your existing Centre Manager

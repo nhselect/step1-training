@@ -1,87 +1,81 @@
 <template>
   <div class="nhsuk-grid-row">
-    <div class="nhsuk-grid-column-one-third step1-items__contents-list">
-      <nav
-        class="nhsuk-contents-list"
-        role="navigation"
-        aria-label="Training items in this package"
-      >
-        <h2 class="nhsuk-heading-m">Navigation:</h2>
-        <ol class="nhsuk-contents-list__list">
-          <li
-            v-for="item in items"
-            :key="item.title"
-            class="nhsuk-contents-list__item"
-          >
-            <a class="nhsuk-contents-list__link" :href="'#' + item.slug">
-              {{ item.title }}
-            </a>
-          </li>
-        </ol>
-      </nav>
-    </div>
-    <div class="nhsuk-grid-column-two-thirds">
-      <BackLink />
-      <h1>
-        <span class="nhsuk-caption-xl"> Training package for </span>
-        {{ page.title }}
-      </h1>
-      <nuxt-content :document="page" />
-      <hr />
-      <p><strong>Please work through each of the resources below.</strong></p>
-      <h2>1. Pre-reading</h2>
-      <h3>Essential:</h3>
-      <ul class="nhsuk-list">
-        <TrainingMaterialsItem
-          v-for="(item, index) in essentialMaterials"
-          :key="item.slug"
-          :index="index"
-          :item="item"
-        />
-      </ul>
-      <h3>Optional:</h3>
-      <ul class="nhsuk-list">
-        <TrainingMaterialsItem
-          v-for="(item, index) in optionalMaterials"
-          :key="item.slug"
-          :index="index"
-          :item="item"
-        />
-      </ul>
-      <DeclarationLink :items="checkItems" />
-      <div v-if="userGuide">
+    <div class="nhsuk-grid-column-full">
+      <div class="nhsuk-u-reading-width">
+        <BackLink />
+        <h1>
+          <span class="nhsuk-caption-xl"> Training package for </span>
+          {{ page.title }}
+        </h1>
+        <nuxt-content :document="page" />
         <hr />
-        <h2>3. User guide:</h2>
-        <nuxt-content :document="userGuide" />
-        <div v-if="userGuide.link" class="nhsuk-action-link">
-          <a class="nhsuk-action-link__link" :href="userGuide.link" target="_blank">
-            <svg
-              class="nhsuk-icon nhsuk-icon__arrow-right-circle"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-              width="36"
-              height="36"
-            >
-              <path d="M0 0h24v24H0z" fill="none"></path>
-              <path
-                d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"
-              ></path>
-            </svg>
-            <span class="nhsuk-action-link__text">{{
-              userGuide.action ? userGuide.action : 'View resource'
-            }}</span>
+        <div class="nhsuk-back-link" style="float:right;">
+          <a class="nhsuk-back-link__link" href="#maincontent">
+            ^ Go back to top
           </a>
         </div>
-        <!--
+        <h2 id="training-prereading">1. Pre-reading</h2>
+        <h3>Essential:</h3>
         <ul class="nhsuk-list">
           <TrainingMaterialsItem
-            :key="userGuide.slug"
-            index="0"
-            :item="userGuide"
+            v-for="(item, index) in essentialMaterials"
+            :key="item.slug"
+            :index="index"
+            :item="item"
           />
         </ul>
-        -->
+        <h3>Non-essential:</h3>
+        <ul class="nhsuk-list">
+          <TrainingMaterialsItem
+            v-for="(item, index) in optionalMaterials"
+            :key="item.slug"
+            :index="index"
+            :item="item"
+          />
+        </ul>
+        <hr />
+        <div class="nhsuk-back-link" style="float:right;">
+          <a class="nhsuk-back-link__link" href="#maincontent">
+            ^ Go back to top
+          </a>
+        </div>
+        <DeclarationLink id="training-declaration" :items="checkItems" />
+        <div v-if="userGuide">
+          <hr />
+          <div class="nhsuk-back-link" style="float:right;">
+            <a class="nhsuk-back-link__link" href="#maincontent">
+              ^ Go back to top
+            </a>
+          </div>
+          <h2 id="training-userguide">3. User guide:</h2>
+          <div v-if="userGuide.link" class="nhsuk-action-link">
+            <a
+              class="nhsuk-button"
+              :href="userGuide.link"
+              target="_blank"
+            >
+              Access the User Guide
+            </a>
+            <!--<a class="nhsuk-action-link__link" :href="userGuide.link" target="_blank">
+              <svg
+                class="nhsuk-icon nhsuk-icon__arrow-right-circle"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                width="36"
+                height="36"
+              >
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"
+                ></path>
+              </svg>
+              <span class="nhsuk-action-link__text">{{
+                userGuide.action ? userGuide.action : 'View resource'
+              }}</span>
+            </a>-->
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -165,6 +159,8 @@ export default {
 <style lang="scss">
 @import 'node_modules/nhsuk-frontend/packages/components/contents-list/contents-list';
 @import 'node_modules/nhsuk-frontend/packages/components/action-link/action-link';
+@import 'node_modules/nhsuk-frontend/packages/components/back-link/back-link';
+@import 'node_modules/nhsuk-frontend/packages/components/button/button';
 
 @media (min-width: 48.0625em) {
   .step1-items__contents-list {
