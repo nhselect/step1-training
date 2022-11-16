@@ -31,7 +31,7 @@
       <p><strong>Please work through each of the resources below.</strong></p>
 
       <ul class="nhsuk-list">
-        <TrainingItem
+        <TrainingMaterialsItem
           v-for="(item, index) in items"
           :key="item.slug"
           :index="index"

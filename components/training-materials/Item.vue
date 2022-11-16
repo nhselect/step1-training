@@ -63,7 +63,7 @@ import { Vue, Component, Prop } from 'nuxt-property-decorator'
 import { ITrainingItem } from '~/interfaces'
 
 @Component
-export default class BackLink extends Vue {
+export default class TrainingMaterialsItem extends Vue {
   @Prop({ required: true }) readonly index!: number
   @Prop({ required: true }) readonly item!: ITrainingItem
 }
