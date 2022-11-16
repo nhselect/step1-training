@@ -3,8 +3,18 @@ title: Learner
 slug: learner
 order: 5
 ---
-As a Learner on the platform, you will be able to self-assess achievement of Step 1 proficiencies on your record, and request confirmation of this achievement from your Assessor or Educator/Manager.
+As a Learner in the platform, you will be able to:
 
-Once you have completed and had confirmed all your Step 1 proficiencies, your Educator/Manager will have responsibility for performing the final sign off and confirming your completion of Step 1.
+  - Self-assess whether you have ‘achieved’ individual Step 1 proficiencies
+  - Request confirmation of ‘achieved’ Step 1 proficiencies from your Assessor or Educator/Manager
+  - Request final sign-off from your Educator/Manager once all Step 1 proficiencies have been achieved and confirmed
 
-**For each resource pay particular attention to the sections relating directly to your role as Learner**
+Before you can perform this role in the platform, you need to:
+
+1. **Read the [pre-reading materials](#training-prereading)**
+2. **Complete the [self-declaration and feedback form](#training-declaration)**
+3. **Go to the [User guide](#training-userguide)** to:
+
+    - **Self-register or be registered for a platform profile** (your Educator/Manager will tell you which to do) 
+    - Be enrolled onto the Step 1 proficiencies by your Educator/Manager
+    - Start self-assessing achievement of Step 1 proficiencies and requesting confirmation

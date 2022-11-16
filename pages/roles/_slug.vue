@@ -1,118 +1,97 @@
 <template>
   <div class="nhsuk-grid-row">
-    <div class="nhsuk-grid-column-one-third step1-items__contents-list">
-      <nav
-        class="nhsuk-contents-list"
-        role="navigation"
-        aria-label="Training items in this package"
-      >
-        <h2 class="nhsuk-heading-m">Content:</h2>
-        <ol class="nhsuk-contents-list__list">
-          <li
-            v-for="item in items"
-            :key="item.title"
-            class="nhsuk-contents-list__item"
-          >
-            <a class="nhsuk-contents-list__link" :href="'#' + item.slug">
-              {{ item.title }}
+    <div class="nhsuk-grid-column-full">
+      <div class="nhsuk-u-reading-width">
+        <BackLink />
+        <h1>
+          <span class="nhsuk-caption-xl"> Training package for </span>
+          {{ page.title }}
+        </h1>
+        <nuxt-content :document="page" />
+        <hr />
+        <div class="nhsuk-back-link" style="text-align:right;">
+          <a class="nhsuk-back-link__link" href="#maincontent">
+            ^ Go back to top
+          </a>
+        </div>
+        <h2 id="training-prereading">1. Pre-reading</h2>
+        <h3>Essential:</h3>
+        <ul class="nhsuk-list">
+          <TrainingMaterialsItem
+            v-for="(item, index) in essentialMaterials"
+            :key="item.slug"
+            :index="index"
+            :item="item"
+          />
+        </ul>
+        <h3>Non-essential:</h3>
+        <ul class="nhsuk-list">
+          <TrainingMaterialsItem
+            v-for="(item, index) in optionalMaterials"
+            :key="item.slug"
+            :index="index"
+            :item="item"
+          />
+        </ul>
+        <hr />
+        <div class="nhsuk-back-link" style="text-align:right;">
+          <a class="nhsuk-back-link__link" href="#maincontent">
+            ^ Go back to top
+          </a>
+        </div>
+        <DeclarationLink id="training-declaration" :items="checkItems" />
+        <div v-if="userGuide">
+          <hr />
+          <div class="nhsuk-back-link" style="text-align:right;">
+            <a class="nhsuk-back-link__link" href="#maincontent">
+              ^ Go back to top
             </a>
-          </li>
-        </ol>
-      </nav>
-    </div>
-    <div class="nhsuk-grid-column-two-thirds">
-      <BackLink />
-      <h1>
-        <span class="nhsuk-caption-xl"> Training package for </span>
-        {{ page.title }}
-      </h1>
-      <nuxt-content :document="page" />
-      <hr />
-      <p><strong>Please work through each of the resources below.</strong></p>
-
-      <ul class="nhsuk-list">
-        <li
-          v-for="(item, index) in items"
-          :id="item.slug"
-          :key="item.title"
-          class="step1-item"
-        >
-          <div class="nhsuk-card nhsuk-u-margin-bottom-4">
-            <div class="nhsuk-card__content">
-              <h2 class="nhsuk-card__heading nhsuk-heading-m">
-                <span class="step1-item__index nhsuk-u-font-size-32">{{
-                  index + 1
-                }}</span>
-                {{ item.title }}
-              </h2>
-              <p
-                v-if="item.updated"
-                class="step1-updated nhsuk-tag nhsuk-tag--green nhsuk-u-font-size-14"
-              >
-                Updated <strong>{{ item.updatedFormatted }}</strong>
-              </p>
-              <p
-                v-else
-                class="step1-updated nhsuk-tag nhsuk-tag--grey nhsuk-u-font-size-14"
-              >
-                Under development
-              </p>
-              <p v-if="item.duplicateNotice" class="nhsuk-tag nhsuk-tag--blue nhsuk-u-font-size-14">
-                {{ item.duplicateNotice }}
-              </p>
-              <nuxt-content :document="item" />
-              <div
-                v-if="item.link"
-                class="nhsuk-action-link"
-                >
-                <a
-                  class="nhsuk-action-link__link"
-                  :href="item.link"
-                  target="_blank"
-                >
-                  <svg
-                    class="nhsuk-icon nhsuk-icon__arrow-right-circle"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    aria-hidden="true"
-                    width="36"
-                    height="36"
-                  >
-                    <path d="M0 0h24v24H0z" fill="none"></path>
-                    <path
-                      d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"
-                    ></path>
-                  </svg>
-                  <span class="nhsuk-action-link__text">{{
-                    item.action ? item.action : 'View resource'
-                  }}</span>
-                </a>
-              </div>
-            </div>
           </div>
-        </li>
-      </ul>
-      <DeclarationLink :items="checkItems" />
+          <h2 id="training-userguide">3. User guide:</h2>
+          <div v-if="userGuide.link" class="nhsuk-action-link">
+            <a
+              class="nhsuk-button"
+              :href="userGuide.link"
+              target="_blank"
+            >
+              Access the User Guide
+            </a>
+            <!--<a class="nhsuk-action-link__link" :href="userGuide.link" target="_blank">
+              <svg
+                class="nhsuk-icon nhsuk-icon__arrow-right-circle"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                width="36"
+                height="36"
+              >
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"
+                ></path>
+              </svg>
+              <span class="nhsuk-action-link__text">{{
+                userGuide.action ? userGuide.action : 'View resource'
+              }}</span>
+            </a>-->
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  head() {
-    return {
-      title: "Digitised Step 1 user guide for "+this.page.title+"s"
-    }
-  },
   async asyncData({ $content, params, error }) {
     const slug = params.slug || 'index'
-    const page = await $content('roles/'+slug)
+    const page = await $content('roles/' + slug)
       .fetch()
       .catch((err) => {
-        error({ statusCode: 404, message: 'Page not found' })
+        error({ statusCode: 404, message: err })
       })
 
-    const roles = await $content('roles').only(['title','slug']).fetch()
+    const roles = await $content('roles').only(['title', 'slug']).fetch()
 
     let items = await $content('items')
       .where({
@@ -121,25 +100,29 @@ export default {
       .sortBy('order')
       .fetch()
       .catch((err) => {
-        error({ statusCode: 404, message: 'No items retrieved' })
+        error({ statusCode: 404, message: err })
       })
 
     items = items.map((i) => {
       let updatedFormatted = ''
       let duplicateNotice = ''
       if (i.updated) {
-        let updatedDate = new Date(i.updated)
+        const updatedDate = new Date(i.updated)
         updatedFormatted = updatedDate.toLocaleDateString('en-GB')
       }
 
       if (i.roles.length > 1) {
-        let alsoRoles = roles.filter((r) => i.roles.includes(r.slug)).map((r) => r.title)
+        const alsoRoles = roles
+          .filter((r) => i.roles.includes(r.slug))
+          .map((r) => r.title)
 
         if (alsoRoles.length === i.roles.length) {
-          duplicateNotice = 'This material has the same content across all the role training packages'
-        }
-        else {
-          duplicateNotice = 'This material has the same content across the training packages for the roles: ' + alsoRoles.join(', ')
+          duplicateNotice =
+            'This is the same across all training packages'
+        } else {
+          duplicateNotice =
+            'This is the same across all the following training packages: ' +
+            alsoRoles.join(', ')
         }
       }
 
@@ -148,6 +131,11 @@ export default {
       return { ...i, updatedFormatted, duplicateNotice }
     })
 
+    const userGuide = items.filter((i) => i.slug.indexOf('user-guide-') === 0 ).pop()
+
+    const essentialMaterials = items.filter((i) => !i.optional && i.slug.indexOf('user-guide-') < 0)
+    const optionalMaterials = items.filter((i) => i.optional && i.slug.indexOf('user-guide-') < 0)
+
     const checkItems = items.filter((i) => !i.optional).map((i) => i.title)
 
     return {
@@ -155,37 +143,28 @@ export default {
       page,
       items,
       checkItems,
+      userGuide,
+      essentialMaterials,
+      optionalMaterials
+    }
+  },
+  head() {
+    return {
+      title: 'Digitised Step 1 user guide for ' + this.page.title + 's',
     }
   },
 }
 </script>
 
 <style lang="scss">
-@import 'node_modules/nhsuk-frontend/packages/components/card/card';
-@import 'node_modules/nhsuk-frontend/packages/components/tag/tag';
 @import 'node_modules/nhsuk-frontend/packages/components/contents-list/contents-list';
 @import 'node_modules/nhsuk-frontend/packages/components/action-link/action-link';
+@import 'node_modules/nhsuk-frontend/packages/components/back-link/back-link';
+@import 'node_modules/nhsuk-frontend/packages/components/button/button';
 
-.step1-item {
-  > summary {
-    > * {
-      display: block;
-    }
-
-    .step1-updated {
-      font-weight: normal;
-    }
-  }
-
-  .step1-also-roles {
-      margin-right: 2px;
-      margin-bottom: 2px;
-      padding: 2px 4px;
-    }
-
-  .step1-item__index {
-    color: $color_nhsuk-blue;
-    margin-right: 0.3em;
+.nuxt-content {
+  ul, ol {
+    margin-left: 20px;
   }
 }
 

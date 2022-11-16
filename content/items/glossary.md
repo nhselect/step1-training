@@ -9,6 +9,7 @@ roles:
   - assessor
   - implementationlead
 link: /glossary
+optional: true
 updated: 2022-08-16
 order: 11
 ---

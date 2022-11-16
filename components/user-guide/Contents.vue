@@ -1,6 +1,6 @@
 <template>
   <div v-if="contents.length > 0">
-    <h3>Contents</h3>
+    <h3>Navigation:</h3>
     <nav
       class="step1-user-guide-nav"
       role="navigation"
@@ -12,7 +12,7 @@
           :key="page.dir"
           :node="page"
           :active="active"
-          :layer=0
+          :layer="0"
         >
         </UserGuideContentTree>
       </ol>
@@ -21,28 +21,30 @@
 </template>
 
 <script>
-  export default {
-    props: {
-      active: {
-        type: String,
-        required: false,
-        default: '',
-      },
-      role: {
-        type: String,
-        required: true,
-      },
-      contents: {
-        type: Array,
-        required: true
-      }
+export default {
+  props: {
+    active: {
+      type: String,
+      required: false,
+      default: '',
     },
-    fetchKey() { return this.role },
-  }
+    role: {
+      type: String,
+      required: true,
+    },
+    contents: {
+      type: Array,
+      required: true,
+    },
+  },
+  fetchKey() {
+    return this.role
+  },
+}
 </script>
 
 <style lang="scss">
-@import "node_modules/nhsuk-frontend/packages/components/contents-list/contents-list";
+@import 'node_modules/nhsuk-frontend/packages/components/contents-list/contents-list';
 
 .nhsuk-contents-list__item {
   font-size: 0.8em;
@@ -53,7 +55,7 @@
   font-weight: 600;
 }
 
-li>ol {
+li > ol {
   margin: 0;
 }
 </style>

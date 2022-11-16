@@ -3,6 +3,18 @@ title: Educator / Manager
 slug: educator
 order: 4
 ---
-As an Educator/Manager, your responsibilities will include enroling Learners onto the Step 1 proficiencies, confirming your Learners' self-assessed 'achieved' Step 1 proficiencies, and performing final sign off when a Learner has completed all their Step 1 proficiencies.
+The Educator/Manager is responsible for:
 
-You will also have some access to register new delegates onto the platform, and to manage delegate profiles, but these are not expected to be necessary for you to do as the Administrators and Clinical Centre Managers in your centre will have responsibility for this.
+  - Enrolling Learners onto the Step 1 proficiencies in the platform
+  - Confirming Learners’ self-assessed ‘achieved’ Step 1 proficiencies 
+  - Performing final sign-off when a Learner has completed all their Step 1 proficiencies
+
+Before you can perform this role in the platform, you need to:
+
+1. **Read the [pre-reading materials](#training-prereading)**
+2. **Complete the [self-declaration and feedback form](#training-declaration)**
+3. **Go to the [User guide](#training-userguide)** to:
+
+    - Self-register or be registered by your Clinical Centre Manager for a platform profile
+    - Request promotion to the Educator/Manager role within the platform from your Clinical Centre Manager (if you are a Clinical Centre Manager you can promote yourself)
+    - Access the Supervise application

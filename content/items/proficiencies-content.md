@@ -4,6 +4,7 @@ slug: proficiencies-content
 roles:
   - implementationlead
 link: https://nhselect.sharepoint.com/:x:/s/LearningandEducationNetworks/DSP/EX8TrZHKqZRBvs16PG4fx9MBSiu1HEVOS-Zlf3oQvKPXYw
+optional: true
 updated: 2022-08-16
 order: 10
 ---

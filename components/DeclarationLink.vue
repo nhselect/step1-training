@@ -1,7 +1,7 @@
 <template>
   <div class="nhsuk-u-reading-width">
-    <hr />
-    <h2>Self declaration and feedback</h2>
+    <h2>2. Self declaration and feedback form:</h2>
+     <!--
     <div v-if="itemsChecked.length < items.length" class="nhsuk-form-group">
       <fieldset class="nhsuk-fieldset" aria-describedby="check-hint">
         <p id="check-hint">
@@ -34,16 +34,13 @@
     </div>
     <p
       class="nhsuk-tag"
-      :class="
-        allItemsChecked
-          ? 'nhsuk-tag--green'
-          : 'nhsuk-tag--grey'
-      "
+      :class="allItemsChecked ? 'nhsuk-tag--green' : 'nhsuk-tag--grey'"
     >
       <strong>Completed: {{ itemsChecked.length }} / {{ items.length }}</strong>
     </p>
-
-    <div v-if="allItemsChecked">
+    -->
+    <!-- <div v-if="allItemsChecked">-->
+    <div>
       <p>
         <strong
           >Thank you for working through this training content. You can revisit
@@ -85,10 +82,10 @@ export default {
     }
   },
   computed: {
-    allItemsChecked: function () {
+    allItemsChecked() {
       return this.itemsChecked.length === this.items.length
     },
-  }
+  },
 }
 </script>
 

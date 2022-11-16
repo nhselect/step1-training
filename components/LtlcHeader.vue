@@ -28,15 +28,12 @@
           >Step 1 Proficiencies - Training Materials</a
         >
       </div>
-      <div class="nhsuk-header__content" id="content-header">
-      </div>
+      <div id="content-header" class="nhsuk-header__content"></div>
     </div>
   </header>
 </template>
 
 <script>
-import { PassThrough } from 'stream'
-
 export default {
   computed: {
     isUserGuide() {
@@ -53,8 +50,9 @@ export default {
           return ''
         }
       }
-    }
-  }
+      return ''
+    },
+  },
 }
 </script>
 

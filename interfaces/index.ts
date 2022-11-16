@@ -1,0 +1,1 @@
+export { ITrainingItem } from './ITrainingItem'

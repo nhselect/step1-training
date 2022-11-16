@@ -9,6 +9,7 @@ roles:
   - assessor
   - implementationlead
 link: https://nhs-step1-proficiencies-demo.netlify.app/
+optional: true
 updated: 2022-08-26
 order: 9
 ---
