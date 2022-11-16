@@ -2,6 +2,7 @@
 title: Introduction Video
 slug: introduction-video
 roles:
+  - implementationlead
   - administrator
   - learner
   - educator
