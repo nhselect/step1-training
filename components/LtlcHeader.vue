@@ -28,7 +28,9 @@
           >Step 1 Proficiencies - Training Materials</a
         >
       </div>
-      <div id="content-header" class="nhsuk-header__content"></div>
+      <div v-if="isUserGuide" id="content-header" class="nhsuk-header__content">
+        <UserGuideSearchBar :role="role" />
+      </div>
     </div>
   </header>
 </template>
