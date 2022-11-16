@@ -1,7 +1,8 @@
 <template>
   <div class="nhsuk-u-reading-width">
     <hr />
-    <h2>Self declaration and feedback</h2>
+    <h2>2. Self declaration and feedback form:</h2>
+     <!--
     <div v-if="itemsChecked.length < items.length" class="nhsuk-form-group">
       <fieldset class="nhsuk-fieldset" aria-describedby="check-hint">
         <p id="check-hint">
@@ -38,8 +39,9 @@
     >
       <strong>Completed: {{ itemsChecked.length }} / {{ items.length }}</strong>
     </p>
-
-    <div v-if="allItemsChecked">
+    -->
+    <!-- <div v-if="allItemsChecked">-->
+    <div>
       <p>
         <strong
           >Thank you for working through this training content. You can revisit

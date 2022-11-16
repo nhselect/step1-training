@@ -29,16 +29,60 @@
       <nuxt-content :document="page" />
       <hr />
       <p><strong>Please work through each of the resources below.</strong></p>
-
+      <h2>1. Pre-reading</h2>
+      <h3>Essential:</h3>
       <ul class="nhsuk-list">
         <TrainingMaterialsItem
-          v-for="(item, index) in items"
+          v-for="(item, index) in essentialMaterials"
+          :key="item.slug"
+          :index="index"
+          :item="item"
+        />
+      </ul>
+      <h3>Optional:</h3>
+      <ul class="nhsuk-list">
+        <TrainingMaterialsItem
+          v-for="(item, index) in optionalMaterials"
           :key="item.slug"
           :index="index"
           :item="item"
         />
       </ul>
       <DeclarationLink :items="checkItems" />
+      <div v-if="userGuide">
+        <hr />
+        <h2>3. User guide:</h2>
+        <nuxt-content :document="userGuide" />
+        <div v-if="userGuide.link" class="nhsuk-action-link">
+          <a class="nhsuk-action-link__link" :href="userGuide.link" target="_blank">
+            <svg
+              class="nhsuk-icon nhsuk-icon__arrow-right-circle"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              width="36"
+              height="36"
+            >
+              <path d="M0 0h24v24H0z" fill="none"></path>
+              <path
+                d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"
+              ></path>
+            </svg>
+            <span class="nhsuk-action-link__text">{{
+              userGuide.action ? userGuide.action : 'View resource'
+            }}</span>
+          </a>
+        </div>
+        <!--
+        <ul class="nhsuk-list">
+          <TrainingMaterialsItem
+            :key="userGuide.slug"
+            index="0"
+            :item="userGuide"
+          />
+        </ul>
+        -->
+      </div>
     </div>
   </div>
 </template>
@@ -93,6 +137,11 @@ export default {
       return { ...i, updatedFormatted, duplicateNotice }
     })
 
+    const userGuide = items.filter((i) => i.slug.indexOf('user-guide-') === 0 ).pop()
+
+    const essentialMaterials = items.filter((i) => !i.optional)
+    const optionalMaterials = items.filter((i) => i.optional)
+
     const checkItems = items.filter((i) => !i.optional).map((i) => i.title)
 
     return {
@@ -100,6 +149,9 @@ export default {
       page,
       items,
       checkItems,
+      userGuide,
+      essentialMaterials,
+      optionalMaterials
     }
   },
   head() {
@@ -112,6 +164,7 @@ export default {
 
 <style lang="scss">
 @import 'node_modules/nhsuk-frontend/packages/components/contents-list/contents-list';
+@import 'node_modules/nhsuk-frontend/packages/components/action-link/action-link';
 
 @media (min-width: 48.0625em) {
   .step1-items__contents-list {
