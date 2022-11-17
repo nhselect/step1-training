@@ -42,20 +42,10 @@
     <!-- <div v-if="allItemsChecked">-->
     <div>
       <p>
-        <strong
-          >Thank you for working through this training content. You can revisit
-          this at any time.</strong
-        >
+        Once you have completed the pre-reading, you will need to complete this self-declaration form stating that you have read the essential materials and provide us with some feedback on the content.
       </p>
       <p>
-        Now that you have completed this content, it's time to get set up on the
-        platform. You'll need to complete a self declaration stating that you
-        have viewed these materials, and provide us with some feedback on the
-        content.
-      </p>
-      <p>
-        Once this has been submitted you'll receive an email with a link to the
-        platform, and final steps on signing up.
+        Upon submission, you will receive an email with a certificate of completion. We recommend that you share this with your Implementation Lead as evidence of having completed the essential pre-reading.
       </p>
       <a
         class="nhsuk-button"
