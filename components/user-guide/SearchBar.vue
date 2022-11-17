@@ -147,7 +147,8 @@ export default {
     },
     $route() {
       this.query = '',
-      this.articles = []
+      this.articles = [],
+      this.searchActive - false
     },
   },
 }
