@@ -19,8 +19,7 @@ updatedAt: 2022-09-01T08:36:22.732Z
 
 > You should always download a new excel (via ‘Download delegates’) to update and re-upload, versus using an offline copy you have saved previously
 
-5. Select: the **Excel download** to **open the spreadsheet **
-
+5. Select: the **Excel download** to **open the spreadsheet** 
 6. Select: **Enable Editing**
 
 ![](/img/registering-delegates-14.png)
@@ -47,7 +46,7 @@ Within the spreadsheet you can:
    * **FirstName**
    * **JobGroupID** -  Need to add the ID # that matches the Job Group on the ‘Job Group’ tab in excel
 
-     * If delegate was from Nursing / Midwifery, would insert ‘2’
+     * If delegate was from Nursing / Midwifery, would insert ‘1’
    * **Active** - must contain either TRUE or FALSE usually TRUE
    * **E-mail address** - ensure that a unique work e-mail address is provided for each delegate (e.g. @nhs.net or nhs.uk)
    * **Has PRN** (professional registration number)- must contain either TRUE or FALSE. If set to TRUE a PRN will be required in the next field
@@ -67,7 +66,7 @@ Within the spreadsheet you can:
 > Do not edit the name of the spreadsheet when you save it
 
 11. **Return to your browser** (the ‘Bulk upload/update delegates screen’)
-12. Select: **Start upload **
+12. Select: **Start upload** 
 
 ![](/img/registering-delegates-16.png)
 
@@ -84,7 +83,6 @@ The email will include a link inviting your delegates to set a password for thei
 > You specify the date in which the welcome email is shared with the delegate
 >
 > If you choose not to send a welcome email, you will be presented with the option to set up a password on behalf of the delegate which will need to be shared with them 
-> 
 
 14. Select: **Choose file** (the spreadsheet with your new delegate registrations)
 15. Select: **Upload and process**
