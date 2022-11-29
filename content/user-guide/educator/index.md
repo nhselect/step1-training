@@ -1,7 +1,7 @@
 ---
 title: Educator/Manager
 createdAt: 2022-09-08T14:49:03.539Z
-updatedAt: 2022-09-08T14:49:03.546Z
+updatedAt: 2022-11-29T14:49:03.546Z
 ---
 This guide provides you with step-by-step information on how to get setup and start using the DLS platform, which hosts the digitised Step 1 proficiencies.  
 
