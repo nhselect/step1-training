@@ -72,9 +72,9 @@ Within the spreadsheet you can:
 
 > A summary of new and updated delegate records will be provided. If there are any duplicates (i.e. same delegate on two rows) or errors in the excel this will be flagged. If this happens, re-download the excel again and fix.
 
-The email will include a link inviting your delegates to set a password for their account
 
-13. Select: **Send welcome email to registered delegates** (optional)
+
+13. Select: **Send welcome email to registered delegates** 
 
 ![](/img/registering-delegates-17.png)
 
@@ -82,7 +82,7 @@ The email will include a link inviting your delegates to set a password for thei
 >
 > You specify the date in which the welcome email is shared with the delegate
 >
-> If you choose not to send a welcome email, you will be presented with the option to set up a password on behalf of the delegate which will need to be shared with them 
+> If you choose not to send a welcome email, you will need to individually set up passwords for each delegate.
 
 14. Select: **Choose file** (the spreadsheet with your new delegate registrations)
 15. Select: **Upload and process**
