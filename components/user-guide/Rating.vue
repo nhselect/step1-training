@@ -20,7 +20,7 @@
       >
         {{ option.text }}
       </button>
-      <div v-if="rated && score == 0 && !submitted" class="nhsuk-form-group">
+      <div v-if="rated && score < 0 && !submitted" class="nhsuk-form-group">
         <label class="nhsuk-label" for="rating-comment">
           Please tell us what issues you experienced:
         </label>
@@ -66,15 +66,15 @@ export default {
       options: [
         {
           text: '😦',
-          value: 0,
+          value: -1,
         },
         {
           text: '😐',
-          value: 1,
+          value: 0,
         },
         {
           text: '😀',
-          value: 2,
+          value: 1,
         },
       ],
     }
@@ -93,7 +93,7 @@ export default {
       })
       this.rated = true
       this.score = score
-      this.submitted = score > 0
+      this.submitted = score > -1
     },
     submitComments() {
       if (this.ratingComment.length > 0) {
