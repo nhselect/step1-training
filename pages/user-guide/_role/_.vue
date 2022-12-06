@@ -40,6 +40,12 @@
             </nav>
           </div>
         </div>
+        <UserGuideRating
+          v-if="page.rating"
+          :key="$route.fullPath"
+          :role="role.title"
+          :guide="page.title"
+        />
         <UserGuidePagination :prev="prev" :next="next" />
       </div>
     </div>

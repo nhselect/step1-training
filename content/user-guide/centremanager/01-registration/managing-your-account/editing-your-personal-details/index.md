@@ -1,6 +1,7 @@
 ---
 title: Editing your personal details
 order: 1
+rating: true
 createdAt: 2022-09-01T08:12:55.792Z
 updatedAt: 2022-09-01T08:12:55.796Z
 ---

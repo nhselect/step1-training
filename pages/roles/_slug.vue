@@ -9,7 +9,7 @@
         </h1>
         <nuxt-content :document="page" />
         <hr />
-        <div class="nhsuk-back-link" style="text-align:right;">
+        <div class="nhsuk-back-link" style="text-align: right">
           <a class="nhsuk-back-link__link" href="#maincontent">
             ^ Go back to top
           </a>
@@ -34,7 +34,7 @@
           />
         </ul>
         <hr />
-        <div class="nhsuk-back-link" style="text-align:right;">
+        <div class="nhsuk-back-link" style="text-align: right">
           <a class="nhsuk-back-link__link" href="#maincontent">
             ^ Go back to top
           </a>
@@ -42,18 +42,14 @@
         <DeclarationLink id="training-declaration" :items="checkItems" />
         <div v-if="userGuide">
           <hr />
-          <div class="nhsuk-back-link" style="text-align:right;">
+          <div class="nhsuk-back-link" style="text-align: right">
             <a class="nhsuk-back-link__link" href="#maincontent">
               ^ Go back to top
             </a>
           </div>
           <h2 id="training-userguide">3. User guide:</h2>
           <div v-if="userGuide.link" class="nhsuk-action-link">
-            <a
-              class="nhsuk-button"
-              :href="userGuide.link"
-              target="_blank"
-            >
+            <a class="nhsuk-button" :href="userGuide.link" target="_blank">
               Access the User Guide
             </a>
             <!--<a class="nhsuk-action-link__link" :href="userGuide.link" target="_blank">
@@ -117,8 +113,7 @@ export default {
           .map((r) => r.title)
 
         if (alsoRoles.length === i.roles.length) {
-          duplicateNotice =
-            'This is the same across all training packages'
+          duplicateNotice = 'This is the same across all training packages'
         } else {
           duplicateNotice =
             'This is the same across all the following training packages: ' +
@@ -131,10 +126,16 @@ export default {
       return { ...i, updatedFormatted, duplicateNotice }
     })
 
-    const userGuide = items.filter((i) => i.slug.indexOf('user-guide-') === 0 ).pop()
+    const userGuide = items
+      .filter((i) => i.slug.indexOf('user-guide-') === 0)
+      .pop()
 
-    const essentialMaterials = items.filter((i) => !i.optional && i.slug.indexOf('user-guide-') < 0)
-    const optionalMaterials = items.filter((i) => i.optional && i.slug.indexOf('user-guide-') < 0)
+    const essentialMaterials = items.filter(
+      (i) => !i.optional && !i.slug.includes('user-guide-')
+    )
+    const optionalMaterials = items.filter(
+      (i) => i.optional && !i.slug.includes('user-guide-')
+    )
 
     const checkItems = items.filter((i) => !i.optional).map((i) => i.title)
 
@@ -145,7 +146,7 @@ export default {
       checkItems,
       userGuide,
       essentialMaterials,
-      optionalMaterials
+      optionalMaterials,
     }
   },
   head() {
@@ -163,7 +164,8 @@ export default {
 @import 'node_modules/nhsuk-frontend/packages/components/button/button';
 
 .nuxt-content {
-  ul, ol {
+  ul,
+  ol {
     margin-left: 20px;
   }
 }

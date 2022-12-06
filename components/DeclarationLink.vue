@@ -1,7 +1,7 @@
 <template>
   <div class="nhsuk-u-reading-width">
     <h2>2. Self declaration and feedback form:</h2>
-     <!--
+    <!--
     <div v-if="itemsChecked.length < items.length" class="nhsuk-form-group">
       <fieldset class="nhsuk-fieldset" aria-describedby="check-hint">
         <p id="check-hint">
@@ -42,10 +42,14 @@
     <!-- <div v-if="allItemsChecked">-->
     <div>
       <p>
-        Once you have completed the pre-reading, you will need to complete this self-declaration form stating that you have read the essential materials and provide us with some feedback on the content.
+        Once you have completed the pre-reading, you will need to complete this
+        self-declaration form stating that you have read the essential materials
+        and provide us with some feedback on the content.
       </p>
       <p>
-        Upon submission, you will receive an email with a certificate of completion. We recommend that you share this with your Implementation Lead as evidence of having completed the essential pre-reading.
+        Upon submission, you will receive an email with a certificate of
+        completion. We recommend that you share this with your Implementation
+        Lead as evidence of having completed the essential pre-reading.
       </p>
       <a
         class="nhsuk-button"
