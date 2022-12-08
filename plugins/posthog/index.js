@@ -3,7 +3,8 @@ import { nextTick } from 'vue'
 
 export default function ({ app: { router } }, inject) {
   // Init PostHog
-  posthogJs.init('phc_F6hSj6IEPAbP37W9TToYLj2fZXlzcK1Z3DuvCleJxUE', {
+  const posthog_api_key = process.env.POSTHOG_API_KEY
+  posthogJs.init(posthog_api_key, {
     api_host: 'https://eu.posthog.com',
     autocapture: false,
     capture_pageview: false,
