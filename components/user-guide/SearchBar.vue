@@ -3,7 +3,6 @@
     <button
       id="toggle-search"
       class="nhsuk-header__search-toggle"
-      :class="searchActive? 'is-active' : ''"
       aria-controls="search"
       aria-label="Open search"
     >
@@ -33,8 +32,7 @@
         <div id="autocomplete-container" class="autocomplete-container">
           <div class="autocomplete__wrapper">
             <div
-              style="
-                border: 0;
+              style="border: 0;
                 clip: rect(0, 0, 0, 0);
                 height: 1px;
                 margin-bottom: -1px;
@@ -43,8 +41,7 @@
                 padding: 0;
                 position: absolute;
                 white-space: nowrap;
-                width: 1px;
-              "
+                width: 1px;"
             >
               <div
                 id="search-field__status--A"
@@ -59,44 +56,20 @@
                 aria-live="polite"
               ></div>
             </div>
-            <input
+            <UserGuideLunr 
               id="search-field"
-              v-model="query"
-              aria-expanded="false"
-              aria-owns="search-field__listbox"
-              aria-autocomplete="list"
-              autocomplete="off"
-              class="autocomplete__input autocomplete__input--default"
-              name="search-field"
-              placeholder="Search"
-              type="text"
-              role="combobox"
-            />
-            <ul
-              v-if="articles.length"
-              id="search-field__listbox"
-              class="autocomplete__menu autocomplete__menu--inline"
-              role="listbox"
-            >
-              <li
-                v-for="article of articles"
-                id="search-field__option--0"
-                :key="article.dir"
-                aria-selected="false"
-                class="autocomplete__option"
-                role="option"
-                tabindex="-1"
-                aria-posinset="1"
-                aria-setsize="10"
+              :role="role"
+              lang="en"
               >
+              <template v-slot:default="{ result, index, maxScore, meta }">
                 <NuxtLink
+                  :to="meta.href"
                   class="autocomplete__option-title"
-                  :to="article.dir"
-                >
-                  {{ article.title }}
+                  >
+                  {{ meta.title }}
                 </NuxtLink>
-              </li>
-            </ul>
+              </template>
+            </UserGuideLunr>
             <span id="search-field__assistiveHint" style="display: none">
               When autocomplete results are available use up and down arrows
               to review and enter to select. Touch device users, explore by
@@ -119,38 +92,7 @@
 export default {
   props: {
     role: String,
-  },
-  data() {
-    return {
-      query: '',
-      searchActive: false,
-      articles: [],
-    }
-  },
-  watch: {
-    async query(query) {
-      if (!query) {
-        this.articles = []
-        return
-      }
-      this.articles = await this.$content('user-guide/' + this.role, {
-        deep: true,
-      })
-        .only(['title', 'slug', 'dir'])
-        .sortBy('createdAt', 'asc')
-        .search(query)
-        .limit(12)
-        .fetch()
-        .catch((err) => {
-          return []
-        })
-    },
-    $route() {
-      this.query = '',
-      this.articles = [],
-      this.searchActive - false
-    },
-  },
+  }
 }
 </script>
 
