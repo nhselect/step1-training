@@ -157,6 +157,10 @@ export default {
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
     }
+
+    > svg {
+      color: $color_nhsuk-yellow;
+    }
   }
 }
 </style>
