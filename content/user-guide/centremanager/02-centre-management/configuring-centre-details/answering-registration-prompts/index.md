@@ -6,7 +6,7 @@ updatedAt: 2022-12-08T10:20:27.196Z
 ---
 Once the **3 mandatory pre-existing prompts /answers** have been set up for your Centre, you will need to answer them for your own delegate account.
 
-> If you registered delegates or delegates self-registered before the registration prompts were set, you will need to ask them to retrospectively answer the registration prompts via their '**My account**' page
+> If you registered delegates or delegates self-registered before the registration prompts were set, you will also need to ask them to retrospectively answer the registration prompts via their '**My account**' page
 
 1. Select **My account** page
 
