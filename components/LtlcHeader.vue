@@ -29,7 +29,7 @@
         >
       </div>
       <div v-if="isUserGuide" id="content-header" class="nhsuk-header__content">
-        <UserGuideSearchBar :role="role" />
+        <UserGuideSearchBar :path="$router.currentRoute.path" :key="$route.fullPath" />
       </div>
     </div>
   </header>
@@ -41,18 +41,6 @@ export default {
     isUserGuide() {
       const path = this.$router.currentRoute.path
       return path.indexOf('user-guide/') > 0
-    },
-    role() {
-      const path = this.$router.currentRoute.path
-      if (path.indexOf('user-guide/')) {
-        const role = path.split('/')[2]
-        if (role) {
-          return role
-        } else {
-          return ''
-        }
-      }
-      return ''
     },
   },
 }

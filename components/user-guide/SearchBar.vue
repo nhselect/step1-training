@@ -59,6 +59,7 @@
             <UserGuideLunr 
               id="search-field"
               :role="role"
+              :key="role"
               lang="en"
               >
               <template v-slot:default="{ result, index, maxScore, meta }">
@@ -91,7 +92,20 @@
 <script>
 export default {
   props: {
-    role: String,
+    path: String,
+  },
+  computed: {
+    role() {
+      if (this.path.indexOf('user-guide/')) {
+        const role = this.path.split('/')[2]
+        if (role) {
+          return role
+        } else {
+          return ''
+        }
+      }
+      return ''
+    },
   }
 }
 </script>
