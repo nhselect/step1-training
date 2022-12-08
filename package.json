@@ -30,7 +30,10 @@
     "nuxt-property-decorator": "^2.9.1",
     "posthog-js": "^1.36.1",
     "prettier": "^2.7.1",
-    "vue-class-component": "^7.2.6"
+    "vue-class-component": "^7.2.6",
+    "@fortawesome/fontawesome-svg-core": "6.1.0",
+    "@fortawesome/free-solid-svg-icons": "6.1.0",
+    "@fortawesome/vue-fontawesome": "^2.0.8"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.3",
