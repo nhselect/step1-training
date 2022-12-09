@@ -1,6 +1,7 @@
 ---
 title: Being registered by Clinical Centre Managers or Administrators
 order: 2
+rating: true
 createdAt: 2022-09-01T07:10:14.416Z
 updatedAt: 2022-09-01T07:10:14.421Z
 ---

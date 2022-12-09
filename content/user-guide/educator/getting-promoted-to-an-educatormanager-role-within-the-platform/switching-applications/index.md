@@ -1,6 +1,7 @@
 ---
 title: Switching to the Supervise application
 order: 2
+rating: true
 createdAt: 2022-09-08T13:22:50.137Z
 updatedAt: 2022-09-08T13:22:50.142Z
 ---

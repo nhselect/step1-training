@@ -1,6 +1,7 @@
 ---
 title: Registering delegates on the platform
 order: 5
+rating: true
 createdAt: 2022-09-01T14:41:30.359Z
 updatedAt: 2022-09-01T14:41:30.362Z
 ---

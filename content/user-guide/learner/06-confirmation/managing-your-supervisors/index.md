@@ -1,6 +1,7 @@
 ---
 title: Managing your Supervisors
 order: 3
+rating: true
 createdAt: 2022-09-01T11:14:15.994Z
 updatedAt: 2022-09-01T11:14:15.998Z
 ---

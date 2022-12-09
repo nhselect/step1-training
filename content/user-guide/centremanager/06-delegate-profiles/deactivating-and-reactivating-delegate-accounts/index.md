@@ -1,6 +1,7 @@
 ---
 title: Deactivating and reactivating delegate accounts
 order: 4
+rating: true
 createdAt: 2022-09-01T08:46:58.828Z
 updatedAt: 2022-09-01T08:46:58.833Z
 ---

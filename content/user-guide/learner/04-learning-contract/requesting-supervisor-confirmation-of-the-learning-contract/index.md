@@ -1,6 +1,7 @@
 ---
 title: Requesting Supervisor confirmation of the Learning Contract
 order: 2
+rating: true
 createdAt: 2022-09-01T09:59:33.682Z
 updatedAt: 2022-09-01T09:59:33.687Z
 video: ""

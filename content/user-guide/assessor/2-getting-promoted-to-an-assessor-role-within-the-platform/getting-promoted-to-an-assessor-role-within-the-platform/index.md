@@ -1,6 +1,7 @@
 ---
 title: Getting promoted to an Assessor role within the platform
 order: 1
+rating: true
 createdAt: 2022-09-01T07:10:41.352Z
 updatedAt: 2022-10-21T17:07:32.348Z
 ---

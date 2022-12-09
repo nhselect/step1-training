@@ -1,6 +1,7 @@
 ---
 title: Switching to the Tracking System application
 order: 2
+rating: true
 createdAt: 2022-09-01T08:09:57.469Z
 updatedAt: 2022-09-01T08:09:57.473Z
 ---

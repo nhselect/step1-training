@@ -1,6 +1,7 @@
 ---
 title: Filtering proficiencies by completion status or type
 order: 2
+rating: true
 createdAt: 2022-09-01T10:15:48.634Z
 updatedAt: 2022-09-01T10:15:48.639Z
 ---

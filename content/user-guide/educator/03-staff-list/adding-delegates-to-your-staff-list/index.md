@@ -1,6 +1,7 @@
 ---
 title: Adding delegates to your staff list
 order: 1
+rating: true
 createdAt: 2022-09-08T13:28:31.759Z
 updatedAt: 2022-09-08T13:28:31.763Z
 ---

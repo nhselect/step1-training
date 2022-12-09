@@ -1,6 +1,7 @@
 ---
 title: Enrolling your Learners
 order: 1
+rating: true
 createdAt: 2022-09-08T13:42:57.073Z
 updatedAt: 2022-09-08T13:42:57.078Z
 ---

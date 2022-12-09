@@ -1,6 +1,7 @@
 ---
 title: Managing registration prompts
 order: 3
+rating: true
 createdAt: 2022-09-01T15:21:22.133Z
 updatedAt: 2022-09-01T15:21:22.137Z
 ---

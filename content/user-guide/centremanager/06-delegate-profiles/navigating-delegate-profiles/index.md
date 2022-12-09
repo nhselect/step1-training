@@ -1,6 +1,7 @@
 ---
 title: Navigating delegate profiles
 order: 1
+rating: true
 createdAt: 2022-09-01T08:42:37.276Z
 updatedAt: 2022-09-01T08:42:37.281Z
 ---

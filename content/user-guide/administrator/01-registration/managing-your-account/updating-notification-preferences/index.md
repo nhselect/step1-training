@@ -1,6 +1,7 @@
 ---
 title: Updating notification preferences
 order: 3
+rating: true
 createdAt: 2022-09-01T07:12:11.069Z
 updatedAt: 2022-09-01T07:12:11.072Z
 ---

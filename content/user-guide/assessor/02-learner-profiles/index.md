@@ -1,6 +1,7 @@
 ---
 title: Viewing Learner profiles
 order: 2
+rating: true
 createdAt: 2022-09-01T14:39:34.314Z
 updatedAt: 2022-09-01T14:39:34.317Z
 tags: ""

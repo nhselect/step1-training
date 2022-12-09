@@ -1,6 +1,7 @@
 ---
 title: Accessing the centre dashboard
 order: 1
+rating: true
 createdAt: 2022-09-01T08:17:30.287Z
 updatedAt: 2022-09-01T08:17:30.290Z
 ---

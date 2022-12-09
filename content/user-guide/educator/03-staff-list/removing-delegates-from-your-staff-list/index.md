@@ -1,6 +1,7 @@
 ---
 title: Removing delegates from your staff list
 order: 3
+rating: true
 createdAt: 2022-09-08T13:32:15.402Z
 updatedAt: 2022-09-08T13:32:15.407Z
 ---

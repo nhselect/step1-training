@@ -1,6 +1,7 @@
 ---
 title: Centre content on DLS website
 order: 3
+rating: true
 createdAt: 2022-09-01T15:21:09.959Z
 updatedAt: 2022-09-01T15:21:09.963Z
 ---

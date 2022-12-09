@@ -1,6 +1,7 @@
 ---
 title: Logging in to your profile
 order: 3
+rating: true
 createdAt: 2022-09-08T13:21:59.357Z
 updatedAt: 2022-09-08T13:21:59.368Z
 ---

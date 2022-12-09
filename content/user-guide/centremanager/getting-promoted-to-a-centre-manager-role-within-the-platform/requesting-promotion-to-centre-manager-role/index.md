@@ -1,6 +1,7 @@
 ---
 title: Requesting promotion to Centre Manager role
 order: 1
+rating: true
 createdAt: 2022-09-01T08:07:40.956Z
 updatedAt: 2022-10-21T16:01:04.995Z
 ---

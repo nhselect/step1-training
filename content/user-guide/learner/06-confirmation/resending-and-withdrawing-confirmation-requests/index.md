@@ -1,6 +1,7 @@
 ---
 title: Resending and withdrawing confirmation requests
 order: 2
+rating: true
 createdAt: 2022-09-01T11:13:32.514Z
 updatedAt: 2022-09-01T11:13:32.518Z
 ---

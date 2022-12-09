@@ -1,6 +1,7 @@
 ---
 title: Individual registration
 order: 2
+rating: true
 createdAt: 2022-09-01T08:29:13.976Z
 updatedAt: 2022-09-01T08:29:13.981Z
 ---

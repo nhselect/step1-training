@@ -1,6 +1,7 @@
 ---
 title: Tracking progress
 order: 4
+rating: true
 createdAt: 2022-09-01T10:16:38.669Z
 updatedAt: 2022-09-01T10:16:38.674Z
 ---

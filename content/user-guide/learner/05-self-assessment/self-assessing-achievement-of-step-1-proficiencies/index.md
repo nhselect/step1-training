@@ -1,6 +1,7 @@
 ---
 title: Self-assessing achievement of Step 1 proficiencies
 order: 4
+rating: true
 createdAt: 2022-09-01T10:17:24.685Z
 updatedAt: 2022-09-01T10:17:24.695Z
 ---

@@ -1,6 +1,7 @@
 ---
 title: Editing delegate details
 order: 2
+rating: true
 createdAt: 2022-09-01T08:44:44.663Z
 updatedAt: 2022-09-01T08:44:44.667Z
 ---

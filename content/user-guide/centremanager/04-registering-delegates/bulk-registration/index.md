@@ -1,6 +1,7 @@
 ---
 title: Bulk registration
 order: 3
+rating: true
 createdAt: 2022-09-01T08:36:22.726Z
 updatedAt: 2022-09-01T08:36:22.732Z
 ---

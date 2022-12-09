@@ -1,6 +1,7 @@
 ---
 title: Self-registering for your profile
 order: 1
+rating: true
 createdAt: 2022-09-01T06:48:31.397Z
 updatedAt: 2022-09-01T06:48:31.401Z
 ---

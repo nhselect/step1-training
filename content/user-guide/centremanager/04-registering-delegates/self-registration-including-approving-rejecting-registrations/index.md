@@ -1,6 +1,7 @@
 ---
 title: Self-registration - including approving / rejecting registrations
 order: 1
+rating: true
 createdAt: 2022-09-01T08:27:34.604Z
 updatedAt: 2022-09-01T08:27:34.610Z
 ---

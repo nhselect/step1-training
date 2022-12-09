@@ -1,6 +1,7 @@
 ---
 title: Configuring centre details
 order: 2
+rating: true
 createdAt: 2022-09-01T08:18:33.204Z
 updatedAt: 2022-09-01T08:18:33.209Z
 ---

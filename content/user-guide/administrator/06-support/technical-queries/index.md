@@ -1,6 +1,7 @@
 ---
 title: Technical queries
 order: 1
+rating: true
 createdAt: 2022-09-01T08:48:57.675Z
 updatedAt: 2022-09-01T08:48:57.680Z
 ---

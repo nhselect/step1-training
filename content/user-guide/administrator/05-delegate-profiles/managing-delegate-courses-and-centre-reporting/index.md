@@ -1,6 +1,7 @@
 ---
 title: Managing delegate courses and Centre reporting
 order: 5
+rating: true
 createdAt: 2022-09-01T08:48:17.339Z
 updatedAt: 2022-09-01T08:48:17.343Z
 ---

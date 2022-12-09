@@ -1,6 +1,7 @@
 ---
 title: Accessing support
 order: 9
+rating: true
 createdAt: 2022-09-08T14:42:21.728Z
 updatedAt: 2022-09-08T14:42:21.731Z
 ---

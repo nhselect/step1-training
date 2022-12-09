@@ -1,6 +1,7 @@
 ---
 title: Promoting delegates to admin roles within the platform
 order: 6
+rating: true
 createdAt: 2022-09-01T14:41:30.359Z
 updatedAt: 2022-09-01T14:41:30.362Z
 ---

@@ -1,6 +1,7 @@
 ---
 title: Changing your password
 order: 2
+rating: true
 createdAt: 2022-09-01T09:20:43.425Z
 updatedAt: 2022-09-01T09:20:43.430Z
 ---

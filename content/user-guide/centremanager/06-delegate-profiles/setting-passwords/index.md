@@ -1,6 +1,7 @@
 ---
 title: Setting passwords
 order: 3
+rating: true
 createdAt: 2022-09-01T08:45:29.234Z
 updatedAt: 2022-09-01T08:45:29.238Z
 ---
