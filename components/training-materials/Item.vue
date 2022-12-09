@@ -4,7 +4,9 @@
       <div class="nhsuk-card__content">-->
     <details class="nhsuk-details nhsuk-expander">
       <summary class="nhsuk-details__summary">
-        <h3 class="nhsuk-details__summary-text nhsuk-card__heading nhsuk-heading-xs nhsuk-u-margin-bottom-3">
+        <h3
+          class="nhsuk-details__summary-text nhsuk-card__heading nhsuk-heading-xs nhsuk-u-margin-bottom-3"
+        >
           {{ item.title }}
         </h3>
         <div class="step1-item--tags">
@@ -29,7 +31,6 @@
         </div>
       </summary>
       <div class="nhsuk-details__text">
-        
         <nuxt-content :document="item" />
         <div v-if="item.link" class="nhsuk-action-link">
           <a class="nhsuk-action-link__link" :href="item.link" target="_blank">
