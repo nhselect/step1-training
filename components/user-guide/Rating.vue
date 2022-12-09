@@ -91,7 +91,7 @@ export default {
       submitted: false,
       options: [
         {
-          icon: 'face-smile',
+          icon: 'face-frown',
           text: 'Bad',
           value: -1,
         },
@@ -101,7 +101,7 @@ export default {
           value: 0,
         },
         {
-          icon: 'face-frown',
+          icon: 'face-smile',
           text: 'Good',
           value: 1,
         },
