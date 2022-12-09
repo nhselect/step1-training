@@ -54,6 +54,23 @@ export default {
     // 'nuxt-buefy',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    {
+      src: '@nuxtjs/lunr-module',
+      // These are the default options:
+      options: {
+        css: false,
+        defaultLanguage: 'en',
+        languages: false,
+        path: 'search-index',
+        ref: 'id',
+        fields: [
+          'title',
+          'text',
+          'tags',
+          'role'
+        ]
+      }
+    }
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
@@ -73,8 +90,65 @@ export default {
         document.folders = folders
         document.pid = folders[folders.length - 2]
         document.id = folders[folders.length - 1]
+
+        if (document.folders[0] === 'user-guide') {
+          document.role = document.folders[1]
+        }
       }
     },
+    async ready(nuxt) {
+      const { $content } = require('@nuxt/content')
+      const articles = await $content('/user-guide',{deep:true,text:true})
+        .where({
+          $and: [{
+            role: {
+              $ne: ''
+            }
+          },
+          {
+            text: {
+              $len: {
+                $gt: 1
+              }
+            }
+          }]
+        })
+        .only([
+          'title',
+          'text',
+          'tags',
+          'dir',
+          'role'
+        ])
+        .fetch()
+
+      const roles = [...new Set(articles.map(a=>a.role))]
+
+      const documentIndexes = articles.map((a,index)=>{
+        return {
+          document: {
+            id: index + 1,
+            title: a.title,
+            text: a.text,
+            tags: a.tags,
+            role: a.role,
+          },
+          meta: {
+            title: a.title,
+            href: a.dir,
+            role: a.role
+          }
+        }
+      })
+
+      documentIndexes.forEach((d) => {
+        nuxt.callHook('lunr:document',{
+          document: d.document,
+          meta: d.meta
+        })
+      })
+
+    }
   },
 
   privateRuntimeConfig: {
