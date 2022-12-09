@@ -1,5 +1,5 @@
 ---
-title: Edit centre details
+title: Editing centre details
 order: 1
 rating: true
 createdAt: 2022-09-01T15:20:34.451Z
