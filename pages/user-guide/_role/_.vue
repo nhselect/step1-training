@@ -43,6 +43,7 @@
         <UserGuideRating
           v-if="page.rating"
           :key="$route.fullPath"
+          :path="$route.path"
           :role="role.title"
           :guide="page.title"
         />

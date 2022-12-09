@@ -82,6 +82,7 @@ export default {
   props: {
     guide: String,
     role: String,
+    path: String,
   },
   data() {
     return {
@@ -119,6 +120,7 @@ export default {
         Role: this.role,
         Guide: this.guide,
         Score: score,
+        $current_url: this.path,
       })
       this.rated = true
       this.score = score
@@ -130,6 +132,7 @@ export default {
           Role: this.role,
           Guide: this.guide,
           Comment: this.ratingComment,
+          $current_url: this.path,
         })
         this.submitted = true
       }
