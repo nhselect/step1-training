@@ -78,7 +78,8 @@ collections:
       - {label: "Modified Date", name: "updatedAt", widget: "datetime", time_format: false, date_format: "DD/MM/YYYY"}
       - {label: "Video", name: "video", widget: "string", required: false}
       - {label: "Tags", name: "tags", widget: "string", required: false}
-      - {label: "Allow rating", name: "rating", widget: "boolean", required: false}
+      - {label: "Allow rating", name: "rating", widget: "boolean", required: false, default: true}
+      - {label: "Hide from search results", name: "hideSearch", widget: "boolean", required: false, default: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
     meta: { path: { label: "Parent", widget: "parent", index_file: "index" } }
 

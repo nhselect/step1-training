@@ -111,7 +111,13 @@ export default {
                 $gt: 1
               }
             }
-          }]
+          },
+          {
+            hideSearch: {
+              $ne: true
+            }
+          }
+        ]
         })
         .only([
           'title',
