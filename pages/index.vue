@@ -42,7 +42,7 @@ export default {
 
     return {
       roles,
-      homePage
+      homePage,
     }
   },
   head: {

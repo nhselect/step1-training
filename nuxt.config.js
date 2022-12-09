@@ -16,11 +16,12 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['@fortawesome/fontawesome-svg-core/styles.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '~/node_modules/nhsuk-frontend/dist/nhsuk.min.js', mode: 'client' },
+    { src: '~/plugins/posthog', mode: 'client' },
   ],
 
   router: {
@@ -148,6 +149,11 @@ export default {
       })
 
     }
+  },
+
+  privateRuntimeConfig: {
+    posthogApiKey: process.env.POSTHOG_API_KEY,
+    posthogProjectId: process.env.POSTHOG_PROJECT_ID,
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
