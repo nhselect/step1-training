@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="nhsuk-back-link">
-      <a class="nhsuk-back-link__link" :href="'/roles/' + role.slug">
+      <a class="nhsuk-back-link__link" :href="role ? '/roles/' + role.slug : '/'">
         <svg
           class="nhsuk-icon nhsuk-icon__chevron-left"
           xmlns="http://www.w3.org/2000/svg"
@@ -19,11 +19,11 @@
     </div>
     <h1>
       Setup and Utilisation process maps
-      <span class="nhsuk-caption-xl">{{ role.title }}</span>
+      <span class="nhsuk-caption-xl">{{ role ? role.title : '' }}</span>
     </h1>
     <div class="nhsuk-u-reading-width">
       <p class="nhsuk-body-s nhsuk-u-secondary-text-color">
-        Last changed: {{ page.updatedAt | formatDate }}
+        Last changed: {{ page ? page.updatedAt : false  | formatDate }}
       </p>
     </div>
     <nuxt-content :document="page" />
@@ -66,7 +66,6 @@
                         :name="'role-'+opt.value"
                         type="checkbox"
                         :value="opt.value"
-                        :checked="opt.value === role.slug"
                         >
                       <label class="nhsuk-label nhsuk-checkboxes__label" for="example-1">
                         {{ opt.text }}
@@ -614,13 +613,35 @@
 export default {
   filters: {
     formatDate: (dateStr) =>
-      Intl.DateTimeFormat('en-GB', {
+      dateStr ? Intl.DateTimeFormat('en-GB', {
         day: 'numeric',
         month: 'long',
         year: 'numeric',
-      }).format(new Date(dateStr))
+      }).format(new Date(dateStr)) : ''
   },
   scrollToTop: true,
+  async asyncData({ $content, params, error }) {
+    const roleParam = params.role || params.pathMatch
+
+    // fetch role info content
+    const role = await $content('roles/' + roleParam)
+      .fetch()
+      .catch((err) => {
+        error({ statusCode: 404, message: err })
+      })
+
+    // fetch current page content
+    const page = await $content('process/centremanager')
+      .fetch()
+      .catch((err) => {
+        error({ statusCode: 404, message: err })
+      })
+
+    return {
+      role,
+      page,
+    }
+  },
   data() {
     return {
       roles: [],
@@ -737,40 +758,16 @@ export default {
     }
   },
   mounted() {
-    if (this.role.slug) {
+    if (this.role && this.role.slug) {
       if (!this.roles.includes(this.role.slug)) {
         this.roles.push(this.role.slug)
       }
     }
   },
-  async asyncData({ $content, params, error }) {
-    const roleParam = params.role || params.pathMatch
-
-    // fetch role info content
-    const role = await $content('roles/' + roleParam)
-      .fetch()
-      .catch((err) => {
-        error({ statusCode: 404, message: err })
-      })
-
-    // fetch current page content
-    const page = await $content('process/process')
-      .fetch()
-      .catch((err) => {
-        error({ statusCode: 404, message: err })
-      })
-
-    return {
-      role,
-      page,
-    }
-  },
   head() {
     return {
       title:
-        'Digitised Step 1 user guide for ' +
-        this.page.title +
-        's - Process map',
+        'Digitised Step 1 - Process map',
     }
   },
 }
