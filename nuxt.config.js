@@ -80,7 +80,10 @@ export default {
   },
 
   generate: {
-    routes: ['user-guide/non-clinical-centre-managers'],
+    routes: [
+      'user-guide/non-clinical-centre-managers',
+      'process/centremanager',
+    ],
   },
 
   hooks: {
