@@ -21,7 +21,7 @@
           :disabled="rated"
           @click="rateGuide(option.value)"
         >
-          <FontAwesome :icon="option.icon" />
+          <FontAwesome :icon="['fass', option.icon]" />
         </button>
       </div>
       <div v-if="rated && score < 1 && !submitted" class="nhsuk-form-group">
@@ -65,7 +65,7 @@ import {
   faFaceSmile,
   faFaceFrown,
   faFaceMeh,
-} from '@fortawesome/free-solid-svg-icons'
+} from '@fortawesome/sharp-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 config.autoAddCss = false
