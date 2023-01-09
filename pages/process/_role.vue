@@ -381,7 +381,7 @@
               </p>
             </ProcessNode>
 
-            <ProcessNode :required="isAdmin || (isCCM & !isFirstCCM)" :roles="roles"  :actionBy="['centremanager','administrator']">
+            <ProcessNode :required="isAdmin || (isCCM && !isFirstCCM)" :roles="roles"  :actionBy="['centremanager','administrator']">
               <p>
                 The new delegate completes the pre-reading materials in the training package and completes the self declaration prior to accessing the platform
               </p>
@@ -704,7 +704,7 @@ export default {
       if (this.roles.includes('centremanager')) {
         if (this.notFirstCCM !== null) {
           return !this.notFirstCCM
-        }
+        } 
         if (this.multiCCM === false) {
           return true
         }
