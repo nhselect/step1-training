@@ -165,6 +165,14 @@ export default {
     posthogProjectId: process.env.POSTHOG_PROJECT_ID,
   },
 
+  vue: {
+    config: {
+      compilerOptions: {
+        
+      }
+    }
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     extend(config, ctx) {

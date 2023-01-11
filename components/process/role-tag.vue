@@ -3,7 +3,7 @@
     <template v-for="(role, index) in rolesActive">
       <span :key="role" :class="'process-role--'+role">
         {{ roleName(role) }}
-      </span>{{ index < rolesActive.length-1 ? index < rolesActive.length-2 ? ', ': or ? 'or ': 'and ' : '' }}
+      </span>{{ index < rolesActive.length-1 ? index < rolesActive.length-2 ? ', ': or ? ' or ': ' and ' : '' }}
     </template>
   </span>
 </template>

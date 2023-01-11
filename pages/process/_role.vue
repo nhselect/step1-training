@@ -152,7 +152,7 @@
                   </div>
 
                   <div v-if="hasMultiCCM && isFirstCCM" class="nhsuk-hint">
-                    <b>Note:</b> You will need to select one Clinical Centre Manager to be set first on the platform (this may be you), as there is an initial setup stage for your team. Once the first has been set up, your additional Clinical Centre Managers can be added easily.
+                    You will need to select one Clinical Centre Manager to be setup first on the platform (this may be you). Once they have been set up, the additional Clinical Centre Managers can easily be added.
                   </div>
                 </fieldset>
 
@@ -293,33 +293,29 @@
           <summary class="nhsuk-details__summary">
             <h2 class="nhsuk-details__summary-text">
               1: Initial Centre setup
-              <span class="nhsuk-caption-m nhsuk-u-reading-width process-step--header-text">
-                Setting up the first Clinical Centre Manager, and configuring the Centre details. Actions needed by the <ProcessRole :roles="{firstcentremanager:true,nccentremanager:true}" />
-              </span>
             </h2>
+            <p class="nhsuk-caption-m nhsuk-u-reading-width process-step--header-text">
+              Setting up the first Clinical Centre Manager, and configuring the Centre details. Actions needed by the <ProcessRole :roles="{firstcentremanager:true,nccentremanager:true}" />
+            </p>
+            <p class="nhsuk-caption-m nhsuk-u-reading-width process-step--header-text">
+              This step of the process should only need to be completed once, by your Trust's first Clinical Centre Manager
+            </p>
           </summary>
           <div class="nhsuk-details__text">
-
-            <div class="nhsuk-inset-text">
-              This step of the process should only need to be completed once, by your Trust's first Clinical Centre Manager
-            </div>
 
             <ProcessNode step=1 :required="isFirstCCM" :actionBy="['firstcentremanager']" :roles="roles">
               <p>
                 <span v-if="isFirstCCM">As the <ProcessRole :roles="{firstcentremanager:true}" /> you will need to </span>
-                <span v-else>The <ProcessRole :roles="{firstcentremanager:true}" /> will</span> self-register as a delegate on platform
-              </p>
-              <p v-if="isFirstCCM" class="process-important">
-                <strong>Note:</strong> You won't have the access of a Clinical Centre Manager at this point
+                <span v-else>The <ProcessRole :roles="{firstcentremanager:true}" /> will</span> self-register as a delegate on the platform
               </p>
             </ProcessNode>
 
             <ProcessNode v-if="isFirstCCM" step=2 :actionBy="['nccentremanager']" :roles="roles">
               <p>
-                If you self-register using a computer within your Trust, your registration will be approved automatically.
+                If self-registering using a computer within your Trust, registration will be approved automatically.
               </p>
               <p>
-                Otherwise, your registration will need to be approved by your Trust's existing <ProcessRole :roles="{nccentremanager:true}" />
+                Otherwise, registration will need to be approved by an existing <ProcessRole :roles="{nccentremanager:true}" />
               </p>
               <p class="process-important">
                 <b>Don't know who your Non-clinical centre manager is?</b> Contact Learningnetwork@nhselect.org.uk for details
@@ -344,10 +340,13 @@
 
         <details
           class="nhsuk-details"
+          :class="{
+            'process-section--required' : isCCM || (hasAdminRole && isCCM || isAdmin)
+          }"
           :open="isCCM || isAdmin">
           <summary class="nhsuk-details__summary">
             <h2 class="nhsuk-details__summary-text">
-              2: {{ hasMultiCCM ? "Additional" : "" }}<ProcessRole :roles="{centremanager:hasMultiCCM||(!hasMultiCCM&&!hasAdminRole),administrator:hasAdminRole||(!hasMultiCCM&&!hasAdminRole)}" /> setup
+              2: {{ hasMultiCCM ? "Additional " : "" }}<ProcessRole :roles="{centremanager:hasMultiCCM||(!hasMultiCCM&&!hasAdminRole),administrator:hasAdminRole||(!hasMultiCCM&&!hasAdminRole)}" /> setup
               <span class="nhsuk-caption-m nhsuk-u-reading-width process-step--header-text">
                 Setting up any additional <ProcessRole :roles="{centremanager:hasMultiCCM,administrator:hasAdminRole}" or /> roles and configuring the Centre details. Actions needed by the <ProcessRole :roles="{centremanager:true}" />
               </span>
@@ -356,39 +355,21 @@
 
           <div class="nhsuk-details__text">
 
-            <div class="nhsuk-inset-text">
-              This step of the process will need to be repeated for each additional <ProcessRole :roles="{centremanager:hasMultiCCM,administrator:true}" or /> in your Trust
-            </div>
-
-            <div v-if="isCCM && isAdmin && !isFirstCCM" class="nhsuk-error-summary">
-              <span class="nhsuk-error-summary__title">Important: </span>
-              <div class="nhsuk-error-summary__body">
-                As you are filling both the <ProcessRole :roles="{centremanager:true,administrator:true}" /> roles, you will need to complete the following steps twice - once for each role.
-              </div>
-            </div>
-
-            <div v-if="isFirstCCM && isAdmin" class="nhsuk-error-summary">
-              <span class="nhsuk-error-summary__title">Important: </span>
-              <div class="nhsuk-error-summary__body">
-                As you are the first Clinical Centre Manager and also taking the Centre Administrator role, you will need to complete the following steps to assign your Centre Administrator role.
-              </div>
-            </div>
-
             <ProcessNode :required="isCCM" :roles="roles" :actionBy="['centremanager']">
               <p>
-                An existing Clinical Centre Manager should share the relevant role training package with the new delegate prior to them registering on the platform
+                An existing Clinical Centre Manager should share the relevant role training package with the new delegate before they register on the platform
               </p>
             </ProcessNode>
 
             <ProcessNode :required="isAdmin || (isCCM && !isFirstCCM)" :roles="roles"  :actionBy="['centremanager','administrator']">
               <p>
-                The new delegate completes the pre-reading materials in the training package and completes the self declaration prior to accessing the platform
+                The new delegate completes the pre-reading materials in the training package and completes the self declaration before accessing the platform
               </p>
             </ProcessNode>
 
             <ProcessNode :roles="roles" :required="isCCM" :actionBy="['centremanager']">
               <p v-if="['both','self'].includes(regMethod) || !regMethod">
-                An existing Clinical Centre Manager tells the new delegate to self-register for a profile on platform
+                An existing Clinical Centre Manager tells the new delegate to self-register for a profile on the platform
               </p>
               <p v-if="!regMethod || regMethod === 'both'">
                 <strong>or</strong>
@@ -400,14 +381,14 @@
 
             <ProcessNode v-if="['both','self'].includes(regMethod) || !regMethod" :actionBy="['centremanager']" :roles="roles">
               <p>
-                If you self-register using a computer within your Trust, your registration will be approved automatically.
+                If self-registering using a computer within your Trust, registration will be approved automatically.
               </p>
               <p>
-                Otherwise, your registration will need to be approved by an existing <ProcessRole :roles="{centremanager:true}" />
+                Otherwise, registration will need to be approved by an existing <ProcessRole :roles="{nccentremanager:true}" />
               </p>
             </ProcessNode>
 
-            <ProcessNode :roles="roles" :actionBy="['centremanager']">
+            <ProcessNode :roles="roles" :required="isCCM" :actionBy="['centremanager']">
               <p>
                 An existing Clinical Centre Manager promotes the new delegate to the <ProcessRole :roles="{centremanager:hasMultiCCM,administrator:hasAdminRole}" :or="true" /> role on the platform
               </p>
@@ -422,6 +403,9 @@
 
         <details
           class="nhsuk-details"
+          :class="{
+            'process-section--required' : ((isCCM && ([null,'both','centremanager'].includes(promoMethod))) || (isEM && ([null,'both','educator'].includes(promoMethod))))
+          }"
           open
           >
           <summary class="nhsuk-details__summary">
@@ -429,21 +413,14 @@
               3: <ProcessRole :roles="{educator:true,assessor:true}" />
                setup
                <span class="nhsuk-caption-m nhsuk-u-reading-width process-step--header-text">
-                Setting up any <ProcessRole :roles="{educator:true,assessor:true}" /> roles. Actions needed by the <ProcessRole :roles="{centremanager:true,administrator:hasAdminRole}" or />
+                Setting up any <ProcessRole :roles="{educator:true,assessor:true}" /> roles. Actions needed by the <ProcessRole :roles="{centremanager:true,educator:true}" or />
               </span>
             </h2>
           </summary>
 
           <div class="nhsuk-details__text">
 
-            <div v-if="isEM && isAssessor" class="nhsuk-error-summary">
-              <span class="nhsuk-error-summary__title">Important: </span>
-              <div class="nhsuk-error-summary__body">
-                As you are filling both the Educator/Manager and Assessor roles, you will need to complete the following steps twice - once for each role.
-              </div>
-            </div>
-
-            <ProcessNode :roles="roles" :actionBy="['centremanager','administrator','educator']">
+            <ProcessNode :roles="roles" :actionBy="['centremanager','administrator','educator']" :required="isCCM || isAdmin || isEM">
               <p>
                 An existing admin role (e.g. <ProcessRole :roles={centremanager:true,administrator:true,educator:true} :or="true" />) shares the relevant role training package with the new delegate
               </p>
@@ -451,13 +428,13 @@
 
             <ProcessNode :required="isEM || isAssessor" :roles="roles"  :actionBy="['educator','assessor']">
               <p>
-                The new delegate completes the pre-reading materials in the training package and completes the self declaration prior to accessing the platform
+                The new delegate completes the pre-reading materials in the training package and completes the self declaration before accessing the platform
               </p>
             </ProcessNode>
 
-            <ProcessNode :roles="roles" :actionBy="['centremanager']" :required="isEM || isAssessor">
+            <ProcessNode :roles="roles" :actionBy="['centremanager']" :required="isEM || isAssessor || isCCM">
               <p v-if="['both','self'].includes(regMethod) || !regMethod">
-                An existing Clinical Centre Manager tells the new delegate to self-register for a profile on platform
+                An existing Clinical Centre Manager tells the new delegate to self-register for a profile on the platform
               </p>
               <p v-if="!regMethod || regMethod === 'both'">
                 <strong>or</strong>
@@ -467,18 +444,18 @@
               </p>
             </ProcessNode>
 
-            <ProcessNode v-if="['both','self'].includes(regMethod) || !regMethod" :actionBy="['centremanager']" :roles="roles"  :required="isEM || isAssessor">
+            <ProcessNode v-if="['both','self'].includes(regMethod) || !regMethod" :actionBy="['centremanager']" :roles="roles"  :required="isEM || isAssessor || isCCM">
               <p>
-                If you self-register using a computer within your Trust, your registration will be approved automatically.
+                If self-registering using a computer within your Trust, registration will be approved automatically.
               </p>
               <p>
-                Otherwise, your registration will need to be approved by an existing <ProcessRole :roles="{centremanager:true}" />
+                Otherwise, registration will need to be approved by an existing <ProcessRole :roles="{nccentremanager:true}" />
               </p>
             </ProcessNode>
 
-            <ProcessNode :actionBy="['centremanager','administrator']" :roles="roles" :required="isEM || isAssessor">
+            <ProcessNode :actionBy="['centremanager','administrator']" :required="((isCCM && ([null,'both','centremanager'].includes(promoMethod))) || (isEM && ([null,'both','educator'].includes(promoMethod))))" :roles="roles" >
               <p>
-                The <ProcessRole :roles="{centremanager:true,administrator:hasAdminRole}" or /> promotes the new delegate to the relevant <ProcessRole :roles="{educator:true,assessor:true}" or /> role on the platform
+                The <ProcessRole :roles="{centremanager:[null,'both','centremanager'].includes(promoMethod),educator:[null,'both','educator'].includes(promoMethod)}" or /> promotes the new delegate to the relevant <ProcessRole :roles="{educator:true,assessor:true}" or /> role on the platform
               </p>
             </ProcessNode>
             
@@ -511,7 +488,7 @@
 
             <ProcessNode :roles="roles" :actionBy="['centremanager']">
               <p v-if="['both','self'].includes(regMethod) || !regMethod">
-                An existing Clinical Centre Manager tells the new delegate to self-register for a profile on platform
+                An existing Clinical Centre Manager tells the new delegate to self-register for a profile on the platform
               </p>
               <p v-if="!regMethod || regMethod === 'both'">
                 <strong>or</strong>
@@ -523,10 +500,10 @@
 
             <ProcessNode v-if="['both','self'].includes(regMethod) || !regMethod" :actionBy="['centremanager']" :roles="roles">
               <p>
-                If you self-register using a computer within your Trust, your registration will be approved automatically.
+                If self-registering using a computer within your Trust, registration will be approved automatically.
               </p>
               <p>
-                Otherwise, your registration will need to be approved by an existing <ProcessRole :roles="{centremanager:true}" />
+                Otherwise, registration will need to be approved by an existing <ProcessRole :roles="{nccentremanager:true}" />
               </p>
             </ProcessNode>
 
@@ -579,7 +556,7 @@
 
             <ProcessNode step=1 :roles="roles" :actionBy="['educator','assessor']" :required="isEM || isAssessor">
               <p>
-                The Educator/Manager or Assessor confirms the Learner's self-assessed proficiencies as 'achieved'
+                The Educator/Manager or Assessor confirms the Learner's self-assessed as 'achieved' proficiencies
               </p>
             </ProcessNode>
 

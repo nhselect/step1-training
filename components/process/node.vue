@@ -3,6 +3,7 @@
     class="nhsuk-card step1-process__node"
     :class="{ 'step1-process__node--required': required }"
     >
+    <!--
     <div v-if="actionBy.length > 0" class="step1-process__node--action">
       <div
         class="nhsuk-tag"
@@ -20,6 +21,7 @@
         </span>
       </div>
     </div>
+    -->
     <div class="nhsuk-card__content">
       <slot />
     </div>
