@@ -404,7 +404,7 @@
         <details
           class="nhsuk-details"
           :class="{
-            'process-section--required' : ((isCCM && ([null,'both','centremanager'].includes(promoMethod))) || (isEM && ([null,'both','educator'].includes(promoMethod))))
+            'process-section--required' : ((isCCM && ([null,'both','centremanager'].includes(promoMethod))) || (isEM && ([null,'both','educator'].includes(promoMethod))) || isEM || isAssessor)
           }"
           open
           >
@@ -422,25 +422,25 @@
 
             <ProcessNode :roles="roles" :actionBy="['centremanager','administrator','educator']" :required="isCCM || isAdmin || isEM">
               <p>
-                An existing admin role (e.g. <ProcessRole :roles={centremanager:true,administrator:true,educator:true} :or="true" />) shares the relevant role training package with the new delegate
+                An existing admin role (e.g. <ProcessRole :roles={centremanager:true,administrator:true,educator:true} :or="true" />) shares the relevant role training package with {{ isEM || isAssessor ? 'you' : 'the new delegate'}}
               </p>
             </ProcessNode>
 
             <ProcessNode :required="isEM || isAssessor" :roles="roles"  :actionBy="['educator','assessor']">
               <p>
-                The new delegate completes the pre-reading materials in the training package and completes the self declaration before accessing the platform
+                {{ isEM || isAssessor ? 'You should complete' : 'The new delegate completes'}} the pre-reading materials in the training package and the self declaration before accessing the platform
               </p>
             </ProcessNode>
 
             <ProcessNode :roles="roles" :actionBy="['centremanager']" :required="isEM || isAssessor || isCCM">
               <p v-if="['both','self'].includes(regMethod) || !regMethod">
-                An existing Clinical Centre Manager tells the new delegate to self-register for a profile on the platform
+                An existing Clinical Centre Manager directs {{ isEM || isAssessor ? 'you' : 'the new delegate'}} to self-register for a profile on the platform
               </p>
               <p v-if="!regMethod || regMethod === 'both'">
                 <strong>or</strong>
               </p>
               <p v-if="['both','behalf'].includes(regMethod) || !regMethod">
-                An existing Clinical Centre Manager registers the new delegate with a profile on the platform
+                An existing Clinical Centre Manager registers {{ isEM || isAssessor ? 'you' : 'the new delegate'}} with a profile on the platform
               </p>
             </ProcessNode>
 
@@ -455,7 +455,7 @@
 
             <ProcessNode :actionBy="['centremanager','administrator']" :required="((isCCM && ([null,'both','centremanager'].includes(promoMethod))) || (isEM && ([null,'both','educator'].includes(promoMethod))))" :roles="roles" >
               <p>
-                The <ProcessRole :roles="{centremanager:[null,'both','centremanager'].includes(promoMethod),educator:[null,'both','educator'].includes(promoMethod)}" or /> promotes the new delegate to the relevant <ProcessRole :roles="{educator:true,assessor:true}" or /> role on the platform
+                The <ProcessRole :roles="{centremanager:[null,'both','centremanager'].includes(promoMethod),educator:[null,'both','educator'].includes(promoMethod)}" or /> promotes {{ isEM || isAssessor ? 'you' : 'the new delegate'}} to the relevant <ProcessRole :roles="{educator:true,assessor:true}" or /> role on the platform
               </p>
             </ProcessNode>
             
