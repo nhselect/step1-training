@@ -613,8 +613,15 @@ export default {
       .catch((err) => {
         error({ statusCode: 404, message: err })
       })
+    
+    const roles = []
+
+    if (role) {
+      roles.push(role.slug)
+    }
 
     return {
+      roles,
       role,
       page,
     }
@@ -742,13 +749,6 @@ export default {
     },
     isLearner() {
       return this.role.slug === 'learner'
-    }
-  },
-  mounted() {
-    if (this.role && this.role.slug) {
-      if (!this.roles.includes(this.role.slug)) {
-        this.roles.push(this.role.slug)
-      }
     }
   },
   head() {
