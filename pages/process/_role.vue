@@ -752,6 +752,11 @@ export default {
       return this.role.slug === 'learner'
     }
   },
+  created() {
+    if (!process.server && this.role) {
+      this.roles.push(this.role.slug)
+    }
+  },
   head() {
     return {
       title:
