@@ -613,21 +613,15 @@ export default {
       .catch((err) => {
         error({ statusCode: 404, message: err })
       })
-    
-    let roles = []
-    if (role) {
-      roles.push(role.slug)
-    }
 
     return {
-      roles,
       role,
       page,
     }
   },
   data() {
     return {
-      // roles: [],
+      roles: [],
       notFirstCCM: null,
       multiCCM: null,
       hasAdmin: null,
