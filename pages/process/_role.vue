@@ -710,7 +710,7 @@ export default {
   },
   computed: {
     isFirstCCM() {
-      if (this.roles.includes('centremanager')) {
+      if (this.roles && this.roles.includes('centremanager')) {
         if (this.notFirstCCM !== null) {
           return !this.notFirstCCM
         } 
@@ -727,7 +727,7 @@ export default {
       return true
     },
     hasAdminRole() {
-      if (this.roles.includes('administrator') || this.hasAdmin || this.hasAdmin === null) {
+      if ((this.roles && this.roles.includes('administrator')) || this.hasAdmin || this.hasAdmin === null) {
         return true
       }
       return false
