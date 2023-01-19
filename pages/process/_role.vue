@@ -27,8 +27,8 @@
       </p>
     </div>
     <nuxt-content :document="page" />
-    <hr />
-    <div class="nhsuk-grid-row step1-process--questions">
+    <hr v-if="!isLearner" />
+    <div v-if="!isLearner" class="nhsuk-grid-row step1-process--questions">
       <div class="step1-process--questions__container nhsuk-grid-column-full">
         <div class="nhsuk-u-reading-width">
           <div>
@@ -73,10 +73,14 @@
                     </div>
 
                   </div>
+
+                  <div v-if="isImplementationLead" class="nhsuk-hint" id="rolesHint">
+                    <b>Note:</b> The Implementation Lead does not have a role or perform actions on the platform, but exists to oversee the process of adopting the digital Step 1 proficiencies in your centre.
+                  </div>
                 </fieldset>
               </div>
 
-              <div v-if="isCCM" class="nhsuk-form-group">
+              <div v-if="isCCM || isImplementationLead" class="nhsuk-form-group">
 
                 <fieldset class="nhsuk-fieldset">
                   <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--m">
@@ -117,7 +121,7 @@
 
                 </div>
  
-              <div v-if="isCCM && hasMultiCCM" class="nhsuk-form-group">
+              <div v-if="(isCCM || isImplementationLead) && hasMultiCCM" class="nhsuk-form-group">
 
                 <fieldset class="nhsuk-fieldset">
                   <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--m">
@@ -158,7 +162,7 @@
 
               </div>
 
-              <div v-if="isCCM && !isAdmin" class="nhsuk-form-group">
+              <div v-if="(isCCM || isImplementationLead) && !isAdmin" class="nhsuk-form-group">
 
                 <fieldset class="nhsuk-fieldset">
                   <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--m">
@@ -195,7 +199,7 @@
 
               </div>
 
-              <div v-if="isCCM || isAdmin" class="nhsuk-form-group">
+              <div v-if="isCCM || isImplementationLead || isAdmin" class="nhsuk-form-group">
 
                 <fieldset class="nhsuk-fieldset">
                   <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--m">
@@ -232,7 +236,7 @@
 
               </div>
 
-              <div v-if="isCCM || isEM" class="nhsuk-form-group">
+              <div v-if="isCCM || isImplementationLead || isEM" class="nhsuk-form-group">
 
                 <fieldset class="nhsuk-fieldset">
                   <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--m">
@@ -284,6 +288,7 @@
         -->
 
         <details
+          v-if="!isLearner"
           class="nhsuk-details"
           :class="{
             'process-section--required' : isFirstCCM
@@ -339,6 +344,7 @@
         -->
 
         <details
+          v-if="!isLearner"
           class="nhsuk-details"
           :class="{
             'process-section--required' : isCCM || (hasAdminRole && isCCM || isAdmin)
@@ -402,6 +408,7 @@
         -->
 
         <details
+          v-if="!isLearner"
           class="nhsuk-details"
           :class="{
             'process-section--required' : ((isCCM && ([null,'both','centremanager'].includes(promoMethod))) || (isEM && ([null,'both','educator'].includes(promoMethod))) || isEM || isAssessor)
@@ -468,7 +475,11 @@
 
         <details
           class="nhsuk-details"
-          :open="isEM || isAssessor"
+          :class="{
+            'process-section--required' : (isEM || isLearner)
+          }"
+          :open="isEM || isAssessor || isLearner"
+
           >
           <summary class="nhsuk-details__summary">
             <h2 class="nhsuk-details__summary-text">
@@ -480,13 +491,13 @@
           </summary>
           <div class="nhsuk-details__text">
 
-            <ProcessNode step=1 :required="isEM" :actionBy="['educator']" :roles="roles">
+            <ProcessNode step=1 :required="isEM || isLearner" :actionBy="['educator']" :roles="roles">
               <p>
                 An <ProcessRole :roles="{educator:true}" /> shares the Learner training package with the new delegate
               </p>
             </ProcessNode>
 
-            <ProcessNode :roles="roles" :actionBy="['centremanager']">
+            <ProcessNode :roles="roles" :required="isLearner" :actionBy="['centremanager']">
               <p v-if="['both','self'].includes(regMethod) || !regMethod">
                 An existing Clinical Centre Manager tells the new delegate to self-register for a profile on the platform
               </p>
@@ -498,7 +509,7 @@
               </p>
             </ProcessNode>
 
-            <ProcessNode v-if="['both','self'].includes(regMethod) || !regMethod" :actionBy="['centremanager']" :roles="roles">
+            <ProcessNode v-if="['both','self'].includes(regMethod) || !regMethod" :required="isLearner" :actionBy="['centremanager']" :roles="roles">
               <p>
                 If self-registering using a computer within your Trust, registration will be approved automatically.
               </p>
@@ -524,7 +535,10 @@
 
         <details
           class="nhsuk-details"
-          :open="isEM || isAssessor"
+          :class="{
+            'process-section--required' : (isEM || isAssessor || isLearner)
+          }"
+          :open="isEM || isAssessor || isLearner"
           >
           <summary class="nhsuk-details__summary">
             <h2 class="nhsuk-details__summary-text">
@@ -536,19 +550,19 @@
           </summary>
           <div class="nhsuk-details__text">
 
-            <ProcessNode step=1 :roles="roles" :actionBy="['learner']">
+            <ProcessNode step=1 :roles="roles" :required="isLearner" :actionBy="['learner']">
               <p>
                 The Learner launches the Step 1 proficiencies self-assessment
               </p>
             </ProcessNode>
 
-            <ProcessNode step=1 :roles="roles" :actionBy="['learner']">
+            <ProcessNode step=1 :roles="roles" :required="isLearner" :actionBy="['learner']">
               <p>
                 The Learner completes their Learning contract and starts self-assessing proficiencies
               </p>
             </ProcessNode>
 
-            <ProcessNode step=1 :roles="roles" :actionBy="['learner']">
+            <ProcessNode step=1 :roles="roles" :required="isLearner" :actionBy="['learner']">
               <p>
                 The Learner sends their self-assessed 'achieved' proficiencies to their Educator/Manager or Assessor for confirmation
               </p>
@@ -560,7 +574,7 @@
               </p>
             </ProcessNode>
 
-            <ProcessNode step=1 :roles="roles" :actionBy="['learner']">
+            <ProcessNode step=1 :roles="roles" :required="isLearner" :actionBy="['learner']">
               <p>
                 The Learner request final sign-off from their Educator/Manager when all proficiencies have been achieved and confirmed
               </p>
@@ -572,7 +586,7 @@
               </p>
             </ProcessNode>
 
-            <ProcessNode step=1 :roles="roles">
+            <ProcessNode step=1 :required="isLearner" :roles="roles">
               <p>
                 Learner receives certification of completion for Step 1 proficiencies
               </p>
@@ -630,7 +644,7 @@ export default {
       rolesOptions: [
         {
           value: 'implementationlead',
-          text: 'Implementation Lead',
+          text: 'Implementation Lead (note: this is not a role on the platform)',
         },
         {
           value: 'centremanager',
@@ -738,7 +752,7 @@ export default {
       return this.roles && this.roles.includes('assessor')
     },
     isImplementationLead() {
-      return this.role.slug === 'implementationlead'
+      return this.roles && this.roles.includes('implementationlead')
     },
     isLearner() {
       return this.role.slug === 'learner'
