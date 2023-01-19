@@ -27,8 +27,8 @@
       </p>
     </div>
     <nuxt-content :document="page" />
-    <hr v-if="!isLearner" />
-    <div v-if="!isLearner" class="nhsuk-grid-row step1-process--questions">
+    <hr v-if="!isLearner()" />
+    <div v-if="!isLearner()" class="nhsuk-grid-row step1-process--questions">
       <div class="step1-process--questions__container nhsuk-grid-column-full">
         <div class="nhsuk-u-reading-width">
           <div>
@@ -288,7 +288,7 @@
         -->
 
         <details
-          v-if="!isLearner"
+          v-if="!isLearner()"
           class="nhsuk-details"
           :class="{
             'process-section--required' : isFirstCCM
@@ -344,7 +344,7 @@
         -->
 
         <details
-          v-if="!isLearner"
+          v-if="!isLearner()"
           class="nhsuk-details"
           :class="{
             'process-section--required' : isCCM || (hasAdminRole && isCCM || isAdmin)
@@ -408,7 +408,7 @@
         -->
 
         <details
-          v-if="!isLearner"
+          v-if="!isLearner()"
           class="nhsuk-details"
           :class="{
             'process-section--required' : ((isCCM && ([null,'both','centremanager'].includes(promoMethod))) || (isEM && ([null,'both','educator'].includes(promoMethod))) || isEM || isAssessor)
@@ -476,9 +476,9 @@
         <details
           class="nhsuk-details"
           :class="{
-            'process-section--required' : (isEM || isLearner)
+            'process-section--required' : (isEM || isLearner())
           }"
-          :open="isEM || isAssessor || isLearner"
+          :open="isEM || isAssessor || isLearner()"
 
           >
           <summary class="nhsuk-details__summary">
@@ -491,25 +491,25 @@
           </summary>
           <div class="nhsuk-details__text">
 
-            <ProcessNode step=1 :required="isEM || isLearner" :actionBy="['educator']" :roles="roles">
+            <ProcessNode step=1 :required="isEM || isLearner()" :actionBy="['educator']" :roles="roles">
               <p>
-                An <ProcessRole :roles="{educator:true}" /> shares the Learner training package with {{ isLearner ? "you" : "the new delegate" }}
+                An <ProcessRole :roles="{educator:true}" /> shares the Learner training package with {{ isLearner() ? "you" : "the new delegate" }}
               </p>
             </ProcessNode>
 
-            <ProcessNode :roles="roles" :required="isLearner" :actionBy="['centremanager']">
+            <ProcessNode :roles="roles" :required="isLearner()" :actionBy="['centremanager']">
               <p v-if="['both','self'].includes(regMethod) || !regMethod">
-                An existing Clinical Centre Manager directs {{ isLearner ? "you" : "the new delegate" }} to self-register for a profile on the platform
+                An existing Clinical Centre Manager directs {{ isLearner() ? "you" : "the new delegate" }} to self-register for a profile on the platform
               </p>
               <p v-if="!regMethod || regMethod === 'both'">
                 <strong>or</strong>
               </p>
               <p v-if="['both','behalf'].includes(regMethod) || !regMethod">
-                An existing Clinical Centre Manager registers {{ isLearner ? "you" : "the new delegate" }} with a profile on the platform
+                An existing Clinical Centre Manager registers {{ isLearner() ? "you" : "the new delegate" }} with a profile on the platform
               </p>
             </ProcessNode>
 
-            <ProcessNode v-if="['both','self'].includes(regMethod) || !regMethod" :required="isLearner" :actionBy="['centremanager']" :roles="roles">
+            <ProcessNode v-if="['both','self'].includes(regMethod) || !regMethod" :required="isLearner()" :actionBy="['centremanager']" :roles="roles">
               <p>
                 If self-registering using a computer within your Trust, registration will be approved automatically.
               </p>
@@ -519,11 +519,11 @@
             </ProcessNode>
 
             <ProcessNode step=3 :roles="roles" :actionBy="['educator']" :required="isEM">
-              <p>The <ProcessRole :roles="{educator:true}" /> adds {{ isLearner ? "you" : "Learners that they will manage" }}  to their Staff list</p>
+              <p>The <ProcessRole :roles="{educator:true}" /> adds {{ isLearner() ? "you" : "Learners that they will manage" }}  to their Staff list</p>
             </ProcessNode>
 
             <ProcessNode step=3 :roles="roles" :actionBy="['educator']" :required="isEM">
-              <p>The <ProcessRole :roles="{educator:true}" /> enrolls {{ isLearner ? "you" : "the Learners" }} onto the Step 1 proficiencies</p>
+              <p>The <ProcessRole :roles="{educator:true}" /> enrolls {{ isLearner() ? "you" : "the Learners" }} onto the Step 1 proficiencies</p>
             </ProcessNode>
 
           </div>
@@ -536,9 +536,9 @@
         <details
           class="nhsuk-details"
           :class="{
-            'process-section--required' : (isEM || isAssessor || isLearner)
+            'process-section--required' : (isEM || isAssessor || isLearner())
           }"
-          :open="isEM || isAssessor || isLearner"
+          :open="isEM || isAssessor || isLearner()"
           >
           <summary class="nhsuk-details__summary">
             <h2 class="nhsuk-details__summary-text">
@@ -550,33 +550,33 @@
           </summary>
           <div class="nhsuk-details__text">
 
-            <ProcessNode step=1 :roles="roles" :required="isLearner" :actionBy="['learner']">
+            <ProcessNode step=1 :roles="roles" :required="isLearner()" :actionBy="['learner']">
               <p>
-                {{ isLearner ? "You launch" : "The Learner launches" }} the Step 1 proficiencies self-assessment
+                {{ isLearner() ? "You launch" : "The Learner launches" }} the Step 1 proficiencies self-assessment
               </p>
             </ProcessNode>
 
-            <ProcessNode step=1 :roles="roles" :required="isLearner" :actionBy="['learner']">
+            <ProcessNode step=1 :roles="roles" :required="isLearner()" :actionBy="['learner']">
               <p>
-                {{ isLearner ? "Complete your" : "The Learner completes their" }} Learning contract and {{ isLearner ? "start" : "starts" }} self-assessing proficiencies
+                {{ isLearner() ? "Complete your" : "The Learner completes their" }} Learning contract and {{ isLearner() ? "start" : "starts" }} self-assessing proficiencies
               </p>
             </ProcessNode>
 
-            <ProcessNode step=1 :roles="roles" :required="isLearner" :actionBy="['learner']">
+            <ProcessNode step=1 :roles="roles" :required="isLearner()" :actionBy="['learner']">
               <p>
-                {{ isLearner ? "Send your" : "The Learner sends their" }} self-assessed 'achieved' proficiencies to {{ isLearner ? "your" : "their" }} Educator/Manager or Assessor for confirmation
+                {{ isLearner() ? "Send your" : "The Learner sends their" }} self-assessed 'achieved' proficiencies to {{ isLearner() ? "your" : "their" }} Educator/Manager or Assessor for confirmation
               </p>
             </ProcessNode>
 
             <ProcessNode step=1 :roles="roles" :actionBy="['educator','assessor']" :required="isEM || isAssessor">
               <p>
-                The Educator/Manager or Assessor confirms {{ isLearner ? "your" : "the Learner's" }} self-assessed as 'achieved' proficiencies
+                The Educator/Manager or Assessor confirms {{ isLearner() ? "your" : "the Learner's" }} self-assessed as 'achieved' proficiencies
               </p>
             </ProcessNode>
 
-            <ProcessNode step=1 :roles="roles" :required="isLearner" :actionBy="['learner']">
+            <ProcessNode step=1 :roles="roles" :required="isLearner()" :actionBy="['learner']">
               <p>
-                {{ isLearner ? "Request" : "The Learner requests" }} final sign-off from {{ isLearner ? "your" : "their" }} Educator/Manager when all proficiencies have been achieved and confirmed
+                {{ isLearner() ? "Request" : "The Learner requests" }} final sign-off from {{ isLearner() ? "your" : "their" }} Educator/Manager when all proficiencies have been achieved and confirmed
               </p>
             </ProcessNode>
 
@@ -586,9 +586,9 @@
               </p>
             </ProcessNode>
 
-            <ProcessNode step=1 :required="isLearner" :roles="roles">
+            <ProcessNode step=1 :required="isLearner()" :roles="roles">
               <p>
-                {{ isLearner ? "You receive" : "The Learner receives" }} certification of completion for Step 1 proficiencies
+                {{ isLearner() ? "You receive" : "The Learner receives" }} certification of completion for Step 1 proficiencies
               </p>
             </ProcessNode>
 
@@ -754,8 +754,10 @@ export default {
     isImplementationLead() {
       return this.roles && this.roles.includes('implementationlead')
     },
+  },
+  methods: {
     isLearner() {
-      return this.role.slug === 'learner'
+      return this.role && this.role.slug === 'learner'
     }
   },
   created() {
