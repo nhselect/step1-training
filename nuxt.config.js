@@ -83,6 +83,11 @@ export default {
     routes: [
       'user-guide/non-clinical-centre-managers',
       'process/centremanager',
+      'process/administrator',
+      'process/educator',
+      'process/learner',
+      'process/assessor',
+      'process/implementationlead',
     ],
   },
 
