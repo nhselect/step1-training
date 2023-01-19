@@ -608,7 +608,7 @@ export default {
       })
 
     // fetch current page content
-    const page = await $content('process/centremanager')
+    const page = await $content('process/' + roleParam)
       .fetch()
       .catch((err) => {
         error({ statusCode: 404, message: err })
