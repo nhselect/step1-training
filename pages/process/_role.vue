@@ -103,7 +103,6 @@
                         :name="'multiCCM-'+opt.value"
                         type="radio"
                         :value="opt.value"
-                        :checked="role.slug === opt.value"
                         >
                       <label
                         class="nhsuk-label nhsuk-radios__label"
