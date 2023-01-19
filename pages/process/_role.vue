@@ -628,7 +628,7 @@ export default {
   },
   data() {
     return {
-      // roles: [],
+      roles: this.roles || [],
       notFirstCCM: null,
       multiCCM: null,
       hasAdmin: null,
