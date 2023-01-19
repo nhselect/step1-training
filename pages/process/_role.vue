@@ -615,21 +615,14 @@ export default {
         error({ statusCode: 404, message: err })
       })
     
-    const roles = []
-
-    if (role) {
-      roles.push(role.slug)
-    }
-
     return {
-      roles,
       role,
       page,
     }
   },
   data() {
     return {
-      roles: this.roles || [],
+      roles: [],
       notFirstCCM: null,
       multiCCM: null,
       hasAdmin: null,
