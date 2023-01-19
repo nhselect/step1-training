@@ -44,7 +44,7 @@
                 <fieldset class="nhsuk-fieldset" aria-describedby="roles-hint">
                   <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--m">
                     <h4 class="nhsuk-fieldset__heading">
-                      Which role/s will you be performing in the platform?
+                      Which role/s will you be performing?
                     </h4>
                   </legend>
 
@@ -613,21 +613,31 @@ export default {
       .catch((err) => {
         error({ statusCode: 404, message: err })
       })
+    
+    let roles = []
+    if (role) {
+      roles.push(role.slug)
+    }
 
     return {
+      roles,
       role,
       page,
     }
   },
   data() {
     return {
-      roles: [],
+      // roles: [],
       notFirstCCM: null,
       multiCCM: null,
       hasAdmin: null,
       regMethod: '',
       promoMethod: '',
       rolesOptions: [
+        {
+          value: 'implementationlead',
+          text: 'Implementation Lead',
+        },
         {
           value: 'centremanager',
           text: 'Clinical Centre Manager',
@@ -732,6 +742,12 @@ export default {
     },
     isAssessor() {
       return this.roles.includes('assessor')
+    },
+    isImplementationLead() {
+      return this.role.slug === 'implementationlead'
+    },
+    isLearner() {
+      return this.role.slug === 'learner'
     }
   },
   mounted() {
