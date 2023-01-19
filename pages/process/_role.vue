@@ -733,16 +733,16 @@ export default {
       return false
     },
     isCCM() {
-      return this.roles.includes('centremanager')
+      return this.roles && this.roles.includes('centremanager')
     },
     isAdmin() {
-      return this.roles.includes('administrator')
+      return this.roles && this.roles.includes('administrator')
     },
     isEM() {
-      return this.roles.includes('educator')
+      return this.roles && this.roles.includes('educator')
     },
     isAssessor() {
-      return this.roles.includes('assessor')
+      return this.roles && this.roles.includes('assessor')
     },
     isImplementationLead() {
       return this.role.slug === 'implementationlead'
