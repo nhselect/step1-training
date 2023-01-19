@@ -420,7 +420,7 @@
 
           <div class="nhsuk-details__text">
 
-            <ProcessNode :roles="roles" :actionBy="['centremanager','administrator','educator']" :required="isCCM || isAdmin || isEM">
+            <ProcessNode :roles="roles" :actionBy="['centremanager','administrator','educator']" :required="isCCM || isAssessor || isEM || isAssessor">
               <p>
                 An existing admin role (e.g. <ProcessRole :roles={centremanager:true,administrator:true,educator:true} :or="true" />) shares the relevant role training package with {{ isEM || isAssessor ? 'you' : 'the new delegate'}}
               </p>
