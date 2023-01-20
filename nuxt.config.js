@@ -80,7 +80,15 @@ export default {
   },
 
   generate: {
-    routes: ['user-guide/non-clinical-centre-managers'],
+    routes: [
+      'user-guide/non-clinical-centre-managers',
+      'process/centremanager',
+      'process/administrator',
+      'process/educator',
+      'process/learner',
+      'process/assessor',
+      'process/implementationlead',
+    ],
   },
 
   hooks: {
@@ -160,6 +168,14 @@ export default {
   privateRuntimeConfig: {
     posthogApiKey: process.env.POSTHOG_API_KEY,
     posthogProjectId: process.env.POSTHOG_PROJECT_ID,
+  },
+
+  vue: {
+    config: {
+      compilerOptions: {
+        
+      }
+    }
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
