@@ -1,9 +1,9 @@
 ---
 title: Managing your Supervisors
-order: 3
-rating: true
+order: 4
 createdAt: 2022-09-01T11:14:15.994Z
 updatedAt: 2022-09-01T11:14:15.998Z
+rating: true
 ---
 Make sure you are on your Step 1 proficiencies **Introduction page** (Select the correct breadcrumb at the top)
 
