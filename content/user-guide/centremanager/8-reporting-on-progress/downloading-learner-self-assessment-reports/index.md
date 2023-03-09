@@ -1,29 +1,29 @@
 ---
 title: Downloading Learner self assessment reports
 order: 1
-createdAt: 2023-03-09T17:33:16.216Z
-updatedAt: 2023-03-09T17:33:16.233Z
+createdAt: 2023-03-09T16:30:27.678Z
+updatedAt: 2023-03-09T16:30:27.694Z
 rating: true
 hideSearch: false
 ---
-<!--StartFragment-->
+
 
 You can download an excel report that summarises the progress of your Step 1 Learners
 
-1. Go to **Centre dashboard** (in **Tracking System** application)
+1. Go to **Centre dashboard** (in **Tracking System** application) 
 2. Select **Self assessment reports**
 
-![](blob:https://nhs-step1-training.netlify.app/f950c8e2-e78c-49a0-b357-6da44141e365)
+![](/img/centre-dashboard-reports.png)
 
 3. Select the **Step 1 proficiencies** report
 
 * In brackets it will say the number of Step 1 Learner you have
 
-![](blob:https://nhs-step1-training.netlify.app/a17b3ba4-2e79-4319-814f-8532228fac5c)
+![](/img/centre-dashboard-reports_1.png)
 
 4. Open the **Excel file** once it has downloaded (file is called 'Competency Self Assessment Report...')
 
-![](blob:https://nhs-step1-training.netlify.app/1b98964c-fc68-4f9e-94ff-48742a0b39bf)
+![](/img/centre-dashboard-reports_2.png)
 
 Each row within the Excel file is a Learner. For each Learner there are the following columns of data available:
 
@@ -36,7 +36,7 @@ Each row within the Excel file is a Learner. For each Learner there are the foll
 * **Registered**: Date and time the Learner registered onto the platform 
 * **Enrolled**: Date and time the Learner was enrolled onto the Step 1 Proficiencies 
 * **LastAccessed**: Date and time the Learner last accessed the platform
-* **OptionalProficiencies:** Number of optional proficiencies the Learner has added. There are a total of 16 optional proficiencies Learners can add in Step 1, that relate to Renal Replacement Therapy (RRT)
+* **OptionalProficiencies:** Number of optional proficiencies the Learner has added. There are a total of 16 optional proficiencies Learners can add in Step 1, that relate to Renal Replacement Therapy (RRT) 
 * **SelfAssessedAchieved:** Number of proficiencies self assessed by Learner as 'Achieved' (/656, or /672 if they have added all 16 optional proficiencies to their Step 1) 
 * **ConfirmedResults:** Number of proficiencies confirmed by a Supervisor (/656, or /672 if they have added all 16 optional proficiencies to their Step 1)
 * **SignOffRequested**: Whether Learner has requested final sign off from an Educator/Manager
