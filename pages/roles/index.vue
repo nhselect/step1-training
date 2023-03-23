@@ -199,9 +199,9 @@ export default {
 </script>
 
 <style lang="scss">
-@import 'node_modules/nhsuk-frontend/packages/components/card/card';
 @import 'node_modules/nhsuk-frontend/packages/components/details/details';
-@import 'node_modules/nhsuk-frontend/packages/components/inset-text/inset-text';
+@import 'node_modules/nhsuk-frontend/packages/components/button/button';
+@import 'node_modules/nhsuk-frontend/packages/components/tag/tag';
 @import 'node_modules/nhsuk-frontend/packages/components/tables/tables';
 
 .step1-roles__container {
