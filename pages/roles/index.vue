@@ -251,6 +251,10 @@ export default {
 }
 
 table {
+  td:not(:nth-child(1)) {
+    white-space: nowrap;
+  }
+
   .nhsuk-tag {
     font-size: 0.75rem;
     margin: nhsuk-spacing(1);
