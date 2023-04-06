@@ -16,6 +16,10 @@ Once enrolled onto the Step 1 Proficiencies framework by their Educator/Manager,
 - Send all confirmed Step 1 proficiencies to Educator/Manager for final sign-off​
 - Export read-only excel of Step 1 proficiencies progress​
 
+<div class="role_trust-example">
+
 ### Trust example​
  
 - New nurses to critical care ​
+
+</div>

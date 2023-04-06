@@ -8,30 +8,44 @@
       <template
         v-for="(role, index) in roles"
       >
-        <details
-          :id="role.slug"
-          :key="role.slug"
-          class="nhsuk-details nhsuk-expander step1-roles__item nhsuk-u-margin-bottom-2 nhsuk-u-margin-top-2"
+        <div 
+          class="step1-roles__item"
           :class="[
-            'step1-roles-color__' + role.color,
-            { 'align-right' : role.alignRight }
-            ]"
-          v-on:toggle="toggleOpens"
+              { 'align-right' : role.alignRight }
+            ]">
+          <div
+            v-if="index < roles.length - 1 && role.alignRight"
+            class="step1-roles__arrows step1-arrow__left"
           >
-          <summary class="nhsuk-details__summary">
-            <h2 class="nhsuk-details__summary-text nhsuk-heading-m nhsuk-u-margin-bottom-0">
-              {{ role.title }}
-            </h2>
-          </summary>
-          <div class="nhsuk-details__text nhsuk-u-padding-top-4">
-            <NuxtContent :document="role" />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M175 495l17 17 17-17L345 359l17-17L328 308.1l-17 17-95 95L216 24l0-24L168 0l0 24 0 396.1-95-95-17-17L22.1 342.1l17 17L175 495z"/></svg>
           </div>
-        </details>
+          <details
+            :id="role.slug"
+            :key="role.slug"
+            class="nhsuk-details nhsuk-expander nhsuk-u-margin-bottom-2 nhsuk-u-margin-top-2"
+            :class="[
+              'step1-roles-color__' + role.color,
+              ]"
+            v-on:toggle="toggleOpens"
+            >
+            <summary class="nhsuk-details__summary">
+              <h2 class="nhsuk-details__summary-text nhsuk-heading-m nhsuk-u-margin-bottom-0">
+                {{ role.title }}
+                <span v-if="role.isOptional" class="nhsuk-tag step1-role__optional--tag">
+                  Optional
+                </span>
+              </h2>
+            </summary>
+            <div class="nhsuk-details__text nhsuk-u-padding-top-4">
+              <NuxtContent :document="role" />
+            </div>
+          </details>
+        </div>
         <div
           v-if="index < roles.length - 1"
           class="step1-roles__arrows"
           >
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M212.6 454.6L190 477.3l-22.6-22.6-144-144L.7 288 46 242.8l22.6 22.6L158 354.8 158 64l0-32 64 0 0 32 0 290.7 89.4-89.4L334 242.8 379.3 288l-22.6 22.6-144 144z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224 365.3l22.6-22.6 160-160L429.3 160 384 114.7l-22.6 22.6L224 274.7 86.6 137.4 64 114.7 18.7 160l22.6 22.6 160 160L224 365.3z"/></svg>
         </div>
       </template>
     </div>
@@ -41,7 +55,7 @@
       </h2>
       <div class="table-filters">
         <p class="nhsuk-body-s">
-          Click a role to highlight the relevant access on the platform
+          Click a role to highlight the relevant abilities on the platform
         </p>
         <button
           v-for="role in roles"
@@ -57,6 +71,12 @@
           ]"
         >
           {{ role.title }}
+        </button>
+        <button
+          @click.prevent="hoverRole = ''"
+          class="nhsuk-button toggle--button toggle--button__clear"
+          >
+          Clear selection
         </button>
       </div>
       <table
@@ -74,11 +94,13 @@
               Function
             </th>
             <th role="columnheader" scope="col">
-              Has full access and expected to use
+              Roles with ability
             </th>
+            <!--
             <th role="columnheader" scope="col">
               Has partial access but not expected to use
             </th>
+            -->
           </tr>
         </thead>
         <tbody
@@ -112,6 +134,7 @@
                 {{ roleTitle(role) }}
               </span>
             </td>
+            <!--
             <td
               v-if="func.hasPartial && func.hasPartial.length > 0"
               class="nhsuk-table__cell">
@@ -129,6 +152,7 @@
                 {{ roleTitle(role) }}
               </span>
             </td>
+            -->
           </tr>
         </tbody>
       </table>
@@ -203,22 +227,37 @@ export default {
 @import 'node_modules/nhsuk-frontend/packages/components/button/button';
 @import 'node_modules/nhsuk-frontend/packages/components/tag/tag';
 @import 'node_modules/nhsuk-frontend/packages/components/tables/tables';
+@import 'node_modules/nhsuk-frontend/packages/components/images/images';
 
 .step1-roles__container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
 }
 
 .step1-roles__item {
-  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: nhsuk-spacing(5);
   
   @include mq( $until: tablet ) {
     min-width: 100%;
   }
 
   &.align-right {
-    margin-left: auto;
+    justify-content: space-evenly;
+  }
+
+  > .nhsuk-details.nhsuk-expander {
+    width: 80%;
+    margin: 0 !important;
+  }
+
+  .step1-role__optional--tag {
+    margin-left: nhsuk-spacing(9);
+    color: $color_nhsuk-grey-1;
+    background-color: #fff;
   }
 
   .nhsuk-details__summary-text::before {
@@ -233,8 +272,17 @@ export default {
 }
 
 .step1-roles__arrows {
+  display: flex;
+  justify-content: center;
+
   svg {
     height: 40px;
+    margin-right: 20%;
+  }
+
+  &.step1-arrow__left {
+    float: left;
+    transform: scale(1.8);
   }
 }
 
@@ -250,14 +298,29 @@ export default {
   }
 }
 
+.step1-image {
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+}
+
 table {
   td:not(:nth-child(1)) {
-    white-space: nowrap;
+   // white-space: nowrap;
   }
 
   .nhsuk-tag {
     font-size: 0.75rem;
     margin: nhsuk-spacing(1);
+  }
+
+  tr.nhsuk-table__row:nth-child(5),
+  tr.nhsuk-table__row:nth-child(9) {
+    td {
+      border-bottom: 2px solid $color_nhsuk-grey-3;
+    }
   }
 }
 
@@ -271,6 +334,12 @@ table.toggle--active {
   .nhsuk-tag:not(.role--active) {
     opacity: 0.2;
   }
+}
+
+.nhsuk-button.toggle--button__clear {
+  background-color: #fff;
+  border-color: #fff;
+  color: $color_nhsuk-pink;
 }
 
 .step1-roles-color__ {
@@ -294,9 +363,9 @@ table.toggle--active {
     }
   }
 
-  &blue {
+  &dark-blue {
     summary.nhsuk-details__summary {
-      background-color: $color_nhsuk-blue;
+      background-color: $color_nhsuk-dark-blue;
       
       h2.nhsuk-details__summary-text {
         color: #fff;
@@ -304,8 +373,8 @@ table.toggle--active {
     }
 
     &.nhsuk-tag, &.toggle--button {
-      background-color: $color_nhsuk-blue;
-      border-color: $color_nhsuk-blue;
+      background-color: $color_nhsuk-dark-blue;
+      border-color: $color_nhsuk-dark-blue;
     }
   }
 
@@ -352,6 +421,38 @@ table.toggle--active {
       background-color: $color_nhsuk-pink;
       border-color: $color_nhsuk-pink;
     }
+  }
+}
+
+.role_trust-example {
+  padding: nhsuk-spacing(3);
+  border: 2px solid $color_nhsuk-grey-4;
+  background-color: $color_nhsuk-grey-5;
+
+  h3 {
+    color: $color_nhsuk-grey-1;
+  }
+
+  ul {
+    li {
+      @include nhsuk-typography-responsive(16);
+
+      color: $color_nhsuk-grey-1;
+    }
+  }
+}
+
+.step1-double-roles {
+  margin-right: (-(nhsuk-spacing(9)) * 3);
+
+  @include mq($until: tablet) {
+    margin-right: (-(nhsuk-spacing(9)) * 2);
+  }
+
+  .nhsuk-card > h3 {
+    padding: nhsuk-spacing(5);
+    color: #fff;
+    background-color: $color_nhsuk-blue;
   }
 }
 

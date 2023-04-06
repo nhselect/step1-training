@@ -1,17 +1,25 @@
 ---
-title: Clinical Centre Manager
+title: Centre Manager
 slug: centremanager
 isAdminRole: true
-color: blue
+color: dark-blue
 order: 1
 ---
 The Centre Manager role is the highest role within the platform hierarchy.​
 
 Once promoted into this role, delegates will be able to perform their Centre Manager responsibilities via the Tracking System application​
 
+<div class="nhsuk-grid-row nhsuk-card-group step1-double-roles">
+
+<div class="nhsuk-grid-column-one-half nhsuk-card-group__item">
+
+<div class="nhsuk-card">
+
 ### Trust-wide DLS Centre Manager (non-clinical)​
 
-Key responsibilities/ platform functionalities​
+<div class="nhsuk-card__content">
+
+#### Key responsibilities/ platform functionalities​
 
 - Responsible and accountable for the DLS platform at a Trust-level​
 - Responsible and accountable for non-clinical proficiency frameworks (i.e. Digital Skills)​
@@ -19,19 +27,44 @@ Key responsibilities/ platform functionalities​
 
 If you do not know who your Trust-wide Centre Manager (non-clinical) is or do not have one, please contact learningnetwork@nhselect.org.uk
 
+</div>
+
+</div>
+
+</div>
+
+<div class="nhsuk-grid-column-one-half nhsuk-card-group__item">
+
+<div class="nhsuk-card">
+
 ### Clinical Centre Manager​
 
-- Key responsibilities/ platform functionalities​
-- Responsible and accountable for all Step 1 users at a Trust-level​
+<div class="nhsuk-card__content">
+
+#### Key responsibilities/ platform functionalities​
+
+- Responsible and accountable for **only Step 1 users** at a Trust-level​
 - Register delegates / approve delegates' self-registrations ​
 - View delegates details, including PRN​
 - Decides who will act as Administrators, Educator/Managers and Assessors by promoting them into these roles within the platform​
 - Access progress reports ​
 - Raise DLS support desk tickets​
 
-### Trust example​
+<div class="role_trust-example">
+
+#### Trust example​
 
 Lead Educator or Lead Nurse for Critical Care (at least Band 7)​
 
 - I.e. the person/s who have overall accountability for the unit/s​
 - Ideally you would have both a Lead Educator and Lead Nurse for Critical Care as Clinical Centre Managers​
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>

@@ -1,12 +1,13 @@
 ---
-title: Administrator
+title: Centre administrator
 slug: administrator
+isOptional: true
 isAdminRole: true
 color: light-blue
 alignRight: true
 order: 2
 ---
-The Centre Administrator role is an optional role that can support the Centre Manager with certain responsibilities.​
+The Centre Administrator role is an **optional** role that can support the Centre Manager with certain responsibilities.​
 
 Once promoted into this role, delegates will be able to perform their Centre Administrator responsibilities via the Tracking System application​
 
@@ -16,7 +17,11 @@ Once promoted into this role, delegates will be able to perform their Centre Adm
 - View delegates details, including PRN​
 - Raise DLS support desk tickets ​
 
+<div class="role_trust-example">
+
 ### Trust example​
 
 - Unit ward clerk or Ward administrator​
-- If your Trust does not have admin staff, a Practice Educator, Ward manager or Team leader, who may also be acting as an Educator/Manager within the platform, may be promoted to this role to support the Clinical Centre Manager with aspects of the platform set up and management​
+- Practice Educator, ward manager or team leader (this person can hold multiple roles so can also still act as an Educator/Manager within the platform).
+
+</div>
