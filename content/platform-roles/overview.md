@@ -76,11 +76,11 @@ Within the platform there are 4 admin roles:
 </span>
 </p>
 
-During setup, your Trust (so your Implementation Lead or Centre Manager) will decide who will perform these different admin roles.
+During setup, your Trust (your Implementation Lead or Centre Manager) will decide who will perform these different admin roles.
 
-Multiple delegates can perform each role (so for example, your Trust can have multiple Assessors) and, in some instances, a delegate may require more than one admin role (for example, both Centre Manager and Educator/Manager).
+Multiple delegates can perform each role (for example, your Trust can have multiple Assessors) and, in some instances, a delegate may require more than one admin role (for example, both Centre Manager and Educator/Manager).
 
-Delegates performing admin roles will need to be promoted within the platform (Centre Managers can promote delegates to any role and Educator/managers can only promote delegates to the Assessor role).
+Delegates performing admin roles will need tgo be promoted within the platform (Centre Managers can promote delegates to any role and Educator/managers can only promote delegates to the Assessor role).
 
 Once promoted, each role has access to specific applications within the platform:
 
@@ -90,7 +90,7 @@ Once promoted, each role has access to specific applications within the platform
 <div class="nhsuk-card">
 <div class="nhsuk-card__content">
 <h2 class="nhsuk-card__heading nhsuk-heading-m">
-<a class="nhsuk-card__link" href="#">Tracking System</a>
+<a class="nhsuk-card__link">Tracking System</a>
 </h2>
 <p class="nhsuk-card__description">Manage and distribute learning to your organisaton and access reports.</p>
 </div>
@@ -118,7 +118,7 @@ Once promoted, each role has access to specific applications within the platform
 <div class="nhsuk-card">
 <div class="nhsuk-card__content">
 <h2 class="nhsuk-card__heading nhsuk-heading-m">
-<a class="nhsuk-card__link" href="#">Supervise</a>
+<a class="nhsuk-card__link">Supervise</a>
 </h2>
 <p class="nhsuk-card__description">Assign and review staff profile assessments and arrange supervision sessions.</p>
 </div>
@@ -141,13 +141,6 @@ Once promoted, each role has access to specific applications within the platform
 </div>
 </div>
 
-
-During setup, your Trust (e.g. Implementation Lead or Centre Manager) will decide who will perform these different admin roles.
-
-Delegates requiring admin functionalities need to be promoted within the platform. **Centre Managers** can promote delegates to any admin role and **Educator/Managers** can promote delegates to the Assessor role.
-
-Multiple delegates can perform each role (i.e. multiple Assessors) and, in some instances, a delegate may require more than one admin role (i.e. Center Manager and Educator/Manager).
-
 ### Learners
 
 To become a **Learner**, a delegate will need to be enrolled onto the **Step 1 proficiencies** framework by an **Educator/Manager**.
@@ -160,7 +153,7 @@ Once enrolled, Learners can access the Step 1 proficiencies through the Learning
 <div class="nhsuk-card">
 <div class="nhsuk-card__content">
 <h2 class="nhsuk-card__heading nhsuk-heading-m">
-<a class="nhsuk-card__link" href="#">Learning Portal</a>
+<a class="nhsuk-card__link">Learning Portal</a>
 </h2>
 <p class="nhsuk-card__description">Access to your current, available and completed learning courses.</p>
 </div>

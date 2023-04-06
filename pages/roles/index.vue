@@ -228,6 +228,7 @@ export default {
 @import 'node_modules/nhsuk-frontend/packages/components/tag/tag';
 @import 'node_modules/nhsuk-frontend/packages/components/tables/tables';
 @import 'node_modules/nhsuk-frontend/packages/components/images/images';
+@import 'node_modules/nhsuk-frontend/packages/components/card/card';
 
 .step1-roles__container {
   display: flex;
