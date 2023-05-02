@@ -8,8 +8,8 @@ roles:
   - centremanager
   - assessor
   - implementationlead
-link: https://nhselect.sharepoint.com/:b:/s/LearningandEducationNetworks/DSP/EZ8EWHu7eZ9DgAqO0m_M8vkBU8VyvGGGD6ukcC8vwDpt7g
-updated: 2022-10-18
+link: /roles
+updated: 2023-05-02
 order: 4
 ---
 This document provides an overview of two key processes for platform use:​
