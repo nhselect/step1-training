@@ -5,49 +5,97 @@
       <NuxtContent :document="overview" />
     </div>
     <div class="step1-roles__container nhsuk-u-margin-bottom-9">
-      <template
-        v-for="(role, index) in roles"
-      >
-        <div 
-          class="step1-roles__item"
-          :class="[
-              { 'align-right' : role.alignRight }
-            ]">
-          <div
-            v-if="index < roles.length - 1 && role.alignRight"
-            class="step1-roles__arrows step1-arrow__left"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M175 495l17 17 17-17L345 359l17-17L328 308.1l-17 17-95 95L216 24l0-24L168 0l0 24 0 396.1-95-95-17-17L22.1 342.1l17 17L175 495z"/></svg>
-          </div>
-          <details
-            :id="role.slug"
-            :key="role.slug"
-            class="nhsuk-details nhsuk-expander nhsuk-u-margin-bottom-2 nhsuk-u-margin-top-2"
+      <div class="step1-roles__container--admin nhsuk-u-padding-3">
+        <h3>Admin roles:</h3>
+        <template
+          v-for="(role, index) in adminRoles"
+        >
+          <div 
+            class="step1-roles__item"
             :class="[
-              'step1-roles-color__' + role.color,
-              ]"
-            v-on:toggle="toggleOpens"
+                { 'align-right' : role.alignRight }
+              ]">
+            <div
+              v-if="index < roles.length - 1 && role.alignRight"
+              class="step1-roles__arrows step1-arrow__left"
             >
-            <summary class="nhsuk-details__summary">
-              <h2 class="nhsuk-details__summary-text nhsuk-heading-m nhsuk-u-margin-bottom-0">
-                {{ role.title }}
-                <span v-if="role.isOptional" class="nhsuk-tag step1-role__optional--tag">
-                  Optional
-                </span>
-              </h2>
-            </summary>
-            <div class="nhsuk-details__text nhsuk-u-padding-top-4">
-              <NuxtContent :document="role" />
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M175 495l17 17 17-17L345 359l17-17L328 308.1l-17 17-95 95L216 24l0-24L168 0l0 24 0 396.1-95-95-17-17L22.1 342.1l17 17L175 495z"/></svg>
             </div>
-          </details>
-        </div>
-        <div
-          v-if="index < roles.length - 1"
-          class="step1-roles__arrows"
-          >
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224 365.3l22.6-22.6 160-160L429.3 160 384 114.7l-22.6 22.6L224 274.7 86.6 137.4 64 114.7 18.7 160l22.6 22.6 160 160L224 365.3z"/></svg>
-        </div>
-      </template>
+            <details
+              :id="role.slug"
+              :key="role.slug"
+              class="nhsuk-details nhsuk-expander nhsuk-u-margin-bottom-2 nhsuk-u-margin-top-2"
+              :class="[
+                'step1-roles-color__' + role.color,
+                ]"
+              v-on:toggle="toggleOpens"
+              >
+              <summary class="nhsuk-details__summary">
+                <h2 class="nhsuk-details__summary-text nhsuk-heading-m nhsuk-u-margin-bottom-0">
+                  {{ role.title }}
+                  <span v-if="role.isOptional" class="nhsuk-tag step1-role__optional--tag">
+                    Optional
+                  </span>
+                </h2>
+              </summary>
+              <div class="nhsuk-details__text nhsuk-u-padding-top-4">
+                <NuxtContent :document="role" />
+              </div>
+            </details>
+          </div>
+          <div
+            v-if="index < roles.length - 1"
+            class="step1-roles__arrows"
+            >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224 365.3l22.6-22.6 160-160L429.3 160 384 114.7l-22.6 22.6L224 274.7 86.6 137.4 64 114.7 18.7 160l22.6 22.6 160 160L224 365.3z"/></svg>
+          </div>
+        </template>
+      </div>
+      <div class="nhsuk-u-padding-3">
+        <template
+          v-for="(role, index) in nonAdminRoles"
+        >
+          <div 
+            class="step1-roles__item"
+            :class="[
+                { 'align-right' : role.alignRight }
+              ]">
+            <div
+              v-if="index < roles.length - 1 && role.alignRight"
+              class="step1-roles__arrows step1-arrow__left"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M175 495l17 17 17-17L345 359l17-17L328 308.1l-17 17-95 95L216 24l0-24L168 0l0 24 0 396.1-95-95-17-17L22.1 342.1l17 17L175 495z"/></svg>
+            </div>
+            <details
+              :id="role.slug"
+              :key="role.slug"
+              class="nhsuk-details nhsuk-expander nhsuk-u-margin-bottom-2 nhsuk-u-margin-top-2"
+              :class="[
+                'step1-roles-color__' + role.color,
+                ]"
+              v-on:toggle="toggleOpens"
+              >
+              <summary class="nhsuk-details__summary">
+                <h2 class="nhsuk-details__summary-text nhsuk-heading-m nhsuk-u-margin-bottom-0">
+                  {{ role.title }}
+                  <span v-if="role.isOptional" class="nhsuk-tag step1-role__optional--tag">
+                    Optional
+                  </span>
+                </h2>
+              </summary>
+              <div class="nhsuk-details__text nhsuk-u-padding-top-4">
+                <NuxtContent :document="role" />
+              </div>
+            </details>
+          </div>
+          <div
+            v-if="index < nonAdminRoles.length - 1"
+            class="step1-roles__arrows"
+            >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224 365.3l22.6-22.6 160-160L429.3 160 384 114.7l-22.6 22.6L224 274.7 86.6 137.4 64 114.7 18.7 160l22.6 22.6 160 160L224 365.3z"/></svg>
+          </div>
+        </template>
+      </div>
     </div>
     <div class="step1-functionalities__container">
       <h2>
@@ -175,6 +223,9 @@ export default {
       .catch((err) => {
         error({ statusCode: 404, message: 'Roles not recognised' })
       })
+
+    const adminRoles = roles.filter((r) => r.isAdminRole)
+    const nonAdminRoles = roles.filter((r) => !r.isAdminRole)
     
     const overview = await $content('platform-roles/overview').fetch()
 
@@ -183,6 +234,8 @@ export default {
     return {
       overview,
       roles,
+      adminRoles,
+      nonAdminRoles,
       roleSlugs
     }
   },
@@ -341,6 +394,11 @@ table.toggle--active {
   background-color: #fff;
   border-color: #fff;
   color: $color_nhsuk-pink;
+}
+
+.step1-roles__container--admin {
+  border: 4px dotted $color_nhsuk-grey-3;
+  background-color: $color_nhsuk-grey-4;
 }
 
 .step1-roles-color__ {

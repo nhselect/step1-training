@@ -109,15 +109,11 @@ export default {
 
       if (i.roles.length > 1) {
         const alsoRoles = roles
-          .filter((r) => i.roles.includes(r.slug))
+          // .filter((r) => i.roles.includes(r.slug))
           .map((r) => r.title)
 
         if (alsoRoles.length === i.roles.length) {
           duplicateNotice = 'This is the same across all training packages'
-        } else {
-          duplicateNotice =
-            'This is the same across all the following training packages: ' +
-            alsoRoles.join(', ')
         }
       }
 
