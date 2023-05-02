@@ -20,6 +20,7 @@ There is a bespoke training package for each role (all accessible via the same l
 | Introductory presentation of digitising Step 1 proficiencies (PPT) | ✔  | ✔   | ✔     | ✔   | ✔  | ✔  |
 | Demo of digitised Step 1 proficiencies (Webpage)                   | ✔  | ✔   | ✔     | ✔   | ✔  | ✔  |
 | Glossary of terms (Webpage)                                        | ✔  | ✔   | ✔     | ✔   | ✔  | ✔  |
+| Step 1 proficiencies implementation poster (editable)                                                           | ✔  | ✔   |      |     |    |    |
 
 **KEY:**
 ✔ Material provided in training package, * Material’s contents are tailored to role

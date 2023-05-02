@@ -1,0 +1,14 @@
+---
+title: Digitised Step 1 Proficiencies poster (editable)
+slug: poster
+roles:
+  - implementationlead
+  - centremanager
+order: 100
+optional: true
+link: https://nhselect.sharepoint.com/:p:/s/LearningandEducationNetworks/DSP/EYzQ-YCEyGRAn6LNgSAX-AIBRhbzIQnzF5zc1eFZXcC0IA?download=1
+updated: 2023-05-02
+---
+This poster can be used to raise awareness of the implementation of the digitised Step 1 proficiencies within your trust.
+
+There are placeholders on the poster for you to add your own trust logo and main Step 1 point of contact.
