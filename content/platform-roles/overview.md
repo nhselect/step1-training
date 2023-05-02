@@ -59,7 +59,7 @@ Everyone who registers onto the platform is called a **delegate**.
 
 ### Admin roles
 
-Within the platform there are 4 admin roles:
+Within the platform there are 4 **admin roles**:
 
 <p>
 <span class="nhsuk-tag step1-roles-color__dark-blue">
@@ -80,7 +80,7 @@ During setup, your Trust (your Implementation Lead or Centre Manager) will decid
 
 Multiple delegates can perform each role (for example, your Trust can have multiple Assessors) and, in some instances, a delegate may require more than one admin role (for example, both Centre Manager and Educator/Manager).
 
-Delegates performing admin roles will need tgo be promoted within the platform (Centre Managers can promote delegates to any role and Educator/managers can only promote delegates to the Assessor role).
+Delegates performing admin roles will need to be promoted within the platform (Centre Managers can promote delegates to any role and Educator/managers can only promote delegates to the Assessor role).
 
 Once promoted, each role has access to specific applications within the platform:
 
@@ -176,4 +176,4 @@ Once enrolled, Learners can access the Step 1 proficiencies through the Learning
 
 **Click on the roles in the hierarchy to learn more about the different roles, their key responsibilities and examples of who can perform these roles within your Trust.**
 
-Please note, the Implementation Lead is not a platform role and has been created to support implementation of the digitised Step 1 proficiencies pilot within your Trust
+Please note, the Implementation Lead is **not a platform role** and has been created to support implementation of the digitised Step 1 proficiencies pilot within your Trust
