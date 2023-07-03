@@ -1,9 +1,9 @@
 ---
 title: Individual registration
 order: 2
-rating: true
 createdAt: 2022-09-01T08:29:13.976Z
 updatedAt: 2022-09-01T08:29:13.981Z
+rating: true
 ---
 > You will not have to ‘approve’ new delegates registered via individual registration
 
@@ -17,8 +17,6 @@ updatedAt: 2022-09-01T08:29:13.981Z
 ![](/img/registering-delegates-6.png)
 
 4. Complete the fields with the new delegates details
-
-> Leave the **Alias field** blank
 
 5. Select **Next**
 
