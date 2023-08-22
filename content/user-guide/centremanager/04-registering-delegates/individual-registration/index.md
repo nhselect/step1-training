@@ -2,7 +2,7 @@
 title: Individual registration
 order: 2
 createdAt: 2022-09-01T08:29:13.976Z
-updatedAt: 2022-09-01T08:29:13.981Z
+updatedAt: 2023-08-22T13:28:30.869Z
 rating: true
 ---
 > You will not have to ‘approve’ new delegates registered via individual registration
@@ -17,10 +17,9 @@ rating: true
 ![](/img/registering-delegates-6.png)
 
 4. Complete the fields with the new delegates details
-
 5. Select **Next**
 
-![](/img/registering-delegates-7.png)
+![](/img/register-delegate-without-password-1.png)
 
 6. Select a **Job group** for the new delegate from the drop-down list (for Step 1, this will be **Nursing / Midwifery**)
 
@@ -32,29 +31,28 @@ rating: true
 
 7. Select **Next**
 
-![](/img/registering-delegates-8.png)
+![](/img/register-delegate-without-password-2.png)
 
-#### Sending a welcome email
+8. Add the welcome email **delivery date** and select **Next**
 
-> If you send a welcome email, you will not be able set a password on behalf of the delegate. The delegate will receive a link to set it up themselves.
->
-> If you choose not to send a welcome email, you will be presented with the option to set up a password on behalf of the delegate which will need to be shared with them. If you have given a generic password, you will need to ask your delegate to change their password once they log in. 
+![](/img/register-without-password-2a.png)
 
-8. Select **Send welcome email to registered delegate**, add the **email delivery date** & select **Next**
+#### Setting a password
 
-Or
+For security reasons, it is recommended that the delegate sets their own password.
 
-9. Do not select send welcome email to registered delegate & select **Next**
+9. Leave the password field blank and select **Next**
 
-![](/img/registering-delegates-9.png)
+> If you choose to set a password on behalf of the delegate, you will need to inform them of this when they complete their registration. For security reasons, you will then need to ask your delegate to change their password once they log in. 
 
-10. Set a password on behalf of the delegate
-11. **Summary** of the registered delegate details will display on screen
-12. Select **Change** if you need to edit any of the summary details 
-13. Select **Save** 
+10. **Summary** of the registered delegate details will display on screen
+11. Select **Change** if you need to edit any of the summary details
+12. Select **Save**
 
-![](/img/registering-delegates-10.png)
+![](/img/register-delegate-without-password-5.png)
 
-14. Select **Manage all delegates** to return to **Delegates** 
+13. Select **Manage all delegates** to return to the **Delegates** page
 
-![](/img/registering-delegates-11.png)
+![](/img/register-delegate-without-password-6.png)
+
+> The delegate will receive a welcome email with link to complete registration
