@@ -2,7 +2,7 @@
 title: Self-registering for your profile
 order: 1
 createdAt: 2022-09-01T06:48:31.397Z
-updatedAt: 2022-09-14T09:14:26.806Z
+updatedAt: 2023-08-22T13:29:35.404Z
 rating: true
 ---
 2. Select **Register** (on the **Welcome** page)
@@ -40,8 +40,6 @@ You may also be asked for:
 7. You will see that your delegate registration is complete. You will receive a verification email from [noreply@dls.nhs.uk](mailto:noreply@dls.nhs.uk). **Click** on the verification link in the email to verify your account.<!--StartFragment-->
 
    Your registration may also require approval from your Clinical Centre Manager or Administrator before you can log in. You will receive a **confirmation email** at the email address you registered with once your registration has been approved 
-
-   <!--EndFragment-->
 
 > A yellow box will appear if your registration requires approval from your Clinical Centre Manager or Administrator before you can log in. If it does not appear you can log in straight away.
 
