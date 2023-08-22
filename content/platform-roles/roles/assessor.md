@@ -9,9 +9,9 @@ In some places on the platform the Assessor role is referred to as ‘Nominated 
 
 Once promoted into this role, delegates will be able to perform their Assessor responsibilities via the Supervise Application​
 
-### Key responsibilities/ platform functionalities​
+### Key responsibilities / platform functionalities​
 
-- Confirm Learners’ self-assessed ‘achieved’ Step 1 proficiencies​
+- Confirm Learners’ self-assessed ‘achieved’ Step 1, 2 or 3 proficiencies​
 
 <div class="role_trust-example">
 

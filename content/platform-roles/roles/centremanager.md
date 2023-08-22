@@ -19,11 +19,11 @@ Once promoted into this role, delegates will be able to perform their Centre Man
 
 <div class="nhsuk-card__content">
 
-#### Key responsibilities/ platform functionalities​
+#### Key responsibilities / platform functionalities​
 
 - Responsible and accountable for the DLS platform at a Trust-level​
 - Responsible and accountable for non-clinical proficiency frameworks (i.e. Digital Skills)​
-- HEE TEL's main point of contact for your DLS centre​
+- NHS England TEL's main point of contact for your DLS centre​
 
 If you do not know who your Trust-wide Centre Manager (non-clinical) is or do not have one, please contact learningnetwork@nhselect.org.uk
 
@@ -41,9 +41,9 @@ If you do not know who your Trust-wide Centre Manager (non-clinical) is or do no
 
 <div class="nhsuk-card__content">
 
-#### Key responsibilities/ platform functionalities​
+#### Key responsibilities / platform functionalities​
 
-- Responsible and accountable for **only Step 1 users** at a Trust-level​
+- Responsible and accountable for **all Step 1, 2 and 3 users** at a Trust-level​
 - Register delegates / approve delegates' self-registrations ​
 - View delegates details, including PRN​
 - Decides who will act as Administrators, Educator/Managers and Assessors by promoting them into these roles within the platform​

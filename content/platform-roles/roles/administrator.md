@@ -11,7 +11,7 @@ The Centre Administrator role is an **optional** role that can support the Centr
 
 Once promoted into this role, delegates will be able to perform their Centre Administrator responsibilities via the Tracking System application​
 
-### Key responsibilities/ platform functionalities​
+### Key responsibilities / platform functionalities​
 
 - Register delegates / approve delegates' self-registrations ​
 - View delegates details, including PRN​

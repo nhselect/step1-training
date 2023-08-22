@@ -18,20 +18,20 @@ functionalities:
   hasFull:
     - centremanager
     - educator
-- title: Enrol Learners to Step 1 proficiencies
+- title: Enrol Learners to Steps 1, 2 or 3 proficiencies
   hasFull:
     - educator
-- title: Self-assess achievement of Step 1 proficiencies
+- title: Self-assess achievement of Steps 1, 2 or 3 proficiencies
   hasFull:
     - learner
-- title: Request confirmation of self-assessed ‘achieved’ Step 1 proficiencies
+- title: Request confirmation of self-assessed ‘achieved’ Steps 1, 2 or 3 proficiencies
   hasFull:
     - learner
-- title: Confirm Learners’ self-assessed ‘achieved’ Step 1 proficiencies
+- title: Confirm Learners’ self-assessed ‘achieved’ Steps 1, 2 or 3 proficiencies
   hasFull:
     - educator
     - assessor
-- title: Perform final sign-off when all Step 1 proficiencies achieved by Learner
+- title: Perform final sign-off when all Steps 1, 2 or 3 proficiencies are achieved by the Learner
   hasFull:
     - educator
 - title: View and manage delegate profiles
@@ -143,9 +143,9 @@ Once promoted, each role has access to specific applications within the platform
 
 ### Learners
 
-To become a **Learner**, a delegate will need to be enrolled onto the **Step 1 proficiencies** framework by an **Educator/Manager**.
+To become a **Learner**, a delegate will need to be enrolled onto the appropriate **Step 1, 2 or 3 proficiencies** framework by an **Educator/Manager**.
 
-Once enrolled, Learners can access the Step 1 proficiencies through the Learning Portal application.
+Once enrolled, Learners can access the proficiencies through the Learning Portal application.
 
 <div class="nhsuk-grid-row">
 
@@ -176,4 +176,4 @@ Once enrolled, Learners can access the Step 1 proficiencies through the Learning
 
 **Click on the roles in the hierarchy to learn more about the different roles, their key responsibilities and examples of who can perform these roles within your Trust.**
 
-Please note, the Implementation Lead is **not a platform role** and has been created to support implementation of the digitised Step 1 proficiencies pilot within your Trust
+Please note, the Implementation Lead is **not a platform role** and has been created to support implementation of the digitised Steps proficiencies pilot within your Trust

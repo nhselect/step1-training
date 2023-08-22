@@ -9,11 +9,11 @@ In some places on the platform the Educator/Manager role is referred to as ‘Su
 
 Once promoted into this role, delegates will be able to perform their Educator/Manager responsibilities via the Supervise Application​
 
-### Key responsibilities/ platform functionalities​
+### Key responsibilities / platform functionalities​
 
-- Enrol Learners to the Step 1 proficiencies​
-- Confirm Learners’ self-assessed ‘achieved’ Step 1 proficiencies​
-- Perform final sign-off of Learners’ Step 1 proficiencies​
+- Enrol Learners to the Steps 1, 2 or 3 proficiencies​
+- Confirm Learners’ self-assessed ‘achieved’ proficiencies​
+- Perform final sign-off of Learners’ proficiencies​
 - Decides who will act as Assessors by promoting them into the role within the platform​
 
 <div class="role_trust-example">
