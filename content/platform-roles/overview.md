@@ -1,6 +1,6 @@
 ---
 title: Platform roles and responsibilities overview
-updatedAt: 2023-03-23
+updatedAt: 2023-08-22
 functionalityTitle: Who can do what?
 functionalities:
 - title: Register delegates onto the platform
