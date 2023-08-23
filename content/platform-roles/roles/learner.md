@@ -18,8 +18,12 @@ Once enrolled onto the proficiencies framework by their Educator/Manager, the de
 
 <div class="role_trust-example">
 
-### Trust example​
+### Example in a trust​
  
 - New nurses to critical care.
+
+#### Higher education institute example
+
+- Registered nurse who is a student on the critical care course
 
 </div>

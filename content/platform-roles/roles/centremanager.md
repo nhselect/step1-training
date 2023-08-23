@@ -52,12 +52,13 @@ If you do not know who your Trust-wide Centre Manager (non-clinical) is or do no
 
 <div class="role_trust-example">
 
-#### Trust example​
+#### Example in a trust
 
-Lead Educator or Lead Nurse for Critical Care (at least Band 7)​
+- Lead educator or lead nurse for Critical Care (at least band 7)​ - that is the persons who have overall accountability for the units. Ideally you would have both a lead educator and lead nurse for Critical Care as Clinical Centre Managers​
 
-- I.e. the person/s who have overall accountability for the unit/s​
-- Ideally you would have both a Lead Educator and Lead Nurse for Critical Care as Clinical Centre Managers​
+#### Higher education institute example
+
+- ​Critical care programme lead - meaning the persons who have overall responsibility for the learners (students) on the critical care course.
 
 </div>
 

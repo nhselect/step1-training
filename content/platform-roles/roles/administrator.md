@@ -19,9 +19,14 @@ Once promoted into this role, delegates will be able to perform their Centre Adm
 
 <div class="role_trust-example">
 
-### Trust example​
+### Example in a trust​
 
 - Unit ward clerk or Ward administrator​
-- Practice Educator, ward manager or team leader (this person can hold multiple roles so can also still act as an Educator/Manager within the platform).
+- If your Trust does not have appropriate admin staff, this role could be assigned as an additional role to someone already holding the Educator/Manager role​
+
+#### Higher education institute example
+
+- Course administrator
+- Other course lectures within the team. This person can hold multiple roles so can also still act as an Educator/Manager within the platform
 
 </div>

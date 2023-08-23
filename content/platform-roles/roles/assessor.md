@@ -15,8 +15,13 @@ Once promoted into this role, delegates will be able to perform their Assessor r
 
 <div class="role_trust-example">
 
-### Trust example​
+### Example in a trust​
 
-- Qualified critical care nurses (in accordance with your Trust protocol)​
+- Qualified critical care nurses (in accordance with your trust protocol)​
+
+#### Higher education institute example
+
+- Lecturing team member who needs to monitor the progression of their students  ​
+- Lecturer who only needs to sign off individual proficiencies
 
 </div>
