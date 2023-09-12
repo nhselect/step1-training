@@ -43,7 +43,7 @@ If you do not know who your Trust-wide Centre Manager (non-clinical) is or do no
 
 #### Key responsibilities / platform functionalities​
 
-- Responsible and accountable for proficiencies at a Trust-level/Higher education insitution-level​
+- Responsible and accountable for proficiencies at a Trust-level/-level​
 - Register delegates / approve delegates' self-registrations ​
 - View delegates details, including PRN​
 - Decides who will act as Administrators, Educator/Managers and Assessors by promoting them into these roles within the platform​
