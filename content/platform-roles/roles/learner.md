@@ -11,19 +11,19 @@ Once enrolled onto the proficiencies framework by their Educator/Manager, the de
 
 ### Key responsibilities / platform functionalities​
 
-- Self-assess Step 1, 2 or 3 proficiencies as ‘achieved’.
+- Self-assess proficiencies as ‘achieved’.
 - Request confirmation of self-assessed proficiencies from Educator/Managers and/or Assessors.
 - Send all confirmed proficiencies to Educator/Manager for final sign-off​.
-- Export a read-only Excel spreadsheet of their Steps 1, 2 or 3 proficiencies progress​.
+- Export a read-only Excel spreadsheet of their proficiencies progress​.
 
 <div class="role_trust-example">
 
 ### Example in a trust​
  
-- New nurses to critical care.
+- Healthcare proffessional  ie Registered nurse in critical care.
 
 #### Higher education institute example
 
-- Registered nurse who is a student on the critical care course
+- Healthcare proffessional who is a student on a HEI course
 
 </div>

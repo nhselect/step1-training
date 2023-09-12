@@ -11,13 +11,13 @@ Once promoted into this role, delegates will be able to perform their Assessor r
 
 ### Key responsibilities / platform functionalities​
 
-- Confirm Learners’ self-assessed ‘achieved’ Step 1, 2 or 3 proficiencies​
+- Confirm Learners’ self-assessed ‘achieved’ proficiencies​
 
 <div class="role_trust-example">
 
 ### Example in a trust​
 
-- Qualified critical care nurses (in accordance with your trust protocol)​
+- Qualified nurse (in accordance with your trust protocol)​
 
 #### Higher education institute example
 
