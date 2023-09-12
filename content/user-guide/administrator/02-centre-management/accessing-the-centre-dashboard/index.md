@@ -12,7 +12,7 @@ There are 4 things you should access:
 * **Configuration** - for updating Centre details
 * **Delegates** - for managing staff registered on the platform, including promoting to admin roles
 * **Admin / Administrators** - for managing staff already promoted to admin roles within the platform
-* **Support tickets** - raising a support ticket with HEE TEL for technical queries
+* **Support tickets** - raising a support ticket with the NHS England Technology Enhanced Learning (TEL) team for technical queries
 
 > Ignore:
 >

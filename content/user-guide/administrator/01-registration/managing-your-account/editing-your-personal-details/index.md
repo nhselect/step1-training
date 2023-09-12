@@ -17,6 +17,6 @@ updatedAt: 2022-09-13T12:55:53.997Z
 
 > If you were registered by your Trust, you may need to answer the following questions on your profile:
 >
-> * Programme study / course
-> * Organisation / Company
-> * Department / Team
+> * Programme study
+> * Organisation
+> * Department

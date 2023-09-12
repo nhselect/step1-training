@@ -9,7 +9,7 @@ updatedAt: 2022-09-01T14:41:30.362Z
 
 There are **4 admin roles** within the platform that delegates can be ‘promoted’ to:
 
-* **Clinical Centre Manager** – Existing Centre Manager (Clinical or non-clinical) will need to promote the delegate to an Administrator role first, before raising a ticket with HEE TEL to promote them to a Centre Manager role 
+* **Clinical Centre Manager** – Existing Centre Manager (Clinical or non-clinical) will need to promote the delegate to an Administrator role first, before raising a ticket with the NHS England Technology Enhanced Learning (TEL) team to promote them to a Centre Manager role 
 * **Administrator** – Only Clinical Centre Manager can promote delegates to this role
 * **Educator/Manager** – Only Clinical Centre Manager can promote delegates to this role
 
