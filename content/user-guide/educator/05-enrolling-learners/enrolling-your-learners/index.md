@@ -1,5 +1,5 @@
 ---
-title: Enrolling your Learners
+title: Enroling your Learners
 order: 1
 rating: true
 createdAt: 2022-09-08T13:42:57.073Z
@@ -24,7 +24,7 @@ updatedAt: 2022-09-08T13:42:57.078Z
 
 ![](/img/enrolling_4.png)
 
-> **If you cannot see the proficiencies listed as an option, this suggests the Learner has already been Holding word for now on the proficiencies by someone else.** 
+> **If you cannot see the proficiencies listed as an option, this suggests the Learner has already been enroled on the proficiencies by someone else.** 
 
 6. You can select an **optional completion date** for the staff member (or leave blank). Select **Next** when you’re ready to proceed 
 
@@ -38,7 +38,7 @@ updatedAt: 2022-09-08T13:42:57.078Z
 
 ![](/img/enrolling_7.png)
 
-9. The status will update to **Not started** and the **Learner will receive a notification email** from noreply@dls.nhs.uk (Subject: You have been Holding word for now on the profile assessment...**)** 
+9. The status will update to **Not started** and the **Learner will receive a notification email** from noreply@dls.nhs.uk (Subject: You have been enroled on the profile assessment...**)** 
 
 ![](/img/enrolling_8.png)
 

@@ -5,7 +5,7 @@ rating: true
 createdAt: 2022-09-01T14:40:21.985Z
 updatedAt: 2022-09-01T14:40:21.989Z
 ---
-Once you have been Holding word for now, you can either access the proficiencies:
+Once you have been enroled, you can either access the proficiencies:
 
 1. Using the **Click here** link in your enrolment email
 
@@ -29,7 +29,7 @@ Once you have been Holding word for now, you can either access the proficiencies
 Here you can see all the Supervisors (Educator/Manager or Assessor) that are managing your Steps , which means you will be able to send proficiencies to them to confirm and they will be able to see a summary of your progress. 
 
 * You can find out how to [Add / Remove Supervisors from this list](/user-guide/learner/06-confirmation/managing-your-supervisors) later in this guide
-* When you first start the proficiencies only the Educator/Manager who Holding word for now you will be listed here.
+* When you first start the proficiencies only the Educator/Manager who enroled you will be listed here.
 
 ![](/img/l_accessing_4.png)
 

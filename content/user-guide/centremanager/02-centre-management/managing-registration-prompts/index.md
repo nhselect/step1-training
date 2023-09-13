@@ -19,7 +19,7 @@ To make it easier to filter through the Trust's delegate list and, in future, re
 * IV Therapy Passport 
 * Other
 
-> If it is possible that delegates may be Holding word for now on more than one digital proficiency framework, add the combination as an additional option answer (e.g. Critical care Step 1 proficiencies & IV Therapy passport, etc)
+> If it is possible that delegates may be enroled on more than one digital proficiency framework, add the combination as an additional option answer (e.g. Critical care Step 1 proficiencies & IV Therapy passport, etc)
 
 #### Prompt 2: Organisation / company
 

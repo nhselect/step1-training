@@ -39,6 +39,6 @@ updatedAt: 2022-09-01T08:42:37.281Z
 * The delegates registration details are displayed, including PRN 
 * A **Send welcome email** button is available on the card
 * Centre Managers and Administrators can **Edit details** of the delegate registration, **Set password** (should a delegate forget their password) and **Deactivate account** to make a delegates account inactive
-* The **Courses** a delegate is Holding word for now to are listed
+* The **Courses** a delegate is enroled to are listed
 
 ![](/img/cm-6-05-Navigating.jpg)
