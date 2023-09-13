@@ -24,7 +24,7 @@ updatedAt: 2022-09-08T13:42:57.078Z
 
 ![](/img/enrolling_4.png)
 
-> **If you cannot see the proficiencies listed as an option, this suggests the Learner has already been enroled on the proficiencies by someone else.** 
+> **If you cannot see the required proficiency listed as an option, this suggests the Learner has already been enroled on the proficiency by someone else.** 
 
 6. You can select an **optional completion date** for the staff member (or leave blank). Select **Next** when you’re ready to proceed 
 
