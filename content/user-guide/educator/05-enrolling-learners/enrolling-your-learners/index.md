@@ -20,7 +20,7 @@ updatedAt: 2022-09-08T13:42:57.078Z
 
 ![](/img/enrolling_3.png)
 
-5. Select **proficiencies – National proficiencies Framework for Registered Nurses in Adult Critical care** and select **Next**
+5. Select **the appropriate proficiency from the list below** and select **Next**
 
 ![](/img/enrolling_4.png)
 
