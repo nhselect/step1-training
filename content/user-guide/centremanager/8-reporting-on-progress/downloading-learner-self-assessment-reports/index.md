@@ -34,7 +34,7 @@ Each row within the Excel file is a Learner. For each Learner there are the foll
 * **JobGroup**: Job group (e.g. 'Nursing / Midwifery')
 * **Prompt questions** – If your Trust has setup registration prompts in the platform (e.g. 'Department'), there will be a column per prompt (with a maximum of 6)  These columns will vary depending on which prompts have been set up
 * **Registered**: Date and time the Learner registered onto the platform 
-* **Enrolled**: Date and time the Learner was enrolled onto the proficiencies 
+* **Holding word for now**: Date and time the Learner was Holding word for now onto the proficiencies 
 * **LastAccessed**: Date and time the Learner last accessed the platform
 * **OptionalProficiencies:** Number of optional proficiencies the Learner has added. There are a total of 16 optional proficiencies Learners can add in Steps , that relate to Renal Replacement Therapy (RRT) 
 * **SelfAssessedAchieved:** Number of proficiencies self assessed by Learner as 'Achieved' (/656, or /672 if they have added all 16 optional proficiencies to their Steps ) 

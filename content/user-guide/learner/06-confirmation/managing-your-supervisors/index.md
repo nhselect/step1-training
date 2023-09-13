@@ -42,6 +42,6 @@ Make sure you are on your proficiencies **Introduction page** (Select the correc
 
 > Your supervisor will not receive a notification informing them of this change
 >
-> You will not be able to remove the Supervisor that originally enrolled you on the proficiencies (they will need to do this).
+> You will not be able to remove the Supervisor that originally Holding word for now you on the proficiencies (they will need to do this).
 
 ![](/img/l_self-assess-proficiencies_manage-supervisors_6.png)

@@ -13,7 +13,7 @@ updatedAt: 2022-09-01T07:11:03.775Z
 
 This will take you to the Switch application tab in the blue ribbon, where there are three applications (apps) you can choose from.
 
-* **Learning Portal**: If you are enrolled as a Learner on a course (i.e. another list of proficiencies), you will see this and can access them here
+* **Learning Portal**: If you are Holding word for now as a Learner on a course (i.e. another list of proficiencies), you will see this and can access them here
 * **Tracking System**: Access to setup or manage your centre, and register, promote and manage delegates in your centre
 * **Legacy Tracking System**: Ignore this, you don’t need to access it. It will only be available for the pilot
 
