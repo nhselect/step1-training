@@ -1,5 +1,5 @@
 ---
-title: Unenroling Learners from the proficiencies
+title: Unenroling Learners from one of the clinical proficiencies
 order: 2
 rating: true
 createdAt: 2022-09-08T13:44:51.418Z

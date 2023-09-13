@@ -8,7 +8,7 @@ updatedAt: 2022-09-08T13:28:31.763Z
 > **Before you can perform either of the below, you must add a delegate to your My Staff list:**
 >
 > * Promotion of delegate to an Assessor
-> * Enrolment of Learner onto the proficiencies
+> * Enrolment of Learner onto one of the clinical proficiencies
 
 1. Go to **Supervisor Dashboard** (in **Supervise** application) 
 2. Select **View My Staff List**
