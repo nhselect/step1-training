@@ -5,7 +5,7 @@ rating: true
 createdAt: 2022-09-08T13:44:51.418Z
 updatedAt: 2022-09-08T13:44:51.422Z
 ---
-> **You will not be able to unenrol a leaner who has already started the proficiencies**. Ask your Clinical Centre Manager or Administrator to raise a support ticket if you need to. 
+> **You will not be able to unenrol a leaner who has already started a proficiency**. Ask your Clinical Centre Manager or Administrator to raise a support ticket if you need to. 
 
 1. Go to **Supervisor Dashboard** (in **Supervise** application)
 2. Select **View My Staff List**
