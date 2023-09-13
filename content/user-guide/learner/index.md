@@ -3,7 +3,7 @@ title: Learner
 createdAt: 2022-09-01T14:49:03.539Z
 updatedAt: 2022-11-29T14:49:03.546Z
 ---
-This guide provides you with step-by-step information on how to get setup and start using the DLS platform, which hosts the digitised Steps proficiencies.  
+This guide provides you with step-by-step information on how to get setup and start using the DLS platform, which hosts the digitised proficiencies.  
 
 We recommend you have this guide open in a separate window when you start using the platform, so you can follow along.  
 

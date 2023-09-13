@@ -30,7 +30,7 @@ If you require technical support, we recommend:
 
 ![](/img/ccm-ca_support-ticket-request_pop-up.png)
 
-7. Complete **Course field** (write ‘Steps proficiencies’) 
+7. Complete **Course field** (write ‘proficiencies’) 
 8. Complete **Test delegate ID**  ***(optional)*** if this is appropriate for the support team to investigate your query
 9. Complete **Details field**
 

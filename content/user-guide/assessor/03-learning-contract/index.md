@@ -5,7 +5,7 @@ rating: true
 createdAt: 2022-09-01T14:40:21.985Z
 updatedAt: 2022-09-01T14:40:21.989Z
 ---
-Similar to the paper version, **Learners are expected to first complete their Learning Contract before starting self-assessment of the Steps proficiencies**. This should happen via a discussion with the three stakeholders mentioned:
+Similar to the paper version, **Learners are expected to first complete their Learning Contract before starting self-assessment of the proficiencies**. This should happen via a discussion with the three stakeholders mentioned:
 
 * Learner
 * Lead assessor

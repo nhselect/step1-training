@@ -10,9 +10,9 @@ updatedAt: 2022-09-01T08:42:37.281Z
 
 ![](/img/registering-delegates-1.png)
 
-#### To export a list of delegate registrations for the Steps proficiencies:
+#### To export a list of delegate registrations for the proficiencies:
 
-3. Filter by **Programme of Study / Course** and select **Critical Care Steps proficiencies**
+3. Filter by **Programme of Study / Course** and select **Critical Care proficiencies**
 4. Select  **Export**
 
 #### To search for a specific delegate:
