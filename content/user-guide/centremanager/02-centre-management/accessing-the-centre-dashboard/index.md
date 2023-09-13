@@ -16,7 +16,7 @@ There are 4 things you should access:
 
 > Ignore:
 >
-> * **Courses** - This functionality is not relevant for the Steps proficiencies. Do not worry that Step 1 is not listed 
+> * **Courses** - This functionality is not relevant for the Steps proficiencies. Do not worry that Steps  is not listed 
 > * **Reports** - this functionality is still in development
 
 ![](/img/ccm-ca_centredashboard.png)

@@ -20,7 +20,7 @@ rating: true
 
 4. Complete your **Learner information** in each field (Job Group, PRN), and select **Next**
 
-> For Step 1, Job Group will likely be **Nursing / Midwifery**
+> For Steps , Job Group will likely be **Nursing / Midwifery**
 
 You may also be asked for:
 

@@ -26,7 +26,7 @@ Once you have been enrolled, you can either access the Steps proficiencies:
 
 4. Select **Manage supervisors**
 
-Here you can see all the Supervisors (Educator/Manager or Assessor) that are managing your Step 1, which means you will be able to send proficiencies to them to confirm and they will be able to see a summary of your progress. 
+Here you can see all the Supervisors (Educator/Manager or Assessor) that are managing your Steps , which means you will be able to send proficiencies to them to confirm and they will be able to see a summary of your progress. 
 
 * You can find out how to [Add / Remove Supervisors from this list](/user-guide/learner/06-confirmation/managing-your-supervisors) later in this guide
 * When you first start the Steps proficiencies only the Educator/Manager who enrolled you will be listed here.

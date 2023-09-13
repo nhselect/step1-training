@@ -3,7 +3,7 @@ title: Clinical Centre Manager
 slug: centremanager
 order: 2
 ---
-The Clinical Centre Manager role has ultimate responsibility, accountability and governance for all staff using the Step 1 platform, include:
+The Clinical Centre Manager role has ultimate responsibility, accountability and governance for all staff using the Steps  platform, include:
 
   - Setting up and managing your Centre (i.e. Trust) in the platform 
   - Registering / approving self-registration of delegates (i.e. staff) 

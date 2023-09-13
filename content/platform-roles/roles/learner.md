@@ -5,7 +5,7 @@ isAdminRole: false
 color: pink
 order: 5
 ---
-A learner is a delegate who is undertaking their Step 1, 2 or 3 proficiencies​.
+A learner is a delegate who is undertaking their Steps , 2 or 3 proficiencies​.
 
 Once enrolled onto the proficiencies framework by their Educator/Manager, the delegate will be able to access and self-assess their proficiencies via the Learner Portal.​
 

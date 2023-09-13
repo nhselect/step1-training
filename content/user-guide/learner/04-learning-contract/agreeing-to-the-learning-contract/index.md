@@ -5,7 +5,7 @@ rating: true
 createdAt: 2022-09-01T09:40:30.602Z
 updatedAt: 2022-09-01T09:40:30.607Z
 ---
-1. Go to your Step 1 **Proficiencies home** page
+1. Go to your Steps  **Proficiencies home** page
 
 2. Expand **Learning Contract** 
 

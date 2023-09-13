@@ -7,7 +7,7 @@ hideSearch: false
 ---
 
 
-You can download an excel report that summarises the progress of your Step 1 Learners
+You can download an excel report that summarises the progress of your Steps  Learners
 
 1. Go to **Centre dashboard** (in **Tracking System** application) 
 2. Select **Self assessment reports**
@@ -16,7 +16,7 @@ You can download an excel report that summarises the progress of your Step 1 Lea
 
 3. Select the **Steps proficiencies** report
 
-* In brackets it will say the number of Step 1 Learner you have
+* In brackets it will say the number of Steps  Learner you have
 
 ![](/img/centre-dashboard-reports_1.png)
 
@@ -35,9 +35,9 @@ Each row within the Excel file is a Learner. For each Learner there are the foll
 * **Registered**: Date and time the Learner registered onto the platform 
 * **Enrolled**: Date and time the Learner was enrolled onto the Steps proficiencies 
 * **LastAccessed**: Date and time the Learner last accessed the platform
-* **OptionalProficiencies:** Number of optional proficiencies the Learner has added. There are a total of 16 optional proficiencies Learners can add in Step 1, that relate to Renal Replacement Therapy (RRT) 
-* **SelfAssessedAchieved:** Number of proficiencies self assessed by Learner as 'Achieved' (/656, or /672 if they have added all 16 optional proficiencies to their Step 1) 
-* **ConfirmedResults:** Number of proficiencies confirmed by a Supervisor (/656, or /672 if they have added all 16 optional proficiencies to their Step 1)
+* **OptionalProficiencies:** Number of optional proficiencies the Learner has added. There are a total of 16 optional proficiencies Learners can add in Steps , that relate to Renal Replacement Therapy (RRT) 
+* **SelfAssessedAchieved:** Number of proficiencies self assessed by Learner as 'Achieved' (/656, or /672 if they have added all 16 optional proficiencies to their Steps ) 
+* **ConfirmedResults:** Number of proficiencies confirmed by a Supervisor (/656, or /672 if they have added all 16 optional proficiencies to their Steps )
 * **SignOffRequested**: Whether Learner has requested final sign off from an Educator/Manager
 * **SignOffAchieved:** Whether the Learner has been received final sign off from an Educator/Manager
 * **SignOffReviewed:** Date and time Educator/Manager last responded to final sign off request from Learner

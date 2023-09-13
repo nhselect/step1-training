@@ -767,7 +767,7 @@ export default {
   head() {
     return {
       title:
-        'Digitised Step 1 - Process map',
+        'Digitised Steps  - Process map',
     }
   },
 }

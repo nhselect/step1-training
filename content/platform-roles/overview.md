@@ -143,7 +143,7 @@ Once promoted, each role has access to specific applications within the platform
 
 ### Learners
 
-To become a **Learner**, a delegate will need to be enrolled onto the appropriate **Step 1, 2 or 3 proficiencies** framework by an **Educator/Manager**.
+To become a **Learner**, a delegate will need to be enrolled onto the appropriate **Steps , 2 or 3 proficiencies** framework by an **Educator/Manager**.
 
 Once enrolled, Learners can access the proficiencies through the Learning Portal application.
 

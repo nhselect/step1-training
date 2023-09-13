@@ -66,7 +66,7 @@ export default {
   head() {
     return {
       title:
-        'Digitised Step 1 user guide for ' +
+        'Digitised Steps  user guide for ' +
         this.page.title +
         's - Feedback required',
     }

@@ -11,4 +11,4 @@ updated: 2023-05-02
 ---
 This poster can be used to raise awareness of the implementation of the digitised Steps proficiencies within your trust.
 
-There are placeholders on the poster for you to add your own trust logo and main Step 1 point of contact.
+There are placeholders on the poster for you to add your own trust logo and main Steps  point of contact.

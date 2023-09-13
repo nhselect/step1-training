@@ -50,7 +50,7 @@ export default {
     }
   },
   head: {
-    title: 'Digitised Step 1 user guide - Glossary of Terms',
+    title: 'Digitised Steps  user guide - Glossary of Terms',
   },
   computed: {
     glossaryFiltered() {

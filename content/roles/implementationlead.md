@@ -4,9 +4,9 @@ slug: implementationlead
 order: 1
 no-user-guide: true
 ---
-Implementation Leads are the Trust-level leads for the Step 1 pilot, and have overall responsibility for the implementation of Step 1 in their organisation.
+Implementation Leads are the Trust-level leads for the Steps  pilot, and have overall responsibility for the implementation of Steps  in their organisation.
 
-However, it is not a role in the Step 1 platform - it has been created just for the pilot to help implementation. This is why this training package does not include a user guide for accessing the platform (unlike the other training packages).
+However, it is not a role in the Steps  platform - it has been created just for the pilot to help implementation. This is why this training package does not include a user guide for accessing the platform (unlike the other training packages).
 
 For this role, you need to:
 
