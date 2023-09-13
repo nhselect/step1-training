@@ -15,7 +15,7 @@ You can download an excel report that summarises the progress of your  Learners
 
 ![](/img/centre-dashboard-reports.png)
 
-3. Select the **proficiencies** report
+3. Select the appropriate **proficiencies** report
 
 * In brackets it will say the number of Learner you have
 
