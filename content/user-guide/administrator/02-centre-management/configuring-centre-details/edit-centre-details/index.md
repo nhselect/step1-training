@@ -28,7 +28,7 @@ There are 4 things you can edit under **Centre details**:
 
 ![](/img/ccm-ca_centre-configuration_centre-support-details.png)
 
-* If you are an existing DLS centre, Learners completing other proficiency frameworks on the platform will also see these details, so it is important you are specific about Steps 
+* If you are an existing DLS centre, Learners completing other proficiency frameworks on the platform will also see these details, so it is important you select the appropriate proficiency 
 * We suggest you add something like: 
 
   > Need support for proficiencies? Contact \[add email address], \[add telephone contact number], \[add opening hours])
