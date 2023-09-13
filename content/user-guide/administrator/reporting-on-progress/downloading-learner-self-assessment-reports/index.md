@@ -26,7 +26,7 @@ You can download an excel report that summarises the progress of your  Learners
 
 Each row within the Excel file is a Learner. For each Learner there are the following columns of data available:
 
-* **SelfAssessment:** This will always be 'proficiencies – National Proficiency Framework for Registered Nurses in Adult Critical Care' as the report will automatically filter out any other frameworks/passports
+* **SelfAssessment:** Select the appropriate proficiency
 * **Learner:** Surname and First name
 * **LearnerActive:** DLS profile activity status (whether it is currently 'Active' or 'Inactive')
 * **PRN:** Personal Reference Number (PRN), if it was inputted
