@@ -24,7 +24,7 @@ There are 4 things you can edit under **Centre details**:
 
 #### Centre support details
 
-* The centre support details will be displayed to Learners and Supervisors (Educator/Manager and Assessor) in their applications so they know who to contact for local Steps  support 
+* The centre support details will be displayed to Learners and Supervisors (Educator/Manager and Assessor) in their applications so they know who to contact for local support 
 
 ![](/img/ccm-ca_centre-configuration_centre-support-details.png)
 
