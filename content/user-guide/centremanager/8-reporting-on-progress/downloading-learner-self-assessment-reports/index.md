@@ -8,7 +8,7 @@ hideSearch: false
 ---
 
 
-You can download an excel report that summarises the progress of your Steps  Learners
+You can download an excel report that summarises the progress of your  Learners
 
 1. Go to **Centre dashboard** (in **Tracking System** application) 
 2. Select **Self assessment reports**
