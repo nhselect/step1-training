@@ -9,7 +9,7 @@ updatedAt: 2022-09-01T13:23:43.109Z
 
 ![](/img/promotion-to-em_1_n.png)
 
-As an Assessor you will need to use the **Supervise** application where you can manage Learners on the proficiencies
+As an Assessor you will need to use the **Supervise** application where you can manage your Learners
 
 2. Select **Supervise** application
 
