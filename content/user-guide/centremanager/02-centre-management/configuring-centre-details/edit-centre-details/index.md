@@ -31,7 +31,7 @@ There are 4 things you can edit under **Centre details**:
 * If you are an existing DLS centre, Learners completing other proficiency frameworks on the platform will also see these details, so it is important you are specific about Step 1
 * We suggest you add something like: 
 
-  > Need support for Step 1 proficiencies? Contact \[add email address], \[add telephone contact number], \[add opening hours])
+  > Need support for Steps proficiencies? Contact \[add email address], \[add telephone contact number], \[add opening hours])
 
 #### Centre signature and Centre logo
 

@@ -8,9 +8,9 @@ Please do complete the feedback forms provided and encourage others to, as this 
 
 As a **Clinical Centre Manager**, during the pilot we will ask you to feedback on:​
 
-1. Usability of the paper version of the Step 1 proficiencies (if you have used it before)​
+1. Usability of the paper version of the Steps proficiencies (if you have used it before)​
 2. Satisfaction with training package materials​
-3. Usability of the new digital version of the Step 1 proficiencies​
+3. Usability of the new digital version of the Steps proficiencies​
 4. Experience of the pilot​
 
 You will be provided with access to these forms when needed – your job is just to complete them when asked.​

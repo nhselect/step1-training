@@ -11,12 +11,12 @@ To make it easier to filter through the Trust's delegate list and, in future, re
 
 #### Prompt 1: Programme of study / course 
 
-* Critical Care Step 1 proficiencies
+* Critical Care Steps proficiencies
 * Digital Skills
 * IV passport 
 * Other
 
-> If it is possible that delegates may be enrolled on more than one digital proficiency framework, add the combination as an additional option answer (e.g. Critical care Step 1 proficiencies & IV passport)
+> If it is possible that delegates may be enrolled on more than one digital proficiency framework, add the combination as an additional option answer (e.g. Critical care Steps proficiencies & IV passport)
 
 #### Prompt 2: Organisation / company
 

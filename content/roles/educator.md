@@ -5,9 +5,9 @@ order: 4
 ---
 The Educator/Manager is responsible for:
 
-  - Enrolling Learners onto the Step 1 proficiencies in the platform
-  - Confirming Learners’ self-assessed ‘achieved’ Step 1 proficiencies 
-  - Performing final sign-off when a Learner has completed all their Step 1 proficiencies
+  - Enrolling Learners onto the Steps proficiencies in the platform
+  - Confirming Learners’ self-assessed ‘achieved’ Steps proficiencies 
+  - Performing final sign-off when a Learner has completed all their Steps proficiencies
 
 Before you can perform this role in the platform, you need to:
 

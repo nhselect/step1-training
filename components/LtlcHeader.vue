@@ -25,7 +25,7 @@
       </div>
       <div class="nhsuk-header__transactional-service-name">
         <a class="nhsuk-header__transactional-service-name--link" href="/"
-          >Step 1 Proficiencies - Training Materials</a
+          >Steps proficiencies - Training Materials</a
         >
       </div>
       <div v-if="isUserGuide" id="content-header" class="nhsuk-header__content">

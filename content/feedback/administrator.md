@@ -9,7 +9,7 @@ Please do complete the feedback forms provided and encourage others to, as this 
 As an **Administrator**, during the pilot we will ask you to feedback on:​
 
 1. Satisfaction with training package materials​
-2. Usability of the new digital version of the Step 1 proficiencies
+2. Usability of the new digital version of the Steps proficiencies
 
 You will be provided with access to these forms when needed – your job is just to complete them when asked.​
 

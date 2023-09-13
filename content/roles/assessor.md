@@ -5,7 +5,7 @@ order: 6
 ---
 The Assessor is responsible for:
 
-  - Confirming Learners’ self-assessed ‘achieved’ Step 1 proficiencies 
+  - Confirming Learners’ self-assessed ‘achieved’ Steps proficiencies 
 
 Before you can perform this role in the platform, you need to:
 

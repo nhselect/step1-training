@@ -5,21 +5,21 @@ rating: true
 createdAt: 2022-09-01T14:40:21.985Z
 updatedAt: 2022-09-01T14:40:21.989Z
 ---
-[Access the training packages](https://nhs-step1-training.netlify.app/) that have been designed to prepare and support staff through the digitised Step 1 proficiencies pilot. 
+[Access the training packages](https://nhs-step1-training.netlify.app/) that have been designed to prepare and support staff through the digitised Steps proficiencies pilot. 
 
 There is a bespoke training package for each role (all accessible via the same link above), with materials tailored to their role requirements:
 
 |                                                                    | IL | CCM | Admin | E/M | A  | L  |
 | ------------------------------------------------------------------- | --- | ---- | ------ | ---- | --- | --- |
 | Implementation toolkit (PDF)                                       | ✔  |     |       |     |    |    |
-| Digitised Step 1 proficiencies content (Excel)                     | ✔  |     |       |     |    |    |
+| Digitised Steps proficiencies content (Excel)                     | ✔  |     |       |     |    |    |
 | User guide (Webpage)                                               |    | ✔*  | ✔*    | ✔*  | ✔* | ✔* |
 | Platform roles & responsibilities overview (PDF)                   | ✔  | ✔   | ✔     | ✔   | ✔  | ✔  |
 | Setup & Utilisation process maps (PDF)                             | ✔  | ✔   | ✔     | ✔   | ✔  | ✔  |
 | Feedback required for measurement (PDF)                            | ✔  | ✔   | ✔     | ✔   | ✔  | ✔  |
-| Introductory presentation of digitising Step 1 proficiencies (PPT) | ✔  | ✔   | ✔     | ✔   | ✔  | ✔  |
-| Demo of digitised Step 1 proficiencies (Webpage)                   | ✔  | ✔   | ✔     | ✔   | ✔  | ✔  |
-| Step 1 proficiencies implementation poster (editable)                                                           | ✔  | ✔   |      |     |    |    |
+| Introductory presentation of digitising Steps proficiencies (PPT) | ✔  | ✔   | ✔     | ✔   | ✔  | ✔  |
+| Demo of digitised Steps proficiencies (Webpage)                   | ✔  | ✔   | ✔     | ✔   | ✔  | ✔  |
+| Steps proficiencies implementation poster (editable)                                                           | ✔  | ✔   |      |     |    |    |
 
 **KEY:**
 ✔ Material provided in training package, * Material’s contents are tailored to role

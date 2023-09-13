@@ -486,7 +486,7 @@
             <h2 class="nhsuk-details__summary-text">
               4: Learner setup
               <span class="nhsuk-caption-m nhsuk-u-reading-width process-step--header-text">
-                Setting up Learners on the platform and enrolling them onto the Step 1 proficiencies. Actions needed by the <ProcessRole :roles="{educator:true,assessor:true}" or />
+                Setting up Learners on the platform and enrolling them onto the Steps proficiencies. Actions needed by the <ProcessRole :roles="{educator:true,assessor:true}" or />
               </span>
             </h2>
           </summary>
@@ -524,7 +524,7 @@
             </ProcessNode>
 
             <ProcessNode step=3 :roles="roles" :actionBy="['educator']" :required="isEM">
-              <p>The <ProcessRole :roles="{educator:true}" /> enrolls {{ isLearner ? "you" : "the Learners" }} onto the Step 1 proficiencies</p>
+              <p>The <ProcessRole :roles="{educator:true}" /> enrolls {{ isLearner ? "you" : "the Learners" }} onto the Steps proficiencies</p>
             </ProcessNode>
 
           </div>
@@ -543,9 +543,9 @@
           >
           <summary class="nhsuk-details__summary">
             <h2 class="nhsuk-details__summary-text">
-              5: Learner Step 1 proficiencies completion
+              5: Learner Steps proficiencies completion
               <span class="nhsuk-caption-m nhsuk-u-reading-width process-step--header-text">
-                The process for Learners to self-assess and complete their Step 1 proficiencies. Actions needed by the <ProcessRole :roles="{learner:true,educator:true,assessor:true}" or />
+                The process for Learners to self-assess and complete their Steps proficiencies. Actions needed by the <ProcessRole :roles="{learner:true,educator:true,assessor:true}" or />
               </span>
             </h2>
           </summary>
@@ -553,7 +553,7 @@
 
             <ProcessNode step=1 :roles="roles" :required="isLearner" :actionBy="['learner']">
               <p>
-                {{ isLearner ? "You launch" : "The Learner launches" }} the Step 1 proficiencies self-assessment
+                {{ isLearner ? "You launch" : "The Learner launches" }} the Steps proficiencies self-assessment
               </p>
             </ProcessNode>
 
@@ -589,7 +589,7 @@
 
             <ProcessNode step=1 :required="isLearner" :roles="roles">
               <p>
-                {{ isLearner ? "You receive" : "The Learner receives" }} certification of completion for Step 1 proficiencies
+                {{ isLearner ? "You receive" : "The Learner receives" }} certification of completion for Steps proficiencies
               </p>
             </ProcessNode>
 

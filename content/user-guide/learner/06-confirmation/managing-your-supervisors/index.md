@@ -5,7 +5,7 @@ createdAt: 2022-09-01T11:14:15.994Z
 updatedAt: 2022-09-01T11:14:15.998Z
 rating: true
 ---
-Make sure you are on your Step 1 proficiencies **Introduction page** (Select the correct breadcrumb at the top)
+Make sure you are on your Steps proficiencies **Introduction page** (Select the correct breadcrumb at the top)
 
 1. Select **Manage supervisors**
 
@@ -21,7 +21,7 @@ Make sure you are on your Step 1 proficiencies **Introduction page** (Select the
 
 > If you cannot find your Educator/Manager or Assessor in the list, they will need to be given supervisor access by your Clinical Centre Manager.
 
-3. Select whether the person will act as an **Educator/Manager** or **Assessor** for your Step 1 proficiencies (read the descriptions provided on the platform page to decide which to select) and select **Next**
+3. Select whether the person will act as an **Educator/Manager** or **Assessor** for your Steps proficiencies (read the descriptions provided on the platform page to decide which to select) and select **Next**
 
 > If the selected person has been promoted to the Assessor role only, do not select Educator/Manager
 
@@ -42,6 +42,6 @@ Make sure you are on your Step 1 proficiencies **Introduction page** (Select the
 
 > Your supervisor will not receive a notification informing them of this change
 >
-> You will not be able to remove the Supervisor that originally enrolled you on the Step 1 proficiencies (they will need to do this).
+> You will not be able to remove the Supervisor that originally enrolled you on the Steps proficiencies (they will need to do this).
 
 ![](/img/l_self-assess-proficiencies_manage-supervisors_6.png)

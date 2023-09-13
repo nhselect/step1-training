@@ -7,7 +7,7 @@ updatedAt: 2022-09-01T08:48:17.343Z
 ---
 #### Managing delegate courses
 
-This functionality is not relevant for the Step 1 proficiencies, so will show as ‘Not currently registered for any courses’ for all delegates.
+This functionality is not relevant for the Steps proficiencies, so will show as ‘Not currently registered for any courses’ for all delegates.
 
 #### Centre reporting
 

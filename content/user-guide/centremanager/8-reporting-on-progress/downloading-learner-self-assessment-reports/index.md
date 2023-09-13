@@ -15,7 +15,7 @@ You can download an excel report that summarises the progress of your Step 1 Lea
 
 ![](/img/centre-dashboard-reports.png)
 
-3. Select the **Step 1 proficiencies** report
+3. Select the **Steps proficiencies** report
 
 * In brackets it will say the number of Step 1 Learner you have
 
@@ -27,14 +27,14 @@ You can download an excel report that summarises the progress of your Step 1 Lea
 
 Each row within the Excel file is a Learner. For each Learner there are the following columns of data available:
 
-* **SelfAssessment:** This will always be 'Step 1 Proficiencies – National Proficiency Framework for Registered Nurses in Adult Critical Care' as the report will automatically filter out any other frameworks/passports
+* **SelfAssessment:** This will always be 'Steps proficiencies – National Proficiency Framework for Registered Nurses in Adult Critical Care' as the report will automatically filter out any other frameworks/passports
 * **Learner:** Surname and First name
 * **LearnerActive:** DLS profile activity status (whether it is currently 'Active' or 'Inactive')
 * **PRN:** Personal Reference Number (PRN), if it was inputted
 * **JobGroup**: Job group (e.g. 'Nursing / Midwifery')
 * **Prompt questions** – If your Trust has setup registration prompts in the platform (e.g. 'Department'), there will be a column per prompt (with a maximum of 6)  These columns will vary depending on which prompts have been set up
 * **Registered**: Date and time the Learner registered onto the platform 
-* **Enrolled**: Date and time the Learner was enrolled onto the Step 1 Proficiencies 
+* **Enrolled**: Date and time the Learner was enrolled onto the Steps proficiencies 
 * **LastAccessed**: Date and time the Learner last accessed the platform
 * **OptionalProficiencies:** Number of optional proficiencies the Learner has added. There are a total of 16 optional proficiencies Learners can add in Step 1, that relate to Renal Replacement Therapy (RRT) 
 * **SelfAssessedAchieved:** Number of proficiencies self assessed by Learner as 'Achieved' (/656, or /672 if they have added all 16 optional proficiencies to their Step 1) 

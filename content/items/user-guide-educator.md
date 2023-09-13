@@ -11,8 +11,8 @@ This user guide document for educator / managers provides instruction on how to 
 
 - Registering and managing your profile
 - Sharing and monitoring completion of delegate training packages​
-- Enrolling Learners onto the Step 1 proficiencies
+- Enrolling Learners onto the Steps proficiencies
 - Completing the Learning Contract​
 - Confirming Learners’ self-assessed 'achieved' proficiencies
-- Performing final sign-off when all Step 1 proficiencies achieved by Learner
+- Performing final sign-off when all Steps proficiencies achieved by Learner
 - Accessing support​

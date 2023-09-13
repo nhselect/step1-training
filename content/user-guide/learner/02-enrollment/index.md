@@ -1,13 +1,13 @@
 ---
-title: Being enrolled on the Step 1 proficiencies
+title: Being enrolled on the Steps proficiencies
 order: 2
 rating: true
 createdAt: 2022-09-01T14:39:34.314Z
 updatedAt: 2022-09-01T14:39:34.317Z
 ---
-Your **Educator/Manager is responsible for enrolling you on the Step 1 proficiencies**
+Your **Educator/Manager is responsible for enrolling you on the Steps proficiencies**
 
-1. Once you have been enrolled on the Step 1 proficiencies, **you will receive an email from noreply@dls.nhs.uk** (Subject: You have been enrolled on a profile assessment...)
+1. Once you have been enrolled on the Steps proficiencies, **you will receive an email from noreply@dls.nhs.uk** (Subject: You have been enrolled on a profile assessment...)
 
 ![](/img/enrolling_9_n.png)
 

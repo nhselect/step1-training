@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>
-      Digitised Step 1 proficiencies pilot
+      Digitised Steps proficiencies pilot
       <span class="nhsuk-caption-xl"> Training packages </span>
     </h1>
     <div class="nhsuk-u-reading-width">

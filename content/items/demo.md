@@ -1,5 +1,5 @@
 ---
-title: Demo of digitised Step 1 proficiencies
+title: Demo of digitised Steps proficiencies
 slug: demo
 roles:
   - administrator
@@ -13,6 +13,6 @@ optional: true
 updated: 2022-08-26
 order: 9
 ---
-This is a demo of what the digitised Step 1 proficiencies will look like from the Learners’ view, so you are aware.
+This is a demo of what the digitised Steps proficiencies will look like from the Learners’ view, so you are aware.
 
-**Please note:** this page is solely to demo the appearance and content of the digitised Step 1 proficiencies; it is not the live platform that hosts the Step 1 proficiencies. Therefore, your progress won't save, and you won't be able to use all the functionality (i.e. certain buttons are disabled).
+**Please note:** this page is solely to demo the appearance and content of the digitised Steps proficiencies; it is not the live platform that hosts the Steps proficiencies. Therefore, your progress won't save, and you won't be able to use all the functionality (i.e. certain buttons are disabled).
