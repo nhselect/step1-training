@@ -16,7 +16,7 @@ There are 4 things you should access:
 
 > Ignore:
 >
-> * **Courses** - This functionality is not relevant for the clinical proficiencies. Do not worry that Steps  is not listed 
+> * **Courses** - This functionality is not relevant for the clinical proficiencies. Do not worry that the Steps proficiencies  and IV Therapy passport  is not listed 
 > * **Reports** - this functionality is still in development
 
 ![](/img/ccm-ca_centredashboard.png)
