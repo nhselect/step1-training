@@ -10,7 +10,7 @@ updatedAt: 2022-09-01T08:42:37.281Z
 
 ![](/img/registering-delegates-1.png)
 
-#### To export a list of delegate registrations for the proficiencies:
+#### To export a list of delegate registrations:
 
 3. Filter by **Programme of Study / Course** and select **Critical Care proficiencies**
 4. Select  **Export**
