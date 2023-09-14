@@ -49,10 +49,10 @@ For security reasons, it is recommended that the delegate sets their own passwor
 11. Select **Change** if you need to edit any of the summary details
 12. Select **Save**
 
-![](/img/register-delegate-without-password-5.png)
+![](/img/register-delegate-without-password-4.png)
 
 13. Select **Manage all delegates** to return to the **Delegates** page
 
 ![](/img/register-delegate-without-password-6.png)
 
-> The delegate will receive a welcome email with link to complete registration
+> The delegate will receive a welcome email from **noreply@dls.nhs.uk,** to the email that you registered them with, with a link to complete registration
