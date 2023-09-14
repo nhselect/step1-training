@@ -2,7 +2,7 @@
 title: Self-registering for your profile
 order: 1
 createdAt: 2022-09-01T06:48:31.397Z
-updatedAt: 2023-08-22T13:29:35.404Z
+updatedAt: 2023-09-14T12:21:30.335Z
 rating: true
 ---
 2. Select **Register** (on the **Welcome** page)
