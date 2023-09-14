@@ -37,10 +37,26 @@ You may also be asked for:
 
 ![](/img/self-register-4.png)
 
-7. You will see that your delegate registration is complete. You will receive a verification email from [noreply@dls.nhs.uk](mailto:noreply@dls.nhs.uk). **Click** on the verification link in the email to verify your account.<!--StartFragment-->
+7. You will be notified on screen that your delegate registration is complete. You will need to **verify** your account and may require **registration approval** from your Clinical Centre Manager or Administrator before you can log in for the first time. 
 
-   Your registration may also require approval from your Clinical Centre Manager or Administrator before you can log in. You will receive a **confirmation email** at the email address you registered with once your registration has been approved 
+![](/img/self-register-5.png)
 
-> A yellow box will appear if your registration requires approval from your Clinical Centre Manager or Administrator before you can log in. If it does not appear you can log in straight away.
+### Verifying your account
 
-![](/img/em-1-06-Self-register.jpg)
+8. You will receive a verification email from [noreply@dls.nhs.uk](mailto:noreply@dls.nhs.uk) to the email address that you registered with. Click on the **verification link** in the email to verify your account. 
+
+![](/img/self-registration-verification-email.png)
+
+ 
+
+9. If your registration does not require approval from your Clinical Centre Manager or Centre Administrator, select **Return to the Digital Learning Solutions homepage** to log in 
+
+ 
+
+![](/img/self-register-6.png)
+
+### Gaining registration approval 
+
+10. You will receive a confirmation email from [noreply@dls.nhs.uk](mailto:noreply@dls.nhs.uk), to the email address that you registered with, once your registration has been approved by your Clinical Centre Manager or Administrator. Click on the **link** in the email to log in.
+
+![](/img/registration-approval-email.png)
