@@ -5,7 +5,7 @@ createdAt: 2022-09-01T11:14:15.994Z
 updatedAt: 2022-09-01T11:14:15.998Z
 rating: true
 ---
-Make sure you are on your proficiencies **Introduction page** (Select the correct breadcrumb at the top)
+Make sure you are on the appropriate proficiencies **Introduction page** (Select the correct breadcrumb at the top)
 
 1. Select **Manage supervisors**
 
