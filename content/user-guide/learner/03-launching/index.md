@@ -26,7 +26,7 @@ Once you have been enroled, you can either access the proficiencies:
 
 4. Select **Manage supervisors**
 
-Here you can see all the Supervisors (Educator/Manager or Assessor) that are managing your Steps , which means you will be able to send proficiencies to them to confirm and they will be able to see a summary of your progress. 
+Here you can see all the Supervisors (Educator/Manager or Assessor) that are managing your proficiencies , which means you will be able to send proficiencies to them to confirm and they will be able to see a summary of your progress. 
 
 * You can find out how to [Add / Remove Supervisors from this list](/user-guide/learner/06-confirmation/managing-your-supervisors) later in this guide
 * When you first start the proficiencies only the Educator/Manager who enroled you will be listed here.
@@ -35,7 +35,7 @@ Here you can see all the Supervisors (Educator/Manager or Assessor) that are man
 
 [](/user-guide/learner/06-confirmation/managing-your-supervisors)
 
-Once you are ready to launch self-assessment of proficiencies:
+Once you are ready to launch the proficiencies self-assessment:
 
 5. Select **View Proficiencies**
 
