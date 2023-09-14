@@ -2,7 +2,7 @@
 title: Individual registration
 order: 2
 createdAt: 2022-09-01T08:29:13.976Z
-updatedAt: 2023-08-22T13:28:30.869Z
+updatedAt: 2023-09-14T12:22:38.051Z
 rating: true
 ---
 > You will not have to ‘approve’ new delegates registered via individual registration
