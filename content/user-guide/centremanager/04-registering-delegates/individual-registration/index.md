@@ -24,7 +24,7 @@ updatedAt: 2022-09-01T08:29:13.981Z
 
 ![](/img/registering-delegates-7.png)
 
-6. Select a **Job group** for the new delegate from the drop-down list (for Steps , this will be **Nursing / Midwifery**)
+6. Select a **Job group** for the new delegate from the drop-down list (for clinical proficiencies, this will be **Nursing / Midwifery**)
 
 > If your centre has set up additional registration question prompts they will appear here 
 >
