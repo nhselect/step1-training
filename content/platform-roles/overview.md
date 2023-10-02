@@ -3,7 +3,7 @@ title: Platform roles and responsibilities overview
 updatedAt: 2023-08-22
 functionalityTitle: Who can do what?
 functionalities:
-- title: Register delegates onto the platform
+- title: Register delegates onto the platform (note - this is only applicable to Trust admin roles, not HEIs)
   hasFull:
   - centremanager
   - administrator
