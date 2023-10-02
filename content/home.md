@@ -1,5 +1,5 @@
 ---
-title: Welcome to the training packages for the Step 1 proficiencies pilot
+title: Welcome to the training packages for the digitised proficiencies
 ---
 ## What you need to do:
 
@@ -9,5 +9,3 @@ title: Welcome to the training packages for the Step 1 proficiencies pilot
 4. **Go to the user guide (in your training package) for step-by-step guidance** to start using the platform
 
 **You can revisit the training materials** at any point to refresh your knowledge
-
-## Select your training package:

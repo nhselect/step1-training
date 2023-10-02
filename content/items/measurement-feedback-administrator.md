@@ -3,6 +3,8 @@ title: Feedback required for measurement
 slug: measurement-feedback-administrator
 roles:
   - administrator
+frameworks:
+  - steps
 link: /feedback/administrator
 updated: 2022-10-18
 order: 6

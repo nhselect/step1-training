@@ -3,6 +3,8 @@ title: Feedback required for measurement
 slug: measurement-feedback-centremanager
 roles:
   - centremanager
+frameworks:
+  - steps
 link: /feedback/centremanager
 updated: 2022-10-18
 order: 6

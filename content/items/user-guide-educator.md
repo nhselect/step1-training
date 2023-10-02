@@ -3,6 +3,9 @@ title: User guide for educator / managers
 slug: user-guide-educator
 roles:
   - educator
+frameworks:
+  - steps
+  - iv
 link: /user-guide/educator
 updated: 2022-10-18
 order: 2

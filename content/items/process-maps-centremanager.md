@@ -3,6 +3,8 @@ title: Setup and Utilisation process maps
 slug: process-maps
 roles:
   - centremanager
+frameworks:
+  - steps
 link: /process/centremanager
 updated: 2023-01-20
 order: 5

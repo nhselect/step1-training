@@ -3,6 +3,9 @@ title: User guide for administrators
 slug: user-guide-administrator
 roles:
   - administrator
+frameworks:
+  - steps
+  - iv
 link: /user-guide/administrator
 updated: 2022-10-18
 order: 2

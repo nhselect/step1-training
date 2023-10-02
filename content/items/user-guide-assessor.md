@@ -3,6 +3,9 @@ title: User guide for assessors
 slug: user-guide-assessor
 roles:
   - assessor
+frameworks:
+  - steps
+  - iv
 link: /user-guide/assessor
 updated: 2022-10-18
 order: 2

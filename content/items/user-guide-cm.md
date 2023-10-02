@@ -3,6 +3,9 @@ title: User guide for clinical centre managers
 slug: user-guide-cm
 roles:
   - centremanager
+frameworks:
+  - steps
+  - iv
 link: /user-guide/centremanager
 updated: 2022-10-18
 order: 2

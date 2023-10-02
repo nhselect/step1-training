@@ -9,17 +9,65 @@
         {{ homePage.title }}
       </p>
       <NuxtContent :document="homePage" />
+
+      <hr />
+
+      <div class="nhsuk-form-group">
+
+        <fieldset class="nhsuk-fieldset">
+          <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--m">
+            <h2 class="nhsuk-fieldset__heading nhsuk-heading-l">
+              Which proficiency frameworks are you enrolling in?
+            </h2>
+          </legend>
+
+          <div class="nhsuk-checkboxes">
+
+            <div
+              v-for="opt in fwOptions"
+              :key="'fw-'+opt.value"
+              class="nhsuk-checkboxes__item"
+              >
+              <input
+                v-model="fw"
+                class="nhsuk-checkboxes__input"
+                :id="'fw-'+opt.value"
+                :name="'fw-'+opt.value"
+                type="checkbox"
+                :value="opt.value"
+                >
+              <label
+                class="nhsuk-label nhsuk-checkboxes__label"
+                :for="'fw-'+opt.value"
+                >
+                {{ opt.text }}
+              </label>
+            </div>
+
+          </div>
+        </fieldset>
+
+        </div>
+
+        <hr />
+
     </div>
-    <ul class="nhsuk-grid-row nhsuk-card-group">
-      <li
-        v-for="role in roles"
-        :key="role.title"
-        class="nhsuk-grid-column-one-third nhsuk-card-group__item"
-      >
-        <ElectCard clickable="true" :url="role.path" :title="role.title">
-        </ElectCard>
-      </li>
-    </ul>
+    <div v-if="fw.length > 0">
+      <h2>Please select your role:</h2>
+      <ul class="nhsuk-grid-row nhsuk-card-group">
+        <li
+          v-for="role in roles"
+          :key="role.title"
+          class="nhsuk-grid-column-one-third nhsuk-card-group__item"
+        >
+          <ElectCard clickable="true" :url="`${role.path}?site=${fw}`" :title="role.title">
+          </ElectCard>
+        </li>
+      </ul>
+    </div>
+    <div v-else>
+      <p>Please select at least one framework.</p>
+    </div>
   </div>
 </template>
 
@@ -45,6 +93,25 @@ export default {
       homePage,
     }
   },
+  data() {
+    const fwOptions = [
+      {
+        value: 'steps',
+        text: 'Steps 1, 2 and 3 proficiencies'
+      },
+      {
+        value: 'iv',
+        text: 'IV therapy passport'
+      }
+    ],
+    fw = []
+
+    return {
+      fwOptions,
+      fw
+    }
+  },
+  
   head: {
     title: 'Digitised Step 1 user guides',
     script: [
@@ -63,4 +130,12 @@ export default {
 @import 'node_modules/nhsuk-frontend/packages/components/images/images';
 @import 'node_modules/nhsuk-frontend/packages/components/details/details';
 @import 'node_modules/nhsuk-frontend/packages/components/inset-text/inset-text';
+@import 'node_modules/nhsuk-frontend/packages/components/radios/radios';
+
+.nhsuk-radios__item {
+  float: left;
+  clear: none;
+  margin-right: 96px;
+}
+
 </style>

@@ -4,6 +4,8 @@ slug: poster
 roles:
   - implementationlead
   - centremanager
+frameworks:
+  - steps
 order: 100
 optional: true
 link: https://nhselect.sharepoint.com/:p:/s/LearningandEducationNetworks/DSP/EYzQ-YCEyGRAn6LNgSAX-AIBRhbzIQnzF5zc1eFZXcC0IA?download=1

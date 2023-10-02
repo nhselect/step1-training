@@ -5,7 +5,7 @@
         <BackLink />
         <h1>
           <span class="nhsuk-caption-xl"> Training package for </span>
-          {{ page.title }}
+          {{ page.title }}s
         </h1>
         <nuxt-content :document="page" />
         <hr />
@@ -15,7 +15,7 @@
           </a>
         </div>
         <h2 id="training-prereading">1. Pre-reading</h2>
-        <h3>Essential:</h3>
+        <h3 v-if="essentialMaterials.length > 0">Essential:</h3>
         <ul class="nhsuk-list">
           <TrainingMaterialsItem
             v-for="(item, index) in essentialMaterials"
@@ -24,7 +24,7 @@
             :item="item"
           />
         </ul>
-        <h3>Non-essential:</h3>
+        <h3 v-if="optionalMaterials.length > 0">Non-essential:</h3>
         <ul class="nhsuk-list">
           <TrainingMaterialsItem
             v-for="(item, index) in optionalMaterials"
@@ -79,8 +79,9 @@
 
 <script>
 export default {
-  async asyncData({ $content, params, error }) {
+  async asyncData({ $content, params, query, error }) {
     const slug = params.slug || 'index'
+    const fw = query.site
     const page = await $content('roles/' + slug)
       .fetch()
       .catch((err) => {
@@ -92,6 +93,7 @@ export default {
     let items = await $content('items')
       .where({
         roles: { $contains: slug },
+        sites: { $contains: site }
       })
       .sortBy('order')
       .fetch()
@@ -133,10 +135,25 @@ export default {
       (i) => i.optional && !i.slug.includes('user-guide-')
     )
 
+    const fwOptions = [
+      {
+        value: 'steps',
+        text: 'Steps 1, 2 and 3 proficiencies'
+      },
+      {
+        value: 'iv',
+        text: 'IV therapy passport'
+      }
+    ]
+
+    const fwName = fw.split(',').length > 0 ? fw.split(',').join(', ') : ''
+
     const checkItems = items.filter((i) => !i.optional).map((i) => i.title)
 
     return {
       slug,
+      fw,
+      fwName,
       page,
       items,
       checkItems,
@@ -147,7 +164,7 @@ export default {
   },
   head() {
     return {
-      title: 'Digitised Step 1 user guide for ' + this.page.title + 's',
+      title: 'Digitised proficiencies user guide for ' + this.page.title + 's',
     }
   },
 }

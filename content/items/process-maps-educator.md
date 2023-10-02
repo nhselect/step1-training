@@ -3,6 +3,8 @@ title: Setup and Utilisation process maps
 slug: process-maps
 roles:
   - educator
+frameworks:
+  - steps
 link: /process/educator
 updated: 2023-01-20
 order: 5

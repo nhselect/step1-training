@@ -3,6 +3,8 @@ title: Setup and Utilisation process maps
 slug: process-maps
 roles:
   - learner
+frameworks:
+  - steps
 link: /process/learner
 updated: 2023-01-20
 order: 5
