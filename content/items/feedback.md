@@ -1,5 +1,6 @@
 ---
 title: Feedback required for measurement
+slug: feedback
 roles:
   - implementationlead
   - administrator
