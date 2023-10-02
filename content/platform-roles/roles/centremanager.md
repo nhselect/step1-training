@@ -52,11 +52,11 @@ If you do not know who your Trust-wide Centre Manager (non-clinical) is or do no
 
 <div class="role_trust-example">
 
-#### Example in a trust
+#### Example in a Trust
 
 - Lead educator or lead nurse (at least band 7)​ - that is the persons who have overall accountability for the unit/ward/programme. Ideally you would have both a lead educator and lead nurse as Clinical Centre Managers​
 
-#### Higher education institute example
+#### Example in a Higher Education Institution (HEI)
 
 - Course programme lead - meaning the persons who have overall responsibility for the learners (students) within the HEI.
 

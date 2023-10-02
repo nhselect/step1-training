@@ -10,7 +10,7 @@ As an **Assessor**, during the pilot we will ask you to feedback on:​
 
 1. Satisfaction with training package materials​
 2. Usability of the paper version of the Steps proficiencies (if you have used it before)​
-3. Usability of the new digital version of the Steps proficiencies
+3. Usability of the new digital version of the proficiencies
 
 You will be provided with access to these forms when needed – your job is just to complete them when asked.​
 

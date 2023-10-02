@@ -15,11 +15,11 @@ Once promoted into this role, delegates will be able to perform their Assessor r
 
 <div class="role_trust-example">
 
-### Example in a trust​
+### Example in a Trust​
 
 - Qualified nurse (in accordance with your trust protocol)​
 
-#### Higher education institute example
+#### Example in a Higher Education Institution (HEI)
 
 - Lecturing team member who needs to monitor the progression of their students  ​
 - Lecturer who only needs to sign off individual proficiencies

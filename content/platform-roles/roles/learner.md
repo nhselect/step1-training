@@ -18,11 +18,11 @@ Once enrolled onto the proficiencies framework by their Educator/Manager, the de
 
 <div class="role_trust-example">
 
-### Example in a trust​
+### Example in a Trust​
  
 - Healthcare proffessional  ie Registered nurse in critical care.
 
-#### Higher education institute example
+#### Example in a Higher Education Institution (HEI)
 
 - Healthcare proffessional who is a student on a HEI course
 

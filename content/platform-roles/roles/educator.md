@@ -18,11 +18,11 @@ Once promoted into this role, delegates will be able to perform their Educator/M
 
 <div class="role_trust-example">
 
-### Example in a trust​
+### Example in a Trust​
 
 - Ward manager, line (team) manager, or practice educator. This person has responsibility for the final sign-off for the learner
 
-#### Higher education institute example
+#### Example in a Higher Education Institution (HEI)
 
 - Course lecturers delivering the course curriculum  ​
 - Course lecturers that need to monitor the proficiencies of their students who are enrolled as learners
