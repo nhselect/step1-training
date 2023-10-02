@@ -37,7 +37,7 @@
             class="nhsuk-action-link__link"
             :href="item.link"
             target="_blank"
-            :download="item.link.indexOf('.pdf') > 0 || item.link.indexOf('.pptx') > 0 ? true : false"
+            :download="item.link.indexOf('.pdf') > 0 || item.link.indexOf('.pptx') > 0 ? item.title : false"
           >
             <svg
               class="nhsuk-icon nhsuk-icon__arrow-right-circle"
