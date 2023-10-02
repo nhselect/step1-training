@@ -8,7 +8,7 @@ roles:
   - centremanager
   - assessor
   - implementationlead
-link: /roles
+link: /roles-and-responsibilities
 updated: 2023-08-22
 order: 4
 ---
