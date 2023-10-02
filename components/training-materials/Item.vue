@@ -36,7 +36,7 @@
           <a
             class="nhsuk-action-link__link"
             :href="item.link + (item.roleSpecific && role ? `/${role}` : '')"
-            target="_blank"
+            :target="item.link.indexOf('/') === 0 ? '_self' : '_blank'"
             :download="item.link.indexOf('.pdf') > 0 || item.link.indexOf('.pptx') > 0 ? item.title : false"
           >
             <svg

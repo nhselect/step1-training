@@ -88,6 +88,12 @@ export default {
       'process/learner',
       'process/assessor',
       'process/implementationlead',
+      'feedback/centremanager',
+      'feedback/administrator',
+      'feedback/educator',
+      'feedback/learner',
+      'feedback/assessor',
+      'feedback/implementationlead',
     ],
   },
 
