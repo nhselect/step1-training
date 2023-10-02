@@ -35,7 +35,7 @@
         <div v-if="item.link" class="nhsuk-action-link">
           <a
             class="nhsuk-action-link__link"
-            :href="item.link"
+            :href="item.link + (item.roleSpecific && role ? `/${role}` : '')"
             target="_blank"
             :download="item.link.indexOf('.pdf') > 0 || item.link.indexOf('.pptx') > 0 ? item.title : false"
           >
@@ -72,6 +72,7 @@ import { ITrainingItem } from '~/interfaces'
 export default class TrainingMaterialsItem extends Vue {
   @Prop({ required: true }) readonly index!: number
   @Prop({ required: true }) readonly item!: ITrainingItem
+  @Prop({ required: false }) readonly role!: string
 }
 </script>
 

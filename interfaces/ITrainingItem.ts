@@ -8,5 +8,6 @@ export interface ITrainingItem {
   duplicateNotice: string,
   updatedFormatted: string,
   action: string,
-  optional: boolean
+  optional: boolean,
+  roleSpecific: boolean
 }

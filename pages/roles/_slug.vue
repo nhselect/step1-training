@@ -22,6 +22,7 @@
             :key="item.slug"
             :index="index"
             :item="item"
+            :role="slug"
           />
         </ul>
         <h3>Non-essential:</h3>
@@ -31,6 +32,7 @@
             :key="item.slug"
             :index="index"
             :item="item"
+            :role="slug"
           />
         </ul>
         <hr />
