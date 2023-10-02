@@ -33,7 +33,12 @@
       <div class="nhsuk-details__text">
         <nuxt-content :document="item" />
         <div v-if="item.link" class="nhsuk-action-link">
-          <a class="nhsuk-action-link__link" :href="item.link" target="_blank">
+          <a
+            class="nhsuk-action-link__link"
+            :href="item.link"
+            target="_blank"
+            :download="item.link.indexOf('.pdf') > 0 || item.link.indexOf('.pptx') > 0 ? 'download' : false"
+          >
             <svg
               class="nhsuk-icon nhsuk-icon__arrow-right-circle"
               xmlns="http://www.w3.org/2000/svg"

@@ -1,5 +1,5 @@
 ---
-title: Introductory presentation of digitising Step 1 proficiencies
+title: Introductory presentation of digitising proficiencies
 slug: presentation
 roles:
   - learner
@@ -8,6 +8,6 @@ updated: 2022-08-16
 optional: true
 order: 10
 ---
-This document has been created to provide an initial introduction and overview of our programme to digitise the Step 1 proficiencies​.
+This document has been created to provide an initial introduction and overview of our programme to digitise the proficiencies​.
 
 It can be read, presented or shared to raised awareness and improve knowledge​.
