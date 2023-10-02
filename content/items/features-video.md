@@ -8,7 +8,7 @@ roles:
   - centremanager
   - assessor
 order: 2
-updated: 2022-11-28
+updated: 2023-10-03
 ---
 This video gives you a quick overview of: 
 -	The key differences between the digitised and paper versions of the proficiencies
