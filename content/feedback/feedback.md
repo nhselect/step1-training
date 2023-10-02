@@ -1,6 +1,6 @@
 ---
 title: How will we evaluate the pilot and platform?​
-updatedAt: 2023-10-02
+updatedAt: 2023-10-03
 ---
 Trusts and Higher Education Institutes (HEI) will be expected to provide feedback during the pilot. This will include feedback from:
 
@@ -22,4 +22,4 @@ Your insights will be used to optimise the user experience and enhance the DLS s
 
 If you are performing multiple roles in the platform, you will only need to complete these forms once.
 
-![](/img/ccm-ca_centredashboard.png)
+![](/img/feedback-timeline.png)

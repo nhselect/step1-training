@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>
-      Digitised Step 1 proficiencies pilot
+      Digitised proficiencies
       <span class="nhsuk-caption-xl"> Training packages </span>
     </h1>
     <div class="nhsuk-u-reading-width">
@@ -46,7 +46,7 @@ export default {
     }
   },
   head: {
-    title: 'Digitised Step 1 user guides',
+    title: 'Digitised proficiencies user guides',
     script: [
       {
         src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
