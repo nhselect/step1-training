@@ -18,20 +18,20 @@ functionalities:
   hasFull:
     - centremanager
     - educator
-- title: Enrol Learners to Steps 1, 2 or 3 proficiencies
+- title: Enrol Learners to proficiencies
   hasFull:
     - educator
-- title: Self-assess achievement of Steps 1, 2 or 3 proficiencies
+- title: Self-assess achievement of proficiencies
   hasFull:
     - learner
-- title: Request confirmation of self-assessed ‘achieved’ Steps 1, 2 or 3 proficiencies
+- title: Request confirmation of self-assessed ‘achieved’ proficiencies
   hasFull:
     - learner
-- title: Confirm Learners’ self-assessed ‘achieved’ Steps 1, 2 or 3 proficiencies
+- title: Confirm Learners’ self-assessed ‘achieved’ proficiencies
   hasFull:
     - educator
     - assessor
-- title: Perform final sign-off when all Steps 1, 2 or 3 proficiencies are achieved by the Learner
+- title: Perform final sign-off when all proficiencies are achieved by the Learner
   hasFull:
     - educator
 - title: View and manage delegate profiles
@@ -76,9 +76,9 @@ Within the platform there are 4 **admin roles**:
 </span>
 </p>
 
-During setup, your Trust (your Implementation Lead or Centre Manager) will decide who will perform these different admin roles.
+During setup, your organisation (your Implementation Lead or Centre Manager) will decide who will perform these different admin roles.
 
-Multiple delegates can perform each role (for example, your Trust can have multiple Assessors) and, in some instances, a delegate may require more than one admin role (for example, both Centre Manager and Educator/Manager).
+Multiple delegates can perform each role (for example, your organisation can have multiple Assessors) and, in some instances, a delegate may require more than one admin role (for example, both Centre Manager and Educator/Manager).
 
 Delegates performing admin roles will need to be promoted within the platform (Centre Managers can promote delegates to any role and Educator/managers can only promote delegates to the Assessor role).
 
@@ -143,7 +143,7 @@ Once promoted, each role has access to specific applications within the platform
 
 ### Learners
 
-To become a **Learner**, a delegate will need to be enrolled onto the appropriate **Step 1, 2 or 3 proficiencies** framework by an **Educator/Manager**.
+To become a **Learner**, a delegate will need to be enrolled onto the appropriate proficiencies framework by an **Educator/Manager**.
 
 Once enrolled, Learners can access the proficiencies through the Learning Portal application.
 
@@ -174,6 +174,6 @@ Once enrolled, Learners can access the proficiencies through the Learning Portal
 
 ## Platform roles, responsibilities and examples
 
-**Click on the roles in the hierarchy to learn more about the different roles, their key responsibilities and examples of who can perform these roles within your Trust.**
+**Click on the roles in the hierarchy to learn more about the different roles, their key responsibilities and examples of who can perform these roles within your organisation.**
 
-Please note, the Implementation Lead is **not a platform role** and has been created to support implementation of the digitised Steps proficiencies pilot within your Trust
+Please note, the Implementation Lead is **not a platform role** and has been created to support implementation of the digitised proficiencies pilot within your organisation.

@@ -21,7 +21,7 @@ Once promoted into this role, delegates will be able to perform their Centre Adm
 
 ### Example in a trust​
 
-- Unit ward clerk or Ward administrator​
+- Unit ward clerk, ward administrator,​ or other admin role
 - If your Trust does not have appropriate admin staff, this role could be assigned as an additional role to someone already holding the Educator/Manager role​
 
 #### Higher education institute example

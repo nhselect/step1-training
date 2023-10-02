@@ -15,17 +15,17 @@ Once promoted into this role, delegates will be able to perform their Centre Man
 
 <div class="nhsuk-card">
 
-### Trust-wide DLS Centre Manager (non-clinical)​
+### Organisation-wide DLS Centre Manager (non-clinical)​
 
 <div class="nhsuk-card__content">
 
 #### Key responsibilities / platform functionalities​
 
-- Responsible and accountable for the DLS platform at a Trust-level​
+- Responsible and accountable for the DLS platform at a Trust or Higher Education institute level
 - Responsible and accountable for non-clinical proficiency frameworks (i.e. Digital Skills)​
 - NHS England TEL's main point of contact for your DLS centre​
 
-If you do not know who your Trust-wide Centre Manager (non-clinical) is or do not have one, please contact learningnetwork@nhselect.org.uk
+If you do not know who your organisation-wide non-clinical Centre Manager is, or do not have one, please contact learningnetwork@nhselect.org.uk
 
 </div>
 
@@ -43,8 +43,8 @@ If you do not know who your Trust-wide Centre Manager (non-clinical) is or do no
 
 #### Key responsibilities / platform functionalities​
 
-- Responsible and accountable for **all Step 1, 2 and 3 users** at a Trust-level​
-- Register delegates / approve delegates' self-registrations ​
+- Responsible and accountable for proficiencies at an organisation level
+- Register delegates and approve delegates' self-registrations ​
 - View delegates details, including PRN​
 - Decides who will act as Administrators, Educator/Managers and Assessors by promoting them into these roles within the platform​
 - Access progress reports ​
@@ -54,11 +54,11 @@ If you do not know who your Trust-wide Centre Manager (non-clinical) is or do no
 
 #### Example in a trust
 
-- Lead educator or lead nurse for Critical Care (at least band 7)​ - that is the persons who have overall accountability for the units. Ideally you would have both a lead educator and lead nurse for Critical Care as Clinical Centre Managers​
+- Lead educator or lead nurse (at least band 7)​ - that is the persons who have overall accountability for the unit, ward, or programme. Ideally you would have both a lead educator and lead nurse as Clinical Centre Managers​
 
 #### Higher education institute example
 
-- ​Critical care programme lead - meaning the persons who have overall responsibility for the learners (students) on the critical care course.
+- Course programme lead - meaning the persons who have overall responsibility for the learners (students) within the HEI.
 
 </div>
 
