@@ -1,5 +1,5 @@
 ---
-title: Bulk registration
+title: Bulk registration *Trusts only 
 order: 3
 rating: true
 createdAt: 2022-09-01T08:36:22.726Z
