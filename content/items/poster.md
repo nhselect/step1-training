@@ -9,6 +9,6 @@ optional: true
 link: /files/Digitised-Steps-Proficiencies_Editable-poster.pptx
 updated: 2023-10-03
 ---
-This poster can be used to raise awareness of the implementation of the digitised Steps proficiencies within your trust.
+This poster can be used to raise awareness of the implementation of the digitised Steps proficiencies within your organisation.
 
-There are placeholders on the poster for you to add your own trust logo and main point of contact.
+There are placeholders on the poster for you to add your own organisational logo and main point of contact.

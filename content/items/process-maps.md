@@ -18,4 +18,4 @@ This document has been created to provide:​
 - Overview of the roles available in the platform (that hosts the digitised proficiencies)
 - Key responsibilities of each platform role
 - Detail of platform roles’ functionality rights
-- Examples of who may perform roles in Trusts
+- Examples of who may perform roles in your organisation
