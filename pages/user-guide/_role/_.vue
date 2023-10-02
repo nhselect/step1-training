@@ -159,7 +159,7 @@ export default {
   head() {
     return {
       title:
-        'Digitised Step 1 user guide for ' +
+        'Digitised proficiencies user guide for ' +
         this.role.title +
         's - ' +
         this.page.title,
