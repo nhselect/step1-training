@@ -3,16 +3,16 @@ title: Navigating delegate profiles
 order: 1
 rating: true
 createdAt: 2022-09-01T08:42:37.276Z
-updatedAt: 2022-09-01T08:42:37.281Z
+updatedAt: 2023-10-03T08:42:37.281Z
 ---
 1. Go to **Centre dashboard** (in **Tracking System** application) 
 2. Select **Delegates**
 
 ![](/img/registering-delegates-1.png)
 
-#### To export a list of delegate registrations for the Step 1 proficiencies:
+#### To export a list of delegate registrations:
 
-3. Filter by **Programme of Study / Course** and select **Critical Care Step 1 proficiencies**
+3. Filter by **Programme of Study / Course** and select **the appropriate proficiency**
 4. Select  **Export**
 
 #### To search for a specific delegate:

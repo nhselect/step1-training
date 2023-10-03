@@ -3,12 +3,12 @@ title: Self-registration - including approving / rejecting registrations
 order: 1
 rating: true
 createdAt: 2022-09-01T08:27:34.604Z
-updatedAt: 2022-09-01T08:27:34.610Z
+updatedAt: 2023-10-03T08:27:34.610Z
 ---
 1. Share: [Link with delegate to register (https://www.dls.nhs.uk/v2/Login) ](https://www.dls.nhs.uk/v2/Login)
 2. Once they have registered you will need to ‘Approve’ 
 
-> Approval is not required if they have self-registered using a Trust computer, and the Trust’s IP address was linked during its setup as a DLS centre.
+> Approval is not required if they have self-registered using a organisation computer, and the organisation’s IP address was linked during its setup as a DLS centre.
 
 3. Go to **Centre dashboard** (in **Tracking System** application)
 4. Select **Delegates**

@@ -3,28 +3,31 @@ title: Managing registration prompts
 order: 3
 rating: true
 createdAt: 2022-09-01T15:21:22.133Z
-updatedAt: 2022-09-01T15:21:22.137Z
+updatedAt: 2023-10-03T15:21:22.137Z
 ---
 When a Learner registers or is registered by the centre for a profile, the system prompts for some basic information: **first name, last name, email address** and **job group**. 
 
-To make it easier to filter through the Trust's delegate list and, in future, reporting data, we recommend centres add the following **3 mandatory pre-existing prompts /answers** to the registration process:
+To make it easier to filter through the organisation's delegate list and, in future, reporting data, we recommend centres add the following **3 mandatory pre-existing prompts /answers** to the registration process:
 
 #### Prompt 1: Programme of study / course 
 
+* Critical Care IV Therapy Passport
 * Critical Care Step 1 proficiencies
+* Critical Care Step 2 proficiencies
+* Critical Care Step 3 proficiencies
 * Digital Skills
-* IV passport 
+* IV Therapy Passport 
 * Other
 
-> If it is possible that delegates may be enrolled on more than one digital proficiency framework, add the combination as an additional option answer (e.g. Critical care Step 1 proficiencies & IV passport)
+> If it is possible that delegates may be enrolled on more than one digital proficiency framework, add the combination as an additional option answer (e.g. Critical care Step 1 proficiencies & IV Therapy passport, etc)
 
 #### Prompt 2: Organisation / company
 
-* *Include all the hospitals in your centre/Trust as options*
+* *Include all the hospitals in your centre/organisation as options*
 
 #### Prompt 3: Department / team
 
-* *Include all the CC units participating in pilot in your centre/Trust as options*
+* *Include all the CC units participating in pilot in your centre/organisation as options*
 * Other
 
 1. Select **Manage registration prompts**

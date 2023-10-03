@@ -3,7 +3,7 @@ title: Adding optional Renal Replacement Therapy (RRT) proficiencies
 order: 5
 rating: true
 createdAt: 2022-09-01T10:20:14.876Z
-updatedAt: 2022-09-01T10:20:14.881Z
+updatedAt: 2023-10-03T10:20:14.881Z
 ---
 There are **Optional proficiencies** in '1.4.3 Renal Replacement - Renal Replacement Therapy (RRT)' you can add. 
 

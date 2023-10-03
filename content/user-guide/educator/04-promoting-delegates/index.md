@@ -3,7 +3,7 @@ title: Promoting delegates to the Assessor role
 order: 4
 rating: true
 createdAt: 2022-09-08T14:41:30.359Z
-updatedAt: 2022-09-08T14:41:30.362Z
+updatedAt: 2023-10-03T14:41:30.362Z
 ---
 1. Go to **Supervisor Dashboard** (in **Supervise** application) 
 2. Select **View My Staff List**

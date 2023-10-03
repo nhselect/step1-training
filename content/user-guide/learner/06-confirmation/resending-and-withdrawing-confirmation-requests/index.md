@@ -2,7 +2,7 @@
 title: Resending and withdrawing pending confirmation requests
 order: 2
 createdAt: 2022-09-01T11:13:32.514Z
-updatedAt: 2022-09-01T11:13:32.518Z
+updatedAt: 2023-10-03T11:13:32.518Z
 rating: true
 ---
 1. Select **Proficiencies confirmation**

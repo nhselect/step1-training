@@ -3,7 +3,7 @@ title: Logging out of your profile
 order: 5
 rating: true
 createdAt: 2022-09-08T13:26:57.123Z
-updatedAt: 2022-09-08T13:26:57.127Z
+updatedAt: 2023-10-03T13:26:57.127Z
 ---
 1. When you’ve finished select **My account**
 

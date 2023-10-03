@@ -3,7 +3,7 @@ title: Editing delegate details
 order: 2
 rating: true
 createdAt: 2022-09-01T08:44:44.663Z
-updatedAt: 2022-09-01T08:44:44.667Z
+updatedAt: 2023-10-03T08:44:44.667Z
 ---
 1. Go to **Centre dashboard** (in **Tracking** **System** application) 
 2. Select **Delegates**

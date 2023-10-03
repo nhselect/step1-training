@@ -1,11 +1,11 @@
 ---
-title: Requesting final sign-off for Step 1 proficiencies and certificate generation
+title: Requesting final sign-off for proficiencies and certificate generation
 order: 7
 rating: true
 createdAt: 2022-09-01T14:41:54.454Z
-updatedAt: 2022-09-01T14:41:54.457Z
+updatedAt: 2023-10-03T14:41:54.457Z
 ---
-**Once you have self-assessed and received confirmation of your achievement of all the Step 1 proficiencies, the Request Educator/Manager sign-off will appear at the bottom of the Proficiencies home page (under the Overall Progress bar)** 
+**Once you have self-assessed and received confirmation of your achievement of all the proficiencies, the Request Educator/Manager sign-off will appear at the bottom of the Proficiencies home page (under the Overall Progress bar)** 
 
 1. Select **Request Educator/Manager sign-off**
 

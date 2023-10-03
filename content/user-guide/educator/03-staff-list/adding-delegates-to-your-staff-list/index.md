@@ -3,12 +3,12 @@ title: Adding delegates to your staff list
 order: 1
 rating: true
 createdAt: 2022-09-08T13:28:31.759Z
-updatedAt: 2022-09-08T13:28:31.763Z
+updatedAt: 2023-10-03T13:28:31.763Z
 ---
 > **Before you can perform either of the below, you must add a delegate to your My Staff list:**
 >
 > * Promotion of delegate to an Assessor
-> * Enrolment of Learner onto the Step 1 proficiencies
+> * Enrolment of Learner onto one of the clinical proficiencies
 
 1. Go to **Supervisor Dashboard** (in **Supervise** application) 
 2. Select **View My Staff List**

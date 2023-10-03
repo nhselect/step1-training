@@ -3,7 +3,7 @@ title: Confirming Learners’ self-assessed achieved proficiencies
 order: 4
 rating: true
 createdAt: 2022-09-01T14:41:30.359Z
-updatedAt: 2022-09-01T14:41:30.362Z
+updatedAt: 2023-10-03T14:41:30.362Z
 ---
 1. Once the Learner self-assessed a proficiency as 'Achieved' in their Learning portal and sent to you for confirmation, **you will receive an email from noreply@dls.nhs.uk** (Subject: Self Assessment results review request...) requesting you to confirm
 

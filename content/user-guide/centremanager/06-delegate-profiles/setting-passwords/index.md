@@ -3,7 +3,7 @@ title: Setting passwords
 order: 3
 rating: true
 createdAt: 2022-09-01T08:45:29.234Z
-updatedAt: 2022-09-01T08:45:29.238Z
+updatedAt: 2023-10-03T08:45:29.238Z
 ---
 From time to time you may need to set a delegate's password, should they, for example, forget their password
 

@@ -3,9 +3,9 @@ title: Requesting promotion to Centre Manager role
 order: 1
 rating: true
 createdAt: 2022-09-01T08:07:40.956Z
-updatedAt: 2022-10-21T16:01:04.995Z
+updatedAt: 2023-10-03T16:01:04.995Z
 ---
-Depending on how far along your Trust is in the implementation phase, your existing Centre Manager will either be a Non-clinical Centre Manager (likely within your IT team) or a Clinical Centre Manager who has already been promoted within the platform.
+Depending on how far along your organisation is in the implementation phase, your existing Centre Manager will either be a Non-clinical Centre Manager (likely within your IT team) or a Clinical Centre Manager who has already been promoted within the platform.
 
 1. **Email your Non-clinical Centre Manager** (or Clinical Centre Manager if one already exists) and ask them to promote you to a Centre Manager role within the platform. 
 
@@ -15,9 +15,9 @@ Depending on how far along your Trust is in the implementation phase, your exis
 >
 > Dear \[insert Non-Clinical Centre Manager's name], 
 >
-> As you may be aware HEE TEL have recently started piloting two clinical nursing self assessments on the DLS platform (that historically has only hosted non-clinical IT Skills Pathway proficiencies).
+> As you may be aware the NHS England Technology Enhanced Learning (TEL) team have recently started piloting two clinical nursing self assessments on the DLS platform (that historically has only hosted non-clinical IT Skills Pathway proficiencies).
 >
-> Our Trust has been chosen to be a pilot site for one of these nursing self assessments - "**Step 1 Proficiencies - National Proficiency Framework for Registered Nurses in Adult Critical Care"**
+> Our organisation has been chosen to be a pilot site for one of these nursing self assessments - "**[enter name of clinical proficiency]**
 >
 > As the Clinical Centre Manager, I will be overseeing the pilot and am contacting you to request promotion to a Centre Manager role within the platform (this will take <5 mins to action). You can find a step-by-step guide on how to do this here: [http://nhs-step1-training.netlify.app/user-guide/non-clinical-centre-managers ](http://nhs-step1-training.netlify.app/user-guide/non-clinical-centre-managers)
 >

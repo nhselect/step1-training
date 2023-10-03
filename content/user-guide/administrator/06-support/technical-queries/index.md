@@ -2,12 +2,12 @@
 title: Technical queries
 order: 1
 createdAt: 2022-09-01T08:48:57.675Z
-updatedAt: 2022-09-01T08:48:57.680Z
+updatedAt: 2023-10-03T08:48:57.680Z
 ---
 If you require technical support, we recommend:
 
 * 1st - Checking this user guide and other materials in your [training package](https://nhs-step1-training.netlify.app/)
-* 2nd - Raising a **Support Ticket** with the HEE TEL team within the platform
+* 2nd - Raising a **Support Ticket** with the the NHS England Technology Enhanced Learning (TEL) team team within the platform
 
 #### Raising a **Support Ticket**
 
@@ -21,16 +21,16 @@ If you require technical support, we recommend:
 
 ![](/img/ccm-ca_new-support-request.png)
 
-4. Complete the subject field to let HEE TEL know what your issue or enquiry is about
+4. Complete the subject field to let TEL know what your issue or enquiry is about
 5. Select **Request type** from the dropdown 
 
 ![](/img/ccm-ca_support-ticket-request.png)
 
-6. Select **Yes**, if prompted, for information about device and browser, if this will help HEE TEL with their investigation
+6. Select **Yes**, if prompted, for information about device and browser, if this will help TEL with their investigation
 
 ![](/img/ccm-ca_support-ticket-request_pop-up.png)
 
-7. Complete **Course field** (write ‘Step 1 proficiencies’) 
+7. Complete **Course field** (write ‘Step 1 proficiencies’, 'Step 2 proficiencies',etc) 
 8. Complete **Test delegate ID**  ***(optional)*** if this is appropriate for the support team to investigate your query
 9. Complete **Details field**
 
@@ -40,4 +40,4 @@ If you require technical support, we recommend:
 
 ![](/img/ccm-ca_support-ticket-request_submit.png)
 
-> HEE TEL will respond to your query within 2 working days
+> TEL will respond to your query within 2 working days

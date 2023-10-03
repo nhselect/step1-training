@@ -3,7 +3,7 @@ title: Updating notification preferences
 order: 3
 rating: true
 createdAt: 2022-09-01T09:21:10.974Z
-updatedAt: 2022-09-01T09:21:10.978Z
+updatedAt: 2023-10-03T09:21:10.978Z
 ---
 1. Select **My account** in the top blue ribbon
 

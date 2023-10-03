@@ -3,7 +3,7 @@ title: Changing your password
 order: 2
 rating: true
 createdAt: 2022-09-01T07:12:02.431Z
-updatedAt: 2022-09-01T07:12:02.434Z
+updatedAt: 2023-10-03T07:12:02.434Z
 ---
 1. Select **My account** page
 

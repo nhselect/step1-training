@@ -3,7 +3,7 @@ title: Getting promoted to an Educator/Manager role within the platform
 order: 1
 rating: true
 createdAt: 2022-09-08T13:23:43.100Z
-updatedAt: 2022-10-21T17:08:23.181Z
+updatedAt: 2023-10-03T17:08:23.181Z
 ---
 Once your delegate profile has been registered, **your Clinical Centre Manager will need to promote you to the Educator/Manager role** (also called Supervisor) within the platform. 
 
