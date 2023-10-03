@@ -33,7 +33,12 @@
       <div class="nhsuk-details__text">
         <nuxt-content :document="item" />
         <div v-if="item.link" class="nhsuk-action-link">
-          <a class="nhsuk-action-link__link" :href="item.link" target="_blank">
+          <a
+            class="nhsuk-action-link__link"
+            :href="item.link + (item.roleSpecific && role ? `/${role}` : '')"
+            :target="item.link[0] === '/' ? '_self' : '_blank'"
+            :download="item.link.indexOf('.pdf') > 0 || item.link.indexOf('.pptx') > 0 ? item.title : false"
+          >
             <svg
               class="nhsuk-icon nhsuk-icon__arrow-right-circle"
               xmlns="http://www.w3.org/2000/svg"
@@ -67,6 +72,7 @@ import { ITrainingItem } from '~/interfaces'
 export default class TrainingMaterialsItem extends Vue {
   @Prop({ required: true }) readonly index!: number
   @Prop({ required: true }) readonly item!: ITrainingItem
+  @Prop({ required: false }) readonly role!: string
 }
 </script>
 

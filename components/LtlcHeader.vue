@@ -2,7 +2,7 @@
   <header class="nhsuk-header nhsuk-header" role="banner">
     <div class="nhsuk-width-container nhsuk-header__container">
       <div class="nhsuk-header__logo nhsuk-header__logo--only">
-        <a class="nhsuk-header__link" href="/" aria-label="NHS homepage">
+        <a class="nhsuk-header__link" href="/" aria-label="Training materials homepage">
           <svg
             class="nhsuk-logo"
             xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +25,7 @@
       </div>
       <div class="nhsuk-header__transactional-service-name">
         <a class="nhsuk-header__transactional-service-name--link" href="/"
-          >Step 1 Proficiencies - Training Materials</a
+          >Digitised Proficiencies - Training Materials</a
         >
       </div>
       <div v-if="isUserGuide" id="content-header" class="nhsuk-header__content">

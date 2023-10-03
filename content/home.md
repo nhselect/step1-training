@@ -1,5 +1,5 @@
 ---
-title: Welcome to the training packages for the Step 1 proficiencies pilot
+title: Welcome to the training packages for the digitised proficiencies pilots
 ---
 ## What you need to do:
 

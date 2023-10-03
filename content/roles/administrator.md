@@ -5,7 +5,7 @@ order: 3
 ---
 The Centre Administrator is responsible for supporting the Clinical Centre Manager with:
 
-  - Setting up and managing your Centre (i.e. Trust) in the platform
+  - Setting up and managing your Centre (i.e. Trust or HEI) in the platform
   - Registering / approving self-registration of delegates (i.e. staff) 
   - Sharing and monitoring completion of delegate training packages 
   - Raising Support Tickets within the platform for technical queries on behalf of your team 

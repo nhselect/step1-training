@@ -1,5 +1,5 @@
 ---
-title: Introductory presentation of digitising Step 1 proficiencies
+title: Introductory presentation of the digitsed Steps proficiencies
 slug: presentation
 roles:
   - administrator
@@ -7,11 +7,11 @@ roles:
   - centremanager
   - assessor
   - implementationlead
-link: https://nhselect.sharepoint.com/:p:/s/LearningandEducationNetworks/DSP/EaKxauAM9m9BuExTBoc7OHcBvnkspAexp582fcLwHu5ZKA
-updated: 2022-08-16
+link: /files/Introductory-presentation-of-digitising-Steps-proficiencies.pptx
+updated: 2023-10-03
 optional: true
 order: 10
 ---
-This document has been created to provide an initial introduction and overview of our programme to digitise the Step 1 proficiencies​.
+This document has been created to provide an initial introduction and overview of our programme to digitise the proficiencies​.
 
 It can be read, presented or shared to raised awareness and improve knowledge​.

@@ -22,6 +22,7 @@
             :key="item.slug"
             :index="index"
             :item="item"
+            :role="slug"
           />
         </ul>
         <h3>Non-essential:</h3>
@@ -31,6 +32,7 @@
             :key="item.slug"
             :index="index"
             :item="item"
+            :role="slug"
           />
         </ul>
         <hr />
@@ -147,7 +149,7 @@ export default {
   },
   head() {
     return {
-      title: 'Digitised Step 1 user guide for ' + this.page.title + 's',
+      title: 'Digitised proficiencies user guide for ' + this.page.title + 's',
     }
   },
 }

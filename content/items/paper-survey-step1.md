@@ -3,13 +3,12 @@ title: Survey - Usability of the existing paper-based version of the Step 1 prof
 slug: paper-survey
 roles:
   - administrator
-  - learner
   - educator
   - centremanager
   - assessor
   - implementationlead
-link: https://forms.office.com/Pages/ResponsePage.aspx?id=-79gf9LZcUSKsPyF5z_3qWrr7hJ6td1DsRX0S5ZELqFUM09KOUJJQVJNMTdHT0RFUVJQMVRDWTMzNCQlQCN0PWcu
-updated: 2022-08-16
+link: https://forms.office.com/Pages/ResponsePage.aspx?id=-79gf9LZcUSKsPyF5z_3qaAc2w2IDfJMqxRj47x0kgVUNE1BNDU2M1JPT0JEMklLSkszSTlFQzBEVCQlQCN0PWcu
+updated: 2023-10-03
 order: 7
 action: Complete the survey
 ---

@@ -52,7 +52,7 @@ export default {
       })
 
     // fetch current page content
-    const page = await $content('feedback/' + roleParam)
+    const page = await $content('feedback/feedback')
       .fetch()
       .catch((err) => {
         error({ statusCode: 404, message: err })
@@ -60,15 +60,13 @@ export default {
 
     return {
       role,
-      page,
+      page
     }
   },
   head() {
     return {
       title:
-        'Digitised Step 1 user guide for ' +
-        this.page.title +
-        's - Feedback required',
+        'Digitised proficiencies - Feedback required',
     }
   },
 }

@@ -42,6 +42,43 @@
 
               <div class="nhsuk-form-group">
 
+                <fieldset class="nhsuk-fieldset">
+                  <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--m">
+                    <h4 class="nhsuk-fieldset__heading">
+                      Are you primarily based in a Trust or Higher Education Institute (HEI)?
+                    </h4>
+                  </legend>
+
+                  <div class="nhsuk-radios">
+
+                    <div
+                      v-for="opt in sitesOptions"
+                      :key="opt.value"
+                      class="nhsuk-radios__item"
+                      >
+                      <input
+                        v-model="site"
+                        class="nhsuk-radios__input"
+                        :id="'site-'+opt.value"
+                        :name="'site-'+opt.value"
+                        type="radio"
+                        :value="opt.value"
+                      >
+                      <label
+                        class="nhsuk-label nhsuk-radios__label"
+                        :for="'site-'+opt.value"
+                      >
+                        {{ opt.text }}
+                      </label>
+                    </div>
+
+                  </div>
+                </fieldset>
+
+              </div>
+
+              <div class="nhsuk-form-group">
+
                 <fieldset class="nhsuk-fieldset" aria-describedby="roles-hint">
                   <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--m">
                     <h4 class="nhsuk-fieldset__heading">
@@ -85,7 +122,7 @@
                 <fieldset class="nhsuk-fieldset">
                   <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--m">
                     <h4 class="nhsuk-fieldset__heading">
-                      Will your Trust have more than one Clinical Centre Manager?
+                      Will your organisation have more than one Clinical Centre Manager?
                     </h4>
                   </legend>
 
@@ -167,7 +204,7 @@
                 <fieldset class="nhsuk-fieldset">
                   <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--m">
                     <h4 class="nhsuk-fieldset__heading">
-                      Will your Trust have anyone in the Centre Administrator role?
+                      Will your organisation have anyone in the Centre Administrator role?
                     </h4>
                   </legend>
 
@@ -199,7 +236,7 @@
 
               </div>
 
-              <div v-if="isCCM || isImplementationLead || isAdmin" class="nhsuk-form-group">
+              <div v-if="(isCCM || isImplementationLead || isAdmin) && isTrust" class="nhsuk-form-group">
 
                 <fieldset class="nhsuk-fieldset">
                   <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--m">
@@ -298,13 +335,13 @@
           >
           <summary class="nhsuk-details__summary">
             <h2 class="nhsuk-details__summary-text">
-              1: Initial Centre setup
+              1: Initial centre setup
             </h2>
             <p class="nhsuk-caption-m nhsuk-u-reading-width process-step--header-text">
-              Setting up the first Clinical Centre Manager, and configuring the Centre details. Actions needed by the <ProcessRole :roles="{firstcentremanager:true,nccentremanager:true}" />
+              Setting up the first Clinical Centre Manager, and configuring the centre details. Actions needed by the <ProcessRole :roles="{firstcentremanager:true,nccentremanager:true}" />
             </p>
             <p class="nhsuk-caption-m nhsuk-u-reading-width process-step--header-text">
-              This step of the process should only need to be completed once, by your Trust's first Clinical Centre Manager
+              This step of the process should only need to be completed once, by your organisations's first Clinical Centre Manager
             </p>
           </summary>
           <div class="nhsuk-details__text">
@@ -318,7 +355,7 @@
 
             <ProcessNode v-if="isFirstCCM" step=2 :actionBy="['nccentremanager']" :roles="roles">
               <p>
-                If self-registering using a computer within your Trust, registration will be approved automatically.
+                If self-registering using a computer within your organisation, registration will be approved automatically.
               </p>
               <p>
                 Otherwise, registration will need to be approved by an existing <ProcessRole :roles="{nccentremanager:true}" />
@@ -334,7 +371,7 @@
 
             <ProcessNode step=3 :required="isFirstCCM" :actionBy="['firstcentremanager']" :roles="roles">
               <p>{{ isFirstCCM ? "You" : "The first Clinical Centre Manager" }} will need to configure your Centre details.</p>
-              <p>These will include some setup questions specific to your Trust which will then be presented to new delegates registering on the platform.</p>
+              <p>These will include some setup questions specific to your organisation which will then be presented to new delegates registering on the platform.</p>
             </ProcessNode>
 
           </div>
@@ -378,17 +415,17 @@
               <p v-if="['both','self'].includes(regMethod) || !regMethod">
                 An existing Clinical Centre Manager tells the new delegate to self-register for a profile on the platform
               </p>
-              <p v-if="!regMethod || regMethod === 'both'">
+              <p v-if="(!regMethod || regMethod === 'both') && isTrust">
                 <strong>or</strong>
               </p>
-              <p v-if="['both','behalf'].includes(regMethod) || !regMethod">
+              <p v-if="(['both','behalf'].includes(regMethod) || !regMethod) &&isTrust">
                 An existing Clinical Centre Manager registers the new delegate with a profile on the platform
               </p>
             </ProcessNode>
 
             <ProcessNode v-if="['both','self'].includes(regMethod) || !regMethod" :actionBy="['centremanager']" :roles="roles">
               <p>
-                If self-registering using a computer within your Trust, registration will be approved automatically.
+                If self-registering using a computer within your organisation, registration will be approved automatically.
               </p>
               <p>
                 Otherwise, registration will need to be approved by an existing <ProcessRole :roles="{nccentremanager:true}" />
@@ -444,17 +481,17 @@
               <p v-if="['both','self'].includes(regMethod) || !regMethod">
                 An existing Clinical Centre Manager directs {{ isEM || isAssessor ? 'you' : 'the new delegate'}} to self-register for a profile on the platform
               </p>
-              <p v-if="!regMethod || regMethod === 'both'">
+              <p v-if="(!regMethod || regMethod === 'both') && isTrust">
                 <strong>or</strong>
               </p>
-              <p v-if="['both','behalf'].includes(regMethod) || !regMethod">
+              <p v-if="(['both','behalf'].includes(regMethod) || !regMethod) && isTrust">
                 An existing Clinical Centre Manager registers {{ isEM || isAssessor ? 'you' : 'the new delegate'}} with a profile on the platform
               </p>
             </ProcessNode>
 
             <ProcessNode v-if="['both','self'].includes(regMethod) || !regMethod" :actionBy="['centremanager']" :roles="roles"  :required="isEM || isAssessor || isCCM">
               <p>
-                If self-registering using a computer within your Trust, registration will be approved automatically.
+                If self-registering using a computer within your organisation, registration will be approved automatically.
               </p>
               <p>
                 Otherwise, registration will need to be approved by an existing <ProcessRole :roles="{nccentremanager:true}" />
@@ -486,7 +523,7 @@
             <h2 class="nhsuk-details__summary-text">
               4: Learner setup
               <span class="nhsuk-caption-m nhsuk-u-reading-width process-step--header-text">
-                Setting up Learners on the platform and enrolling them onto the Step 1 proficiencies. Actions needed by the <ProcessRole :roles="{educator:true,assessor:true}" or />
+                Setting up Learners on the platform and enrolling them onto the proficiencies. Actions needed by the <ProcessRole :roles="{educator:true,assessor:true}" or />
               </span>
             </h2>
           </summary>
@@ -502,17 +539,17 @@
               <p v-if="['both','self'].includes(regMethod) || !regMethod">
                 An existing Clinical Centre Manager directs {{ isLearner ? "you" : "the new delegate" }} to self-register for a profile on the platform
               </p>
-              <p v-if="!regMethod || regMethod === 'both'">
+              <p v-if="(!regMethod || regMethod === 'both') && isTrust">
                 <strong>or</strong>
               </p>
-              <p v-if="['both','behalf'].includes(regMethod) || !regMethod">
+              <p v-if="(['both','behalf'].includes(regMethod) || !regMethod) && isTrust">
                 An existing Clinical Centre Manager registers {{ isLearner ? "you" : "the new delegate" }} with a profile on the platform
               </p>
             </ProcessNode>
 
             <ProcessNode v-if="['both','self'].includes(regMethod) || !regMethod" :required="isLearner" :actionBy="['centremanager']" :roles="roles">
               <p>
-                If self-registering using a computer within your Trust, registration will be approved automatically.
+                If self-registering using a computer within your organisation, registration will be approved automatically.
               </p>
               <p>
                 Otherwise, registration will need to be approved by an existing <ProcessRole :roles="{nccentremanager:true}" />
@@ -523,8 +560,9 @@
               <p>The <ProcessRole :roles="{educator:true}" /> adds {{ isLearner ? "you" : "Learners that they will manage" }}  to their Staff list</p>
             </ProcessNode>
 
-            <ProcessNode step=3 :roles="roles" :actionBy="['educator']" :required="isEM">
-              <p>The <ProcessRole :roles="{educator:true}" /> enrolls {{ isLearner ? "you" : "the Learners" }} onto the Step 1 proficiencies</p>
+            <ProcessNode step=3 :roles="roles" :actionBy="['educator']" :required="isEM && isTrust">
+              <p>The <ProcessRole :roles="{educator:true}" /> in the Trust enrolls {{ isLearner ? "you" : "the Learners" }} onto the relevant proficiencies framework.</p>
+              <p>Note: the Trust has reponsibility for enrolling learners onto proficiencies, not the HEI.</p>
             </ProcessNode>
 
           </div>
@@ -543,9 +581,9 @@
           >
           <summary class="nhsuk-details__summary">
             <h2 class="nhsuk-details__summary-text">
-              5: Learner Step 1 proficiencies completion
+              5: Learner proficiencies completion
               <span class="nhsuk-caption-m nhsuk-u-reading-width process-step--header-text">
-                The process for Learners to self-assess and complete their Step 1 proficiencies. Actions needed by the <ProcessRole :roles="{learner:true,educator:true,assessor:true}" or />
+                The process for Learners to self-assess and complete their proficiencies. Actions needed by the <ProcessRole :roles="{learner:true,educator:true,assessor:true}" or />
               </span>
             </h2>
           </summary>
@@ -553,7 +591,7 @@
 
             <ProcessNode step=1 :roles="roles" :required="isLearner" :actionBy="['learner']">
               <p>
-                {{ isLearner ? "You launch" : "The Learner launches" }} the Step 1 proficiencies self-assessment
+                {{ isLearner ? "You launch" : "The Learner launches" }} the proficiencies self-assessment
               </p>
             </ProcessNode>
 
@@ -589,7 +627,7 @@
 
             <ProcessNode step=1 :required="isLearner" :roles="roles">
               <p>
-                {{ isLearner ? "You receive" : "The Learner receives" }} certification of completion for Step 1 proficiencies
+                {{ isLearner ? "You receive" : "The Learner receives" }} certification of completion for their proficiencies
               </p>
             </ProcessNode>
 
@@ -640,6 +678,7 @@ export default {
   data() {
     return {
       roles: [],
+      site: 'trust',
       notFirstCCM: null,
       multiCCM: null,
       hasAdmin: null,
@@ -666,6 +705,16 @@ export default {
           value: 'assessor',
           text: 'Assessor',
         },
+      ],
+      sitesOptions: [
+        {
+          value: 'trust',
+          text: 'Trust'
+        },
+        {
+          value: 'hei',
+          text: 'Higher Education Insitute (HEI)'
+        }
       ],
       radioOptions: [
         {
@@ -758,6 +807,9 @@ export default {
     isImplementationLead() {
       return this.roles && this.roles.includes('implementationlead')
     },
+    isTrust() {
+      return this.site && this.site === 'trust'
+    }
   },
   created() {
     if (!process.server && this.role) {
@@ -767,7 +819,7 @@ export default {
   head() {
     return {
       title:
-        'Digitised Step 1 - Process map',
+        'Digitised proficiencies - Process map',
     }
   },
 }
