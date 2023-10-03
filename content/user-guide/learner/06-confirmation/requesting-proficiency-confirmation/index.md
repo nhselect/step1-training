@@ -5,8 +5,6 @@ rating: true
 createdAt: 2022-09-01T11:11:27.341Z
 updatedAt: 2023-10-03T11:11:27.346Z
 ---
-
-
 **Once you have self-assessed a proficiency as Achieved, you can send it to your Supervisor (Educator/Manager or Assessor) for confirmation** 
 
 > You cannot send a proficiency you have self-assessed as Ongoing assessment

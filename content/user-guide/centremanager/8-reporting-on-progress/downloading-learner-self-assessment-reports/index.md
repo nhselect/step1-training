@@ -6,8 +6,6 @@ updatedAt: 2023-10-03T16:30:27.694Z
 rating: true
 hideSearch: false
 ---
-
-
 You can download an excel report that summarises the progress of your  Learners
 
 1. Go to **Centre dashboard** (in **Tracking System** application) 
