@@ -3,7 +3,7 @@ title: Updating a delegate admin role
 order: 2
 rating: true
 createdAt: 2022-09-01T08:41:21.207Z
-updatedAt: 2022-10-21T16:27:21.056Z
+updatedAt: 2023-10-03T16:27:21.056Z
 ---
 For example, promoting to additional admin roles or de-promoting.
 

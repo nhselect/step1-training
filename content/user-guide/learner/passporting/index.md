@@ -6,7 +6,7 @@ updatedAt: 2023-10-02T15:24:54.359Z
 rating: true
 hideSearch: false
 ---
-Learners who are accessing digital competency frameworks (passports) such as the Digital IV Therapy and Steps can easily transfer a completed or partially completed passport to another centre (organisation). Learners can also access their digital passport, if appropriate, in more than one centre for example a local NHS Trust and a University.
+Learners who are accessing digital competency frameworks (passports) such as the Digital IV Therapy and Steps can easily transfer a completed or partially completed passport to another centre (organisation). Learners can also access their digital passport, if appropriate, in more than one centre for example a local NHS organisation and a University.
 
 **Please note that digital competency frameworks learners will only be able to see their digital passport in additional centres, if they are registered at that centre and the passport is already available and being delivered digitally at that organisation.**
 

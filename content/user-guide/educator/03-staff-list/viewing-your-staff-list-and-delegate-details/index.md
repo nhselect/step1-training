@@ -3,7 +3,7 @@ title: Viewing your staff list and delegate details
 order: 2
 rating: true
 createdAt: 2022-09-08T13:31:04.927Z
-updatedAt: 2022-09-08T13:31:04.932Z
+updatedAt: 2023-10-03T13:31:04.932Z
 ---
 1. Go to **Supervisor Dashboard** (in **Supervise** application) 
 2. Select **View My Staff List**

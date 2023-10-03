@@ -1,7 +1,7 @@
 ---
 title: Non-Clinical Centre Managers
 createdAt: 2022-09-21T09:53:03.610Z
-updatedAt: 2022-09-21T09:53:03.620Z
+updatedAt: 2023-10-03T09:53:03.620Z
 ---
 ### Promoting a delegate to a Centre Manager role (clinical) within the platform
 

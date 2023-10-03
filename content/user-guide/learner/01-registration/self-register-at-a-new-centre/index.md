@@ -6,8 +6,6 @@ updatedAt: 2023-10-02T13:36:50.475Z
 rating: true
 hideSearch: false
 ---
-
-
 1. Log in, go to **My account**
 
    Select: **Switch centre**

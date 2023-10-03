@@ -3,7 +3,7 @@ title: Viewing Learner profiles
 order: 2
 rating: true
 createdAt: 2022-09-01T14:39:34.314Z
-updatedAt: 2022-09-01T14:39:34.317Z
+updatedAt: 2023-10-03T14:39:34.317Z
 tags: ""
 ---
 **Before a Learner can ask you to confirm any of their proficiencies, they need to add you as a Supervisor (for both Educator/Managers or Assessors)**. Once they add you, the Learner will appear in your My Staff List:
@@ -19,7 +19,7 @@ tags: ""
 
 ![](/img/a_viewing-staff_1.png)
 
-4. Select **View self assessment** if you would like to see the Learner's Step 1 proficiencies home page, which shows progress
+4. Select **View self assessment** if you would like to see the Learner's proficiencies home page, which shows progress
 5. Select **View**
 
 ![](/img/a_viewing-staff_3.png)

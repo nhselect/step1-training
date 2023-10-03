@@ -3,9 +3,9 @@ title: Editing Centre Manager details
 order: 2
 rating: true
 createdAt: 2022-09-01T15:20:52.866Z
-updatedAt: 2022-09-01T15:20:52.870Z
+updatedAt: 2023-10-03T15:20:52.870Z
 ---
-This is Health Education England's Technology Enhanced Learning (TEL) Team’s main point of contact for your Centre.
+This is NHS England Technology Enhanced Learning (TEL) Team’s main point of contact for your Centre.
 
 1. Expand **Centre manager details**
 

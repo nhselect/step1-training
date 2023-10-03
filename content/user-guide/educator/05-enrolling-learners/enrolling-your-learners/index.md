@@ -1,9 +1,9 @@
 ---
-title: Enrolling your Learners
+title: Enroling your Learners
 order: 1
 rating: true
 createdAt: 2022-09-08T13:42:57.073Z
-updatedAt: 2022-09-08T13:42:57.078Z
+updatedAt: 2023-10-03T13:42:57.078Z
 ---
 1. Go to **Supervisor Dashboard** (in **Supervise** application)
 2. Select **View My Staff List**
@@ -20,11 +20,11 @@ updatedAt: 2022-09-08T13:42:57.078Z
 
 ![](/img/enrolling_3.png)
 
-5. Select **Step 1 proficiencies – National proficiencies Framework for Registered Nurses in Adult Critical care** and select **Next**
+5. Select **the appropriate proficiency from the list below** and select **Next**
 
 ![](/img/enrolling_4.png)
 
-> **If you cannot see the Step 1 proficiencies listed as an option, this suggests the Learner has already been enrolled on the Step 1 proficiencies by someone else.** 
+> **If you cannot see the required proficiency listed as an option, this suggests the Learner has already been enrolled on the proficiency by someone else.** 
 
 6. You can select an **optional completion date** for the staff member (or leave blank). Select **Next** when you’re ready to proceed 
 

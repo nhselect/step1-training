@@ -3,7 +3,7 @@ title: Removing delegates from your staff list
 order: 3
 rating: true
 createdAt: 2022-09-08T13:32:15.402Z
-updatedAt: 2022-09-08T13:32:15.407Z
+updatedAt: 2023-10-03T13:32:15.407Z
 ---
 1. Go to **Supervisor dashboard** (in **Supervise** application) 
 2. Select **View My Staff List**

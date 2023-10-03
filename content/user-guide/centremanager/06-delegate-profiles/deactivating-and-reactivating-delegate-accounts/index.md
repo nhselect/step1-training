@@ -3,7 +3,7 @@ title: Deactivating and reactivating delegate accounts
 order: 4
 rating: true
 createdAt: 2022-09-01T08:46:58.828Z
-updatedAt: 2022-09-01T08:46:58.833Z
+updatedAt: 2023-10-03T08:46:58.833Z
 ---
 When a delegate no longer requires access or has left the organisation their registration account can be deactivated. When a delegates account is deactivated, they can no longer enrol on any new courses. 
 

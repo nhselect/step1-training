@@ -1,9 +1,9 @@
 ---
-title: Self-assessing achievement of Step 1 proficiencies
+title: Self-assessing achievement of proficiencies
 order: 4
 rating: true
 createdAt: 2022-09-01T10:17:24.685Z
-updatedAt: 2022-09-01T10:17:24.695Z
+updatedAt: 2023-10-03T10:17:24.695Z
 ---
 You can expand (+) and collapse (-) each section to see more or less
 

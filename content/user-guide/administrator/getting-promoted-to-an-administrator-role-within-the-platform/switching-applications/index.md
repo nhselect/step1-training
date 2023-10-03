@@ -3,7 +3,7 @@ title: Switching applications
 order: 2
 rating: true
 createdAt: 2022-09-01T07:11:03.769Z
-updatedAt: 2022-09-01T07:11:03.775Z
+updatedAt: 2023-10-03T07:11:03.775Z
 ---
 1. Select **Switch application** (this window should automatically appear when you log in)
 
@@ -23,4 +23,4 @@ This will take you to the Switch application tab in the blue ribbon, where there
 
 > If you don't see the **Tracking System** application, contact your Clinical Centre Manager to request promotion.
 >
-> If you would like to see the appearance and content of the digitised Step 1 proficiencies, a demo can be found in your training package.
+> If you would like to see the appearance and content of the digitised proficiencies, a demo can be found in your training package.

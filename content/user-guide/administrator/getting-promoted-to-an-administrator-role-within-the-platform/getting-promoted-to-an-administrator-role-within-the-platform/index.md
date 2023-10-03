@@ -3,7 +3,7 @@ title: Getting promoted to an Administrator role within the platform
 order: 1
 rating: true
 createdAt: 2022-09-01T07:15:55.024Z
-updatedAt: 2022-10-21T17:05:27.556Z
+updatedAt: 2023-10-03T17:05:27.556Z
 ---
 Once your delegate profile has been registered, your Centre Manager will need to promote you to the Administrator role.
 

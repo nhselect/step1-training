@@ -3,7 +3,7 @@ title: Editing centre details
 order: 1
 rating: true
 createdAt: 2022-09-01T15:20:34.451Z
-updatedAt: 2022-09-01T15:20:34.455Z
+updatedAt: 2023-10-03T15:20:34.455Z
 ---
 1. Expand **Centre details**
 
@@ -24,14 +24,14 @@ There are 4 things you can edit under **Centre details**:
 
 #### Centre support details
 
-* The centre support details will be displayed to Learners and Supervisors (Educator/Manager and Assessor) in their applications so they know who to contact for local Step 1 support 
+* The centre support details will be displayed to Learners and Supervisors (Educator/Manager and Assessor) in their applications so they know who to contact for local support 
 
 ![](/img/ccm-ca_centre-configuration_centre-support-details.png)
 
-* If you are an existing DLS centre, Learners completing other proficiency frameworks on the platform will also see these details, so it is important you are specific about Step 1
+* If you are an existing DLS centre, Learners completing other proficiencies on the platform will also see these details, so it is important you select the appropriate proficiency 
 * We suggest you add something like: 
 
-  > Need support for Step 1 proficiencies? Contact \[add email address], \[add telephone contact number], \[add opening hours])
+  > Need support for any proficiencies? Contact \[add email address], \[add telephone contact number], \[add opening hours])
 
 #### Centre signature and Centre logo
 

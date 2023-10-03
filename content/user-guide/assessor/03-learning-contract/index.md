@@ -3,9 +3,9 @@ title: Completing the Learning Contract
 order: 3
 rating: true
 createdAt: 2022-09-01T14:40:21.985Z
-updatedAt: 2022-09-01T14:40:21.989Z
+updatedAt: 2023-10-03T14:40:21.989Z
 ---
-Similar to the paper version, **Learners are expected to first complete their Learning Contract before starting self-assessment of the Step 1 proficiencies**. This should happen via a discussion with the three stakeholders mentioned:
+Similar to the paper version, **Learners are expected to first complete their Learning Contract before starting self-assessment of the proficiencies**. This should happen via a discussion with the three stakeholders mentioned:
 
 * Learner
 * Lead assessor
@@ -17,13 +17,13 @@ The **Learner will need to select ‘Agree’ on behalf of all three stakeholder
 
 ![](/img/learning-contract_1.png)
 
-The individual who provides confirmation in the platform depends on the proficiency and the Trust:
+The individual who provides confirmation in the platform depends on the proficiency and the organisation:
 
 | Learning contract proficiency     | Confirmation required                                                                  |
 | ----------------------------------- | --------------------------------------------------------------------------------------- |
-| Learner responsibilities          | Assessor. In some Trusts, this may be your Educator/Manager or Clinical Centre Manager |
-| Lead assessor responsibilities     | Educator/Manager. In some Trusts, this may be your Assessor.                           |
-| Critical care lead nurse / manager | Clinical Centre Manager*. In some Trusts, this may be your Educator/Manager.           |
+| Learner responsibilities          | Assessor. In some organisations, this may be your Educator/Manager or Clinical Centre Manager |
+| Lead assessor responsibilities     | Educator/Manager. In some organisations, this may be your Assessor.                           |
+| Critical care lead nurse / manager | Clinical Centre Manager*. In some organisations, this may be your Educator/Manager.           |
 
 Note: *The Clinical Centre Manager will need a dual-role in the platform (as also an Educator/Manager or Assessor) in order to be able to confirm in the platform. Otherwise someone else with either of these roles could confirm on their behalf.
 
