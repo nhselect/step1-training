@@ -1,6 +1,6 @@
 ---
 title: Self-register at a new centre
-order: 6
+order: 5
 createdAt: 2023-10-02T13:36:50.467Z
 updatedAt: 2023-10-02T13:36:50.475Z
 rating: true
