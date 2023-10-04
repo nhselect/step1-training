@@ -1,22 +1,6 @@
 <template>
   <div>
-    <div class="nhsuk-back-link">
-      <a class="nhsuk-back-link__link" :href="'/roles/' + role.slug">
-        <svg
-          class="nhsuk-icon nhsuk-icon__chevron-left"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          aria-hidden="true"
-          height="24"
-          width="24"
-        >
-          <path
-            d="M8.5 12c0-.3.1-.5.3-.7l5-5c.4-.4 1-.4 1.4 0s.4 1 0 1.4L10.9 12l4.3 4.3c.4.4.4 1 0 1.4s-1 .4-1.4 0l-5-5c-.2-.2-.3-.4-.3-.7z"
-          ></path>
-        </svg>
-        Back to training materials</a
-      >
-    </div>
+    <BackLink v-if="backPath" :backUrl="backPath">Back to training materials</BackLink>
     <h1>
       Feedback required
       <span class="nhsuk-caption-xl">{{ role.title }}</span>
@@ -27,6 +11,7 @@
       </p>
       <nuxt-content :document="page" />
     </div>
+    <BackLink v-if="backPath" :backUrl="backPath">Back to training materials</BackLink>
   </div>
 </template>
 
@@ -41,7 +26,7 @@ export default {
       }).format(new Date(dateStr)),
   },
   scrollToTop: true,
-  async asyncData({ $content, params, error }) {
+  async asyncData({ from, $content, params, error }) {
     const roleParam = params.role || params.pathMatch
 
     // fetch role info content
@@ -50,6 +35,8 @@ export default {
       .catch((err) => {
         error({ statusCode: 404, message: err })
       })
+
+    const backPath = from ? from.path : null
 
     // fetch current page content
     const page = await $content('feedback/feedback')
@@ -60,7 +47,8 @@ export default {
 
     return {
       role,
-      page
+      page,
+      backPath
     }
   },
   head() {

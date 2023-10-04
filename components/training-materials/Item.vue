@@ -33,9 +33,11 @@
       <div class="nhsuk-details__text">
         <nuxt-content :document="item" />
         <div v-if="item.link" class="nhsuk-action-link">
-          <a
+          <component
+            :is="(item.link[0] === '/') && !(item.link.indexOf('.pdf') > 0 || item.link.indexOf('.pptx') > 0) ? 'nuxt-link' : 'a'"
             class="nhsuk-action-link__link"
             :href="item.link + (item.roleSpecific && role ? `/${role}` : '')"
+            :to="item.link + (item.roleSpecific && role ? `/${role}` : '')"
             :target="item.link[0] === '/' ? '_self' : '_blank'"
             :download="item.link.indexOf('.pdf') > 0 || item.link.indexOf('.pptx') > 0 ? item.title : false"
           >
@@ -55,7 +57,7 @@
             <span class="nhsuk-action-link__text">{{
               item.action ? item.action : 'View resource'
             }}</span>
-          </a>
+          </component>
         </div>
       </div>
     </details>

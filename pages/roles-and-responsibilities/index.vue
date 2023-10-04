@@ -1,5 +1,6 @@
 <template>
   <div>
+    <BackLink v-if="backPath" :backUrl="backPath">Back to training materials</BackLink>
     <h1>{{ overview.title }}</h1>
     <div class="nhsuk-u-reading-width">
       <NuxtContent :document="overview" />
@@ -205,6 +206,7 @@
         </tbody>
       </table>
     </div>
+    <BackLink v-if="backPath" :backUrl="backPath">Back to training materials</BackLink>
   </div>
 </template>
 
@@ -216,13 +218,15 @@ export default {
       hoverRole: ''
     }
   },
-  async asyncData({ $content, params, error }) {
+  async asyncData({ from, $content, params, error }) {
     const roles = await $content('platform-roles/roles')
       .sortBy('order')
       .fetch()
       .catch((err) => {
         error({ statusCode: 404, message: 'Roles not recognised' })
       })
+
+    const backPath = from ? from.path : null
 
     const adminRoles = roles.filter((r) => r.isAdminRole)
     const nonAdminRoles = roles.filter((r) => !r.isAdminRole)
@@ -236,7 +240,8 @@ export default {
       roles,
       adminRoles,
       nonAdminRoles,
-      roleSlugs
+      roleSlugs,
+      backPath
     }
   },
   methods: {
@@ -282,6 +287,7 @@ export default {
 @import 'node_modules/nhsuk-frontend/packages/components/tables/tables';
 @import 'node_modules/nhsuk-frontend/packages/components/images/images';
 @import 'node_modules/nhsuk-frontend/packages/components/card/card';
+@import 'node_modules/nhsuk-frontend/packages/components/back-link/back-link';
 
 .step1-roles__container {
   display: flex;
@@ -361,9 +367,6 @@ export default {
 }
 
 table {
-  td:not(:nth-child(1)) {
-   // white-space: nowrap;
-  }
 
   .nhsuk-tag {
     font-size: 0.75rem;

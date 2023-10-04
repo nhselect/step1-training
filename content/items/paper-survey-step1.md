@@ -1,6 +1,6 @@
 ---
 title: Survey - Usability of the existing paper-based version of the Step 1 proficiencies
-slug: paper-survey
+slug: paper-survey-step1
 roles:
   - administrator
   - educator
