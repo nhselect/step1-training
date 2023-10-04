@@ -1,7 +1,7 @@
 ---
 title: Learner
 slug: learner
-order: 5
+order: 6
 ---
 As a Learner in the platform, you will be able to:
 

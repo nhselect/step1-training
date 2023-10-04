@@ -1,7 +1,7 @@
 ---
 title: Assessor
 slug: assessor
-order: 6
+order: 5
 ---
 The Assessor is responsible for:
 
