@@ -33,9 +33,9 @@ Each row within the Excel file is a Learner. For each Learner there are the foll
 * **Registered**: Date and time the Learner registered onto the platform 
 * **enrolled**: Date and time the Learner was enrolled onto the proficiencies 
 * **LastAccessed**: Date and time the Learner last accessed the platform
-* **OptionalProficiencies:** Number of optional proficiencies the Learner has added. There are a total of 16 optional proficiencies Learners can add in Steps, that relate to Renal Replacement Therapy (RRT) 
-* **SelfAssessedAchieved:** Number of proficiencies self assessed by Learner as 'Achieved' (/656, or /672 if they have added all 16 optional proficiencies to their Steps ) 
-* **ConfirmedResults:** Number of proficiencies confirmed by a Supervisor (/656, or /672 if they have added all 16 optional proficiencies to their Steps )
+* **OptionalProficiencies:** Number of optional proficiencies the Learner has added
+* **SelfAssessedAchieved:** Number of proficiencies self assessed by Learner as 'Achieved'
+* **ConfirmedResults:** Number of proficiencies confirmed by a Supervisor
 * **SignOffRequested**: Whether Learner has requested final sign off from an Educator/Manager
 * **SignOffAchieved:** Whether the Learner has been received final sign off from an Educator/Manager
 * **SignOffReviewed:** Date and time Educator/Manager last responded to final sign off request from Learner

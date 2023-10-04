@@ -13,9 +13,11 @@
     </span>
     <NuxtLink v-else class="nhsuk-contents-list__link" :to="node.dir">
       {{ node.title }}
+      <!--
       <span v-if="isNew" class="nhsuk-tag nhsuk-tag--pink elect-guide-updated"
         >Updated</span
       >
+      -->
     </NuxtLink>
     <ol
       v-if="node.children && node.children.length"
