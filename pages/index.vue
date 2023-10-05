@@ -33,6 +33,9 @@ export default {
   async asyncData({ $content, params, error }) {
     const roles = await $content('roles')
       .only(['title', 'slug'])
+      .where({
+        'slug': { $ne: 'non-clinical-centre-managers'}
+      })
       .sortBy('order')
       .fetch()
       .catch((err) => {

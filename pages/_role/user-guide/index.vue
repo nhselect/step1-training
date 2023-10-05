@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Breadcrumbs :breadcrumbs="breadcrumbs" />
+    <Breadcrumbs v-if="role.slug !== 'non-clinical-centre-managers'" :breadcrumbs="breadcrumbs" />
     <h1>User guide for {{ role.title }}s</h1>
     <div class="nhsuk-grid-row">
       <div class="nhsuk-grid-column-one-third user-guide__contents">
@@ -83,7 +83,6 @@ export default {
     // fetch full directory list without body
     const pages = await $content('user-guide/' + params.role, { deep: true })
       .without(['body'])
-      // .where({ id: { $ne: params.role }})
       .sortBy('order')
       .fetch()
 
