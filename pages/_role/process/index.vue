@@ -1,22 +1,8 @@
 <template>
   <div>
-    <div class="nhsuk-back-link">
-      <a class="nhsuk-back-link__link" :href="role ? '/roles/' + role.slug : '/'">
-        <svg
-          class="nhsuk-icon nhsuk-icon__chevron-left"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          aria-hidden="true"
-          height="24"
-          width="24"
-        >
-          <path
-            d="M8.5 12c0-.3.1-.5.3-.7l5-5c.4-.4 1-.4 1.4 0s.4 1 0 1.4L10.9 12l4.3 4.3c.4.4.4 1 0 1.4s-1 .4-1.4 0l-5-5c-.2-.2-.3-.4-.3-.7z"
-          ></path>
-        </svg>
-        Back to training materials</a
-      >
-    </div>
+    <BackLink :backUrl="`/${role.slug}`">
+      Back to training materials
+    </BackLink>
     <h1>
       Setup and Utilisation process maps
       <span class="nhsuk-caption-xl">{{ role ? role.title : '' }}</span>
@@ -651,17 +637,15 @@ export default {
   },
   scrollToTop: true,
   async asyncData({ $content, params, error }) {
-    const roleParam = params.role || params.pathMatch
-
     // fetch role info content
-    const role = await $content('roles/' + roleParam)
+    const role = await $content('roles/' + params.role)
       .fetch()
       .catch((err) => {
         error({ statusCode: 404, message: err })
       })
 
     // fetch current page content
-    const page = await $content('process/' + roleParam)
+    const page = await $content('process/' + params.role)
       .fetch()
       .catch((err) => {
         error({ statusCode: 404, message: err })

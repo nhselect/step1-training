@@ -25,7 +25,7 @@ updatedAt: 2023-10-03T08:29:13.981Z
 
 > If your centre has set up additional registration question prompts they will appear here 
 >
-> See [Managing registration prompts](/user-guide/centremanager/02-centre-management/managing-registration-prompts) for the prompts we asked you to set up
+> See [Managing registration prompts](/centremanager/user-guide/02-centre-management/managing-registration-prompts) for the prompts we asked you to set up
 >
 > If you do not select answers to the registration prompts, you will need to ask delegates to complete it later, once registered, via their **My account**
 

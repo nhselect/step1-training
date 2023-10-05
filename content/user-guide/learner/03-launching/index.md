@@ -28,12 +28,12 @@ Once you have been enrolled, you can either access the proficiencies:
 
 Here you can see all the Supervisors (Educator/Manager or Assessor) that are managing your proficiencies , which means you will be able to send proficiencies to them to confirm and they will be able to see a summary of your progress. 
 
-* You can find out how to [Add / Remove Supervisors from this list](/user-guide/learner/06-confirmation/managing-your-supervisors) later in this guide
+* You can find out how to [Add / Remove Supervisors from this list](/learner/user-guide/06-confirmation/managing-your-supervisors) later in this guide
 * When you first start the proficiencies only the Educator/Manager who enrolled you will be listed here.
 
 ![](/img/l_accessing_4.png)
 
-[](/user-guide/learner/06-confirmation/managing-your-supervisors)
+[](/learner/user-guide/06-confirmation/managing-your-supervisors)
 
 Once you are ready to launch the proficiencies self-assessment:
 

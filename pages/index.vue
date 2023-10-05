@@ -16,7 +16,7 @@
         :key="role.title"
         class="nhsuk-grid-column-one-third nhsuk-card-group__item"
       >
-        <ElectCard clickable="true" :url="role.path" :title="role.title">
+        <ElectCard clickable="true" :url="`/${role.slug}`" :title="role.title">
         </ElectCard>
       </li>
     </ul>
@@ -32,6 +32,10 @@ export default {
   },
   async asyncData({ $content, params, error }) {
     const roles = await $content('roles')
+      .only(['title', 'slug'])
+      .where({
+        'slug': { $ne: 'non-clinical-centre-managers'}
+      })
       .sortBy('order')
       .fetch()
       .catch((err) => {

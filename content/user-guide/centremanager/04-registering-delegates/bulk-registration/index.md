@@ -57,7 +57,7 @@ Within the spreadsheet you can:
    * **AliasID** – Leave blank – this is no longer an active field.
    * **Answer1-6** – if your centre has set up additional registration question prompts the answers can be recorded here
 
-     * See [Managing registration prompts](/user-guide/centremanager/02-centre-management/managing-registration-prompts) for the prompts we asked you to set up. It is important the answers you write in this spreadsheet are the exact same wording as the optional answers you setup (otherwise it will create an error)
+     * See [Managing registration prompts](/centremanager/user-guide/02-centre-management/managing-registration-prompts) for the prompts we asked you to set up. It is important the answers you write in this spreadsheet are the exact same wording as the optional answers you setup (otherwise it will create an error)
      * If you do not complete this information in the excel, delegates can also complete it later once registered in their ‘**My account**’ tab
 
 > Do not edit the title of the columns or add / remove existing rows in the spreadsheet. 
