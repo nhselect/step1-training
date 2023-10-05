@@ -1,6 +1,6 @@
 ---
 title: Survey - Usability of the existing paper-based version of the Steps 2 and 3 proficiencies
-slug: paper-survey
+slug: paper-survey-steps2and3
 roles:
   - administrator
   - educator
