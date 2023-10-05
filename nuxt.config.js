@@ -89,6 +89,7 @@ export default {
   netlify: {
     redirects: [
       { from: '/user-guide/:role', to: '/:role/user-guide' },
+      { from: '/user-guide/:role/:slug', to: '/:role/user-guide/:slug' },
       { from: '/feedback/:role', to: '/:role/feedback' },
       { from: '/process/:role', to: '/:role/process' },
       { from: '/roles-and-responsibilities/:role', to: '/:role/roles-and-responsibilities'},
