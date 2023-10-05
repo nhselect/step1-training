@@ -15,7 +15,7 @@
           </a>
         </div>
         <h2 id="training-prereading">1. Pre-reading</h2>
-        <h3>Essential:</h3>
+        <h3 v-if="essentialMaterials.length > 0">Essential:</h3>
         <ul class="nhsuk-list">
           <TrainingMaterialsItem
             v-for="(item, index) in essentialMaterials"
@@ -25,7 +25,7 @@
             :role="role"
           />
         </ul>
-        <h3>Non-essential:</h3>
+        <h3 v-if="optionalMaterials.length > 0">Non-essential:</h3>
         <ul class="nhsuk-list">
           <TrainingMaterialsItem
             v-for="(item, index) in optionalMaterials"

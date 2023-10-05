@@ -9,6 +9,8 @@ roles:
   - assessor
 order: 2
 updated: 2023-10-03
+link: /articles/whats-new
+action: Alternatively, read this as a written article
 ---
 This video gives you a quick overview of: 
 -	The key differences between the digitised and paper versions of the proficiencies

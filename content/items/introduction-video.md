@@ -10,6 +10,8 @@ roles:
   - assessor
 order: 1
 updated: 2023-10-03
+link: /articles/intro
+action: Alternatively, read this as a written article
 ---
 This video gives you a quick introduction to:
 -	Why we have digitised the Steps proficiencies
