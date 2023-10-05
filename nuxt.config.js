@@ -38,6 +38,7 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     '@nuxtjs/style-resources',
+    '@aceforth/nuxt-netlify',
   ],
 
   styleResources: {
@@ -81,20 +82,19 @@ export default {
 
   generate: {
     routes: [
-      'user-guide/non-clinical-centre-managers',
-      'process/centremanager',
-      'process/administrator',
-      'process/educator',
-      'process/learner',
-      'process/assessor',
-      'process/implementationlead',
-      'feedback/centremanager',
-      'feedback/administrator',
-      'feedback/educator',
-      'feedback/learner',
-      'feedback/assessor',
-      'feedback/implementationlead',
+      '/non-clinical-centre-managers/user-guide',
     ],
+  },
+
+  netlify: {
+    redirects: [
+      { from: '/user-guide/:role', to: '/:role/user-guide' },
+      { from: '/feedback/:role', to: '/:role/feedback' },
+      { from: '/process/:role', to: '/:role/process' },
+      { from: '/roles-and-responsibilities/:role', to: '/:role/roles-and-responsibilities'},
+      { from: '/roles/:role', to: '/:role' },
+      { from: '/non-clinical-centre-managers', to: '/non-clinical-centre-managers/user-guide' }
+    ]
   },
 
   hooks: {

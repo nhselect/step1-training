@@ -11,7 +11,7 @@ The information completed here is published on the DLS website so that your lear
 
 ![](/img/ccm-ca_centre-configuration_centre-content-on-website.png)
 
-> If there are already details, you **do not need to edit**, **but may want to add similar information in the ‘Other information’ section** as you did in the [Centre Support details](/user-guide/centremanager/02-centre-management/configuring-centre-details/edit-centre-details):
+> If there are already details, you **do not need to edit**, **but may want to add similar information in the ‘Other information’ section** as you did in the [Centre Support details](/centremanager/user-guide/02-centre-management/configuring-centre-details/edit-centre-details):
 >
 > * Need support for any proficiencies? Contact \[add email address], \[add telephone contact number], \[add opening hours])
 

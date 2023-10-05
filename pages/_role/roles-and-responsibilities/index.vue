@@ -1,5 +1,8 @@
 <template>
   <div>
+    <BackLink :backUrl="`/${role}`">
+      Back to training materials
+    </BackLink>
     <h1>{{ overview.title }}</h1>
     <div class="nhsuk-u-reading-width">
       <NuxtContent :document="overview" />
@@ -217,6 +220,7 @@ export default {
     }
   },
   async asyncData({ $content, params, error }) {
+    const role = params.role
     const roles = await $content('platform-roles/roles')
       .sortBy('order')
       .fetch()
@@ -236,7 +240,8 @@ export default {
       roles,
       adminRoles,
       nonAdminRoles,
-      roleSlugs
+      roleSlugs,
+      role
     }
   },
   methods: {
@@ -361,9 +366,6 @@ export default {
 }
 
 table {
-  td:not(:nth-child(1)) {
-   // white-space: nowrap;
-  }
 
   .nhsuk-tag {
     font-size: 0.75rem;

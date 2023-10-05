@@ -1,5 +1,5 @@
 ---
-title: Introductory presentation of the digitsed Steps proficiencies
+title: Introductory presentation of the digitised Steps proficiencies
 slug: presentation
 roles:
   - administrator

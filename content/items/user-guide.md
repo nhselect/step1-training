@@ -1,13 +1,17 @@
 ---
-title: User guide for clinical centre managers
-slug: user-guide-cm
+title: User guide
+slug: user-guide
 roles:
+  - administrator
+  - learner
+  - educator
   - centremanager
-link: /user-guide/centremanager
-updated: 2022-10-18
+  - assessor
+link: /user-guide
+updated: 2023-10-05
 order: 2
 ---
-This user guide document for clinical centre managers provides instruction on how to carry out the following tasks:
+This user guide document for administrators provides instruction on how to carry out the following tasks:
 
 - Registering and managing your profile
 - Setting up and managing your centre

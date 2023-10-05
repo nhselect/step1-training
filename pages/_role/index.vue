@@ -22,7 +22,7 @@
             :key="item.slug"
             :index="index"
             :item="item"
-            :role="slug"
+            :role="role"
           />
         </ul>
         <h3>Non-essential:</h3>
@@ -32,7 +32,7 @@
             :key="item.slug"
             :index="index"
             :item="item"
-            :role="slug"
+            :role="role"
           />
         </ul>
         <hr />
@@ -51,27 +51,9 @@
           </div>
           <h2 id="training-userguide">3. User guide:</h2>
           <div v-if="userGuide.link" class="nhsuk-action-link">
-            <a class="nhsuk-button" :href="userGuide.link" target="_blank">
+            <NuxtLink class="nhsuk-button" :to="`${role}${userGuide.link}`">
               Access the User Guide
-            </a>
-            <!--<a class="nhsuk-action-link__link" :href="userGuide.link" target="_blank">
-              <svg
-                class="nhsuk-icon nhsuk-icon__arrow-right-circle"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-                width="36"
-                height="36"
-              >
-                <path d="M0 0h24v24H0z" fill="none"></path>
-                <path
-                  d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"
-                ></path>
-              </svg>
-              <span class="nhsuk-action-link__text">{{
-                userGuide.action ? userGuide.action : 'View resource'
-              }}</span>
-            </a>-->
+            </NuxtLink>
           </div>
         </div>
       </div>
@@ -82,8 +64,8 @@
 <script>
 export default {
   async asyncData({ $content, params, error }) {
-    const slug = params.slug || 'index'
-    const page = await $content('roles/' + slug)
+    const role = params.role || 'index'
+    const page = await $content('roles/' + role)
       .fetch()
       .catch((err) => {
         error({ statusCode: 404, message: err })
@@ -93,7 +75,8 @@ export default {
 
     let items = await $content('items')
       .where({
-        roles: { $contains: slug },
+        roles: { $contains: role },
+        slug: { $ne: 'user-guide' }
       })
       .sortBy('order')
       .fetch()
@@ -111,7 +94,6 @@ export default {
 
       if (i.roles.length > 1) {
         const alsoRoles = roles
-          // .filter((r) => i.roles.includes(r.slug))
           .map((r) => r.title)
 
         if (alsoRoles.length === i.roles.length) {
@@ -124,21 +106,31 @@ export default {
       return { ...i, updatedFormatted, duplicateNotice }
     })
 
-    const userGuide = items
-      .filter((i) => i.slug.indexOf('user-guide-') === 0)
-      .pop()
+    let userGuide = await $content('items')
+      .where({
+        roles: { $contains: role },
+        slug: 'user-guide'
+      })
+      .only(['title', 'slug', 'roles', 'link'])
+      .fetch()
 
+    userGuide = userGuide.length > 0 ? userGuide.pop() : null
+/*
+    const userGuide = items
+      .filter((i) => i.slug.indexOf('user-guide') === 0)
+      .pop()
+*/
     const essentialMaterials = items.filter(
-      (i) => !i.optional && !i.slug.includes('user-guide-')
+      (i) => !i.optional
     )
     const optionalMaterials = items.filter(
-      (i) => i.optional && !i.slug.includes('user-guide-')
+      (i) => i.optional
     )
 
     const checkItems = items.filter((i) => !i.optional).map((i) => i.title)
 
     return {
-      slug,
+      role,
       page,
       items,
       checkItems,

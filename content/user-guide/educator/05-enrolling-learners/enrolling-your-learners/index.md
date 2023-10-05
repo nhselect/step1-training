@@ -14,7 +14,7 @@ updatedAt: 2023-10-03T13:42:57.078Z
 
 ![](/img/enrolling_2.png)
 
-> If you cannot see the Learner listed in your My Staff List [you will need to add them](/user-guide/educator/03-staff-list/adding-delegates-to-your-staff-list).
+> If you cannot see the Learner listed in your My Staff List [you will need to add them](/educator/user-guide/03-staff-list/adding-delegates-to-your-staff-list).
 
 4. Select **Enrol on new assessment**
 
