@@ -1,9 +1,6 @@
 <template>
   <div>
-    <UserGuideBreadcrumbs
-      v-if="breadcrumbs.length > 1"
-      :breadcrumbs="breadcrumbs"
-    />
+    <Breadcrumbs :breadcrumbs="breadcrumbs" />
     <h1>User guide for {{ role.title }}s</h1>
     <div class="nhsuk-grid-row">
       <div class="nhsuk-grid-column-one-third user-guide__contents">
@@ -65,39 +62,39 @@ export default {
   },
   scrollToTop: true,
   async asyncData({ $content, params, error }) {
-    const path = params.pathMatch || ''
-    const slug = params.pathMatch.split('/').pop()
-    const roleParam = params.role || params.pathMatch
-    const contentPath = params.role
-      ? '/user-guide/' + params.role + '/' + params.pathMatch
-      : '/user-guide/' + params.pathMatch
+    const contentPath = `/user-guide/${params.role}/${params.pathMatch}/index`
 
     // fetch role info content
     const role =
-      roleParam !== 'non-clinical-centre-managers'
-        ? await $content('roles/' + roleParam).fetch()
+      params.role !== 'non-clinical-centre-managers'
+        ? await $content('roles/' + params.role).fetch()
         : {
             title: 'Non-clinical Centre Manager',
             slug: 'non-clinical-centre-managers',
           }
 
     // fetch current page content
-    const page = await $content(contentPath + '/index')
+    const page = await $content(contentPath)
       .fetch()
       .catch((err) => {
         error({ statusCode: 404, message: 'No guides retrieved' })
       })
 
     // fetch full directory list without body
-    const pages = await $content('user-guide/' + roleParam, { deep: true })
+    const pages = await $content('user-guide/' + params.role, { deep: true })
       .without(['body'])
       // .where({ id: { $ne: params.role }})
       .sortBy('order')
       .fetch()
 
-    const arrMap = new Map(pages.map((item) => [item.id, item]))
+    const pagesRedirected = pages.map((item) => {
+      item.dir = item.dir.replace(`user-guide/${params.role}`,`${params.role}/user-guide`)
+      return item
+    })
 
-    const ordering = pages.sort((a, b) => {
+    const arrMap = new Map(pagesRedirected.map((item) => [item.id, item]))
+
+    const ordering = pagesRedirected.sort((a, b) => {
       const maxDepth = Math.max(a.folders.length, b.folders.length)
 
       for (let i = 0; i < maxDepth; i++) {
@@ -112,23 +109,17 @@ export default {
       return 0
     })
 
-    const breadcrumbs = page.folders
-      .map((f) => {
-        return arrMap.get(f) || null
-      })
-      .filter((f) => f !== null)
-
-    const prev = ordering[ordering.findIndex((e) => e.dir === contentPath) - 1]
-    const next = ordering[ordering.findIndex((e) => e.dir === contentPath) + 1]
+    const prev = ordering[ordering.findIndex((e) => e.path === contentPath) - 1]
+    const next = ordering[ordering.findIndex((e) => e.path === contentPath) + 1]
 
     const children = ordering.filter((e) => e.pid === page.id)
 
     const contents = []
 
-    for (let i = 0; i < pages.length; i++) {
-      const item = pages[i]
+    for (let i = 0; i < pagesRedirected.length; i++) {
+      const item = pagesRedirected[i]
 
-      if (item.pid && item.pid !== roleParam) {
+      if (item.pid && item.pid !== params.role) {
         const parentItem = arrMap.get(item.pid)
 
         if (parentItem) {
@@ -145,6 +136,34 @@ export default {
       }
     }
 
+    const breadcrumbs = 
+      [
+        {
+          title: `${role.title} training`,
+          url: `/${role.slug}`
+        },
+        {
+          title: `User guide`,
+          url: `/${role.slug}/user-guide/`
+        }
+      ].concat(
+        params.pathMatch
+          .split('/')
+          .map((f) => {
+            return arrMap.get(f) || null
+          })
+          .filter((f) => f !== null)
+          .map((f) => {
+            const title = f.title
+            const url = f.dir
+
+            return {
+              title,
+              url
+            }
+          })
+      )
+
     return {
       contentPath,
       role,
@@ -153,7 +172,8 @@ export default {
       children,
       prev,
       next,
-      breadcrumbs,
+      params,
+      breadcrumbs
     }
   },
   head() {

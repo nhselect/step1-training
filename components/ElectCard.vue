@@ -2,7 +2,7 @@
   <div class="nhsuk-card" :class="clickable ? 'nhsuk-card--clickable' : ''">
     <div class="nhsuk-card__content">
       <h2 class="nhsuk-card__heading nhsuk-heading-m">
-        <a class="nhsuk-card__link" :href="url">{{ title }}</a>
+        <NuxtLink class="nhsuk-card__link" :to="url">{{ title }}</NuxtLink>
       </h2>
       <slot />
     </div>

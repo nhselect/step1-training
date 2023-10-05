@@ -1,6 +1,8 @@
 <template>
   <div>
-    <BackLink v-if="backPath" :backUrl="backPath">Back to training materials</BackLink>
+    <BackLink :backUrl="`/${role}`">
+      Back to training materials
+    </BackLink>
     <h1>{{ overview.title }}</h1>
     <div class="nhsuk-u-reading-width">
       <NuxtContent :document="overview" />
@@ -218,7 +220,8 @@ export default {
       hoverRole: ''
     }
   },
-  async asyncData({ from, $content, params, error }) {
+  async asyncData({ $content, params, error }) {
+    const role = params.role
     const roles = await $content('platform-roles/roles')
       .sortBy('order')
       .fetch()
@@ -241,7 +244,7 @@ export default {
       adminRoles,
       nonAdminRoles,
       roleSlugs,
-      backPath
+      role
     }
   },
   methods: {

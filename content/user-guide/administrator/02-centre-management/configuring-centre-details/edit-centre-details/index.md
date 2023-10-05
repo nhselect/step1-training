@@ -20,7 +20,7 @@ There are 4 things you can edit under **Centre details**:
 #### Notify email
 
 * This email address will be notified if delegates from your centre require approval for their profile registration (i.e. if they have self-registered) 
-* You can only add one email address, so we suggest it is a shared mailbox (if you would also like to individually receive them, you can [set it on your notification preferences](/user-guide/centremanager/01-registration/managing-your-account/updating-notification-preferences))
+* You can only add one email address, so we suggest it is a shared mailbox (if you would also like to individually receive them, you can [set it on your notification preferences](/centremanager/user-guide/01-registration/managing-your-account/updating-notification-preferences))
 
 #### Centre support details
 

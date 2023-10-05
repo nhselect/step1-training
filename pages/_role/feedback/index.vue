@@ -1,6 +1,8 @@
 <template>
   <div>
-    <BackLink v-if="backPath" :backUrl="backPath">Back to training materials</BackLink>
+    <BackLink :backUrl="`/${role.slug}`">
+      Back to training materials
+    </BackLink>
     <h1>
       Feedback required
       <span class="nhsuk-caption-xl">{{ role.title }}</span>
@@ -26,11 +28,9 @@ export default {
       }).format(new Date(dateStr)),
   },
   scrollToTop: true,
-  async asyncData({ from, $content, params, error }) {
-    const roleParam = params.role || params.pathMatch
-
+  async asyncData({ $content, params, error }) {
     // fetch role info content
-    const role = await $content('roles/' + roleParam)
+    const role = await $content('roles/' + params.role)
       .fetch()
       .catch((err) => {
         error({ statusCode: 404, message: err })
