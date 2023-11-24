@@ -1,6 +1,6 @@
 <template>
   <div>
-    <BackLink :backUrl="`/${role.slug}`">
+    <BackLink :backUrl="`/${framework}/${role.slug}`">
       Back to training materials
     </BackLink>
     <h1>
@@ -42,9 +42,12 @@ export default {
         error({ statusCode: 404, message: err })
       })
 
+    const framework = params.framework || 'steps'
+
     return {
       role,
-      page
+      page,
+      framework
     }
   },
   head() {

@@ -32,6 +32,10 @@ export default {
       type: String,
       required: true,
     },
+    framework: {
+      type: String,
+      required: true
+    },
     contents: {
       type: Array,
       required: true,

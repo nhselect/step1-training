@@ -1,6 +1,6 @@
 <template>
   <div class="nhsuk-u-reading-width">
-    <BackLink :backUrl="`/${role}`">
+    <BackLink :backUrl="`/${framework}/${role}`">
       Back to training materials
     </BackLink>
     <h1>{{ page.title }}</h1>
@@ -25,6 +25,7 @@ export default {
   async asyncData({ $content, params, error }) {
     const slug = params.slug
     const role = params.role
+    const framework = params.framework || 'steps'
     const page = await $content('articles/' + slug)
       .fetch()
       .catch((err) => {
@@ -34,14 +35,10 @@ export default {
     return {
       slug,
       page,
-      role
+      role,
+      framework
     }
-  },
-  head() {
-    return {
-      title: 'Digitised proficiencies user guide for ' + this.page.title + 's',
-    }
-  },
+  }
 }
 </script>
 

@@ -88,13 +88,14 @@ export default {
 
   netlify: {
     redirects: [
-      { from: '/user-guide/:role', to: '/:role/user-guide' },
-      { from: '/user-guide/:role/*', to: '/:role/user-guide/:splat' },
-      { from: '/feedback/:role', to: '/:role/feedback' },
-      { from: '/process/:role', to: '/:role/process' },
-      { from: '/roles-and-responsibilities/:role', to: '/:role/roles-and-responsibilities'},
-      { from: '/roles/:role', to: '/:role' },
-      { from: '/non-clinical-centre-managers', to: '/non-clinical-centre-managers/user-guide' }
+      { from: '/user-guide/:role', to: '/steps/:role/user-guide' },
+      { from: '/user-guide/:role/*', to: '/steps/:role/user-guide/:splat' },
+      { from: '/feedback/:role', to: '/steps/:role/feedback' },
+      { from: '/process/:role', to: '/steps/:role/process' },
+      { from: '/roles-and-responsibilities/:role', to: '/steps/:role/roles-and-responsibilities'},
+      { from: '/roles/:role', to: '/steps/:role' },
+      { from: '/non-clinical-centre-managers', to: '/steps/non-clinical-centre-managers/user-guide' },
+      { from: '/:role', to: '/steps/:role' }
     ]
   },
 

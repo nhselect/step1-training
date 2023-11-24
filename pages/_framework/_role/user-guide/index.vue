@@ -62,6 +62,7 @@ export default {
   },
   scrollToTop: true,
   async asyncData({ $content, params, error }) {
+
     const contentPath = `/user-guide/${params.role}/index`
 
     // fetch role info content
@@ -72,6 +73,8 @@ export default {
             title: 'Non-clinical Centre Manager',
             slug: 'non-clinical-centre-managers',
           }
+
+    const framework = params.framework || 'steps'
 
     // fetch current page content
     const page = await $content(contentPath)
@@ -87,7 +90,7 @@ export default {
       .fetch()
 
     const pagesRedirected = pages.map((item) => {
-      item.dir = item.dir.replace(`user-guide/${params.role}`,`${params.role}/user-guide`)
+      item.dir = item.dir.replace(`user-guide/${params.role}`,`${framework}/${params.role}/user-guide`)
       return item
     })
 
@@ -139,11 +142,11 @@ export default {
       [
         {
           title: `${role.title} training`,
-          url: `/${role.slug}`
+          url: `/${framework}/${role.slug}`
         },
         {
           title: `User guide`,
-          url: `/${role.slug}/user-guide`
+          url: `/${framework}/${role.slug}/user-guide`
         }
       ]
 
@@ -156,16 +159,14 @@ export default {
       prev,
       next,
       params,
-      breadcrumbs
+      breadcrumbs,
+      framework
     }
   },
   head() {
     return {
       title:
-        'Digitised proficiencies user guide for ' +
-        this.role.title +
-        's - ' +
-        this.page.title,
+        `${this.page.title} (Digitised proficiencies user guide for ${this.role.title}s)`
     }
   },
 }

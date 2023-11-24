@@ -6,6 +6,7 @@
         <h1>
           <span class="nhsuk-caption-xl"> Training package for </span>
           {{ page.title }}
+          <span class="nhsuk-caption-l"> on the {{ framework.title }} </span>
         </h1>
         <nuxt-content :document="page" />
         <hr />
@@ -23,6 +24,7 @@
             :index="index"
             :item="item"
             :role="role"
+            :framework="framework.slug"
           />
         </ul>
         <h3 v-if="optionalMaterials.length > 0">Non-essential:</h3>
@@ -33,6 +35,7 @@
             :index="index"
             :item="item"
             :role="role"
+            :framework="framework.slug"
           />
         </ul>
         <hr />
@@ -65,17 +68,25 @@
 export default {
   async asyncData({ $content, params, error }) {
     const role = params.role || 'index'
+    const fw = params.framework || 'steps'
     const page = await $content('roles/' + role)
       .fetch()
       .catch((err) => {
         error({ statusCode: 404, message: err })
       })
 
+    const framework = await $content('frameworks/' + fw)
+      .fetch()
+      .catch((err) => {
+          error({ statusCode: 404, message: err })
+        })
+
     const roles = await $content('roles').only(['title', 'slug']).fetch()
 
     let items = await $content('items')
       .where({
         roles: { $contains: role },
+        frameworks: { $contains: framework.slug },
         slug: { $ne: 'user-guide' }
       })
       .sortBy('order')
@@ -137,11 +148,12 @@ export default {
       userGuide,
       essentialMaterials,
       optionalMaterials,
+      framework
     }
   },
   head() {
     return {
-      title: 'Digitised proficiencies user guide for ' + this.page.title + 's',
+      title: 'Digitised proficiencies training package for ' + this.page.title + 's',
     }
   },
 }

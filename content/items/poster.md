@@ -4,6 +4,8 @@ slug: poster
 roles:
   - implementationlead
   - centremanager
+frameworks:
+  - steps
 order: 100
 optional: true
 link: /files/Digitised-Steps-Proficiencies_Editable-poster.pptx

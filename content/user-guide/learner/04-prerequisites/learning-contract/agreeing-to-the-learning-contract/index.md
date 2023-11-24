@@ -1,11 +1,13 @@
 ---
-title: Agreeing to the Learning Contract
-order: 1
+title: Completing the Learning Contract (Steps)
+order: 2
 rating: true
-createdAt: 2022-09-01T09:40:30.602Z
-updatedAt: 2023-10-03T09:40:30.607Z
+createdAt: 2022-09-01T14:41:30.359Z
+updatedAt: 2023-11-24T14:41:30.359Z
 ---
-1. Go to your   **Proficiencies home** page
+<UserGuideFrameworkNotice framework="Steps proficiencies"></UserGuideFrameworkNotice>
+
+1. Go to your **Proficiencies home** page
 
 2. Expand **Learning Contract** 
 
@@ -19,7 +21,7 @@ updatedAt: 2023-10-03T09:40:30.607Z
 
 ![](/img/l_learning-contract_3.png)
 
-**5. Repeat steps** for the below (but type their names instead of yours)
+5. **Repeat steps** for the below (but type their names instead of yours)
 
 * Lead assessor responsibilities   
 * Critical care lead nurse/manager responsibilities

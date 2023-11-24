@@ -36,7 +36,7 @@
           <nuxt-link
             v-if="item.link[0] === '/' && item.link.indexOf('/files') === -1"
             class="nhsuk-action-link__link"
-            :to="`/${role}${item.link}`"
+            :to="`/${framework}/${role}${item.link}`"
           >
             <svg
               class="nhsuk-icon nhsuk-icon__arrow-right-circle"
@@ -96,6 +96,7 @@ export default class TrainingMaterialsItem extends Vue {
   @Prop({ required: true }) readonly index!: number
   @Prop({ required: true }) readonly item!: ITrainingItem
   @Prop({ required: false }) readonly role!: string
+  @Prop({ required: false }) readonly framework!: string
 }
 </script>
 

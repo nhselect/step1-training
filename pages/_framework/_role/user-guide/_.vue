@@ -8,6 +8,7 @@
           :contents="contents"
           :role="role.slug"
           :active="contentPath"
+          :framework="framework"
         />
       </div>
       <div class="nhsuk-grid-column-two-thirds">
@@ -42,6 +43,7 @@
           :key="$route.fullPath"
           :path="$route.path"
           :role="role.title"
+          :framework="framework"
           :guide="page.title"
         />
         <UserGuidePagination :prev="prev" :next="next" />
@@ -73,6 +75,8 @@ export default {
             slug: 'non-clinical-centre-managers',
           }
 
+    const framework = params.framework || 'steps'
+
     // fetch current page content
     const page = await $content(contentPath)
       .fetch()
@@ -88,7 +92,7 @@ export default {
       .fetch()
 
     const pagesRedirected = pages.map((item) => {
-      item.dir = item.dir.replace(`user-guide/${params.role}`,`${params.role}/user-guide`)
+      item.dir = item.dir.replace(`user-guide/${params.role}`,`${framework}/${params.role}/user-guide`)
       return item
     })
 
@@ -140,11 +144,11 @@ export default {
       [
         {
           title: `${role.title} training`,
-          url: `/${role.slug}`
+          url: `/${framework}/${role.slug}`
         },
         {
           title: `User guide`,
-          url: `/${role.slug}/user-guide/`
+          url: `/${framework}/${role.slug}/user-guide/`
         }
       ].concat(
         params.pathMatch
@@ -173,16 +177,14 @@ export default {
       prev,
       next,
       params,
-      breadcrumbs
+      breadcrumbs,
+      framework
     }
   },
   head() {
     return {
       title:
-        'Digitised proficiencies user guide for ' +
-        this.role.title +
-        's - ' +
-        this.page.title,
+        `${this.page.title} (Digitised proficiencies user guide for ${this.role.title}s)`
     }
   },
 }

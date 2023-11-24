@@ -1,6 +1,6 @@
 <template>
   <div>
-    <BackLink :backUrl="`/${role}`">
+    <BackLink :backUrl="`/${framework}/${role}`">
       Back to training materials
     </BackLink>
     <h1>{{ overview.title }}</h1>
@@ -221,6 +221,8 @@ export default {
   },
   async asyncData({ $content, params, error }) {
     const role = params.role
+    const framework = params.framework || 'steps'
+
     const roles = await $content('platform-roles/roles')
       .sortBy('order')
       .fetch()
@@ -241,7 +243,8 @@ export default {
       adminRoles,
       nonAdminRoles,
       roleSlugs,
-      role
+      role,
+      framework
     }
   },
   methods: {
