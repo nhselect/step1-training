@@ -7,6 +7,7 @@
         <UserGuideContents
           :contents="contents"
           :role="role.slug"
+          :framework="framework"
           :active="contentPath"
         />
       </div>
@@ -42,6 +43,7 @@
           :key="$route.fullPath"
           :path="$route.path"
           :role="role.title"
+          :framework="framework"
           :guide="page.title"
         />
         <UserGuidePagination :prev="prev" :next="next" />
