@@ -1,9 +1,9 @@
 ---
-title: Completing the Learning Contract
-order: 3
+title: Completing the learning prerequisites
+order: 6
 rating: true
-createdAt: 2022-09-01T14:40:21.985Z
-updatedAt: 2023-10-03T14:40:21.989Z
+createdAt: 2022-09-08T14:41:30.359Z
+updatedAt: 2023-10-03T14:41:30.362Z
 ---
 Similar to the paper version, **Learners are expected to first complete their Learning Contract before starting self-assessment of the proficiencies**. This should happen via a discussion with the three stakeholders mentioned:
 
