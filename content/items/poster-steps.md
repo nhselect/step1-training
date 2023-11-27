@@ -1,6 +1,6 @@
 ---
 title: Digitised Steps Proficiencies poster (editable)
-slug: poster
+slug: poster-steps
 roles:
   - implementationlead
   - centremanager
