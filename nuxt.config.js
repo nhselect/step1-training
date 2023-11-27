@@ -82,7 +82,18 @@ export default {
 
   generate: {
     routes: [
-      '/non-clinical-centre-managers/user-guide',
+      '/steps/non-clinical-centre-managers/user-guide',
+      '/iv/non-clinical-centre-managers/user-guide',
+      '/iv/learner',
+      '/iv/educator',
+      '/iv/centremanager',
+      '/iv/assessor',
+      '/iv/administrator',
+      '/steps/learner',
+      '/steps/educator',
+      '/steps/centremanager',
+      '/steps/assessor',
+      '/steps/administrator'
     ],
   },
 
@@ -95,7 +106,12 @@ export default {
       { from: '/roles-and-responsibilities/:role', to: '/steps/:role/roles-and-responsibilities'},
       { from: '/roles/:role', to: '/steps/:role' },
       { from: '/non-clinical-centre-managers', to: '/steps/non-clinical-centre-managers/user-guide' },
-      { from: '/:role', to: '/steps/:role' }
+      { from: '/non-clinical-centre-managers/user-guide', to: '/steps/non-clinical-centre-managers/user-guide' },
+      { from: '/learner', to: '/steps/learner' },
+      { from: '/assessor', to: '/steps/assessor' },
+      { from: '/educator', to: '/steps/educator' },
+      { from: '/centremanager', to: '/steps/centremanager' },
+      { from: '/administrator', to: '/steps/administrator' }
     ]
   },
 
