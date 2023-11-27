@@ -1,10 +1,12 @@
 ---
-title: Completing the learning prerequisites
+title: Completing the learning prerequisites on the IV Therapy Passport
 order: 6
 rating: true
 createdAt: 2022-09-08T14:41:30.359Z
 updatedAt: 2023-10-03T14:41:30.362Z
 ---
+<UserGuideFrameworkNotice framework="IV Therapy Passport"></UserGuideFrameworkNotice>
+
 Similar to the paper version, Learners are expected to first record completion of their learning prerequisites before starting self-assessment of the proficiencies. 
 
 The Learner will need to select **Yes** to confirm all of the prerequisites and records of learning at the start of their proficiencies.

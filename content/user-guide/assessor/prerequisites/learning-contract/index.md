@@ -1,10 +1,12 @@
 ---
-title: Completing the Learning Contract
+title: Completing the Learning Contract on the Steps proficiencies
 order: 6
 rating: true
 createdAt: 2022-09-08T14:41:30.359Z
 updatedAt: 2023-10-03T14:41:30.362Z
 ---
+<UserGuideFrameworkNotice framework="Steps proficiencies"></UserGuideFrameworkNotice>
+
 Similar to the paper version, Learners are expected to first complete their **Learning Contract** before starting self-assessment of the proficiencies. This should happen via a discussion with the 3 stakeholders mentioned:
 
 * Learner
