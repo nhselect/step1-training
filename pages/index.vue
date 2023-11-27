@@ -11,15 +11,14 @@
       <NuxtContent :document="homePage" />
     </div>
     <hr />
-    <h2>Which framework are you accessing?</h2>
 
     <div class="nhsuk-form-group">
 
       <fieldset class="nhsuk-fieldset">
-        <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--m">
-          <h4 class="nhsuk-fieldset__heading">
-            Are you primarily based in a Trust or Higher Education Institute (HEI)?
-          </h4>
+        <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--l">
+          <h2 class="nhsuk-fieldset__heading">
+            Which framework are you accessing?
+          </h2>
         </legend>
 
         <div class="nhsuk-radios">
