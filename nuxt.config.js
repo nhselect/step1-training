@@ -101,6 +101,8 @@ export default {
     redirects: [
       { from: '/user-guide/:role', to: '/steps/:role/user-guide' },
       { from: '/user-guide/:role/*', to: '/steps/:role/user-guide/:splat' },
+      { from: '/:role/user-guide', to: '/steps/:role/user-guide' },
+      { from: '/:role/user-guide/*', to: '/steps/:role/user-guide/:splat' }
       { from: '/feedback/:role', to: '/steps/:role/feedback' },
       { from: '/process/:role', to: '/steps/:role/process' },
       { from: '/roles-and-responsibilities/:role', to: '/steps/:role/roles-and-responsibilities'},
