@@ -82,6 +82,7 @@ export default {
   props: {
     guide: String,
     role: String,
+    framework: String,
     path: String,
   },
   data() {
@@ -118,6 +119,7 @@ export default {
     rateGuide(score) {
       this.$posthog.capture('GuideRating', {
         Role: this.role,
+        Framework: this.framework,
         Guide: this.guide,
         Score: score,
         $current_url: this.path,
@@ -130,6 +132,7 @@ export default {
       if (this.ratingComment.length > 0) {
         this.$posthog.capture('GuideComment', {
           Role: this.role,
+          Framework: this.framework,
           Guide: this.guide,
           Comment: this.ratingComment,
           $current_url: this.path,

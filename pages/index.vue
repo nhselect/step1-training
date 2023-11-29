@@ -10,16 +10,57 @@
       </p>
       <NuxtContent :document="homePage" />
     </div>
-    <ul class="nhsuk-grid-row nhsuk-card-group">
-      <li
-        v-for="role in roles"
-        :key="role.title"
-        class="nhsuk-grid-column-one-third nhsuk-card-group__item"
-      >
-        <ElectCard clickable="true" :url="`/${role.slug}`" :title="role.title">
-        </ElectCard>
-      </li>
-    </ul>
+    <hr />
+
+    <div class="nhsuk-form-group">
+
+      <fieldset class="nhsuk-fieldset">
+        <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--l">
+          <h2 class="nhsuk-fieldset__heading">
+            Which framework are you accessing?
+          </h2>
+        </legend>
+
+        <div class="nhsuk-radios">
+
+          <div
+          v-for="framework in frameworks"
+            :key="framework.title"
+            class="nhsuk-radios__item"
+            >
+            <input
+              v-model="frameworkSelected"
+              class="nhsuk-radios__input"
+              :id="'fw-'+framework.id"
+              :name="'fw-'+framework.id"
+              type="radio"
+              :value="framework.id"
+            >
+            <label
+              class="nhsuk-label nhsuk-radios__label"
+              :for="'fw-'+framework.id"
+            >
+              {{ framework.title }}
+            </label>
+          </div>
+
+        </div>
+      </fieldset>
+
+      </div>
+      <div v-if="frameworkSelected">
+        <h2>Which role will you performing?</h2>
+        <ul class="nhsuk-grid-row nhsuk-card-group">
+          <li
+            v-for="role in roles"
+            :key="role.title"
+            class="nhsuk-grid-column-one-third nhsuk-card-group__item"
+          >
+            <ElectCard clickable="true" :url="`/${frameworkSelected}/${role.slug}`" :title="role.title">
+            </ElectCard>
+          </li>
+        </ul>
+      </div>
   </div>
 </template>
 
@@ -42,11 +83,23 @@ export default {
         error({ statusCode: 404, message: err })
       })
 
+    const frameworks = [
+      {
+        id: 'iv',
+        title: 'IV Therapy Passport'
+      },
+      {
+        id: 'steps',
+        title: 'Steps proficiencies'
+      }
+    ]
+
     const homePage = await $content('home').fetch()
 
     return {
       roles,
       homePage,
+      frameworks
     }
   },
   head: {
@@ -57,6 +110,11 @@ export default {
       },
     ],
   },
+  data() {
+    return {
+      frameworkSelected: null
+    }
+  }
 }
 </script>
 
@@ -67,4 +125,5 @@ export default {
 @import 'node_modules/nhsuk-frontend/packages/components/images/images';
 @import 'node_modules/nhsuk-frontend/packages/components/details/details';
 @import 'node_modules/nhsuk-frontend/packages/components/inset-text/inset-text';
+@import 'node_modules/nhsuk-frontend/packages/components/radios/radios';
 </style>

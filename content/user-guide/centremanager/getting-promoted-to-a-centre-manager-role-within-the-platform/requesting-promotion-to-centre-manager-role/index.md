@@ -19,7 +19,7 @@ Depending on how far along your organisation is in the implementation phase, you
 >
 > Our organisation has been chosen to be a pilot site for one of these nursing self assessments - "**[enter name of clinical proficiency]**
 >
-> As the Clinical Centre Manager, I will be overseeing the pilot and am contacting you to request promotion to a Centre Manager role within the platform (this will take <5 mins to action). You can find a step-by-step guide on how to do this here: [http://nhs-step1-training.netlify.app/non-clinical-centre-managers/user-guide ](http://nhs-step1-training.netlify.app/non-clinical-centre-managers/user-guide)
+> As the Clinical Centre Manager, I will be overseeing the pilot and am contacting you to request promotion to a Centre Manager role within the platform (this will take less than 5 minutes to action). You can find a step-by-step guide on how to do this here: [http://dls-proficiencies-training.netlify.app/non-clinical-centre-managers/user-guide ](https://dls-proficiencies-training.netlify.app/non-clinical-centre-managers/user-guide)
 >
 > **What will this mean for you:**
 >

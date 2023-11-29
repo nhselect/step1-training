@@ -13,6 +13,6 @@ If this is your first time using this guide, and you are at the beginning of you
 
 If you are performing multiple platform roles, you will also need to follow the steps in the other relevant user guides, as these differ across roles:
 
-- [User guide for Administrators](/administrator/user-guide)
-- [User guide for Educator/Managers](/educator/user-guide)
-- [User guide for Assessors](/assessor/user-guide)
+- [User guide for Administrators](../administrator/user-guide)
+- [User guide for Educator/Managers](../educator/user-guide)
+- [User guide for Assessors](../assessor/user-guide)

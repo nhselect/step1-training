@@ -7,6 +7,9 @@ roles:
   - educator
   - centremanager
   - assessor
+frameworks:
+  - iv
+  - steps
 link: /user-guide
 updated: 2023-10-05
 order: 2
